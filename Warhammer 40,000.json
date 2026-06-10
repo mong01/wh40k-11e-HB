@@ -18,7 +18,7 @@
                 "conditions": [
                   {
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 0,
                     "field": "forces",
                     "scope": "roster",
                     "childId": "cac3-71d1-ea4b-795d",
@@ -27,7 +27,7 @@
                     "includeChildForces": true
                   },
                   {
-                    "type": "instanceOf",
+                    "type": "notInstanceOf",
                     "value": 1,
                     "field": "selections",
                     "scope": "self",
@@ -35,18 +35,37 @@
                     "shared": true
                   }
                 ],
-                "type": "and"
+                "type": "or"
               }
             ],
             "type": "set",
-            "value": true,
+            "value": false,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": false,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "self",
+                "childId": "bb9d-299a-ed60-2d8a",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "Army Roster"
+              }
+            ],
+            "scope": "roster"
           }
         ],
         "id": "51b2-306e-1021-d207",
         "name": "pts",
         "defaultCostLimit": -1,
-        "hidden": false
+        "hidden": true
       },
       {
         "modifiers": [
@@ -2161,23 +2180,6 @@
           },
           {
             "type": "set",
-            "value": 2,
-            "field": "95c5-effd-74f1-c8f4",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "d62d-db22-4893-4bc0",
-                "shared": true,
-                "includeChildSelections": true,
-                "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
             "value": 3,
             "field": "95c5-effd-74f1-c8f4",
             "conditions": [
@@ -2209,6 +2211,40 @@
                 "childName": "3. Onslaught (3000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 2000,
+            "field": "a00c-6979-992f-046b",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "baf8-997f-e323-a090",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "2. Strike Force (2000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 3000,
+            "field": "a00c-6979-992f-046b",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "4204-82d0-908c-a62a",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "3. Onslaught (3000 Point limit)"
+              }
+            ]
           }
         ],
         "id": "bb9d-299a-ed60-2d8a",
@@ -2217,11 +2253,20 @@
         "constraints": [
           {
             "type": "max",
-            "value": 0,
+            "value": 2,
             "field": "82ae-1066-5107-6ae0",
             "scope": "parent",
             "shared": true,
             "id": "95c5-effd-74f1-c8f4",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 1000,
+            "field": "51b2-306e-1021-d207",
+            "scope": "parent",
+            "shared": true,
+            "id": "a00c-6979-992f-046b",
             "includeChildSelections": true
           }
         ]
