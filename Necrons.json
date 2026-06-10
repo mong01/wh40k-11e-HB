@@ -3192,6 +3192,77 @@
             "hidden": false,
             "id": "ac69-1119-fea9-9088",
             "sortIndex": 17
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Prelocational Optimiser",
+            "hidden": false,
+            "id": "cb60-485d-6054-36e5",
+            "comment": "Phaeron's Armoury",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "9c86-5b9e-6816-6313",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "id": "8e92-fded-2d94-2c00",
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "7e16-552d-f3a9-035f",
+                        "shared": true,
+                        "id": "42bc-0699-580e-0451",
+                        "includeChildSelections": true,
+                        "childName": "The Phaeron's Armoury"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Prelocational Optimiser",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "c09c-483d-53fc-8d50",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "When this unit is selected to shoot, if this unit was set up using a Monolith’s Eternity Gate ability this turn, this unit’s ranged attacks have: \n- [LETHAL HITS]. \n- Or: [SUSTAINED HITS 1]."
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -10165,6 +10236,87 @@
         "id": "bad3-8ef1-d7e8-1ebc",
         "hidden": false,
         "flatten": true
+      },
+      {
+        "name": "Enhancements",
+        "id": "0e4f-c87b-4780-a696",
+        "hidden": false,
+        "comment": "Skyshroud",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "a3e0-4455-0ca2-c155",
+            "includeChildSelections": false
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Deepening Madness",
+            "hidden": false,
+            "id": "8cbd-2a03-051c-5313",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "4242-54e5-119c-000f",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 3,
+                "field": "selections",
+                "scope": "force",
+                "shared": true,
+                "id": "1058-8b9a-2c9a-1580",
+                "includeChildSelections": true
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Deepening Madness",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "e124-0f90-e4fb-2c46",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "This unit’s ranged attacks have [ASSAULT]."
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Assault",
+                "field": "7f1b-8591-2fcf-d01c",
+                "scope": "parent",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                "join": ", "
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Assault",
+                "id": "f79d-3727-bd37-3490",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "fc8a-8c24-bae9-cc1c"
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntries": [
@@ -10201,14 +10353,6 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "5807-8909-f15b-dd04"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "57c7-9dcf-afa-964e"
               }
             ],
             "selectionEntries": [
@@ -10226,7 +10370,55 @@
                 "import": true,
                 "name": "Awakened Dynasty",
                 "hidden": false,
-                "id": "9ebf-2bbd-6059-1d40"
+                "id": "9ebf-2bbd-6059-1d40",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "febd-4a52-c368-3ba0",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10242,7 +10434,55 @@
                 "import": true,
                 "name": "Annihilation Legion",
                 "hidden": false,
-                "id": "6493-9079-727d-d95f"
+                "id": "6493-9079-727d-d95f",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "83ce-256a-2ea2-b490",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10258,7 +10498,55 @@
                 "import": true,
                 "name": "Canoptek Court",
                 "hidden": false,
-                "id": "aed9-cb3b-1d0c-f87d"
+                "id": "aed9-cb3b-1d0c-f87d",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "0c05-9a59-176e-889d",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10274,7 +10562,55 @@
                 "import": true,
                 "name": "Obeisance Phalanx",
                 "hidden": false,
-                "id": "163f-63bd-f2e1-5e7"
+                "id": "163f-63bd-f2e1-5e7",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "82bb-dc0c-20f2-937f",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10290,7 +10626,55 @@
                 "import": true,
                 "name": "Hypercrypt Legion",
                 "hidden": false,
-                "id": "8861-5385-8fd1-dfee"
+                "id": "8861-5385-8fd1-dfee",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "df34-4ee1-c088-01f1",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10306,7 +10690,55 @@
                 "import": true,
                 "name": "Starshatter Arsenal",
                 "hidden": false,
-                "id": "e0fd-c955-4822-6dba"
+                "id": "e0fd-c955-4822-6dba",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3743-24c7-0627-acf5",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10322,7 +10754,55 @@
                 "import": true,
                 "name": "Cryptek Conclave",
                 "hidden": false,
-                "id": "1de5-2462-f59c-db94"
+                "id": "1de5-2462-f59c-db94",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ade2-95b8-3f68-5fa3",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10338,7 +10818,55 @@
                 "import": true,
                 "name": "Cursed Legion",
                 "hidden": false,
-                "id": "c4ee-83c7-812c-5ff0"
+                "id": "c4ee-83c7-812c-5ff0",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2262-d954-2a1c-ac21",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "infoLinks": [
@@ -10354,7 +10882,262 @@
                 "import": true,
                 "name": "Pantheon of Woe",
                 "hidden": false,
-                "id": "1707-57c5-676e-90d9"
+                "id": "1707-57c5-676e-90d9",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c7d8-0e24-8246-df8a",
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hand of the Dynasty",
+                "hidden": false,
+                "id": "ec2e-3289-5a4a-d5a6",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Hypermotility Protocols",
+                    "id": "f76c-6a78-a77d-1988",
+                    "hidden": false,
+                    "description": "- Friendly IMMORTALS/NECRON WARRIORS units’ ranged attacks have [ASSAULT]. \n- When a friendly IMMORTALS/NECRON WARRIORS unit is selected to make an advance move, that move does not prevent that unit from being eligible to start an action. \n\n\nThis detachment has the DYNASTY tag and cannot be taken with another DYNASTY detachment."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Dynasty",
+                    "hidden": false,
+                    "id": "1bbb-3324-7f4e-bd76",
+                    "targetId": "d887-58b7-5a1c-5ef0",
+                    "primary": false
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "03e1-ce60-81f5-48bd",
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Skyshroud Spearhead",
+                "hidden": false,
+                "id": "51c2-e233-ea51-14df",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "66d2-0934-1970-b904",
+                    "includeChildSelections": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Transdimensional Deployment",
+                    "id": "9e9a-de78-65c5-167a",
+                    "hidden": false,
+                    "description": "- Friendly TOMB BLADES units have Deep Strike. \n- When a friendly TOMB BLADES unit is selected to shoot, if that unit made an ingress move this turn, that unit’s ranged attacks have +1 to hit rolls. "
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Phaeron's Armoury",
+                "hidden": false,
+                "id": "7e16-552d-f3a9-035f",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f469-bfae-d18c-ec4d",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Empowered Engines",
+                    "id": "3c88-d878-40a3-1493",
+                    "hidden": false,
+                    "description": "Friendly NECRONS TITANIC FLY units have +6\" M. \n\nThis detachment has the HYPERCRYPT tag and cannot be taken with another HYPERCRYPT detachment."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Hypercrypt",
+                    "hidden": false,
+                    "id": "f001-0749-a1b0-f2d3",
+                    "targetId": "822d-f1bf-4a26-6d70",
+                    "primary": false
+                  }
+                ]
               }
             ],
             "name": "Detachment",
@@ -10452,39 +11235,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "4+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Orikan the Diviner",
@@ -10510,20 +11293,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "f817-4f10-91dd-cf9d"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -10543,7 +11312,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -10648,11 +11417,11 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "hidden": false,
             "type": "rule",
             "id": "3eea-760e-c363-483e",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "entryLinks": [
@@ -10762,20 +11531,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1a66-1b2-dfd6-b5b4"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "This model can be attached to the following units:\n■ IMMORTALS\n■ LYCHGUARD\n■ NECRON WARRIORS",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -10818,39 +11573,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Imotekh the Stormlord",
@@ -11157,39 +11912,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Anrakyr the Traveller",
@@ -11211,20 +11966,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "99f0-b4b4-4c25-a7a8"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "5ca8-661e-aaef-e4f0"
           },
           {
             "characteristics": [
@@ -11826,20 +12567,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "f88e-2214-effd-21cb"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "While this model is within 3\" of one or more other friendly NECRONS units, this model has the Lone Operative ability.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -11882,39 +12609,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Illuminor Szeras",
@@ -12251,53 +12978,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1dd5-d775-2e42-5051"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Nemesor Zahndrekh",
@@ -12600,53 +13313,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "a75-b831-8fca-7904"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Trazyn the Infinite",
@@ -13577,39 +14276,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Skorpekh Lord",
@@ -13645,20 +14344,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "cf05-2e44-6e86-f2e3"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "fae1-b4ef-7e00-1eb8"
           }
         ],
         "selectionEntryGroups": [
@@ -14326,53 +15011,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "d401-20b-8958-5aeb"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Lokhust Lord",
@@ -15820,6 +16491,13 @@
             "id": "e950-a1dd-6710-af68",
             "primary": false,
             "name": "Catacomb Command Barge"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "b926-022f-d209-d2d7",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -15885,39 +16563,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Catacomb Command Barge",
@@ -15925,20 +16603,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "27c2-cff5-9ce5-176d"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "ba3e-93f7-2a8d-6c14"
           },
           {
             "characteristics": [
@@ -16734,39 +17398,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Overlord",
@@ -16788,20 +17452,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "7eaa-f4a5-901d-2420"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "70b4-8797-3592-64d"
           }
         ],
         "selectionEntryGroups": [
@@ -17750,11 +18400,11 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "hidden": false,
             "type": "rule",
             "id": "8e77-930d-ec88-86b2",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Reanimation Protocols",
@@ -17802,7 +18452,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -18331,11 +18981,11 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "hidden": false,
             "type": "rule",
             "id": "147d-87ca-1060-49cb",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Reanimation Protocols",
@@ -18383,7 +19033,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -18912,18 +19562,18 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
-            "hidden": false,
-            "type": "rule",
-            "id": "bda7-e526-10ef-7885",
-            "targetId": "b4dd-3e1f-41cb-218f"
-          },
-          {
             "name": "Reanimation Protocols",
             "hidden": false,
             "type": "rule",
             "id": "1d0-1d78-b6b5-54ed",
             "targetId": "a511-d9ca-17d0-42c5"
+          },
+          {
+            "name": "Support",
+            "id": "18c1-5e16-a453-d2ff",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "entryLinks": [
@@ -18964,7 +19614,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -18973,39 +19623,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "4+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Chronomancer",
@@ -19041,20 +19691,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "eb1e-dd99-1745-54b2"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "d972-5e2-b478-f439"
           }
         ],
         "constraints": [
@@ -19537,11 +20173,11 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "hidden": false,
             "type": "rule",
             "id": "5ab9-7ee4-a645-bf11",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Reanimation Protocols",
@@ -19589,7 +20225,7 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -19656,9 +20292,9 @@
           {
             "characteristics": [
               {
-                "$text": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound."
               }
             ],
             "name": "Living Lightning",
@@ -20164,6 +20800,32 @@
             "type": "rule",
             "id": "42aa-f2b7-dca2-cb15",
             "targetId": "a511-d9ca-17d0-42c5"
+          },
+          {
+            "name": "Assault",
+            "id": "7933-1295-6ec1-78a9",
+            "hidden": true,
+            "type": "rule",
+            "targetId": "fc8a-8c24-bae9-cc1c",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": false,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "ec2e-3289-5a4a-d5a6",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Hand of the Dynasty"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -20523,6 +21185,125 @@
             "hidden": false,
             "id": "ea2d-fc31-6e16-fd70",
             "defaultSelectionEntryId": "2498-87b1-fec5-2973",
+            "sortIndex": 3,
+            "modifiers": [
+              {
+                "type": "append",
+                "value": "Assault",
+                "field": "7f1b-8591-2fcf-d01c",
+                "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "ec2e-3289-5a4a-d5a6",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Hand of the Dynasty"
+                  }
+                ],
+                "scope": "parent",
+                "join": ", "
+              }
+            ]
+          },
+          {
+            "name": "Enhancements",
+            "id": "cccf-3023-e818-d3df",
+            "hidden": true,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "489b-6ca1-e3d6-5ae5",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Enlivened Sentinels",
+                "hidden": false,
+                "id": "3f7d-0bb3-4dac-e7f0",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8d54-3411-512f-8e09",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "75ad-a616-5876-c553",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Enlivened Sentinels",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "17dd-a718-6c1a-161d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This unit has Scouts 5\"."
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Scouts",
+                    "id": "6d9d-6abe-d283-fb31",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "ada6-bac1-ffe0-d6f7",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "5\"",
+                        "field": "name"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": false,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "ec2e-3289-5a4a-d5a6",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Hand of the Dynasty"
+                  }
+                ]
+              }
+            ],
             "sortIndex": 2
           }
         ],
@@ -20543,6 +21324,25 @@
             "type": "set",
             "value": 200,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "append",
+            "value": "Assault",
+            "field": "7f1b-8591-2fcf-d01c",
+            "affects": "self.entries.profiles.Ranged Weapons",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "ec2e-3289-5a4a-d5a6",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Hand of the Dynasty"
+              }
+            ],
+            "scope": "unit"
           }
         ],
         "entryLinks": [
@@ -21309,6 +22109,106 @@
             "hidden": false,
             "id": "a349-35a2-c7f8-90f7",
             "defaultSelectionEntryId": "6c87-24f8-cd1c-c3c8",
+            "sortIndex": 3
+          },
+          {
+            "name": "Enhancements",
+            "id": "3632-1955-4241-bcb6",
+            "hidden": true,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "648a-9723-30ee-413c",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Tools of Dominion",
+                "hidden": false,
+                "id": "c52f-551b-cf6a-f3df",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f6eb-acaa-f0b3-8523",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "67f2-da8e-000c-6a38",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Tools of Dominion",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "5258-2d12-f9ef-9ec3",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": " This unit’s ranged attacks have [RAPID FIRE 1]."
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Rapid Fire",
+                    "id": "7eb6-bc46-e312-d69f",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "c5c8-8b58-b8b6-7786"
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "Rapid Fire 1",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "scope": "parent",
+                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                    "join": ", "
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": false,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "ec2e-3289-5a4a-d5a6",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Hand of the Dynasty"
+                  }
+                ]
+              }
+            ],
             "sortIndex": 2
           }
         ],
@@ -23180,7 +24080,16 @@
                             "import": true,
                             "name": "Dispersion shield",
                             "hidden": false,
-                            "id": "bb77-7dec-79cf-2990"
+                            "id": "bb77-7dec-79cf-2990",
+                            "modifiers": [
+                              {
+                                "type": "set",
+                                "value": "4+",
+                                "field": "55a7-5b54-c60d-11dc",
+                                "scope": "model",
+                                "affects": "self.entries.recursive.profiles.Unit"
+                              }
+                            ]
                           }
                         ],
                         "modifiers": [
@@ -23235,7 +24144,53 @@
                 "import": true,
                 "name": "Lychguard",
                 "hidden": false,
-                "id": "f5ac-5a05-f1de-5796"
+                "id": "f5ac-5a05-f1de-5796",
+                "profiles": [
+                  {
+                    "name": "Lychguard",
+                    "typeId": "c547-1836-d8a-ff4f",
+                    "typeName": "Unit",
+                    "hidden": false,
+                    "id": "494a-883-74b5-7dd4",
+                    "characteristics": [
+                      {
+                        "$text": "5\"",
+                        "name": "M",
+                        "typeId": "e703-ecb6-5ce7-aec1"
+                      },
+                      {
+                        "$text": "5",
+                        "name": "T",
+                        "typeId": "d29d-cf75-fc2d-34a4"
+                      },
+                      {
+                        "$text": "3+",
+                        "name": "SV",
+                        "typeId": "450-a17e-9d5e-29da"
+                      },
+                      {
+                        "$text": "2",
+                        "name": "W",
+                        "typeId": "750a-a2ec-90d3-21fe"
+                      },
+                      {
+                        "$text": "7+",
+                        "name": "LD",
+                        "typeId": "58d2-b879-49c7-43bc"
+                      },
+                      {
+                        "$text": "1",
+                        "name": "OC",
+                        "typeId": "bef7-942a-1a23-59f8"
+                      },
+                      {
+                        "name": "InSv",
+                        "typeId": "55a7-5b54-c60d-11dc",
+                        "$text": ""
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "name": "5-10 Lychguard",
@@ -23246,50 +24201,6 @@
           }
         ],
         "profiles": [
-          {
-            "characteristics": [
-              {
-                "$text": "5\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "5",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "2",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "7+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "1",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Lychguard",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "494a-883-74b5-7dd4"
-          },
           {
             "characteristics": [
               {
@@ -25887,6 +26798,13 @@
             "id": "60a6-fad1-1eaa-af6e",
             "primary": false,
             "name": "Triarch Stalker"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "d737-1335-03ca-c7e2",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -25937,39 +26855,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Triarch Stalker",
@@ -25977,20 +26895,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "2320-fe01-4368-be15"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "8228-4fe8-9a3b-fae6"
           },
           {
             "characteristics": [
@@ -26765,39 +27669,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "C'tan Shard of the Deceiver",
@@ -26898,13 +27802,6 @@
             "hidden": false,
             "type": "profile",
             "targetId": "a0a0-0798-6949-82f4"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "73be-0ef6-ce5d-700d",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "selectionEntries": [
@@ -26975,7 +27872,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "6c90-afe6-fcf1-82a0",
@@ -27284,39 +28181,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "C'tan Shard of the Nightbringer",
@@ -27410,13 +28307,6 @@
             "hidden": false,
             "type": "profile",
             "targetId": "a0a0-0798-6949-82f4"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "4e1b-7c33-df4c-41c0",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "selectionEntries": [
@@ -27817,39 +28707,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "C'tan Shard of the Void Dragon",
@@ -27943,13 +28833,6 @@
             "hidden": false,
             "type": "profile",
             "targetId": "a0a0-0798-6949-82f4"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "829e-98f8-19c7-e097",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "selectionEntries": [
@@ -28108,7 +28991,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "517b-dea8-e514-c717",
@@ -28502,39 +29385,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Transcendent C'tan",
@@ -28546,23 +29429,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "4af5-1499-6342-9da3"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 8\" horizontally away from all enemy models."
               }
             ],
             "name": "Transdimensional Displacement",
@@ -30690,9 +31559,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models."
               }
             ],
             "name": "Tunnelling Horrors",
@@ -31100,6 +31969,32 @@
             "type": "rule",
             "id": "2ade-4f71-96c7-af35",
             "targetId": "ada6-bac1-ffe0-d6f7"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "7d64-7b7b-e00c-6e7c",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "51c2-e233-ea51-14df",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Skyshroud Spearhead"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "profiles": [
@@ -31715,6 +32610,68 @@
             "name": "3-6 Tomb Blades",
             "hidden": false,
             "id": "5a77-c6d2-dcd9-449a",
+            "sortIndex": 3
+          },
+          {
+            "name": "Enhancements",
+            "id": "9831-88cf-28e1-c613",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c946-ca1f-3b2a-b311",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Recursive Reanimation",
+                "hidden": false,
+                "id": "584a-8c54-370a-0a87",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2455-1d8c-0c23-9064",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "68f0-d6da-f2b0-5f36",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Recursive Reanimation",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "b041-551c-5447-755a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "When this unit activates its Reanimation Protocols, +1 to the roll."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "sortIndex": 2
           }
         ],
@@ -32757,39 +33714,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "8+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Canoptek Wraiths",
@@ -32811,20 +33768,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "b3e0-9cd2-735c-91f1"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "a6dd-2eb2-3b5a-c6a4"
           }
         ],
         "selectionEntryGroups": [
@@ -33710,6 +34653,13 @@
             "id": "bdee-2891-97b0-2aaf",
             "primary": false,
             "name": "Annihilation Barge"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "81e5-f003-df35-b82a",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -33746,39 +34696,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Annihilation Barge",
@@ -33800,20 +34750,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "af48-1639-cfd1-b199"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "2e32-4a45-813f-7e1d"
           }
         ],
         "selectionEntryGroups": [
@@ -34448,20 +35384,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "3426-2c7f-e59e-354f"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -34476,39 +35398,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Doomsday Ark",
@@ -35469,7 +36391,7 @@
             "name": "1-6 Destroyers",
             "hidden": false,
             "id": "e83a-dd5e-4847-53f5",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "entryLinks": [
@@ -35481,6 +36403,15 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "b75c-f8a1-d44d-2e4a",
+            "type": "selectionEntryGroup",
+            "targetId": "0e4f-c87b-4780-a696",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -36183,7 +37114,7 @@
             "hidden": false,
             "id": "5355-4513-4f12-f69e",
             "defaultSelectionEntryId": "72a9-5a40-3553-43e6",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "categoryLinks": [
@@ -36227,6 +37158,15 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "00b5-fb15-1fe8-be5e",
+            "type": "selectionEntryGroup",
+            "targetId": "0e4f-c87b-4780-a696",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -36551,39 +37491,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "8+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Canoptek Doomstalker",
@@ -36619,20 +37559,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "7ed5-5030-b90e-4626"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "827d-cdf3-3f28-3106"
           }
         ],
         "infoLinks": [
@@ -37247,20 +38173,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "baa5-30ae-549d-3e5"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "Once per turn, just after an enemy unit finishes making its attacks, if one or more friendly NECRON WARRIORS units within 3\" of this model lost one or more wounds as a result of those attacks, this model can use this ability. If it does, select one of those NECRON WARRIORS units; that unit’s Reanimation Protocols activate. The same NECRON WARRIORS unit cannot be selected for this ability more than once per turn.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -37289,39 +38201,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Ghost Ark",
@@ -37394,6 +38306,13 @@
             "id": "c23e-43c6-1e3f-a007",
             "primary": false,
             "name": "Ghost Ark"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "1ac0-b81c-8fa5-76a3",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -37777,12 +38696,6 @@
             "name": "Vehicle"
           },
           {
-            "targetId": "63f1-e6e8-f6f6-a4f0",
-            "id": "f8c0-b6ab-bd1e-6179",
-            "primary": false,
-            "name": "Aircraft"
-          },
-          {
             "targetId": "c619-2086-bbcf-69c9",
             "id": "c479-33bc-3d93-3aba",
             "primary": false,
@@ -37799,6 +38712,13 @@
             "id": "4ad3-b7ca-71e0-e1c",
             "primary": false,
             "name": "Night Scythe"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "0969-d402-ac44-7934",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -37836,40 +38756,54 @@
             "hidden": false,
             "type": "rule",
             "targetId": "7cb5-dd6b-dd87-ad3b"
+          },
+          {
+            "name": "Hover",
+            "id": "9093-9b9e-6b69-3868",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "eec5-5f54-9c03-c305"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "81c4-5f1c-0c3c-a9db",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b"
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -37886,9 +38820,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the Fight phase, if there are no models currently embarked within this TRANSPORT, you can select one friendly NECRONS INFANTRY unit wholly within 6\" of this TRANSPORT. Unless that unit is within Engagement Range of one or more enemy units, it can embark within this TRANSPORT. That unit can embark within this TRANSPORT in a turn it disembarked from this TRANSPORT."
               }
             ],
             "name": "Invasion Beams",
@@ -38384,34 +39318,34 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -38979,6 +39913,13 @@
             "id": "cf1d-63cf-b154-a32b",
             "primary": false,
             "name": "Obelisk"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "93a1-ab9c-a53f-6224",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -39244,7 +40185,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "1fb0-2e88-b911-2458",
                     "hidden": false,
                     "type": "rule",
@@ -39279,7 +40220,69 @@
             "name": "Wargear",
             "id": "e77f-4cb2-8b3b-d464",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
+          },
+          {
+            "name": "Enhancements",
+            "id": "e316-5b2b-be1a-db4e",
+            "hidden": false,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a72c-a632-897f-97a7",
+                "includeChildSelections": false
+              }
+            ],
+            "sortIndex": 2,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mortality Shroud (Aura)",
+                "hidden": false,
+                "id": "f6dc-cb62-4dad-528d",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "cd04-7fb8-d769-8ad3",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "c659-8550-032f-1a48",
+                    "includeChildSelections": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Mortality Shroud (Aura)",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "21f6-25c9-6081-8329",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "In your opponent’s Battle-shock step, if an enemy unit within 8\" of this unit is below starting strength, that enemy unit makes a battle‑shock roll."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -39521,7 +40524,27 @@
         "import": true,
         "name": "Obelisk",
         "hidden": false,
-        "id": "256d-92cd-5d14-bbab"
+        "id": "256d-92cd-5d14-bbab",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 6,
+            "field": "e703-ecb6-5ce7-aec1",
+            "affects": "profiles.Unit",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7e16-552d-f3a9-035f",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "The Phaeron's Armoury"
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -39587,6 +40610,13 @@
             "id": "b7e1-a41a-895e-6666",
             "primary": false,
             "name": "Tesseract Vault"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "975a-671b-d26d-9e2a",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -39623,39 +40653,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "24",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "24"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "8",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "8"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Tesseract Vault",
@@ -39691,20 +40721,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "e526-90ef-5531-526f"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "c2a6-f36c-8147-5971"
           }
         ],
         "selectionEntryGroups": [
@@ -39947,7 +40963,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "8b04-951d-7d01-adab",
                     "hidden": false,
                     "type": "rule",
@@ -40339,7 +41355,27 @@
         "import": true,
         "name": "Tesseract Vault",
         "hidden": false,
-        "id": "5451-67b5-a66c-71d2"
+        "id": "5451-67b5-a66c-71d2",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 6,
+            "field": "e703-ecb6-5ce7-aec1",
+            "affects": "profiles.Unit",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7e16-552d-f3a9-035f",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "The Phaeron's Armoury"
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -40405,6 +41441,13 @@
             "id": "e691-75a9-fe39-8f1f",
             "primary": false,
             "name": "Monolith"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "baed-8e38-7577-3a42",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -40506,9 +41549,9 @@
           {
             "characteristics": [
               {
-                "$text": "In the Reinforcements step of your Movement phase, you can select one NECRONS INFANTRY unit from your army that is either in Reserves or on the battlefield (if you select the latter, remove that unit from the battlefield and place it into Reserves). That unit is then set up anywhere on the battlefield that is wholly within 6\" of this model and not within Engagement Range of any enemy models. That unit cannot declare a charge this turn.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your movement phase (excluding the first battle round), you can select one friendly NECRONS INFANTRY unit that is either in strategic reserves or on the battlefield (if you select a unit on the battlefield, remove that unit from the battlefield and place it into strategic reserves). That unit can make an ingress move, and must be set up wholly within 6\" of this unit and not engaged with any enemy units. That unit cannot make a charge move this turn."
               }
             ],
             "name": "Eternity Gate",
@@ -41191,7 +42234,27 @@
         "import": true,
         "name": "Monolith",
         "hidden": false,
-        "id": "db10-2662-da6a-516e"
+        "id": "db10-2662-da6a-516e",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 6,
+            "field": "e703-ecb6-5ce7-aec1",
+            "affects": "profiles.Unit",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7e16-552d-f3a9-035f",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "The Phaeron's Armoury"
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -41273,20 +42336,6 @@
           {
             "characteristics": [
               {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "6bc2-17c8-cdd7-1505"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "While this unit’s Szarekh model has 1-6 wounds remaining, halve the Attacks characteristic of that model’s weapons, and each time this unit makes an attack, subtract 1 from the Hit roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -41357,9 +42406,9 @@
           {
             "characteristics": [
               {
-                "$text": "While a friendly ^^**Necrons^^** unit (excluding ^^**Monster^^** units) is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit.",
                 "name": "Effect",
-                "typeId": "a55f-e008-7f78-1890"
+                "typeId": "a55f-e008-7f78-1890",
+                "$text": "While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit."
               }
             ],
             "name": "Relentless March (Aura)",
@@ -41393,39 +42442,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "8\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "8\""
                   },
                   {
-                    "$text": "10",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "10"
                   },
                   {
-                    "$text": "2+",
                     "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "16",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "16"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "6",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "6"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Szarekh",
@@ -41738,39 +42787,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "8\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "8\""
                   },
                   {
-                    "$text": "10",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "10"
                   },
                   {
-                    "$text": "2+",
                     "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "5",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "5"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Triarchal Menhir",
@@ -42016,6 +43065,13 @@
             "id": "dcfd-5a8a-5dce-deb8",
             "primary": false,
             "name": "Convergence of Dominion"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5c71-a518-6d59-6d22",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -42311,39 +43367,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "8+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Canoptek Tomb Stalker",
@@ -42351,20 +43407,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "6d84-febb-18d8-c730"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "2374-9577-9f56-29e7"
           },
           {
             "characteristics": [
@@ -42896,53 +43938,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "832c-6bc6-82cb-22c3"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "8+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Canoptek Tomb Sentinel",
@@ -44179,39 +45207,39 @@
           {
             "characteristics": [
               {
-                "$text": "9\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "9\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Tesseract Ark",
@@ -44219,20 +45247,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "9063-f961-100c-be6c"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "9c7d-1793-8f4b-2dd4"
           },
           {
             "characteristics": [
@@ -45097,6 +46111,13 @@
             "id": "9f0d-d1b4-cc13-8ae3",
             "primary": false,
             "name": "Seraptek Heavy Construct"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "a38f-2202-fa79-0ac3",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -45133,39 +46154,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "24",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "24"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "10",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "10"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Seraptek Heavy Construct",
@@ -45201,20 +46222,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "e496-2e4a-e286-ab98"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "45c-afd6-3d15-bf3e"
           }
         ],
         "selectionEntryGroups": [
@@ -45998,39 +47005,39 @@
           {
             "characteristics": [
               {
-                "$text": "-",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "22",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Gauss Pylon",
@@ -46038,20 +47045,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "794d-7cb2-f194-2d1e"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "a0a0-e859-3d2e-1921"
           },
           {
             "characteristics": [
@@ -46208,7 +47201,7 @@
                 "targetId": "d1d1-611e-5191-1095"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "5683-6704-ed3e-aa43",
@@ -47395,39 +48388,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Overlord with Translocation Shroud",
@@ -47449,20 +48442,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "3131-c5e7-912d-7c9b"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "70d5-9a58-6ff2-b4a3"
           }
         ],
         "constraints": [
@@ -50171,11 +51150,11 @@
             "targetId": "4ee-d749-4ddc-323d"
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "9eb1-37dc-596c-5420",
             "hidden": false,
             "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           },
           {
             "name": "Reanimation Protocols",
@@ -50468,12 +51447,12 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: ^^**Canoptek Macrocytes, Immortals, Necron Warriors^^**. \n\n\n*You can attach this model to one of the above units even if one ^^**Royal Warden^^** or ^^**Noble^^** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: ^^**Canoptek Macrocytes, Immortals, Necron Warriors^^**. \n\n*You can attach this model to one of the above units even if one ^^**Royal Warden^^** or ^^**Noble^^** model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.*"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
@@ -50815,20 +51794,6 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1cb0-14ac-393e-3366"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "While this model is within 3\" of one or more other friendly ^^**Destroyer Cult^^** units, this model has the Lone Operative ability.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -50857,39 +51822,39 @@
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Nekrosor Ammentar",
@@ -51373,39 +52338,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Dynastic Conqueror",
@@ -51413,20 +52378,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "5f3a-cd11-37a4-240b"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "4403-d412-a145-2c72"
           },
           {
             "characteristics": [
@@ -52453,39 +53404,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Triarchal Overseer",
@@ -52493,20 +53444,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "fd78-e992-998b-1178"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "020c-b404-c67b-114c"
           },
           {
             "characteristics": [
@@ -53914,6 +54851,38 @@
         "name": "Stalker",
         "id": "bf46-75ca-d761-cbf3",
         "hidden": false
+      },
+      {
+        "name": "Dynasty",
+        "id": "d887-58b7-5a1c-5ef0",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "4441-6fbf-6df0-2ab4",
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Hypercrypt",
+        "id": "822d-f1bf-4a26-6d70",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "de1f-f104-de9a-3cf0",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [
