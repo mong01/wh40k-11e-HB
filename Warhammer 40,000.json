@@ -120,7 +120,29 @@
       {
         "name": "Detachment Points",
         "id": "82ae-1066-5107-6ae0",
-        "defaultCostLimit": -1
+        "defaultCostLimit": -1,
+        "modifiers": [
+          {
+            "type": "set",
+            "value": false,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "self",
+                "childId": "bb9d-299a-ed60-2d8a",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "Army Roster"
+              }
+            ],
+            "scope": "roster"
+          }
+        ],
+        "hidden": true
       }
     ],
     "profileTypes": [
@@ -4815,7 +4837,27 @@
         "import": true,
         "name": "Lesser Daemons (Unbound Adversaries)",
         "hidden": false,
-        "id": "b257-5fca-9e35-6c64"
+        "id": "b257-5fca-9e35-6c64",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "fd80-17e3-3c1a-6570",
+                "shared": true,
+                "childName": "Armageddon",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -5030,7 +5072,27 @@
         "import": true,
         "name": "Abomination (Unbound Adversaries)",
         "hidden": false,
-        "id": "4ad0-7f62-b1e4-c6bb"
+        "id": "4ad0-7f62-b1e4-c6bb",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "fd80-17e3-3c1a-6570",
+                "shared": true,
+                "childName": "Armageddon",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -5252,7 +5314,27 @@
         "import": true,
         "name": "Daemonic Beasts (Unbound Adversaries)",
         "hidden": false,
-        "id": "8d9a-d925-56f3-1890"
+        "id": "8d9a-d925-56f3-1890",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "fd80-17e3-3c1a-6570",
+                "shared": true,
+                "childName": "Armageddon",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedRules": [
