@@ -12647,9 +12647,9 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
               }
             ],
             "id": "98dc-e20d-8ee7-882c",
@@ -14350,9 +14350,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack that targets the closest enemy unit, you can re-roll the Hit roll. Each time this unit declares a charge that targets the closest enemy unit, you can re-roll the Charge roll.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "- This unit’s ranged attacks that target the closest eligible target can re-roll **hit rolls**.\n- When this unit **declares a charge**, you can use this part of this ability. \nIf you do: \n-- This unit can re-roll that **charge roll**.\n-- This unit must end that **charge move engaged** with the closest **charge target**."
               }
             ],
             "id": "cabc-c518-5262-d65e",
@@ -19933,6 +19933,13 @@
             "hidden": false,
             "targetId": "8419-8f54-c5b0-8f76",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "6cea-2ffc-7fcc-8024",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -21046,6 +21053,13 @@
             "hidden": false,
             "targetId": "a510-da27-1450-e28c",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "c43a-ae22-184b-2cab",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -22076,6 +22090,13 @@
             "id": "44fd-ea48-be9e-d004",
             "primary": false,
             "name": "Predator Destructor"
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "1682-bdf5-0bfd-cb0f",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -23088,39 +23109,39 @@
                       {
                         "characteristics": [
                           {
-                            "$text": "48\"",
                             "name": "Range",
-                            "typeId": "9896-9419-16a1-92fc"
+                            "typeId": "9896-9419-16a1-92fc",
+                            "$text": "48\""
                           },
                           {
-                            "$text": "2D6",
                             "name": "A",
-                            "typeId": "3bb-c35f-f54-fb08"
+                            "typeId": "3bb-c35f-f54-fb08",
+                            "$text": "2D6"
                           },
                           {
-                            "$text": "4+",
                             "name": "BS",
-                            "typeId": "94d-8a98-cf90-183e"
+                            "typeId": "94d-8a98-cf90-183e",
+                            "$text": "4+"
                           },
                           {
-                            "$text": "5",
                             "name": "S",
-                            "typeId": "2229-f494-25db-c5d3"
+                            "typeId": "2229-f494-25db-c5d3",
+                            "$text": "5"
                           },
                           {
-                            "$text": "-1",
                             "name": "AP",
-                            "typeId": "9ead-8a10-520-de15"
+                            "typeId": "9ead-8a10-520-de15",
+                            "$text": "-1"
                           },
                           {
-                            "$text": "1",
                             "name": "D",
-                            "typeId": "a354-c1c8-a745-f9e3"
+                            "typeId": "a354-c1c8-a745-f9e3",
+                            "$text": "1"
                           },
                           {
-                            "$text": "Blast, Rapid Fire 1",
                             "name": "Keywords",
-                            "typeId": "7f1b-8591-2fcf-d01c"
+                            "typeId": "7f1b-8591-2fcf-d01c",
+                            "$text": "Blast, Rapid Fire 3"
                           }
                         ],
                         "name": "➤ Heavy missile launcher - frag",
@@ -25271,9 +25292,9 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Shooting phase, and in the Fight phase, each time an enemy unit targets this model, after that unit has finished making its attacks, this model can either shoot or fight, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "(Once per turn, per unit) In the Fight phase, when an enemy unit targets this unit, after that unit has resolved its attacks, you can use this ability. If you do, this unit is **eligible to fight** (even if it has already fought this phase) and must be **selected to fight** next."
               }
             ],
             "id": "2f94-5892-1327-89f6",
@@ -27149,7 +27170,7 @@
               {
                 "name": "M",
                 "typeId": "e703-ecb6-5ce7-aec1",
-                "$text": "20\"+"
+                "$text": "12\""
               },
               {
                 "name": "T",
@@ -27174,7 +27195,7 @@
               {
                 "name": "OC",
                 "typeId": "bef7-942a-1a23-59f8",
-                "$text": "0"
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -27253,13 +27274,6 @@
             "name": "Fly",
             "hidden": false,
             "targetId": "c619-2086-bbcf-69c9",
-            "primary": false
-          },
-          {
-            "id": "8555-97cb-b092-c430",
-            "name": "Aircraft",
-            "hidden": false,
-            "targetId": "63f1-e6e8-f6f6-a4f0",
             "primary": false
           },
           {
@@ -27904,9 +27918,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model declares a charge that targets one or more units below Starting Strength, add 1 to the Charge roll. If one or more of the targets of that charge are Below Half-strength, add 2 to the Charge roll instead.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In the Charge phase, when this unit **declares a charge**: \n- If an enemy unit **below starting strength** is within 9\" of this unit, this unit has +1 to **charge rolls**. \n- Or: If an enemy unit **below half strength** is within 9\" of this unit, this unit has +2 to **charge rolls**."
               }
             ],
             "id": "8084-c2ca-004e-c463",
@@ -28731,9 +28745,9 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 9\" of this model, any units embarked within it can disembark.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Movement phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 8\" of this model, any units embarked within it can disembark."
               }
             ],
             "id": "d170-6fa7-f88c-f888",
@@ -28849,6 +28863,13 @@
             "name": "Rhino",
             "hidden": false,
             "targetId": "7683-9a29-39d9-ae31",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "1c83-51fe-b461-8995",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -30055,6 +30076,13 @@
             "name": "Lord of Skulls",
             "hidden": false,
             "targetId": "ad21-8e29-c122-9cbb",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "49c3-78f5-a136-d3ea",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -31294,7 +31322,7 @@
               {
                 "rules": [
                   {
-                    "description": "^^**World Eaters Possessed^^** units in your army have the following ability:\n\n\n**Brazen Fury**: In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brazen Fury move. To do so, roll one D6: models in this unit move a number of inches up to the result of this roll, but this unit must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Brazen Fury move while Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Brazen Fury move per phase.",
+                    "description": "^^**World Eaters Possessed^^** units in your army have the following ability:\n\n**Brazen Fury**: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**.",
                     "name": "Brazen Fury",
                     "id": "4d60-d00d-497d-ca18",
                     "hidden": false
@@ -31612,14 +31640,14 @@
           {
             "characteristics": [
               {
-                "$text": "Double 1+",
                 "name": "Roll",
-                "typeId": "f99e-3b0d-b8fa-71b6"
+                "typeId": "f99e-3b0d-b8fa-71b6",
+                "$text": "Double 1+"
               },
               {
-                "$text": "You can re-roll Charge rolls made for this unit.",
                 "name": "Effect",
-                "typeId": "fcc3-ca7a-d697-7098"
+                "typeId": "fcc3-ca7a-d697-7098",
+                "$text": "This unit has +1 to charge rolls."
               }
             ],
             "alias": [
@@ -33422,9 +33450,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
               }
             ],
             "name": "Loping Speed",
@@ -50839,9 +50867,9 @@
       {
         "characteristics": [
           {
-            "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brazen Fury move. To do so, roll one D6: models in this unit move a number of inches up to the result of this roll, but this unit must end that move as close as possible to the closest enemy unit (excluding ^^**Aircraft^^**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Brazen Fury move while Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Brazen Fury move per phase.",
             "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**."
           }
         ],
         "modifiers": [
