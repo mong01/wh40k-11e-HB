@@ -165,6 +165,38 @@
         "name": "Kataphraktoi Exemplar",
         "id": "afee-965b-4eeb-2a4a",
         "hidden": false
+      },
+      {
+        "name": "Lions",
+        "id": "5441-0847-20fe-4235",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4f23-dcd6-6c53-80a9",
+            "includeChildSelections": true
+          }
+        ]
+      },
+      {
+        "name": "Armoury",
+        "id": "a8c4-301f-0589-b0f4",
+        "hidden": false,
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "250c-99eb-2de2-7fed",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -572,39 +604,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "0026-ed43-e091-4dd5",
@@ -665,13 +697,6 @@
             "type": "profile"
           },
           {
-            "id": "b31a-0196-f69d-cf24",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
-          {
             "modifiers": [
               {
                 "type": "append",
@@ -712,6 +737,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "9009-997d-22c0-bba9",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -884,7 +916,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "77e1-91a3-c21c-5e08",
@@ -996,6 +1028,23 @@
             "type": "set",
             "value": 330,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8650-2081-37d9-87b1",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -1055,39 +1104,39 @@
             ],
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "fe8b-58b8-b37c-39b6",
@@ -1111,13 +1160,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "cb53-fc36-2f3b-4714",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -2167,6 +2209,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "8779-1a2d-6d06-60ee",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -2224,6 +2273,13 @@
             "name": "Faction: Adeptus Custodes",
             "hidden": false,
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "7e8b-6d55-eb60-874a",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -2488,7 +2544,7 @@
             "name": "Wargear",
             "id": "310f-0275-e641-edb4",
             "hidden": false,
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "entryLinks": [
@@ -2500,6 +2556,15 @@
             "type": "selectionEntryGroup",
             "targetId": "dffe-91f2-f156-0566",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "c7d2-626e-e4ef-96e7",
+            "type": "selectionEntryGroup",
+            "targetId": "2f35-c679-4457-4ef8",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -2702,7 +2767,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 4,
+            "field": "7d15-64d7-ef58-b489",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -2723,39 +2807,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "11f7-2788-9bfd-177b",
@@ -2818,13 +2902,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "eef8-e381-464c-78ef",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -3380,7 +3457,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "ce39-21d0-bed5-edd4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifiers": [
@@ -3401,6 +3497,23 @@
             "type": "set",
             "field": "51b2-306e-1021-d207",
             "value": 200
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "3a5d-9d18-e400-b945",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -3449,13 +3562,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "32b4-2fdf-4cb7-0920",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -3532,66 +3638,41 @@
               {
                 "profiles": [
                   {
-                    "modifiers": [
-                      {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "field": "selections",
-                                "scope": "91b3-2e1c-e642-d213",
-                                "value": 1,
-                                "percentValue": false,
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": false,
-                                "childId": "01d2-1f35-606f-1664",
-                                "type": "equalTo"
-                              }
-                            ],
-                            "type": "or"
-                          }
-                        ],
-                        "type": "increment",
-                        "field": "bef7-942a-1a23-59f8",
-                        "value": 1
-                      }
-                    ],
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "ffb0-e197-3a20-7515",
@@ -3758,69 +3839,46 @@
                   {
                     "modifiers": [
                       {
-                        "conditionGroups": [
-                          {
-                            "conditions": [
-                              {
-                                "field": "selections",
-                                "scope": "91b3-2e1c-e642-d213",
-                                "value": 1,
-                                "percentValue": false,
-                                "shared": true,
-                                "includeChildSelections": true,
-                                "includeChildForces": false,
-                                "childId": "01d2-1f35-606f-1664",
-                                "type": "equalTo"
-                              }
-                            ],
-                            "type": "or"
-                          }
-                        ],
-                        "type": "increment",
-                        "field": "bef7-942a-1a23-59f8",
-                        "value": 1
-                      },
-                      {
                         "type": "set",
-                        "value": 4,
+                        "value": "4",
                         "field": "750a-a2ec-90d3-21fe"
                       }
                     ],
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "f36e-c3a3-477c-21d4",
@@ -4016,45 +4074,45 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "4",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "3",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "modifiers": [
                       {
                         "type": "set",
-                        "value": 4,
+                        "value": "4",
                         "field": "750a-a2ec-90d3-21fe"
                       }
                     ],
@@ -4101,22 +4159,20 @@
                         "id": "d723-bd4e-b985-e4de-max"
                       }
                     ],
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "0f41-5892-edb8-e270",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9",
-                        "flatten": false
-                      }
-                    ],
                     "type": "upgrade",
                     "import": true,
                     "name": "Vexilla",
                     "hidden": false,
-                    "id": "c2f7-f244-8efb-42ff"
+                    "id": "c2f7-f244-8efb-42ff",
+                    "modifiers": [
+                      {
+                        "type": "increment",
+                        "value": 1,
+                        "field": "bef7-942a-1a23-59f8",
+                        "scope": "unit",
+                        "affects": "self.entries.recursive.profiles.Unit"
+                      }
+                    ]
                   },
                   {
                     "profiles": [
@@ -4531,6 +4587,23 @@
             "type": "set",
             "field": "51b2-306e-1021-d207",
             "value": 260
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "89e7-53a1-6e8a-fd2a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -4585,39 +4658,39 @@
             ],
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "41a1-a4d8-a138-c3b7",
@@ -4648,13 +4721,6 @@
             "hidden": false,
             "targetId": "9bf4-280f-bbe2-6fbb",
             "type": "rule"
-          },
-          {
-            "id": "37a5-e4a1-353c-f02a",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -5364,17 +5430,6 @@
                         "id": "957b-3814-759a-a6f9"
                       }
                     ],
-                    "entryLinks": [
-                      {
-                        "import": true,
-                        "name": "Weapon Modifications",
-                        "hidden": false,
-                        "id": "29e4-7708-3de6-c5bd",
-                        "type": "selectionEntryGroup",
-                        "targetId": "f9da-852a-d7f0-92e9",
-                        "flatten": false
-                      }
-                    ],
                     "type": "upgrade",
                     "import": true,
                     "name": "Vexilla",
@@ -5683,39 +5738,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "77f4-76e5-b2df-6483",
@@ -5778,14 +5833,6 @@
             "type": "profile"
           },
           {
-            "comment": "5+",
-            "id": "c870-73c0-d25d-4050",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
-          {
             "id": "cbe3-0a7b-ffd7-5d29",
             "name": "Leader",
             "hidden": false,
@@ -5812,6 +5859,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "f1aa-f76d-f8f8-497d",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -5968,7 +6022,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "e4ad-e955-c661-9c57",
@@ -6765,7 +6819,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "51e5-ba96-22e9-138c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifierGroups": [
@@ -7051,6 +7124,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "1505-2c7f-4876-844e",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -7352,7 +7432,7 @@
             "collective": false,
             "import": true,
             "type": "model",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -7604,7 +7684,7 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -7643,9 +7723,26 @@
                 "includeChildSelections": true
               }
             ],
-            "type": "set",
-            "value": 6,
+            "type": "multiply",
+            "value": 2,
             "field": "7de5-153e-c496-a191"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "7de5-153e-c496-a191",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
@@ -7697,6 +7794,15 @@
             "type": "selectionEntryGroup",
             "targetId": "dffe-91f2-f156-0566",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "dac5-b8e5-b6d9-f51e",
+            "type": "selectionEntryGroup",
+            "targetId": "2f35-c679-4457-4ef8",
+            "sortIndex": 2
           }
         ],
         "id": "3ec3-a4df-fdbf-5507",
@@ -7711,39 +7817,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "f8f3-0f06-13d0-6eaa",
@@ -7804,13 +7910,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "4fa2-c874-889e-4652",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -9049,46 +9148,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "364f-6702-e79f-85c4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "6024-501b-e93c-32a5",
@@ -9149,13 +9267,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "6c41-fdfd-6f76-b9e4",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -9910,7 +10021,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "555e-9d76-06e9-88bd",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -9947,39 +10077,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "8",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "8"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "3560-b824-f02e-1e3b",
@@ -9990,13 +10120,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "c840-8b09-c553-2674",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
-          },
           {
             "id": "655b-53e0-4ccd-f6bb",
             "name": "Leader",
@@ -10074,6 +10197,13 @@
             "name": "Shield-Captain",
             "hidden": false,
             "targetId": "6bfb-3b18-fd53-9ff1",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "2480-4cc0-d52f-f527",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -10737,46 +10867,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "e373-5e89-7687-c009",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "5+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "5+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "d583-46c4-e043-e8e2",
@@ -10860,13 +11009,6 @@
             "hidden": false,
             "targetId": "b4dd-3e1f-41cb-218f",
             "type": "rule"
-          },
-          {
-            "id": "0b89-378c-65fc-2fbf",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
           },
           {
             "id": "7c0a-3b80-2782-c172",
@@ -11202,39 +11344,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "797d-a069-0cee-05db",
@@ -11318,18 +11460,18 @@
             "type": "rule"
           },
           {
-            "id": "e31f-1da6-122f-16b4",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
-          },
-          {
             "name": "Talons",
             "id": "35b-dd48-63f9-a44b",
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Deep Strike",
+            "id": "d5b9-bc61-f2b1-1469",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "7cb5-dd6b-dd87-ad3b"
           }
         ],
         "categoryLinks": [
@@ -11568,39 +11710,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "8d83-a6c4-a9ba-0582",
@@ -11631,13 +11773,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "afb0-1bd0-5f2b-4514",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
           },
           {
             "modifiers": [
@@ -12092,7 +12227,7 @@
             "name": "Wargear",
             "id": "f869-c5f5-f929-8502",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -12140,6 +12275,15 @@
             "type": "selectionEntryGroup",
             "targetId": "e744-e7ad-f9d4-217f",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "5112-548a-9b93-a444",
+            "type": "selectionEntryGroup",
+            "targetId": "e455-3521-536f-a299",
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -12397,7 +12541,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "e76f-3e80-2755-ea68",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -12559,6 +12722,13 @@
             "name": "Faction: Adeptus Custodes",
             "hidden": false,
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "a062-fb1c-cf5f-45fe",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -13245,7 +13415,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "c017-3aba-d725-71e5",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifierGroups": [
@@ -13469,39 +13658,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "12c0-1695-05c0-d219",
@@ -13527,9 +13716,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding MONSTER and VEHICLE units) that it moved over during that move, then roll one D6 for each model in this unit; for each 2+, that enemy unit suffers 2 mortal wounds.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, after this unit ends a normal or Advance move, you can select one enemy unit (excluding **MONSTERS** and **VEHICLES**) that it moved over during that move, then roll one D6 for each model in this unit; for each 2+, that enemy unit suffers 2 mortal wounds."
               }
             ],
             "id": "9896-b356-2ad8-2fb9",
@@ -13546,13 +13735,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "e9e8-115a-1de0-7b85",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -13596,6 +13778,13 @@
             "hidden": false,
             "id": "22db-ed2a-c437-a159",
             "targetId": "a3cb-da28-b5f9-d295",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5662-66ec-baf7-8c89",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -14154,7 +14343,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "5b4f-7787-5db9-f334",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifierGroups": [
@@ -14440,6 +14648,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "a8ba-5509-9b7c-9940",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -14626,7 +14841,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "f435-ac09-ef30-acd7",
@@ -14665,7 +14880,7 @@
             "collective": false,
             "import": true,
             "type": "model",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -14817,7 +15032,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "hidden": false,
                         "type": "rule",
                         "id": "20ab-70e7-5c2f-2c9",
@@ -14861,7 +15076,7 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -14920,6 +15135,15 @@
             "type": "selectionEntryGroup",
             "targetId": "dffe-91f2-f156-0566",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "43d9-a7cc-a6a6-fdc4",
+            "type": "selectionEntryGroup",
+            "targetId": "2f35-c679-4457-4ef8",
+            "sortIndex": 2
           }
         ],
         "id": "dd2d-568a-9c56-1b6e",
@@ -14927,7 +15151,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "bdb4-72ce-7a4a-3cb1",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifierGroups": [
@@ -15227,6 +15470,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "1cd2-aeaf-6c00-ec0"
+          },
+          {
+            "name": "Ceaseless Vigilance",
+            "id": "0b05-2a64-068e-13f7",
+            "hidden": false,
+            "targetId": "9f28-4aea-2fe4-4239",
+            "type": "profile"
           }
         ],
         "categoryLinks": [
@@ -15477,7 +15727,7 @@
             "collective": false,
             "import": true,
             "type": "model",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -15679,7 +15929,7 @@
             "collective": false,
             "import": true,
             "defaultSelectionEntryId": "9fdd-e31a-5f28-85ea",
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -15738,6 +15988,15 @@
             "type": "selectionEntryGroup",
             "targetId": "dffe-91f2-f156-0566",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "2a7d-8af0-d853-17b7",
+            "type": "selectionEntryGroup",
+            "targetId": "2f35-c679-4457-4ef8",
+            "sortIndex": 2
           }
         ],
         "id": "503b-f7be-eeeb-9e31",
@@ -15745,7 +16004,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "36a1-d7c2-d808-84d0",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -15792,13 +16070,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "fa27-ae9c-256d-dccd",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -16006,39 +16277,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "c0f4-d186-8f49-37fc",
@@ -16224,39 +16495,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "51d6-e37b-78da-a8bb",
@@ -16541,7 +16812,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "9c72-702d-1f9a-0d57",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -16588,13 +16878,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "bff3-3f4b-22e8-bb7f",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -16664,39 +16947,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "6",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "6"
                   },
                   {
-                    "$text": "2+",
-                    "name": "SV",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "name": "Sv",
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": ""
                   },
                   {
-                    "$text": "3",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "id": "f049-e8bc-922e-d54a",
@@ -17157,7 +17440,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "unit"
+        "type": "unit",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "9095-6ff4-b693-7e7c",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "modifiers": [
@@ -17178,6 +17480,23 @@
             "type": "set",
             "field": "51b2-306e-1021-d207",
             "value": 390
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "d0cd-dd40-4fa8-41ba",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -17212,39 +17531,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "300d-e6da-b073-49ce",
@@ -17268,13 +17587,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "1ce3-2da0-f715-b9cd",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -17967,6 +18279,23 @@
             "type": "set",
             "field": "51b2-306e-1021-d207",
             "value": 450
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "faf9-e052-1c3e-6aab",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -18001,39 +18330,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "4709-be42-0b1d-0b33",
@@ -18050,13 +18379,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "7aef-fed6-eb20-1d6a",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
           },
           {
             "name": "Talons",
@@ -18100,6 +18422,13 @@
             "name": "Faction: Adeptus Custodes",
             "hidden": false,
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "a657-7a3a-ba63-c0db",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -19013,6 +19342,23 @@
             "type": "set",
             "field": "51b2-306e-1021-d207",
             "value": 330
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "40ce-17f3-f81f-844a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -19046,13 +19392,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "5f5b-254d-0912-7cfa",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "0300-84b9-69cf-b64f",
-            "type": "profile"
-          },
           {
             "id": "6d7c-4769-fc9e-ca8c",
             "name": "Martial Ka'tah",
@@ -19151,39 +19490,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "10\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "10\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "ee43-82be-4542-fcab",
@@ -19346,39 +19685,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "10\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "10\""
                       },
                       {
-                        "$text": "6",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "6"
                       },
                       {
-                        "$text": "2+",
-                        "name": "SV",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "name": "Sv",
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": ""
                       },
                       {
-                        "$text": "4",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "4"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "id": "af53-0829-aa6c-cdbf",
@@ -19875,39 +20214,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "12f1-b6ca-867b-5c7c",
@@ -19938,13 +20277,6 @@
             "hidden": false,
             "targetId": "e348-7090-3aff-ee2c",
             "type": "rule"
-          },
-          {
-            "id": "d22a-02f4-9056-89e3",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
           },
           {
             "modifiers": [
@@ -20057,6 +20389,15 @@
             "type": "selectionEntryGroup",
             "targetId": "e744-e7ad-f9d4-217f",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "f494-d679-1b31-d335",
+            "type": "selectionEntryGroup",
+            "targetId": "e455-3521-536f-a299",
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -20274,7 +20615,7 @@
             "name": "Wargear",
             "id": "9e8a-1f63-8eb0-0b13",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -20492,46 +20833,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8976-4e10-8d46-41f4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "1e1f-9a94-957f-9165",
@@ -20556,13 +20916,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "1338-3844-44a1-f469",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "id": "acb3-47c4-2db8-5607",
             "name": "Martial Ka'tah",
@@ -21112,7 +21465,7 @@
             "name": "Wargear",
             "id": "6db1-a68f-db04-8f95",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -21160,6 +21513,15 @@
             "type": "selectionEntryGroup",
             "targetId": "e744-e7ad-f9d4-217f",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "1fec-90fe-4758-240a",
+            "type": "selectionEntryGroup",
+            "targetId": "e455-3521-536f-a299",
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -21417,46 +21779,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8a80-fceb-63a1-8b89",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "102e-5ed1-6d31-0d93",
@@ -21481,13 +21862,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "4c2c-80d1-d63b-e0be",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "modifiers": [
               {
@@ -21544,6 +21918,13 @@
             "hidden": false,
             "id": "182a-f324-9efb-4b6d",
             "targetId": "aff3-d6a3-2a95-9dc",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "62db-b0ef-45cf-b915",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -21995,46 +22376,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "f86d-d41a-77df-a090",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "10\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
               },
               {
-                "$text": "11",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "f676-72df-2ed7-8834",
@@ -22073,13 +22473,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "9b50-2c3f-47b0-ad6c",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "id": "afaf-6f6f-5626-dc1f",
             "name": "Martial Ka'tah",
@@ -22143,6 +22536,13 @@
             "hidden": false,
             "id": "c0a6-1475-3ef0-63c2",
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "8a7b-6cc9-6dbb-4d94",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -22792,46 +23192,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4eec-c033-76c4-0a1b",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "12",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "013b-ab38-f992-ff77",
@@ -22884,13 +23303,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "fdba-a511-f233-4312",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "4042-b2c1-d581-dbe7",
-            "type": "profile"
-          },
           {
             "id": "4701-dfd7-41a2-fa22",
             "name": "Martial Ka'tah",
@@ -23617,7 +24029,7 @@
             "name": "Wargear",
             "id": "01f8-6c1d-3f4f-63c5",
             "hidden": false,
-            "sortIndex": 3
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -23665,6 +24077,15 @@
             "type": "selectionEntryGroup",
             "targetId": "e744-e7ad-f9d4-217f",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "id": "dfe4-f668-3461-32db",
+            "type": "selectionEntryGroup",
+            "targetId": "e455-3521-536f-a299",
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -23922,46 +24343,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "f73b-80b7-dd19-d7c3",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "16",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "16"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "5",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "588c-2aa2-db7f-17be",
@@ -24014,13 +24454,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "3114-e2d9-7137-bebe",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "id": "074d-7652-084a-bcf7",
             "name": "Martial Ka'tah",
@@ -24091,6 +24524,13 @@
             "name": "Faction: Adeptus Custodes",
             "hidden": false,
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "c489-5c72-3e63-1682",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -24633,46 +25073,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "b7c8-dbaf-50c6-ab84",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "22",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "c753-bc07-06bb-6254",
@@ -24725,13 +25184,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "ca6d-66f0-345a-52eb",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "id": "1179-f287-0409-be6f",
             "name": "Martial Ka'tah",
@@ -24816,6 +25268,13 @@
             "name": "Faction: Adeptus Custodes",
             "hidden": false,
             "targetId": "eea5-aeaf-bbf0-d5ee",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "fbff-6f72-be9d-0012",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -25433,46 +25892,65 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8db5-1a98-5e6a-a23a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20+\""
               },
               {
-                "$text": "12",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "22",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "id": "e3eb-3331-b91f-eeb5",
@@ -25511,13 +25989,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "id": "10cc-c9b4-d3c6-b265",
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "targetId": "e3cf-4870-44cf-74da",
-            "type": "profile"
-          },
           {
             "id": "759d-dcb9-ffc4-b854",
             "name": "Martial Ka'tah",
@@ -25595,6 +26066,13 @@
             "name": "Ares Gunship",
             "hidden": false,
             "targetId": "a075-bcec-0d00-50f7",
+            "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "5294-0ddb-269f-5b4f",
+            "targetId": "b927-8eeb-7cc3-8dec",
             "primary": false
           }
         ],
@@ -26112,7 +26590,26 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "model"
+        "type": "model",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 2,
+            "field": "fe85-1bf4-8543-6f7b",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -26184,14 +26681,6 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "4dd1-ec7c-d8f7-a86d"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "6886-c34e-583a-55f8"
               }
             ],
             "selectionEntries": [
@@ -26209,7 +26698,60 @@
                 "name": "Shield Host",
                 "hidden": false,
                 "id": "70eb-2978-3ad5-5901",
-                "sortIndex": 4
+                "sortIndex": 4,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ebe5-4cd4-d037-f47c",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
@@ -26225,7 +26767,60 @@
                 "name": "Talons of the Emperor",
                 "hidden": false,
                 "id": "757a-b5ed-a43f-3cdd",
-                "sortIndex": 6
+                "sortIndex": 6,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "acbe-f7c2-268d-227d",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
@@ -26241,7 +26836,60 @@
                 "name": "Null Maiden Vigil",
                 "hidden": false,
                 "id": "d3ee-47e1-4540-dfe5",
-                "sortIndex": 3
+                "sortIndex": 3,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c8e4-88c1-22ce-378e",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
@@ -26257,7 +26905,60 @@
                 "name": "Auric Champions",
                 "hidden": false,
                 "id": "a36b-bb22-1a15-2a48",
-                "sortIndex": 1
+                "sortIndex": 1,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "44f5-aad2-e68d-744e",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
@@ -26288,7 +26989,60 @@
                 "name": "Solar Spearhead",
                 "hidden": false,
                 "id": "a060-3a8d-670c-25f0",
-                "sortIndex": 5
+                "sortIndex": 5,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1747-2440-ea68-0982",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "rules": [
@@ -26304,7 +27058,291 @@
                 "name": "Lions of the Emperor",
                 "hidden": false,
                 "id": "3b75-a700-050c-06f5",
-                "sortIndex": 2
+                "sortIndex": 2,
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 2
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "94be-963b-f3b6-fc5d",
+                    "includeChildSelections": false
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Might of the Moritoi",
+                "hidden": false,
+                "id": "1bb5-5aba-6c8f-7afc",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "22f5-51fd-138c-38fb",
+                    "includeChildSelections": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "March of the Honoured Dead",
+                    "id": "364e-dc9e-6d15-e3a8",
+                    "hidden": false,
+                    "description": "Friendly **ADEPTUS CUSTODES WALKER** units: \n- Have +2\" **M**. \n- Have +1 to **advance rolls** and **charge rolls**."
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "increment",
+                    "value": 2,
+                    "field": "e703-ecb6-5ce7-aec1",
+                    "scope": "roster",
+                    "affects": "self.entries.forces.recursive.5085-b471-39f3-1aa1.profiles.Unit"
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Armoury",
+                    "hidden": false,
+                    "id": "12df-4cd1-908d-d788",
+                    "targetId": "a8c4-301f-0589-b0f4",
+                    "primary": false
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Silent Hunters",
+                "hidden": false,
+                "id": "60e4-3c48-7e50-4d37",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7959-643d-48bf-8ca3",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "Skin-crawling Disorientation",
+                    "id": "bba1-6766-0988-dde3",
+                    "hidden": false,
+                    "description": "- When a friendly **ANATHEMA PSYKANA** unit is selected to make an **advance move**, that **advance move** does not prevent that unit from being **eligible to start an action**.\n- Friendly **ANATHEMA PSYKANA** units have the following ability: \n**Ceaseless Vigilance**: In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is nulled: \n- While a unit is nulled, that unit has +3\" **detection range**."
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Tharanatoi Hammerblow",
+                "hidden": false,
+                "id": "ebc1-90da-ce89-ee5b",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e324-1d96-3fb7-e096",
+                    "includeChildSelections": false
+                  }
+                ],
+                "rules": [
+                  {
+                    "name": "The Hammer Falls",
+                    "id": "2920-0b9e-8c01-4a0b",
+                    "hidden": false,
+                    "description": "If a friendly **ADEPTUS CUSTODES TERMINATOR** unit made an **ingress move** this turn, that unit can re‑roll **charge rolls**. \n\n\nThis detachment has the LIONS tag and cannot be taken with another LIONS detachment."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Lions",
+                    "hidden": false,
+                    "id": "4a9b-ffa2-ebff-c15a",
+                    "targetId": "5441-0847-20fe-4235",
+                    "primary": false
+                  }
+                ]
               }
             ],
             "name": "Detachment",
@@ -27066,39 +28104,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Guardian of the Throne",
@@ -27106,20 +28144,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "62ba-17ee-076e-9571"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "be6d-e633-71a3-c4e0"
           },
           {
             "characteristics": [
@@ -27513,6 +28537,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "a22b-3fb4-a771-3374",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -27624,39 +28665,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Null Maiden",
@@ -27664,20 +28705,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "3467-3fde-6644-748c"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (5+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "633a-7e1f-f93e-5a5c"
           },
           {
             "characteristics": [
@@ -28053,6 +29080,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8c56-c9e3-7cf5-3498",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -28171,39 +29215,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "2+",
-                "name": "SV",
-                "typeId": "450-a17e-9d5e-29da"
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": ""
               },
               {
-                "$text": "8",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "8"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Kataphraktoi Exemplar",
@@ -28211,20 +29255,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "29d7-a4b4-dd06-f5c7"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "41e4-eef7-947a-3f81"
           },
           {
             "characteristics": [
@@ -28609,6 +29639,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "7cde-165a-4f50-0627",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "type": "model",
@@ -28616,6 +29663,189 @@
         "name": "Kataphraktoi Exemplar [Crucible]",
         "hidden": false,
         "id": "c11a-f70a-2877-ed27"
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Psyk-out Grenades",
+        "hidden": false,
+        "id": "75ce-552a-0409-e90f",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "e268-f3fc-e4b5-aa96",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "b298-0d34-0347-400b",
+            "includeChildSelections": true
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 1
+          }
+        ],
+        "modifierGroups": [
+          {
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "divide",
+                "value": 2,
+                "field": "f759-1bc4-cb3a-f0d2",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "75ce-552a-0409-e90f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Psyk-out Grenades"
+                  }
+                ]
+              },
+              {
+                "type": "divide",
+                "value": 3,
+                "field": "f759-1bc4-cb3a-f0d2",
+                "conditions": [
+                  {
+                    "type": "greaterThan",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "75ce-552a-0409-e90f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Psyk-out Grenades"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "notInstanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "childId": "9177-5477-63dd-38d",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Anathema Psykana"
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "60e4-3c48-7e50-4d37",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Silent Hunters"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "add",
+            "value": "e33d-891d-33aa-e9bf",
+            "field": "category",
+            "scope": "parent"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Psyk-out Grenades",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "5512-e43d-7e1a-34d2",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "- This unit has EXPLOSIVES. \n- When you target this unit with the Explosives stratagem, if you select an enemy PSYKER unit, you can re‑roll rolls to determine whether that enemy unit suffers a mortal wound."
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -28631,15 +29861,6 @@
             "includeChildForces": false,
             "id": "e2a7-700a-3792-20fd",
             "type": "max"
-          },
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "1e45-4ce0-9cdf-d90f",
-            "includeChildSelections": true
           }
         ],
         "selectionEntries": [
@@ -28725,6 +29946,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 5
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "modifierGroups": [
@@ -28851,9 +30107,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "After both players have deployed their armies, you can select up to two **ADEPTUS CUSTODES** units from your army (excluding **ANATHEMA PSYKANA** units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how  any units are already in Strategic Reserves."
                   }
                 ],
                 "id": "4d4a-a2b5-f20e-d74b",
@@ -28868,6 +30124,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 20
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -28961,6 +30252,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 5
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -29066,6 +30392,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -29268,6 +30629,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 30
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29345,6 +30741,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 20
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29422,6 +30853,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29436,9 +30902,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "The range of the bearer’s Null Aegis or Deadly Unity ability (see left) is increased to 9\".",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "The range of the bearer’s Null Aegis or Deadly Unity ability is increased to 9\"."
                   }
                 ],
                 "name": "Champion of the Imperium",
@@ -29497,6 +30963,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29528,6 +31029,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -29698,6 +31234,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 10
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29791,6 +31362,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 15
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29882,6 +31488,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -29959,6 +31600,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -30034,6 +31710,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 10
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "modifierGroups": [
@@ -30133,6 +31844,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 25
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "modifierGroups": [
@@ -30210,9 +31956,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "The bearer's unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, in your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of the bearer, if the bearer's unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
                   }
                 ],
                 "name": "Martial Philosopher",
@@ -30271,6 +32017,41 @@
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
                 "value": 30
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "type": "upgrade",
@@ -30306,6 +32087,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "profiles": [
@@ -30416,6 +32212,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "profiles": [
@@ -30510,6 +32321,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "profiles": [
@@ -30715,6 +32541,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "profiles": [
@@ -30901,6 +32742,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -31027,6 +32883,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -31137,6 +33008,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -31247,6 +33133,21 @@
                 "name": "Crusade: Weapon Modifications",
                 "typeId": "716d-91b7-d55a-1022",
                 "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
             "constraints": [
@@ -31336,25 +33237,378 @@
             "name": "Admonimortis",
             "hidden": false,
             "id": "83f4-94db-c9b3-e128"
-          }
-        ],
-        "modifiers": [
+          },
           {
-            "conditions": [
+            "type": "upgrade",
+            "import": true,
+            "name": "Encircling Hunter",
+            "hidden": false,
+            "id": "917c-13ad-3a1c-a723",
+            "costs": [
               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "forces",
-                "scope": "roster",
-                "childId": "cac3-71d1-ea4b-795d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
               }
             ],
-            "type": "set",
-            "value": -1,
-            "field": "1e45-4ce0-9cdf-d90f"
+            "comment": "Silent Hunters",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "6c94-4556-ad62-2c2a",
+                "includeChildSelections": true
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "9177-5477-63dd-38d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Anathema Psykana"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "force",
+                            "childId": "60e4-3c48-7e50-4d37",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Silent Hunters"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Encircling Hunter",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "20c4-b174-4328-978c",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "When both players have deployed their armies, you can redeploy up to three friendly **ANATHEMA PSYKANA INFANTRY** units. When doing so, you can set those units up in **strategic reserves**, regardless of how many units are already in **strategic reserves**."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Efficient Aggression",
+            "hidden": false,
+            "id": "43a1-301b-3e6e-be5c",
+            "profiles": [
+              {
+                "name": "Efficient Aggression",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "764d-cd7f-3254-8d9f",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "(Once per turn, per army) In your opponent’s Shooting phase, when an enemy unit has shot, if this unit lost a wound as a result of those attacks, this unit can make a **surge move** of up to D6+1\". "
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "740a-892c-8958-defa",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Terminator"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "force",
+                            "childId": "ebc1-90da-ce89-ee5b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tharanatoi Hammerblow"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "5c7a-744c-c6eb-818c",
+                "includeChildSelections": true
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Mnemo-locked Shrine Cipher",
+            "hidden": false,
+            "id": "f0e0-85b0-eaae-1f78",
+            "profiles": [
+              {
+                "name": "Mnemo-locked Shrine Cipher",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "f737-e685-7f11-85a8",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "In your first Movement phase, this unit can make an **ingress move**."
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "740a-892c-8958-defa",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Terminator"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "force",
+                            "childId": "ebc1-90da-ce89-ee5b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Tharanatoi Hammerblow"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "costs": [
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "6ed9-c32c-f097-31a6",
+                "includeChildSelections": true
+              }
+            ]
           }
         ],
         "id": "a43b-fe98-3d93-435d",
@@ -31362,7 +33616,18 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "collapsible": true
+        "collapsible": true,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Psyk-out Grenades",
+            "hidden": false,
+            "id": "0d70-363d-2513-0939",
+            "type": "selectionEntry",
+            "targetId": "75ce-552a-0409-e90f",
+            "comment": "Silent Hunters"
+          }
+        ]
       },
       {
         "comment": "Crusade content",
@@ -35371,7 +37636,7 @@
                 "targetId": "be1e-ac8e-1e2c-3528"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "9fa9-1e94-944b-5cec",
                 "hidden": false,
                 "type": "rule",
@@ -37045,7 +39310,7 @@
               {
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "069b-7fb2-2967-6572",
                     "hidden": false,
                     "type": "rule",
@@ -38721,6 +40986,172 @@
         "name": "Character Upgrade",
         "id": "e744-e7ad-f9d4-217f",
         "hidden": false
+      },
+      {
+        "name": "Enhancements",
+        "id": "e455-3521-536f-a299",
+        "hidden": false,
+        "comment": "Might of the Moritoi",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "3ab1-7e6b-aa69-4866",
+            "includeChildSelections": false
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1bb5-5aba-6c8f-7afc",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Might of the Moritoi"
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "forces",
+                    "scope": "roster",
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Interred Expertise",
+            "hidden": false,
+            "id": "e40a-9847-70cf-82a8",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "cfd8-4efb-e29e-3af1",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 3,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "bd98-5bac-176e-9be0",
+                "includeChildSelections": true
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Interred Expertise",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "f994-3436-5260-1994",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "This unit’s attacks can: \n- Re‑roll **hit rolls** of 1. \n- Re‑roll **wound rolls** of 1."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Auramite Sarcophagus",
+            "hidden": false,
+            "id": "eaff-0f85-f369-39ab",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "baa8-672b-aca2-f74b",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 3,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "f47d-31a3-eb91-0f25",
+                "includeChildSelections": true
+              }
+            ],
+            "profiles": [
+              {
+                "name": "Auramite Sarcophagus",
+                "typeId": "9cc3-6d83-4dd3-9b64",
+                "typeName": "Abilities",
+                "hidden": false,
+                "id": "71e4-11be-ace3-b681",
+                "characteristics": [
+                  {
+                    "name": "Description",
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "When you target this unit with the **Crushing Impact stratagem**, that use is ‑1 **CP**."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Enhancements",
+        "id": "2f35-c679-4457-4ef8",
+        "hidden": false,
+        "comment": "Silent Hunter non-Characters",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "dd98-d735-5f16-ae6a",
+            "includeChildSelections": false
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Psyk-out Grenades",
+            "hidden": false,
+            "id": "2449-47c3-a6a1-b6e9",
+            "type": "selectionEntry",
+            "targetId": "75ce-552a-0409-e90f"
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -38762,36 +41193,6 @@
         ],
         "id": "b95d-04e9-97fd-4125",
         "name": "Daughter of the Abyss",
-        "hidden": false,
-        "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "Abilities"
-      },
-      {
-        "comment": "5+",
-        "characteristics": [
-          {
-            "$text": "This model has a 5+ invulnerable save.",
-            "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
-          }
-        ],
-        "id": "e3cf-4870-44cf-74da",
-        "name": "Invulnerable Save",
-        "hidden": false,
-        "typeId": "9cc3-6d83-4dd3-9b64",
-        "typeName": "Abilities"
-      },
-      {
-        "comment": "Single model 4+",
-        "characteristics": [
-          {
-            "$text": "This model has a 4+ invulnerable save.",
-            "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
-          }
-        ],
-        "id": "4042-b2c1-d581-dbe7",
-        "name": "Invulnerable Save",
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities"
@@ -38841,19 +41242,37 @@
         "id": "5a38-d608-89c4-6377"
       },
       {
-        "characteristics": [
-          {
-            "$text": "Models in this unit have a 4+ invulnerable save.",
-            "name": "Description",
-            "typeId": "9b8f-694b-e5e-b573"
-          }
-        ],
-        "comment": "Unit 4+",
-        "name": "Invulnerable Save",
+        "name": "Ceaseless Vigilance",
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
         "hidden": false,
-        "id": "0300-84b9-69cf-b64f"
+        "id": "9f28-4aea-2fe4-4239",
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **nulled**: \n- While a unit is **nulled**, that unit has +3\" **detection range**."
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "60e4-3c48-7e50-4d37",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "Silent Hunters"
+              }
+            ]
+          }
+        ]
       }
     ],
     "catalogueLinks": [

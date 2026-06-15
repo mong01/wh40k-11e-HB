@@ -2018,6 +2018,11 @@
         "name": "Frame",
         "id": "b927-8eeb-7cc3-8dec",
         "hidden": false
+      },
+      {
+        "name": "Explosives",
+        "id": "e33d-891d-33aa-e9bf",
+        "hidden": false
       }
     ],
     "forceEntries": [
