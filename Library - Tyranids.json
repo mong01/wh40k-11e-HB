@@ -46,39 +46,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "id": "b3b6-408d-6916-d204",
@@ -123,13 +123,6 @@
             "hidden": false,
             "targetId": "7cb5-dd6b-dd87-ad3b",
             "type": "rule"
-          },
-          {
-            "id": "f648-e374-1db3-509c",
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "targetId": "5b77-29f8-7b77-75e3",
-            "type": "profile"
           },
           {
             "name": "Shadow in the Warp",
@@ -1582,13 +1575,6 @@
             "targetId": "c05d-f4c3-f091-4938"
           },
           {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "427c-c263-7d60-a5a4",
-            "targetId": "5b77-29f8-7b77-75e3"
-          },
-          {
             "name": "Lone Operative",
             "hidden": false,
             "type": "rule",
@@ -1614,39 +1600,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "6",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "6"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Deathleaper",
@@ -2810,7 +2796,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "77a9-f846-9c09-9030",
                         "hidden": false,
                         "type": "rule",
@@ -4642,7 +4628,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "28ca-9f37-dd72-b772",
                     "hidden": false,
                     "type": "rule",
@@ -4934,52 +4920,45 @@
             "type": "rule",
             "id": "ef47-a251-e3e7-ec73",
             "targetId": "86aa-437f-260b-5cad"
-          },
-          {
-            "name": "Invulnerable Save (4+)",
-            "hidden": false,
-            "type": "profile",
-            "id": "e196-f469-2b3a-d5e6",
-            "targetId": "5b77-29f8-7b77-75e3"
           }
         ],
         "profiles": [
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "7",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "7"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Neurolictor",
@@ -6022,7 +6001,7 @@
                     "targetId": "115b-79dc-f723-d761"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "4290-9acf-691e-e906",
                     "hidden": false,
                     "type": "rule",
@@ -8455,21 +8434,6 @@
             "type": "rule",
             "id": "4754-2887-c980-83d2",
             "targetId": "86aa-437f-260b-5cad"
-          },
-          {
-            "modifiers": [
-              {
-                "type": "append",
-                "value": "[Von Ryan's Leapers]",
-                "field": "name",
-                "join": " "
-              }
-            ],
-            "name": "Invulnerable Save (6+)",
-            "id": "8557-b7f8-e196-1fbd",
-            "hidden": false,
-            "targetId": "42f1-ea3d-3ff9-e56a",
-            "type": "profile"
           }
         ],
         "profiles": [
@@ -9048,39 +9012,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "10\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "10\""
                       },
                       {
-                        "$text": "5",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "5"
                       },
                       {
-                        "$text": "4+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "4+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "8+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "8+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "6+"
                       }
                     ],
                     "name": "Von Ryan's Leaper",
@@ -9852,7 +9816,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "7ec5-30c2-df11-c9f1",
             "hidden": false,
             "type": "rule",
