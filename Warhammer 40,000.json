@@ -5993,6 +5993,21 @@
         "typeName": "Abilities",
         "hidden": false,
         "id": "9fa6-3128-6c5b-55f6"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573",
+            "$text": "Models in this unit have a 5+ invulnerable save against ranged attacks."
+          }
+        ],
+        "comment": "Unit - ranged only",
+        "id": "c63d-bb92-87ae-6e08",
+        "name": "Invulnerable Save (5+*)",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities"
       }
     ],
     "sharedSelectionEntryGroups": [
