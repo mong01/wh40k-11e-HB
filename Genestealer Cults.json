@@ -16726,7 +16726,7 @@
                             "hidden": false,
                             "id": "5305-946c-df01-b210",
                             "type": "selectionEntry",
-                            "targetId": "ffd4-af63-eb03-4bb5"
+                            "targetId": "c213-e6c4-7183-4041"
                           }
                         ],
                         "type": "upgrade",
@@ -16879,7 +16879,7 @@
                             "hidden": false,
                             "id": "79a7-b668-8582-a230",
                             "type": "selectionEntry",
-                            "targetId": "ffd4-af63-eb03-4bb5"
+                            "targetId": "c213-e6c4-7183-4041"
                           }
                         ],
                         "selectionEntries": [
@@ -17151,7 +17151,7 @@
                             "hidden": false,
                             "id": "ab92-5151-962d-a998",
                             "type": "selectionEntry",
-                            "targetId": "ffd4-af63-eb03-4bb5"
+                            "targetId": "c213-e6c4-7183-4041"
                           }
                         ],
                         "selectionEntries": [
@@ -21594,7 +21594,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "6632-44af-97b6-e3c3",
@@ -23254,6 +23254,13 @@
             "hidden": false,
             "id": "dbb4-3cb8-49d1-cb2c",
             "targetId": "eeda-8544-a2f3-3fab",
+            "primary": false
+          },
+          {
+            "name": "Pistol Weapon",
+            "hidden": false,
+            "id": "e5f8-72f5-8f96-de99",
+            "targetId": "1db0-c6b5-19db-8d0c",
             "primary": false
           }
         ],
@@ -24937,7 +24944,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "9132-d3a8-1eb9-71c3",
                         "hidden": false,
                         "type": "rule",
@@ -27828,7 +27835,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "7135-d3ab-c48c-d513",
             "hidden": false,
             "type": "rule",
@@ -27913,7 +27920,7 @@
             "targetId": "9143-31ae-e0a6-6007"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "hidden": false,
             "type": "rule",
             "id": "4eec-dab3-e8bf-a195",
@@ -28323,7 +28330,7 @@
       {
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "3590-cf4a-8083-c2fa",
             "hidden": false,
             "type": "rule",
@@ -28632,7 +28639,7 @@
       {
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "9d44-528f-b71a-cf72",
             "hidden": false,
             "type": "rule",
@@ -28710,7 +28717,7 @@
       {
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "20e0-b96a-e184-13fb",
             "hidden": false,
             "type": "rule",
@@ -39284,7 +39291,7 @@
                     "targetId": "be1e-ac8e-1e2c-3528"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "72b5-f82d-2e76-2705",
                     "hidden": false,
                     "type": "rule",
@@ -41289,7 +41296,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "25eb-a400-0a82-4abb",
                 "hidden": false,
                 "type": "rule",
@@ -43184,7 +43191,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "3ba3-48c5-6d68-16be",
                     "hidden": false,
                     "type": "rule",
@@ -43378,7 +43385,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "e881-e56f-adac-b641",
                     "hidden": false,
                     "type": "rule",
