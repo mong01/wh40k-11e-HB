@@ -2195,7 +2195,7 @@
             "field": "95c5-effd-74f1-c8f4",
             "conditions": [
               {
-                "type": "atLeast",
+                "type": "equalTo",
                 "value": 1,
                 "field": "selections",
                 "scope": "force",
@@ -2212,7 +2212,7 @@
             "field": "95c5-effd-74f1-c8f4",
             "conditions": [
               {
-                "type": "atLeast",
+                "type": "equalTo",
                 "value": 1,
                 "field": "selections",
                 "scope": "force",
@@ -2227,16 +2227,31 @@
             "type": "set",
             "value": 2000,
             "field": "a00c-6979-992f-046b",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "baf8-997f-e323-a090",
-                "shared": true,
-                "includeChildSelections": true,
-                "childName": "2. Strike Force (2000 Point limit)"
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "baf8-997f-e323-a090",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "2. Strike Force (2000 Point limit)"
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "c6ea-562c-984f-6c25",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Override points limit?"
+                  }
+                ]
               }
             ]
           },
@@ -2244,16 +2259,31 @@
             "type": "set",
             "value": 3000,
             "field": "a00c-6979-992f-046b",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "4204-82d0-908c-a62a",
-                "shared": true,
-                "includeChildSelections": true,
-                "childName": "3. Onslaught (3000 Point limit)"
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "c6ea-562c-984f-6c25",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Override points limit?"
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "4204-82d0-908c-a62a",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "3. Onslaught (3000 Point limit)"
+                  }
+                ]
               }
             ]
           },
@@ -2324,6 +2354,57 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 1,
+            "field": "a00c-6979-992f-046b",
+            "repeats": [
+              {
+                "value": 1,
+                "repeats": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "83ac-f5e5-d3da-5441",
+                "shared": true,
+                "roundUp": false,
+                "includeChildSelections": true,
+                "includeChildForces": true,
+                "childName": "Points limit"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 1000,
+            "field": "a00c-6979-992f-046b",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "d62d-db22-4893-4bc0",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "1. Incursion (1000 Point limit)"
+                  },
+                  {
+                    "type": "equalTo",
+                    "value": 0,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "c6ea-562c-984f-6c25",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Override points limit?"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "id": "bb9d-299a-ed60-2d8a",
@@ -2341,7 +2422,7 @@
           },
           {
             "type": "max",
-            "value": 1000,
+            "value": 0,
             "field": "51b2-306e-1021-d207",
             "scope": "parent",
             "shared": true,
@@ -2931,7 +3012,18 @@
                 "hidden": false,
                 "collective": false,
                 "import": true,
-                "type": "upgrade"
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "588c-0d49-77b3-77ab",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "costs": [
@@ -2946,7 +3038,18 @@
                 "hidden": false,
                 "collective": false,
                 "import": true,
-                "type": "upgrade"
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1eba-8598-9e8b-7a6e",
+                    "includeChildSelections": false
+                  }
+                ]
               },
               {
                 "costs": [
@@ -2961,7 +3064,18 @@
                 "hidden": false,
                 "collective": false,
                 "import": true,
-                "type": "upgrade"
+                "type": "upgrade",
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "7fe2-ed7d-73f5-6eca",
+                    "includeChildSelections": false
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -2987,7 +3101,8 @@
             "hidden": false,
             "collective": false,
             "import": true,
-            "defaultSelectionEntryId": "none"
+            "defaultSelectionEntryId": "none",
+            "sortIndex": 1
           },
           {
             "modifiers": [
@@ -3065,7 +3180,8 @@
             ],
             "name": "Boarding Actions",
             "id": "30b5-5345-e180-13af",
-            "hidden": false
+            "hidden": false,
+            "sortIndex": 3
           }
         ],
         "costs": [
@@ -3113,7 +3229,109 @@
         "hidden": false,
         "collective": false,
         "import": true,
-        "type": "upgrade"
+        "type": "upgrade",
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Override points limit?",
+            "hidden": false,
+            "id": "c6ea-562c-984f-6c25",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "a069-35b2-b2ed-e0a3",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Points limit",
+                "hidden": false,
+                "id": "83ac-f5e5-d3da-5441",
+                "step": "250",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "1000",
+                    "field": "defaultAmount",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "564e-fbc6-5266-3ea4",
+                        "childId": "d62d-db22-4893-4bc0",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "1. Incursion (1000 Point limit)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": "2000",
+                    "field": "defaultAmount",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "564e-fbc6-5266-3ea4",
+                        "childId": "baf8-997f-e323-a090",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "2. Strike Force (2000 Point limit)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": "3000",
+                    "field": "defaultAmount",
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "564e-fbc6-5266-3ea4",
+                        "childId": "4204-82d0-908c-a62a",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "3. Onslaught (3000 Point limit)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "sortIndex": 2,
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "1d6e-2579-8e7f-1ed4",
+                    "shared": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
