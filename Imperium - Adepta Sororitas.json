@@ -41608,16 +41608,49 @@
                 "type": "set",
                 "value": true,
                 "field": "hidden",
-                "conditions": [
+                "conditionGroups": [
                   {
-                    "type": "instanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "e2c8-1479-a7c4-228e",
-                    "shared": true,
-                    "includeChildSelections": false,
-                    "childName": "Penitent"
+                    "type": "or",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "f9b6-3e44-772b-8eb1",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Sanctified Orators"
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "e2c8-1479-a7c4-228e",
+                        "shared": true,
+                        "includeChildSelections": false,
+                        "childName": "Penitent"
+                      }
+                    ]
                   }
                 ]
               }
