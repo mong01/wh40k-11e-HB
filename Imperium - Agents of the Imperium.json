@@ -57,39 +57,39 @@
           {
             "characteristics": [
               {
-                "$text": "7\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Vindicare Assassin",
@@ -97,20 +97,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "94c5-3879-7961-3f56"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "71a7-7597-3940-2388"
           },
           {
             "characteristics": [
@@ -129,9 +115,9 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model makes a ranged attack, when selecting targets for that attack, you can ignore the Lone Operative ability.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "When this unit is **selected to shoot**, until this unit has shot: \n- Enemy units do not have Lone Operative. \n- Hidden enemy units have +15\" detection range.'"
               }
             ],
             "name": "Dead-shot",
@@ -411,7 +397,7 @@
                     "field": "hidden"
                   }
                 ],
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "add4-7b47-485a-2fe4",
                 "hidden": false,
                 "type": "rule",
@@ -818,53 +804,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "89c9-1da1-f792-8211"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "7\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Culexus Assassin",
@@ -984,7 +956,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "5744-63cf-4f61-e84f",
                 "hidden": false,
                 "type": "rule",
@@ -1078,7 +1050,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "cef4-443e-9057-6bb6",
                 "hidden": false,
                 "type": "rule",
@@ -1383,39 +1355,39 @@
           {
             "characteristics": [
               {
-                "$text": "9\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "9\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Eversor Assassin",
@@ -1423,20 +1395,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "7b9a-5633-a75a-bf90"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "53e3-aaf-7458-7998"
           },
           {
             "characteristics": [
@@ -1556,7 +1514,7 @@
                 "targetId": "1897-c22c-9597-12b1"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "d5f8-0dc1-8779-119d",
                 "hidden": false,
                 "type": "rule",
@@ -1716,7 +1674,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "1d3c-7988-9242-76e4",
                 "hidden": false,
                 "type": "rule",
@@ -1943,53 +1901,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "d455-fbfd-ca57-c259"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "7\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Callidus Assassin",
@@ -2001,9 +1945,9 @@
           {
             "characteristics": [
               {
-                "$text": "Once per battle, after your opponent uses a Stratagem, this model can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, this model can use this ability. If you do increase the CP cost of that use of that **stratagem** by 1CP"
               }
             ],
             "name": "Reign of Confusion",
@@ -2015,9 +1959,9 @@
           {
             "characteristics": [
               {
-                "$text": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6\". In addition, at the end of your opponent's turn, if this model is not within 3\" of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the Fight phase, if this model is within Engagement Range of one or more enemy units, it can make a Fall Back move of up to D6\". In addition, at the end of your opponent's turn, if this model is not within 3\" of one or more enemy units, you can remove it from the battlefield and then, in the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models. If the battle ends and this model is not on the battlefield, it is destroyed."
               }
             ],
             "name": "Acrobatic Escape",
@@ -2193,7 +2137,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "28f8-294-7d72-c4ca",
                 "hidden": false,
                 "type": "rule",
@@ -2429,20 +2373,6 @@
           {
             "characteristics": [
               {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1ac1-b5e7-896-e7c"
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "If your army contains one or more units with this ability, during the Declare Battle Formations step, select one of those units. While the selected unit is leading a unit, models in that unit have the Infiltrators ability.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -2507,39 +2437,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "4+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Rogue Trader",
@@ -2867,39 +2797,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "4+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
                   },
                   {
-                    "$text": "2",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "2"
                   },
                   {
-                    "$text": "7+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Death Cult Assassin",
@@ -2984,7 +2914,7 @@
                     "targetId": "8bf7-8812-923d-29e4"
                   },
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "hidden": false,
                     "type": "rule",
                     "id": "9ecb-8429-8853-50b2",
@@ -3251,39 +3181,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "4+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
                   },
                   {
-                    "$text": "2",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "2"
                   },
                   {
-                    "$text": "7+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Lectro-maester",
@@ -3394,39 +3324,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "4+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "4+"
                   },
                   {
-                    "$text": "2",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "2"
                   },
                   {
-                    "$text": "7+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Rejuvenant Adept",
@@ -3490,6 +3420,23 @@
             "type": "increment",
             "value": 30,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2705-c926-9c62-d954",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -3502,15 +3449,6 @@
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "8c34-5604-ffe6-4e98",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 6,
@@ -3536,6 +3474,15 @@
             "scope": "self",
             "shared": true,
             "id": "d682-2bc7-66d0-4f2c",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2705-c926-9c62-d954",
             "includeChildSelections": true
           }
         ],
@@ -3854,6 +3801,23 @@
             "type": "increment",
             "value": 20,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "078a-7b98-f617-1002",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -4594,6 +4558,15 @@
             "shared": true,
             "id": "c77d-89ac-93a3-a2fa",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "078a-7b98-f617-1002",
+            "includeChildSelections": true
           }
         ],
         "modifierGroups": [
@@ -5102,50 +5075,6 @@
           }
         ],
         "profiles": [
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "3",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "4+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "1",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "7+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Imperial Navy Breachers",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "4f27-2818-3b34-1020"
-          },
           {
             "characteristics": [
               {
@@ -5666,7 +5595,23 @@
             "name": "Navis Sergeant-at-Arms",
             "hidden": false,
             "id": "de5a-b613-46f9-df27",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "infoLinks": [
+              {
+                "name": "Navis Armsman",
+                "id": "07fe-0bff-8230-389c",
+                "hidden": false,
+                "targetId": "4f27-2818-3b34-1020",
+                "type": "profile",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Navis Sergeant-at-Arms",
+                    "field": "name"
+                  }
+                ]
+              }
+            ]
           },
           {
             "constraints": [
@@ -5970,7 +5915,28 @@
                 "name": "Navis Armsman w/ heavy shotgun",
                 "hidden": false,
                 "id": "ee2d-f163-bc31-a90f",
-                "sortIndex": 5
+                "sortIndex": 5,
+                "infoLinks": [
+                  {
+                    "name": "Navis Armsman",
+                    "id": "0936-3521-5e3c-85bf",
+                    "hidden": false,
+                    "targetId": "4f27-2818-3b34-1020",
+                    "type": "profile",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "w/ heavy shotgun",
+                        "field": "name"
+                      },
+                      {
+                        "type": "set",
+                        "value": "4+",
+                        "field": "55a7-5b54-c60d-11dc"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -6220,7 +6186,16 @@
                 "name": "Navis Armsman w/ special weapon",
                 "hidden": false,
                 "id": "4876-bee8-dfc9-e3ff",
-                "sortIndex": 2
+                "sortIndex": 2,
+                "infoLinks": [
+                  {
+                    "name": "Navis Armsman",
+                    "id": "08c8-db3d-7b1a-ebbc",
+                    "hidden": false,
+                    "targetId": "4f27-2818-3b34-1020",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -6411,7 +6386,16 @@
                 "name": "Navis Armsman w/ power weapon",
                 "hidden": false,
                 "id": "2d7b-8d07-2575-7fd0",
-                "sortIndex": 4
+                "sortIndex": 4,
+                "infoLinks": [
+                  {
+                    "name": "Navis Armsman",
+                    "id": "240b-7427-bf64-58e8",
+                    "hidden": false,
+                    "targetId": "4f27-2818-3b34-1020",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -6494,7 +6478,16 @@
                 "name": "Navis Armsman",
                 "hidden": false,
                 "id": "2cc6-4d63-c98-c04e",
-                "sortIndex": 1
+                "sortIndex": 1,
+                "infoLinks": [
+                  {
+                    "name": "Navis Armsman",
+                    "id": "b03e-8afd-710d-1724",
+                    "hidden": false,
+                    "targetId": "4f27-2818-3b34-1020",
+                    "type": "profile"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -6637,7 +6630,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "hidden": false,
                         "type": "rule",
                         "id": "e444-428d-f4c2-6b22",
@@ -6694,7 +6687,16 @@
                 "name": "Navis Armsman w/ chainfist",
                 "hidden": false,
                 "id": "daae-2f00-cc77-cf60",
-                "sortIndex": 3
+                "sortIndex": 3,
+                "infoLinks": [
+                  {
+                    "name": "Navis Armsman",
+                    "id": "8969-4766-e420-aed5",
+                    "hidden": false,
+                    "targetId": "4f27-2818-3b34-1020",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "name": "9 Armsmen",
@@ -6734,6 +6736,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "bf5a-a52e-08a1-4130",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -6773,6 +6792,15 @@
             "scope": "self",
             "shared": true,
             "id": "23e4-d6bb-9f28-8115",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "bf5a-a52e-08a1-4130",
             "includeChildSelections": true
           }
         ],
@@ -7043,39 +7071,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "1",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Subductor Squad",
@@ -7097,20 +7125,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "6998-4242-8a2c-5b47"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit (excluding the Cyber-mastiff) have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1da3-c646-48b9-883f"
           }
         ],
         "selectionEntries": [
@@ -7184,7 +7198,23 @@
             "name": "Proctor Subductor",
             "hidden": false,
             "id": "1d29-2dd4-10ae-631",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "infoLinks": [
+              {
+                "targetId": "f25e-909c-63df-a127",
+                "id": "3019-7dca-4e7f-215e",
+                "type": "profile",
+                "name": "Subductor Squad",
+                "hidden": false,
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "Proctor Subductor",
+                    "field": "name"
+                  }
+                ]
+              }
+            ]
           },
           {
             "constraints": [
@@ -7228,7 +7258,16 @@
             "name": "Subductor",
             "hidden": false,
             "id": "2c98-4134-129e-ba20",
-            "sortIndex": 3
+            "sortIndex": 3,
+            "infoLinks": [
+              {
+                "name": "Subductor Squad",
+                "id": "f85e-d7b4-b436-3365",
+                "hidden": false,
+                "targetId": "f25e-909c-63df-a127",
+                "type": "profile"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -7239,7 +7278,28 @@
             "type": "selectionEntry",
             "id": "454b-f1d4-c1f1-9aa6",
             "targetId": "14b8-cce5-ed01-5699",
-            "sortIndex": 4
+            "sortIndex": 4,
+            "infoLinks": [
+              {
+                "name": "Subductor Squad",
+                "id": "f028-9392-936b-18fd",
+                "hidden": false,
+                "targetId": "f25e-909c-63df-a127",
+                "type": "profile",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "",
+                    "field": "55a7-5b54-c60d-11dc"
+                  },
+                  {
+                    "type": "set",
+                    "value": "Cyber-mastiff",
+                    "field": "name"
+                  }
+                ]
+              }
+            ]
           },
           {
             "import": true,
@@ -7297,6 +7357,23 @@
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "f991-243a-7c5c-ffd9",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
@@ -7325,6 +7402,15 @@
             "scope": "self",
             "shared": true,
             "id": "7089-0464-06e7-f636",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "f991-243a-7c5c-ffd9",
             "includeChildSelections": true
           }
         ],
@@ -7754,6 +7840,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "5eb9-5d44-8747-fc22",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -8995,6 +9098,15 @@
             "scope": "self",
             "shared": true,
             "id": "6901-2481-6251-47c4",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "5eb9-5d44-8747-fc22",
             "includeChildSelections": true
           }
         ],
@@ -10342,6 +10454,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "6f62-1f1a-6e4b-59db",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -10430,6 +10559,15 @@
             "scope": "self",
             "shared": true,
             "id": "fd78-d0af-e525-9961",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "6f62-1f1a-6e4b-59db",
             "includeChildSelections": true
           }
         ],
@@ -10732,39 +10870,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Inquisitor Draxus",
@@ -10772,20 +10910,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "1f1-b4c4-21e3-ba00"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "b83f-83dd-3aa9-b121"
           },
           {
             "characteristics": [
@@ -10818,9 +10942,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: EXACTION SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: AQUILA KILL TEAM,  BATTLELINE IMPERIUM INFANTRY, EXACTION SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
               }
             ],
             "name": "Leader",
@@ -10908,7 +11032,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "7d51-8ca9-75a6-aad3",
@@ -11258,53 +11382,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "3a55-e4fd-339d-be45"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Inquisitor Coteaz",
@@ -11344,9 +11454,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: BATTLELIINE IMPERIUM INFANTRY, EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SUBDUCTOR SQUAD, VIGILANT SQUAD"
               }
             ],
             "name": "Leader",
@@ -11504,7 +11614,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "ae71-e5c4-57cb-ce8c",
@@ -11835,53 +11945,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "6b5a-cfe5-481e-fb98"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Inquisitor Greyfax",
@@ -12001,7 +12097,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "e301-41e4-e42-7c9d",
@@ -12109,7 +12205,7 @@
                 "targetId": "9143-31ae-e0a6-6007"
               },
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "59d2-a7f9-acd8-ed5c",
@@ -12386,53 +12482,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "c00-1c6c-ec00-dbb8"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Inquisitor Karamazov",
@@ -12818,23 +12900,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "5786-71c5-1745-6d56"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model can be attached to the following units: EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIUM BATTLELINE INFANTRY, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: AQUILA KILL TEAM, BATTLELINE IMPERIUM INFANTRY, EXACTION SQUAD, GREY KNIGHTS TERMINATOR SQUAD, IMPERIAL NAVY BREACHERS, INQUISITORIAL AGENTS, SANCTIFIERS, SISTERS OF BATTLE SQUAD, SUBDUCTOR SQUAD, VIGILANT SQUAD"
               }
             ],
             "name": "Leader",
@@ -12846,39 +12914,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Inquisitor",
@@ -13362,7 +13430,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "de76-e1c0-214e-1734",
                         "hidden": false,
                         "type": "rule",
@@ -13679,18 +13747,26 @@
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "9215-ba42-1569-e165",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "622d-d3d0-57ea-0048",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 6,
@@ -13716,6 +13792,15 @@
             "scope": "self",
             "shared": true,
             "id": "8e95-93e5-fe97-74bf",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "9215-ba42-1569-e165",
             "includeChildSelections": true
           }
         ],
@@ -14040,53 +14125,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "54bc-1ab-e4d5-8470"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Inquisitor Eisenhorn",
@@ -15234,53 +15305,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "83a5-c587-3c88-8fd7"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Neyam Shai Murad",
@@ -15677,53 +15734,39 @@
           {
             "characteristics": [
               {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "a6fb-684-dea7-eea6"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Janus Draik",
@@ -15755,7 +15798,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "hidden": false,
                 "type": "rule",
                 "id": "e07b-cebd-cb24-7389",
@@ -16006,39 +16049,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "2",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "2"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Damned Legionnaires",
@@ -16046,20 +16089,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "88e9-9867-5935-81ee"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "9507-43eb-6b4-d220"
           }
         ],
         "selectionEntryGroups": [
@@ -17111,6 +17140,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4a3e-edb0-0172-5377",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -17150,6 +17196,15 @@
             "scope": "self",
             "shared": true,
             "id": "7243-1d9a-c8e0-651d",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4a3e-edb0-0172-5377",
             "includeChildSelections": true
           }
         ],
@@ -17607,39 +17662,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Inquisitor in Terminator Armour",
@@ -17661,20 +17716,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "1822-763e-13b4-2cca"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "9811-6e2d-6eb-f9a6"
           }
         ],
         "infoLinks": [
@@ -17793,6 +17834,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "7ff6-c001-ba5d-017a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -18224,7 +18282,7 @@
                   {
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "c30b-7af2-bd2-84d0",
                         "hidden": false,
                         "type": "rule",
@@ -18729,15 +18787,6 @@
         "constraints": [
           {
             "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "0aa7-4cb7-83b5-6ae3",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
             "value": 6,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
@@ -18761,6 +18810,15 @@
             "scope": "self",
             "shared": true,
             "id": "4f47-d653-df87-6a70",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "7ff6-c001-ba5d-017a",
             "includeChildSelections": true
           }
         ],
@@ -19008,7 +19066,49 @@
                 "import": true,
                 "name": "Alien Hunters (Ordo Xenos)",
                 "hidden": false,
-                "id": "aabf-4988-4054-bed2"
+                "id": "aabf-4988-4054-bed2",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "rules": [
@@ -19023,7 +19123,49 @@
                 "import": true,
                 "name": "Purgation Force (Ordo Hereticus)",
                 "hidden": false,
-                "id": "cfc6-5531-53cb-1964"
+                "id": "cfc6-5531-53cb-1964",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "rules": [
@@ -19038,7 +19180,49 @@
                 "import": true,
                 "name": "Daemon Hunters (Ordo Malleus)",
                 "hidden": false,
-                "id": "bd6f-97c7-6ac4-8320"
+                "id": "bd6f-97c7-6ac4-8320",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "rules": [
@@ -19053,7 +19237,49 @@
                 "import": true,
                 "name": "Imperialis Fleet",
                 "hidden": false,
-                "id": "5347-93e5-b3f2-366d"
+                "id": "5347-93e5-b3f2-366d",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ]
               },
               {
                 "rules": [
@@ -19068,7 +19294,49 @@
                 "import": true,
                 "name": "Veiled Blade Elimination Force",
                 "hidden": false,
-                "id": "e203-73dc-18d9-f390"
+                "id": "e203-73dc-18d9-f390",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 3
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ]
               }
             ],
             "name": "Detachment",
@@ -19181,39 +19449,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "5+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Navigator",
@@ -19221,20 +19489,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "dbd9-a367-c039-19f8"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "d5a4-e7dd-6311-3d33"
           },
           {
             "characteristics": [
@@ -19342,6 +19596,23 @@
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "b389-7afe-f538-f805",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -19574,6 +19845,15 @@
             "scope": "self",
             "shared": true,
             "id": "8d9e-1550-1aa2-4cb9",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "b389-7afe-f538-f805",
             "includeChildSelections": true
           }
         ],
@@ -19816,11 +20096,11 @@
         ],
         "infoLinks": [
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "866e-dd91-1b53-06ad",
             "hidden": false,
             "type": "rule",
-            "targetId": "b4dd-3e1f-41cb-218f"
+            "targetId": "3342-2180-9c5d-925f"
           }
         ],
         "selectionEntryGroups": [
@@ -20275,39 +20555,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Ministorum Priest",
@@ -20352,25 +20632,11 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "name": "Leader",
+            "name": "Support",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
             "id": "af86-3df0-97e2-9c6a"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "642a-d960-c946-78e2"
           }
         ],
         "entryLinks": [
@@ -21334,7 +21600,7 @@
                         "targetId": "e9c4-2bb8-12ee-cd1b"
                       },
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "57e2-1bdc-e2c4-bb3d",
                         "hidden": false,
                         "type": "rule",
@@ -22020,8 +22286,8 @@
                 "includeChildSelections": true
               }
             ],
-            "type": "set",
-            "value": 100,
+            "type": "multiply",
+            "value": 2,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -22055,6 +22321,26 @@
             "field": "hidden"
           },
           {
+            "type": "set",
+            "value": 2,
+            "field": "2ca2-3966-f435-b500",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "notInstanceOf",
@@ -22063,54 +22349,13 @@
                 "scope": "primary-catalogue",
                 "childId": "b00-cd86-4b4c-97ba",
                 "shared": true,
-                "includeChildSelections": false
+                "includeChildSelections": false,
+                "childName": "Imperium - Agents of the Imperium"
               }
-            ],
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 7,
-                    "field": "selections",
-                    "scope": "4469-7239-717e-9abd",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "b00-cd86-4b4c-97ba",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "increment",
-            "value": 10,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "bcc0-0b7e-d4c1-bba7",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -22136,6 +22381,15 @@
             "scope": "self",
             "shared": true,
             "id": "d977-9b61-0c95-f20e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2ca2-3966-f435-b500",
             "includeChildSelections": true
           }
         ],
@@ -22574,39 +22828,39 @@
           {
             "characteristics": [
               {
-                "$text": "5\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
               },
               {
-                "$text": "5",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "3",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "modifiers": [
@@ -22632,20 +22886,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "6a85-b91a-ec79-83d2"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "1489-914c-7d54-716e"
           },
           {
             "characteristics": [
@@ -23103,7 +23343,49 @@
                         "import": true,
                         "name": "Psycannon",
                         "hidden": false,
-                        "id": "9632-54c3-948d-856d"
+                        "id": "9632-54c3-948d-856d",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          },
+                          {
+                            "name": "Crusade Points",
+                            "typeId": "b03b-c239-15a5-da55",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Battle Honours",
+                            "typeId": "75bb-ded1-c86d-bdf0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Experience",
+                            "typeId": "a623-fe74-1d33-cddf",
+                            "value": 0
+                          },
+                          {
+                            "name": "Crusade: Weapon Modifications",
+                            "typeId": "716d-91b7-d55a-1022",
+                            "value": 0
+                          },
+                          {
+                            "name": "Blackstone Fragments",
+                            "typeId": "ac6b-ced3-9b5e-9a6e",
+                            "value": 0
+                          },
+                          {
+                            "name": "Detachment Points",
+                            "typeId": "82ae-1066-5107-6ae0",
+                            "value": 0
+                          },
+                          {
+                            "name": "Enhancements",
+                            "typeId": "f759-1bc4-cb3a-f0d2",
+                            "value": 0
+                          }
+                        ]
                       }
                     ],
                     "name": "Weapon",
@@ -23268,6 +23550,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2c9b-7336-de46-8099",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -23307,6 +23606,15 @@
             "scope": "self",
             "shared": true,
             "id": "8215-acca-5bc3-5ea9",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2c9b-7336-de46-8099",
             "includeChildSelections": true
           }
         ],
@@ -23768,6 +24076,13 @@
             "id": "a29f-a125-6ad7-e560",
             "targetId": "5128-90b-e4a5-dcbd",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "80a5-18de-2eee-d651",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "profiles": [
@@ -23847,15 +24162,6 @@
         "constraints": [
           {
             "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "bcd0-9a8e-c854-2d79",
-            "includeChildSelections": false
-          },
-          {
-            "type": "max",
             "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
@@ -23879,6 +24185,15 @@
             "scope": "self",
             "shared": true,
             "id": "4d5f-0604-477e-cf68",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "123f-1d5f-aa2e-05d6",
             "includeChildSelections": true
           }
         ],
@@ -24478,6 +24793,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "123f-1d5f-aa2e-05d6",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -24975,15 +25307,6 @@
         "constraints": [
           {
             "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "4825-9160-d92c-d119",
-            "includeChildSelections": false
-          },
-          {
-            "type": "max",
             "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
@@ -25007,6 +25330,15 @@
             "scope": "self",
             "shared": true,
             "id": "f61d-b616-b495-f49e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "40e2-f1c9-3502-50a4",
             "includeChildSelections": true
           }
         ],
@@ -25133,6 +25465,13 @@
             "id": "67b2-aa7b-afae-9385",
             "targetId": "c779-37d6-af9a-db1a",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "00ab-2df4-e1e8-db39",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "costs": [
@@ -25173,6 +25512,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "40e2-f1c9-3502-50a4",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -25846,7 +26202,7 @@
                     ],
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "8b70-2121-7d1a-5210",
                         "hidden": false,
                         "type": "rule",
@@ -25893,7 +26249,7 @@
                   {
                     "infoLinks": [
                       {
-                        "name": "Anti-",
+                        "name": "Anti",
                         "id": "3f9b-7d0f-931d-1e8b",
                         "hidden": false,
                         "type": "rule",
@@ -27185,53 +27541,39 @@
           {
             "characteristics": [
               {
-                "$text": "Models in this unit have a 6+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "7db8-5b7f-87f5-2796"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "1",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Sisters of Battle Squad",
@@ -27242,15 +27584,6 @@
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "ea25-4883-0857-a9cc",
-            "includeChildSelections": false
-          },
           {
             "type": "max",
             "value": 3,
@@ -27276,6 +27609,15 @@
             "scope": "self",
             "shared": true,
             "id": "d82e-3a22-9c73-2c5e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "a486-0dda-32cb-5fa2",
             "includeChildSelections": true
           }
         ],
@@ -27326,6 +27668,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "a486-0dda-32cb-5fa2",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -27892,6 +28251,13 @@
             "id": "6168-adbf-ba3f-460b",
             "targetId": "a860-cde8-a263-dfa0",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "ac76-1ae9-9ae9-5de7",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -27953,39 +28319,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "11",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "11"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "6+"
               }
             ],
             "name": "Immolator",
@@ -27993,20 +28359,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "90a7-14d4-5226-539c"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 6+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "b9b5-f542-9dfc-e768"
           }
         ],
         "selectionEntryGroups": [
@@ -28392,7 +28744,49 @@
                     "import": true,
                     "name": "Twin multi-melta",
                     "hidden": false,
-                    "id": "3703-6aa9-a239-b0af"
+                    "id": "3703-6aa9-a239-b0af",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      }
+                    ]
                   }
                 ],
                 "name": "Turret weapon",
@@ -28408,15 +28802,6 @@
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "b0b1-4d31-10ea-11be",
-            "includeChildSelections": false
-          },
           {
             "type": "max",
             "value": 3,
@@ -28442,6 +28827,15 @@
             "scope": "self",
             "shared": true,
             "id": "2405-6221-3dff-f2d5",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "de06-3afe-b941-6d46",
             "includeChildSelections": true
           }
         ],
@@ -28492,6 +28886,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "de06-3afe-b941-6d46",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -29094,39 +29505,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "5+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "5+"
                   },
                   {
-                    "$text": "3",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
                   },
                   {
-                    "$text": "7+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "7+"
                   },
                   {
-                    "$text": "0",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "0"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "5+"
                   }
                 ],
                 "name": "Daemonhost",
@@ -29158,20 +29569,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "bb60-f780-ef5f-7987"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "7dc5-28d0-e574-54a2"
           },
           {
             "characteristics": [
@@ -29252,18 +29649,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "9481-1fb4-9088-d903",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "b63a-2f9b-8026-28fe",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -29289,6 +29694,15 @@
             "scope": "self",
             "shared": true,
             "id": "3b27-a5ff-ddb5-6f35",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "9481-1fb4-9088-d903",
             "includeChildSelections": true
           }
         ],
@@ -29515,15 +29929,6 @@
         "constraints": [
           {
             "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "9225-cef1-939d-462f",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
             "value": 6,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
@@ -29548,6 +29953,15 @@
             "shared": true,
             "id": "bb90-1382-532c-db62",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "e9f6-f063-8447-16ec",
+            "includeChildSelections": true
           }
         ],
         "profiles": [
@@ -29568,39 +29982,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "5+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
               },
               {
-                "$text": "2",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "2"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Jokaero Weaponsmith",
@@ -29622,20 +30036,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "6dec-3f3f-834e-29cc"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "327a-98f1-666a-2e5a"
           },
           {
             "characteristics": [
@@ -29762,6 +30162,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "e9f6-f063-8447-16ec",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -30288,13 +30705,6 @@
             "primary": true
           },
           {
-            "name": "Aircraft",
-            "hidden": false,
-            "id": "b91f-a4ed-33bf-ab0b",
-            "targetId": "63f1-e6e8-f6f6-a4f0",
-            "primary": false
-          },
-          {
             "name": "Imperium",
             "hidden": false,
             "id": "5be8-b179-46b6-30a5",
@@ -30342,6 +30752,13 @@
             "id": "337b-5086-5cb5-9569",
             "targetId": "357e-615e-5313-2ac2",
             "primary": false
+          },
+          {
+            "name": "Frame",
+            "hidden": false,
+            "id": "62c1-4af6-b43b-056b",
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -30378,34 +30795,34 @@
           {
             "characteristics": [
               {
-                "$text": "20+\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
               },
               {
-                "$text": "10",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "14",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
               },
               {
                 "name": "InSv",
@@ -31279,6 +31696,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "5234-1d41-c34e-2bef",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -31584,50 +32018,6 @@
             "id": "f077-6b42-7739-96f7",
             "publicationId": "4115-3627-e608-39f6",
             "page": 13
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "6\"",
-                "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
-              },
-              {
-                "$text": "4",
-                "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
-              },
-              {
-                "$text": "3+",
-                "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
-              },
-              {
-                "$text": "2",
-                "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
-              },
-              {
-                "$text": "6+",
-                "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
-              },
-              {
-                "$text": "2",
-                "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
-              },
-              {
-                "name": "InSv",
-                "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
-              }
-            ],
-            "name": "Deathwatch Kill Team",
-            "typeId": "c547-1836-d8a-ff4f",
-            "typeName": "Unit",
-            "hidden": false,
-            "id": "ec36-4160-f23b-de52"
           }
         ],
         "selectionEntryGroups": [
@@ -31690,7 +32080,16 @@
                 "hidden": false,
                 "id": "968b-d705-7908-3862",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "71c1-97fe-38fa-0e1b",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -31765,7 +32164,16 @@
                 "import": true,
                 "name": "Veteran w/ Deathwatch thunder hammer",
                 "hidden": false,
-                "id": "3ebf-ed52-93f0-406a"
+                "id": "3ebf-ed52-93f0-406a",
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "0e65-8e37-065b-7e36",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -31870,7 +32278,23 @@
                 "hidden": false,
                 "id": "0e2e-ef12-74f0-938f",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "7b8d-636f-c56b-d9b1",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  },
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "4e42-ec63-afcd-9dff",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -31974,7 +32398,16 @@
                 "hidden": false,
                 "id": "db4d-9666-5340-0ba2",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "de9a-8f88-c8e2-2f3e",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -32081,7 +32514,16 @@
                 "hidden": false,
                 "id": "8c00-6699-048c-83ef",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "5dba-3dc3-1425-ae57",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "entryLinks": [
@@ -32179,7 +32621,16 @@
                 "hidden": false,
                 "id": "cc02-b24f-51d3-0823",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "1a5b-4092-da1c-078d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -32284,7 +32735,16 @@
                 "hidden": false,
                 "id": "17e9-9a8c-abb9-0e38",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "603b-4dc3-067d-b01f",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -32389,7 +32849,16 @@
                 "hidden": false,
                 "id": "befc-ec92-0d66-cf22",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "9f6d-97da-914d-597d",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -32438,7 +32907,16 @@
                 "hidden": false,
                 "id": "4073-ebaf-e73c-43ac",
                 "publicationId": "4115-3627-e608-39f6",
-                "page": 13
+                "page": 13,
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "b5d0-7638-25fd-4594",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -32592,7 +33070,7 @@
                                     "targetId": "be1e-ac8e-1e2c-3528"
                                   },
                                   {
-                                    "name": "Anti-",
+                                    "name": "Anti",
                                     "id": "ad9d-14af-be4e-d1b1",
                                     "hidden": false,
                                     "type": "rule",
@@ -33266,7 +33744,16 @@
                 "import": true,
                 "name": "Watch Sergeant",
                 "hidden": false,
-                "id": "2fcd-ef4b-3a65-b8ea"
+                "id": "2fcd-ef4b-3a65-b8ea",
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Veteran",
+                    "id": "f2a0-6d09-660b-29c8",
+                    "hidden": false,
+                    "type": "profile",
+                    "targetId": "ec36-4160-f23b-de52"
+                  }
+                ]
               }
             ],
             "name": "Watch Sergeant",
@@ -33339,18 +33826,26 @@
             "type": "set",
             "value": 200,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "dc92-681c-9681-938b",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "eacf-5add-b280-fbb7",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -33376,6 +33871,15 @@
             "scope": "self",
             "shared": true,
             "id": "91a4-44e9-0766-e0a7",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 6,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "dc92-681c-9681-938b",
             "includeChildSelections": true
           }
         ],
@@ -33637,22 +34141,6 @@
           {
             "characteristics": [
               {
-                "$text": "Models in this unit have a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "5a4c-0f3b-2a04-f79c",
-            "publicationId": "4115-3627-e608-39f6",
-            "page": 7
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "If a CHARACTER from your army with the Leader ability can be attached to a DEATHWATCH KILL TEAM, it can be attached to this unit instead.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -33717,54 +34205,6 @@
           {
             "selectionEntries": [
               {
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Deathwatch Terminator",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "71e6-45cd-8cce-0633",
-                    "publicationId": "4115-3627-e608-39f6",
-                    "page": 15
-                  }
-                ],
                 "constraints": [
                   {
                     "type": "max",
@@ -33797,7 +34237,16 @@
                 "import": true,
                 "name": "Deathwatch Terminator",
                 "hidden": false,
-                "id": "84c2-9a90-eefd-881b"
+                "id": "84c2-9a90-eefd-881b",
+                "infoLinks": [
+                  {
+                    "targetId": "71e6-45cd-8cce-0633",
+                    "id": "b546-d550-398e-4db4",
+                    "type": "profile",
+                    "name": "Deathwatch Terminator",
+                    "hidden": false
+                  }
+                ]
               },
               {
                 "constraints": [
@@ -33808,54 +34257,6 @@
                     "scope": "parent",
                     "shared": true,
                     "id": "5193-0030-53c9-a946"
-                  }
-                ],
-                "profiles": [
-                  {
-                    "characteristics": [
-                      {
-                        "$text": "5\"",
-                        "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
-                      },
-                      {
-                        "$text": "5",
-                        "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
-                      },
-                      {
-                        "$text": "2+",
-                        "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
-                      },
-                      {
-                        "$text": "3",
-                        "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
-                      },
-                      {
-                        "$text": "6+",
-                        "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
-                      },
-                      {
-                        "$text": "1",
-                        "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
-                      },
-                      {
-                        "name": "InSv",
-                        "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
-                      }
-                    ],
-                    "name": "Deathwatch Terminator",
-                    "typeId": "c547-1836-d8a-ff4f",
-                    "typeName": "Unit",
-                    "hidden": false,
-                    "id": "1fd5-33ec-f82e-5617",
-                    "publicationId": "4115-3627-e608-39f6",
-                    "page": 15
                   }
                 ],
                 "entryLinks": [
@@ -33872,7 +34273,16 @@
                 "import": true,
                 "name": "Deathwatch Terminator w/ Heavy Weapon",
                 "hidden": false,
-                "id": "19a3-fdf1-1d30-6ba2"
+                "id": "19a3-fdf1-1d30-6ba2",
+                "infoLinks": [
+                  {
+                    "name": "Deathwatch Terminator",
+                    "id": "eaed-d1e5-821d-32d0",
+                    "hidden": false,
+                    "targetId": "71e6-45cd-8cce-0633",
+                    "type": "profile"
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -33953,18 +34363,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "0e3f-294a-1626-6ab5",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "0bd1-4ce4-87c6-1b2d",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -33990,6 +34408,15 @@
             "scope": "self",
             "shared": true,
             "id": "e015-da46-38c9-bee7",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "0e3f-294a-1626-6ab5",
             "includeChildSelections": true
           }
         ],
@@ -34201,54 +34628,6 @@
         ],
         "selectionEntries": [
           {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "5\"",
-                    "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
-                  },
-                  {
-                    "$text": "5",
-                    "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
-                  },
-                  {
-                    "$text": "2+",
-                    "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
-                  },
-                  {
-                    "$text": "3",
-                    "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
-                  },
-                  {
-                    "$text": "6+",
-                    "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
-                  },
-                  {
-                    "$text": "1",
-                    "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
-                  },
-                  {
-                    "name": "InSv",
-                    "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
-                  }
-                ],
-                "name": "Deathwatch Terminator Sergeant",
-                "typeId": "c547-1836-d8a-ff4f",
-                "typeName": "Unit",
-                "hidden": false,
-                "id": "6d9e-11ad-98bd-9786",
-                "publicationId": "4115-3627-e608-39f6",
-                "page": 15
-              }
-            ],
             "constraints": [
               {
                 "type": "min",
@@ -34762,7 +35141,23 @@
             "name": "Deathwatch Terminator Sergeant",
             "hidden": false,
             "id": "f689-b401-b6c6-3e62",
-            "sortIndex": 2
+            "sortIndex": 2,
+            "infoLinks": [
+              {
+                "name": "Deathwatch Terminator",
+                "id": "79d2-7eae-e4e5-11f2",
+                "hidden": false,
+                "targetId": "71e6-45cd-8cce-0633",
+                "type": "profile",
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "Sergeant",
+                    "field": "name"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "unit",
@@ -34868,6 +35263,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "8e07-2e76-0284-0cfa",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -37098,15 +37510,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "4fd8-4178-ba16-531f",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -37129,6 +37532,15 @@
             "scope": "self",
             "shared": true,
             "id": "e912-3a67-cae1-605a",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "8e07-2e76-0284-0cfa",
             "includeChildSelections": true
           }
         ],
@@ -37414,6 +37826,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2025-6012-0ed7-b83d",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "profiles": [
@@ -39794,15 +40223,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "b623-a848-594a-51ee",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -39825,6 +40245,15 @@
             "scope": "self",
             "shared": true,
             "id": "8efd-7679-62ba-8328",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2025-6012-0ed7-b83d",
             "includeChildSelections": true
           }
         ],
@@ -40159,39 +40588,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "4",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "4"
                   },
                   {
-                    "$text": "3+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "5+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "5+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Chaplain Cassius",
@@ -40201,22 +40630,6 @@
                 "id": "25f1-5869-d78e-2d17",
                 "publicationId": "4115-3627-e608-39f6",
                 "page": 11
-              },
-              {
-                "characteristics": [
-                  {
-                    "$text": "Chaplain Cassius has a 4+ invulnerable save.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Invulnerable Save",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "6fdc-9df8-1c16-0403",
-                "publicationId": "4115-3627-e608-39f6",
-                "page": 7
               }
             ],
             "constraints": [
@@ -41845,39 +42258,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "5\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "5\""
                   },
                   {
-                    "$text": "5",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "5"
                   },
                   {
-                    "$text": "2+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "2+"
                   },
                   {
-                    "$text": "3",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "3"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "4+"
                   }
                 ],
                 "name": "Garran Branatar",
@@ -41887,22 +42300,6 @@
                 "id": "e668-31df-9015-62e2",
                 "publicationId": "4115-3627-e608-39f6",
                 "page": 11
-              },
-              {
-                "characteristics": [
-                  {
-                    "$text": "Garran Branatar has a 4+ invulnerable save.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Invulnerable Save",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "8a7e-6c8f-8c92-099e",
-                "publicationId": "4115-3627-e608-39f6",
-                "page": 7
               }
             ],
             "type": "model",
@@ -45734,18 +46131,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "6ecc-40ac-ebd6-cd8a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "2150-045f-711a-0b81",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -45771,6 +46176,15 @@
             "scope": "self",
             "shared": true,
             "id": "bd8f-e324-f36b-7b0c",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "6ecc-40ac-ebd6-cd8a",
             "includeChildSelections": true
           }
         ],
@@ -46054,6 +46468,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "912d-7599-a59e-e57a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -48025,15 +48456,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "9371-398a-7136-fb7a",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -48056,6 +48478,15 @@
             "scope": "self",
             "shared": true,
             "id": "7963-a478-7f13-057e",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "912d-7599-a59e-e57a",
             "includeChildSelections": true
           }
         ],
@@ -48887,18 +49318,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "4ead-3ec0-d66f-8bb1",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "8ab5-762f-8255-2da7",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 3,
@@ -48924,6 +49363,15 @@
             "scope": "self",
             "shared": true,
             "id": "f902-0a2f-2617-70bf",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "4ead-3ec0-d66f-8bb1",
             "includeChildSelections": true
           }
         ],
@@ -49241,22 +49689,6 @@
           {
             "characteristics": [
               {
-                "$text": "4+",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "73e1-18a4-7996-4f1d",
-            "publicationId": "4115-3627-e608-39f6",
-            "page": 7
-          },
-          {
-            "characteristics": [
-              {
                 "$text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
@@ -49273,39 +49705,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Watch Captain Artemis",
@@ -49335,9 +49767,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: DEATHWATCH KILL TEAM",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM"
               }
             ],
             "name": "Leader",
@@ -49419,7 +49851,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "7ef7-1b51-6f53-3d42",
                 "hidden": false,
                 "type": "rule",
@@ -49657,39 +50089,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "2+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Watch Master",
@@ -49697,22 +50129,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "3f5a-2b44-61a7-5fa0",
-            "publicationId": "4115-3627-e608-39f6",
-            "page": 7
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "5e5b-1e4f-b228-863d",
             "publicationId": "4115-3627-e608-39f6",
             "page": 7
           },
@@ -49751,9 +50167,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model can be attached to the following units: DEATHWATCH KILL TEAM",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units: AQUILA KILL TEAM, DEATHWATCH KILL TEAM"
               }
             ],
             "name": "Leader",
@@ -49809,15 +50225,6 @@
         "constraints": [
           {
             "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "36a0-c606-56d9-2096",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
             "value": 6,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
@@ -49841,6 +50248,15 @@
             "scope": "self",
             "shared": true,
             "id": "f68c-a9e3-8c8d-897c",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "22ac-a124-b2e6-63ca",
             "includeChildSelections": true
           }
         ],
@@ -49877,6 +50293,23 @@
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "22ac-a124-b2e6-63ca",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -50355,6 +50788,20 @@
             "type": "increment",
             "value": 2,
             "field": "11f5-6266-9c35-5248"
+          },
+          {
+            "type": "set",
+            "value": "4+",
+            "field": "55a7-5b54-c60d-11dc",
+            "scope": "model",
+            "affects": "profiles.Unit"
+          },
+          {
+            "type": "append",
+            "value": "w/ Astartes shield",
+            "field": "name",
+            "scope": "model",
+            "affects": "profiles.Unit"
           }
         ],
         "type": "upgrade",
@@ -50815,7 +51262,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "bd46-f456-13a2-9782",
             "hidden": false,
             "type": "rule",
@@ -50897,7 +51344,7 @@
             "targetId": "be1e-ac8e-1e2c-3528"
           },
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "8372-05ce-27d4-8fe0",
             "hidden": false,
             "type": "rule",
@@ -51809,7 +52256,7 @@
         ],
         "infoLinks": [
           {
-            "name": "Anti-",
+            "name": "Anti",
             "id": "f28d-c37d-d327-3690",
             "hidden": false,
             "type": "rule",
@@ -53608,39 +54055,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "6+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
               },
               {
-                "$text": "7+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Sanctifiers",
@@ -53690,20 +54137,6 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "154c-dd68-8c6f-2483"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "Models in this unit have a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "fac5-290c-cddc-d4f3"
           }
         ],
         "infoLinks": [
@@ -54916,39 +55349,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "3+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "4",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "4"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "5+"
                   }
                 ],
                 "name": "Inquisitor Ostromandeus",
@@ -54956,20 +55389,6 @@
                 "typeName": "Unit",
                 "hidden": false,
                 "id": "e596-bbd1-a125-91f5"
-              },
-              {
-                "characteristics": [
-                  {
-                    "$text": "This unit's Inquisitor Ostromandeus model has a 5+ invulnerable save.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Invulnerable Save",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "8bd0-37c4-23a5-fe8a"
               }
             ],
             "selectionEntries": [
@@ -58028,6 +58447,23 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 4,
+            "field": "210a-1ed6-2d60-aa96",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
@@ -58441,39 +58877,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "3",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
               },
               {
-                "$text": "4+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
               },
               {
-                "$text": "4",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "5+"
               }
             ],
             "name": "Martial Agent",
@@ -58481,20 +58917,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "f6b0-7a0e-0645-dcbf"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 5+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (5+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "077c-7ace-120a-7e39"
           },
           {
             "characteristics": [
@@ -58644,18 +59066,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "3668-9062-b4b4-2664",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "f00d-f599-7318-aa14",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 6,
@@ -58681,6 +59111,15 @@
             "scope": "self",
             "shared": true,
             "id": "32b0-c190-7ac9-b317",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "3668-9062-b4b4-2664",
             "includeChildSelections": true
           }
         ],
@@ -59024,39 +59463,39 @@
           {
             "characteristics": [
               {
-                "$text": "6\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "6\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "5",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "1",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Deathwatch Agent",
@@ -59064,20 +59503,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "70d0-4e37-d7a1-6bde"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "cd37-9367-9708-017c"
           },
           {
             "characteristics": [
@@ -59252,18 +59677,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2792-a378-9dd0-807f",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "da45-00af-1b13-035f",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 6,
@@ -59289,6 +59722,15 @@
             "scope": "self",
             "shared": true,
             "id": "5c39-4c21-0cda-7bdf",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "2792-a378-9dd0-807f",
             "includeChildSelections": true
           }
         ],
@@ -59618,39 +60060,39 @@
           {
             "characteristics": [
               {
-                "$text": "8\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
               },
               {
-                "$text": "7",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "7"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "9",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "3",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Enthroned Agent",
@@ -59658,20 +60100,6 @@
             "typeName": "Unit",
             "hidden": false,
             "id": "bde5-e5f8-5f94-22b7"
-          },
-          {
-            "characteristics": [
-              {
-                "$text": "This model has a 4+ invulnerable save.",
-                "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ],
-            "name": "Invulnerable Save (4+)",
-            "typeId": "9cc3-6d83-4dd3-9b64",
-            "typeName": "Abilities",
-            "hidden": false,
-            "id": "5a80-b865-3294-d97d"
           },
           {
             "characteristics": [
@@ -59821,18 +60249,26 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "d678-3135-d1af-2c28",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "ba08-536b-124b-8aad",
-            "includeChildSelections": true
-          },
           {
             "type": "max",
             "value": 6,
@@ -59858,6 +60294,15 @@
             "scope": "self",
             "shared": true,
             "id": "9311-e8be-8178-856d",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "d678-3135-d1af-2c28",
             "includeChildSelections": true
           }
         ],
@@ -60269,7 +60714,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "bc58-868e-18ba-9c54",
                     "hidden": false,
                     "type": "rule",
@@ -60591,39 +61036,39 @@
           {
             "characteristics": [
               {
-                "$text": "12\"",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
               },
               {
-                "$text": "4",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "6",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "2",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
               },
               {
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
-                "$text": ""
+                "$text": "4+"
               }
             ],
             "name": "Inquisitor Kroyle",
@@ -60662,13 +61107,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save (4+)",
-            "id": "87d1-6316-cbb0-b383",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "5b77-29f8-7b77-75e3"
-          },
           {
             "name": "Lone Operative",
             "id": "d74b-601f-e1e1-de54",
@@ -61063,97 +61501,31 @@
         "id": "a84b-82c2-f209-96e9"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "378a-21f7-4a9b-ccf3",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Rogue Trader Entourage",
         "hidden": false,
         "id": "6c5b-17c8-6475-5a74"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "9256-d295-ed97-f00d",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Voidsmen-at-Arms",
         "hidden": false,
         "id": "d75b-79c6-fe15-a72a"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "c0b3-35dd-3edb-36cb",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Imperial Navy Breachers",
         "hidden": false,
         "id": "c79c-d8d4-53a1-b7c4"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "378a-21f7-4a9b-ccf3",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Subductor Squad",
         "hidden": false,
         "id": "7abb-71bd-bc2c-408e"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "378a-21f7-4a9b-ccf3",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Exaction Squad",
         "hidden": false,
         "id": "1782-942b-39dd-7e10"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 6,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "378a-21f7-4a9b-ccf3",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Vigilant Squad",
         "hidden": false,
         "id": "1d89-841c-d40a-4263"
@@ -61244,17 +61616,6 @@
         "id": "673b-fa00-24a6-28ad"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "9e1c-e0b-5d37-7a99",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Inquisitorial Henchmen",
         "hidden": false,
         "id": "bf73-46e-399-91c0"
@@ -61809,17 +62170,6 @@
         "id": "3409-9e5d-fcb2-ae7b"
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "c467-93f6-6c57-46cf",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Damned Legionaires",
         "hidden": false,
         "id": "81a3-a972-dfb1-24f9"
@@ -61988,17 +62338,6 @@
         "hidden": false
       },
       {
-        "constraints": [
-          {
-            "type": "max",
-            "value": 3,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "c303-275d-6598-a5b9",
-            "includeChildSelections": true
-          }
-        ],
         "name": "Grey Knights Terminator Squad",
         "id": "b934-842e-c724-dc77",
         "hidden": false
@@ -64986,6 +65325,184 @@
         "typeName": "Ranged Weapons",
         "hidden": false,
         "id": "8344-a781-4725-8260"
+      },
+      {
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "5\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "5"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "2+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "3"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "6+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "1"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "4+"
+          }
+        ],
+        "name": "Deathwatch Terminator",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "71e6-45cd-8cce-0633",
+        "publicationId": "4115-3627-e608-39f6",
+        "page": 15
+      },
+      {
+        "name": "Subductor Squad",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "f25e-909c-63df-a127",
+        "characteristics": [
+          {
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1",
+            "$text": "6\""
+          },
+          {
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4",
+            "$text": "3"
+          },
+          {
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da",
+            "$text": "3+"
+          },
+          {
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe",
+            "$text": "1"
+          },
+          {
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc",
+            "$text": "7+"
+          },
+          {
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8",
+            "$text": "1"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": "4+"
+          }
+        ]
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "6\"",
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1"
+          },
+          {
+            "$text": "3",
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4"
+          },
+          {
+            "$text": "4+",
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da"
+          },
+          {
+            "$text": "1",
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe"
+          },
+          {
+            "$text": "7+",
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc"
+          },
+          {
+            "$text": "2",
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
+          }
+        ],
+        "name": "Navis Armsman",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "4f27-2818-3b34-1020"
+      },
+      {
+        "characteristics": [
+          {
+            "$text": "6\"",
+            "name": "M",
+            "typeId": "e703-ecb6-5ce7-aec1"
+          },
+          {
+            "$text": "4",
+            "name": "T",
+            "typeId": "d29d-cf75-fc2d-34a4"
+          },
+          {
+            "$text": "3+",
+            "name": "Sv",
+            "typeId": "450-a17e-9d5e-29da"
+          },
+          {
+            "$text": "2",
+            "name": "W",
+            "typeId": "750a-a2ec-90d3-21fe"
+          },
+          {
+            "$text": "6+",
+            "name": "LD",
+            "typeId": "58d2-b879-49c7-43bc"
+          },
+          {
+            "$text": "2",
+            "name": "OC",
+            "typeId": "bef7-942a-1a23-59f8"
+          },
+          {
+            "name": "InSv",
+            "typeId": "55a7-5b54-c60d-11dc",
+            "$text": ""
+          }
+        ],
+        "name": "Deathwatch Veteran",
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "hidden": false,
+        "id": "ec36-4160-f23b-de52"
       }
     ],
     "sharedInfoGroups": [
@@ -65150,7 +65667,7 @@
             ],
             "infoLinks": [
               {
-                "name": "Anti-",
+                "name": "Anti",
                 "id": "9dea-63c2-6010-25d5",
                 "hidden": false,
                 "type": "rule",
@@ -65168,7 +65685,8 @@
             "import": true,
             "name": "Universal Anathema",
             "hidden": false,
-            "id": "5947-a87c-2425-2a48"
+            "id": "5947-a87c-2425-2a48",
+            "sortIndex": 16
           },
           {
             "constraints": [
@@ -65267,7 +65785,8 @@
             "import": true,
             "name": "Blackweave Shroud",
             "hidden": false,
-            "id": "f8b3-8f83-2256-0216"
+            "id": "f8b3-8f83-2256-0216",
+            "sortIndex": 15
           },
           {
             "modifiers": [
@@ -65375,7 +65894,8 @@
             "import": true,
             "name": "Beacon Angelis",
             "hidden": false,
-            "id": "a27e-5d4e-6700-b1d3"
+            "id": "a27e-5d4e-6700-b1d3",
+            "sortIndex": 14
           },
           {
             "modifiers": [
@@ -65474,7 +65994,8 @@
             "import": true,
             "name": "Amulet of Auto-chastisement",
             "hidden": false,
-            "id": "85ba-c01b-fc50-12c3"
+            "id": "85ba-c01b-fc50-12c3",
+            "sortIndex": 13
           },
           {
             "constraints": [
@@ -65583,7 +66104,8 @@
             "import": true,
             "name": "Liber Heresius",
             "hidden": false,
-            "id": "84af-733a-1f33-c2ba"
+            "id": "84af-733a-1f33-c2ba",
+            "sortIndex": 6
           },
           {
             "constraints": [
@@ -65681,7 +66203,8 @@
             "import": true,
             "name": "No Escape",
             "hidden": false,
-            "id": "823a-d96e-6bdd-1d6b"
+            "id": "823a-d96e-6bdd-1d6b",
+            "sortIndex": 7
           },
           {
             "constraints": [
@@ -65781,7 +66304,8 @@
             "import": true,
             "name": "Witch Hunter",
             "hidden": false,
-            "id": "1756-8ed9-6344-30c5"
+            "id": "1756-8ed9-6344-30c5",
+            "sortIndex": 8
           },
           {
             "constraints": [
@@ -65890,7 +66414,8 @@
             "import": true,
             "name": "Ignis Judicium",
             "hidden": false,
-            "id": "b295-d8d6-1339-22a8"
+            "id": "b295-d8d6-1339-22a8",
+            "sortIndex": 5
           },
           {
             "constraints": [
@@ -66017,7 +66542,8 @@
             "import": true,
             "name": "Formidable Resolve",
             "hidden": false,
-            "id": "7175-709a-91a9-9b44"
+            "id": "7175-709a-91a9-9b44",
+            "sortIndex": 10
           },
           {
             "constraints": [
@@ -66186,7 +66712,8 @@
             "import": true,
             "name": "Daemon Slayer",
             "hidden": false,
-            "id": "57c9-449c-c11c-6611"
+            "id": "57c9-449c-c11c-6611",
+            "sortIndex": 9
           },
           {
             "constraints": [
@@ -66284,7 +66811,8 @@
             "import": true,
             "name": "Grimoire of True Names",
             "hidden": false,
-            "id": "eebd-ca6a-65e2-0694"
+            "id": "eebd-ca6a-65e2-0694",
+            "sortIndex": 12
           },
           {
             "constraints": [
@@ -66359,9 +66887,9 @@
               {
                 "characteristics": [
                   {
-                    "$text": "Once per battle, if the bearer is on the battlefield, you can use the Rapid Ingress Stratagem for 0CP. When doing so, you must target a GREY KNIGHTS TERMINATOR SQUAD unit from your army, and when using the Stratagem, that unit can be set up on the battlefield anywhere that is more than 3\" from all enemy units.",
                     "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
+                    "typeId": "9b8f-694b-e5e-b573",
+                    "$text": "Once per battle, if the bearer is on the battlefield, you can use the Rapid Ingress Stratagem for 0CP. When doing so, you must target a GREY KNIGHTS TERMINATOR SQUAD unit from your army, and when using the Stratagem, that unit can be set up on the battlefield anywhere that is more than 6\" from all enemy units."
                   }
                 ],
                 "name": "Gift of the Prescient",
@@ -66382,7 +66910,8 @@
             "import": true,
             "name": "Gift of the Prescient",
             "hidden": false,
-            "id": "ee2f-4840-645c-ba0d"
+            "id": "ee2f-4840-645c-ba0d",
+            "sortIndex": 11
           },
           {
             "constraints": [
@@ -66465,7 +66994,8 @@
             "import": true,
             "name": "Digital Weapons",
             "hidden": false,
-            "id": "e180-015c-b361-d651"
+            "id": "e180-015c-b361-d651",
+            "sortIndex": 3
           },
           {
             "constraints": [
@@ -66548,7 +67078,8 @@
             "import": true,
             "name": "Clandestine Operation",
             "hidden": false,
-            "id": "c390-c4f9-4c37-5475"
+            "id": "c390-c4f9-4c37-5475",
+            "sortIndex": 1
           },
           {
             "constraints": [
@@ -66647,7 +67178,8 @@
             "import": true,
             "name": "Fleetmaster",
             "hidden": false,
-            "id": "c59c-981b-a818-0367"
+            "id": "c59c-981b-a818-0367",
+            "sortIndex": 4
           },
           {
             "constraints": [
@@ -66746,7 +67278,8 @@
             "import": true,
             "name": "Combat Landers",
             "hidden": false,
-            "id": "ab5d-7944-acf3-eb56"
+            "id": "ab5d-7944-acf3-eb56",
+            "sortIndex": 2
           }
         ],
         "modifiers": [
@@ -74405,7 +74938,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "6ea2-3d82-6d22-597d",
                     "hidden": false,
                     "type": "rule",
@@ -74474,7 +75007,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Anti-",
+                    "name": "Anti",
                     "id": "766d-5085-74ad-ea69",
                     "hidden": false,
                     "type": "rule",
