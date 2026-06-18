@@ -746,6 +746,15 @@
             "type": "selectionEntry",
             "id": "e231-fce8-28bf-5568",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac1-e557-c104-0047",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -5262,6 +5271,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac8-c5dc-c8b3-003d",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -7394,6 +7412,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa5-d437-a558-0046",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -8150,7 +8177,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is ‑1 **CP**. \n- That use does not prevent any uses of that **stratagem** on other units this phase.'"
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
               }
             ],
             "name": "Mysterious Saviours",
@@ -8198,6 +8225,15 @@
             "type": "selectionEntry",
             "id": "89e4-78fe-17e6-d87f",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa83-2da4-8360-0048",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -8330,6 +8366,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa1d-eb18-1dcb-003e",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -8952,6 +8997,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pae9-e9c1-e96e-003f",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -10443,7 +10497,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units it can make a Normal move of up to D6”."
+                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units it can make a Normal move of up to D6\"."
               }
             ],
             "name": "Righteous Awareness",
@@ -10951,6 +11005,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa56-48e4-568d-0045",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -11879,6 +11942,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paf2-a815-f22c-0040",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -12557,6 +12629,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa1c-8a06-1cde-0041",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -14369,6 +14450,15 @@
             "type": "selectionEntry",
             "id": "4ebb-868d-bc85-48e9",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab1-365b-b1e9-0049",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -16192,6 +16282,15 @@
             "type": "selectionEntry",
             "id": "fca0-a25c-eabc-5a79",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa98-36e6-9823-004a",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "rules": [
@@ -17046,6 +17145,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pae1-3912-e1e7-0042",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -20980,6 +21088,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa84-aac5-8427-0043",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -22428,7 +22545,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ^^**Adepta Sororitas^^** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well.",
+                "$text": "Each time a model in this unit makes a ranged attack, that model can re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ADEPTA SORORITAS units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -26916,7 +27033,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’",
+                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -26947,6 +27064,15 @@
             "id": "62d9-b7ef-8abe-2a78",
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab1-4134-b1fe-004b",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -27443,7 +27569,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase:\n- Sustained Hits 1\n- Lethal Hits\n\nIf this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
+                "$text": "Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase: [SUSTAINED HITS 1] / [LETHAL HITS]. If this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
               }
             ],
             "name": "Embodied Prophecy",
@@ -29917,6 +30043,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab5-d257-b598-0044",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -31629,6 +31764,15 @@
             "id": "68b0-794b-606d-9244",
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac2-b67b-c224-004c",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntries": [
@@ -35307,6 +35451,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa20-7e89-20bc-004d",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -35903,6 +36056,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa0d-f623-0d45-004e",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -36492,6 +36654,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab9-5158-b92f-004f",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -37545,6 +37716,15 @@
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa67-08d0-67b9-0050",
+            "type": "selectionEntryGroup",
+            "targetId": "pa41-1863-41fb-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -38388,7 +38568,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is ^^**Adepta Sororitas**^^, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ^^**Adepta Sororitas**^^, you gain 1 Miracle dice:\n- At the start of each battle round.\n- Each time an ^^**Adepta Sororitas**^^ unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side – this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can\nbe substituted). The dice that is being substituted is not rolled; instead the value of the selected Miracle dice is used as if it had been rolled (this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n■ Advance roll\n■ Battle-shock test\n■ Charge roll\n■ Damage roll\n■ Hit roll\n■ Saving throw\n■ Wound roll",
+        "description": "If your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice: - At the start of each battle round. - Each time an ADEPTA SORORITAS unit from your army is destroyed. Each time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.",
         "name": "Acts of Faith",
         "hidden": false,
         "id": "7ef7-dca6-e2ea-ecc8"
@@ -38400,7 +38580,7 @@
         "id": "afa4-169c-3aaa-650"
       },
       {
-        "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.\n\n\nThe Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army.\n\n\nAbsolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\n\nDeath Before Disgrace: Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+        "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.",
         "name": "Desperate for Redemption",
         "id": "909a-664e-ff1a-1985",
         "hidden": false
@@ -42517,6 +42697,611 @@
                 "name": "Enhancements",
                 "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
+              }
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Chorus of Condemnation Enhancements",
+            "id": "pad0-0e6b-d073-0005",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clarion of Urgency",
+                "hidden": false,
+                "id": "pa12-80f6-1299-0000",
+                "profiles": [
+                  {
+                    "name": "Clarion of Urgency",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pad3-ce77-d3f1-0001",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This passionate slayer of the blasphemous leads her warriors in powered jet-leaps to reach the condemned foe, no matter where they lurk.\n\nCANONESS WITH JUMP PACK model only. At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "padd-c476-dd96-0002"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa57-17e9-57d5-0003",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa2d-c961-2d8b-0004",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "e80a-4a97-2c3b-710e",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3ee6-23e1-8bc0-90f7",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paec-09e7-ece2-0006"
+              }
+            ]
+          },
+          {
+            "name": "Sacred Champions Enhancements",
+            "id": "pa48-614f-48ad-0013",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Perfervid Haste",
+                "hidden": false,
+                "id": "pab6-24f0-b642-000e",
+                "profiles": [
+                  {
+                    "name": "Perfervid Haste",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paed-5a03-ed62-000f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This warrior's passion to secure her quest is a lash wrought from her faith, which drives her sisters on at a relentless pace.\n\nADEPTA SORORITAS model only. This unit has +1\" M."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa97-f551-97cb-0010"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa15-08b6-15ce-0011",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa25-e820-254b-0012",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "0017-3a94-11f8-7fca",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa7a-0f09-7a8b-0014"
+              }
+            ]
+          },
+          {
+            "name": "Champions of Faith Enhancements",
+            "id": "pa49-b46d-497b-0038",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Triptych of Judgement",
+                "hidden": false,
+                "id": "paca-575e-ca90-0024",
+                "profiles": [
+                  {
+                    "name": "Triptych of Judgement",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paf7-262a-f799-0025",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The three windows of this sacred artefact display three aspects of the God-Emperor in judgement over mortal souls. No warrior of faith will countenance failure beneath its threefold gaze.\n\nAdepta Sororitas model only. Each time a model in the bearer's unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa23-68b4-23c7-0026"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pacd-ae10-cd73-0027",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa52-9bb8-5278-0028",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mark of Devotion",
+                "hidden": false,
+                "id": "pace-ff4d-ce22-0029",
+                "profiles": [
+                  {
+                    "name": "Mark of Devotion",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paeb-7f87-ebbe-002a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "A fresh oath brand burns in this champion's flesh, its heat remaining miraculously undimmed and its searing pain focusing their devout wrath.\n\nAdepta Sororitas model only. Add 1 to the Attacks characteristic of the bearer's melee weapons. While the bearer's unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer's melee weapons instead."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa3d-cc1c-3d71-002b"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pacf-3037-cfaf-002c",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa10-2744-103f-002d",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Eyes of the Oracle",
+                "hidden": false,
+                "id": "pa49-e752-49f7-002e",
+                "profiles": [
+                  {
+                    "name": "Eyes of the Oracle",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa2b-f0b3-2bc7-002f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Having torn them from the sockets of a heretical witch, this warrior of faith keeps these shrivelled orbs sealed in a miniature reliquary about their neck. They believe that - tormented by holy imprisonment - the traitorous eyes guide their aim towards other infernal champions.\n\nAdepta Sororitas model only. The bearer's weapons have the [PRECISION] ability. Each time the bearer's unit destroys an enemy Character model, you gain 1CP."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa15-1f16-15cc-0030"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pad0-271d-d044-0031",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paf1-520c-f128-0032",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sanctified Amulet",
+                "hidden": false,
+                "id": "pa5b-978c-5b2f-0033",
+                "profiles": [
+                  {
+                    "name": "Sanctified Amulet",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa65-5b7c-650e-0034",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Belief radiates out from this blessed icon, forming a holy circle of abjuration that holds at bay the unclean and leaves this champion free to do their duty to the God-Emperor.\n\nAdepta Sororitas model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa6a-b2b4-6a86-0035"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa57-b264-5790-0036",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pab2-e2a1-b260-0037",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "5c81-a47b-d3a0-31e8",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pafb-6612-fb77-0039"
               }
             ]
           }
@@ -52172,6 +52957,440 @@
         "name": "Weapons",
         "id": "acdc-9c11-8d38-1fd8",
         "hidden": false
+      },
+      {
+        "name": "Upgrades",
+        "id": "pa41-1863-41fb-003a",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Chorus of Condemnation Upgrades",
+            "id": "paa4-5f5d-a40e-000c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Symphonic Payload",
+                "hidden": false,
+                "id": "pa6e-4776-6e14-0007",
+                "profiles": [
+                  {
+                    "name": "Symphonic Payload",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa7d-039f-7d07-0008",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These caches of thrice-blessed ordnance are launched in sacred salvoes of harmonised immolation that can scour the Emperor's foes from existence.\n\nEXORCIST unit only. This unit can re-roll rolls to determine the A of a weapon."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa5d-5c8d-5d84-0009"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "paa1-38e0-a1f0-000a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pabf-94ae-bf65-000b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "2236-d428-61e-fa4f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3ee6-23e1-8bc0-90f7",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac5-c33e-c514-000d"
+              }
+            ]
+          },
+          {
+            "name": "Sacred Champions Upgrades",
+            "id": "pa77-2b83-77f7-001a",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Writ of Compunction",
+                "hidden": false,
+                "id": "pad8-3f67-d869-0015",
+                "profiles": [
+                  {
+                    "name": "Writ of Compunction",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa06-b718-06ee-0016",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Within this ornate cylindrical casket is a holy authorisation of the Ecclesiarch. Warriors in its presence tasked with a sacred duty are filled with righteous purpose, and the will to succeed no matter the odds.\n\nCELESTIAN SACRESANTS unit only. This unit has +1 OC."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa12-1961-12af-0017"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa22-d4e4-2248-0018",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa02-aaf7-02a5-0019",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4038-4f63-856e-fa4c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "0017-3a94-11f8-7fca",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa42-be86-4221-001b"
+              }
+            ]
+          },
+          {
+            "name": "Sanctified Orators Upgrades",
+            "id": "pa67-b471-67e3-0022",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hagiomnifex",
+                "hidden": false,
+                "id": "pa5f-507f-5f0b-001c",
+                "profiles": [
+                  {
+                    "name": "Hagiomnifex",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa08-804e-08ca-001d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "A master of martial saintly lore, this vehement orator knows there is no form of enemy that the God-Emperor's holiest martyrs have not overcome. With vox-augmented sermonising, they roar the sacred hymns of the saints' deeds to embolden the faithful.\n\nADEPTA SORORITAS CHARACTER unit only (excluding PENITENT units). (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- Rite of Revelation: While this unit is shooting, enemy units have +6\" detection range.\n- Sermon of Intolerance: This unit's battle-shock rolls automatically succeed.\n- Catechism of Raging Fervour: This unit has +1\" M.\n- Psalm of Righteous Smiting: This unit's attacks have +1 S.\n- Chorus of Repudiation: Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa1e-5b3d-1e62-001e"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pad0-d1ec-d062-001f",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa42-f623-42db-0020",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa47-6d49-47a6-0021",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "e2c8-1479-a7c4-228e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "f9b6-3e44-772b-8eb1",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paba-1000-ba4b-0023"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "pa68-5e52-6885-003b",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa24-49dc-241e-003c",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [
