@@ -117,7 +117,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 150
           },
           {
             "name": "Crusade Points",
@@ -181,21 +181,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "f51d-bc51-f301-9dee",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f51d-bc51-f301-9dee",
+                        "shared": true,
+                        "childName": "Aberrants"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -1233,6 +1274,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paed-d9a7-ed9c-0033",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -1730,7 +1780,50 @@
         "import": true,
         "name": "Abominant",
         "hidden": false,
-        "id": "97b1-4873-9fcb-5cb8"
+        "id": "97b1-4873-9fcb-5cb8",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "97b1-4873-9fcb-5cb8",
+                        "shared": true,
+                        "childName": "Abominant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -3055,20 +3148,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
                 "value": 2,
                 "field": "selections",
-                "scope": "self",
+                "scope": "cf71-a12a-2730-c40b",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "cf71-a12a-2730-c40b",
+                        "shared": true,
+                        "childName": "Achilles Ridgerunners"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "unit",
@@ -3126,7 +3261,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -3190,21 +3325,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "a197-f6c3-5d4a-5326",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -4507,6 +4642,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa2-a7de-a238-0034",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -5256,7 +5400,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -5335,21 +5479,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
-                "scope": "self",
+                "scope": "3a81-2b84-bf4c-4f85",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "3a81-2b84-bf4c-4f85",
+                        "shared": true,
+                        "childName": "Atalan Jackals"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -7450,6 +7635,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa41-7fc7-41d7-0035",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -8245,6 +8439,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa2b-ec21-2bfd-0036",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -9978,7 +10181,50 @@
         "import": true,
         "name": "Goliath Rockgrinder",
         "hidden": false,
-        "id": "5ac1-3adb-212a-5e02"
+        "id": "5ac1-3adb-212a-5e02",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "5ac1-3adb-212a-5e02",
+                        "shared": true,
+                        "childName": "Goliath Rockgrinder"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -10928,7 +11174,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -11007,21 +11253,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "8a84-a8fd-977e-9118",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8a84-a8fd-977e-9118",
+                        "shared": true,
+                        "childName": "Hybrid Metamorphs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -12355,6 +12642,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa62-7b09-6246-0037",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -12943,6 +13239,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac1-f77e-c17a-0038",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -13660,7 +13965,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 35
           }
         ],
         "constraints": [
@@ -13858,6 +14163,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3d-0f59-3d52-0039",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -14490,6 +14804,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa0-4d51-a0ef-003a",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -15133,7 +15456,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -15197,21 +15520,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 145,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 10,
+                "type": "atLeast",
+                "value": 20,
                 "field": "selections",
                 "scope": "b5d2-8681-6bba-f05b",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 145,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -17386,6 +17709,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa57-eb9a-5730-0042",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -17931,6 +18263,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa61-3242-6140-003b",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -18341,7 +18682,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -18458,6 +18799,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paaa-7414-aac7-003c",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -19294,6 +19644,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa01-f513-0181-003d",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -19823,7 +20182,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 80
           }
         ],
         "constraints": [
@@ -19867,21 +20226,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "965b-496a-3a1b-22a8",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "965b-496a-3a1b-22a8",
+                        "shared": true,
+                        "childName": "Purestrain Genestealers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -19975,6 +20375,15 @@
             "type": "selectionEntry",
             "targetId": "ceab-62d9-31bf-7c61",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac3-aad1-c37d-0041",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -20496,7 +20905,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 70
           }
         ],
         "constraints": [
@@ -20639,6 +21048,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa23-c357-2334-003e",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -21238,7 +21656,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 65
           }
         ],
         "constraints": [
@@ -21443,6 +21861,15 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa32-6190-3231-003f",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -23903,13 +24330,22 @@
             "type": "selectionEntryGroup",
             "targetId": "2ab0-cb64-b4df-98cc",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa95-8368-9588-0040",
+            "type": "selectionEntryGroup",
+            "targetId": "pa20-cd9e-2047-0030",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -24470,7 +24906,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 70
           },
           {
             "name": "Crusade Points",
@@ -24534,21 +24970,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "04cc-6196-1755-ad58",
                 "childId": "model",
                 "shared": true,
                 "includeChildSelections": true,
-                "includeChildForces": false
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -43760,7 +44196,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is **GENESTEALER CULTS**, you start the battle with a number of Resurgence points, depending on the battle size, as shown below.\n\n- Incursion: 6 Resurgence points\n- Strike Force: 10 Resurgence points\n- Onslaught: 14 Resurgence points\n\nEach time a unit from your army is destroyed, if every model in that unit has this ability you can spend the relevant number of Resurgence points shown below based on that unit's Starting Strength.\n\n**---Aberrants---**\n5 models = 4 Resurgence Points\n10 models = 8 Resurgence Points\n\n**---Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs---**\n5 models = 2 Resurgence Points\n10 models = 4 Resurgence Points\n\n**---Atalan Jackals---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\n**---Neophyte Hybrids---**\n10 models = 3 Resurgence Points\n20 models = 6 Resurgence Points\n\n**---Purestrain Genestealers---**\n5 models = 2 Resurgence Points\n10 models = 6 Resurgence Points\n\nIf you do:\n- Add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any **[ONE SHOT]** weapons those models are equipped with considered as not having been shot.\n- Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed).\n\n**UNITS IN CULT AMBUSH**\nCult Ambush is a type of Strategic Reserves. Units in Cult Ambush cannot be targeted with the Rapid Ingress Stratagem, but can be set up on the battlefield using a Cult Ambush marker as described below, or by following the rules for Strategic Reserves in a subsequent turn. Units in Cult Ambush are not automically destroyed at the end of the third battle round.\n\n**CULT AMBUSH MARKERS**\nUse a circular 32mm diameter marker for Cult Ambush markers. If an enemy model (excluding **AIRCRAFT**) ends any kind of move within 8\" of a Cult Ambush marker you placed, that Cult Ambush marker is removed from the battlefield. At the end of your opponent’s next Movement phase, for each of your Cult Ambush markers still on the battlefield, you can select one unit from your army that is in Cult Ambush to make an **ingress move**. For that **ingress move**, set that unit up with at least one model in that unit in base contact with that Cult Ambush marker and all other models placed wholly within 3\" of that Cult Ambush marker (that Cult Ambush marker is then removed from the battlefield). Units in Cult Ambush can make an **ingress move** in the first battle round using this rule.",
+        "description": "If your Army Faction is GENESTEALER CULTS, you start the battle with a number of Resurgence points, depending on the battle size, as shown below. - Incursion: 6 Resurgence points - Strike Force: 10 Resurgence points - Onslaught: 14 Resurgence points. Each time a unit from your army is destroyed, if every model in that unit has this ability, you can spend the relevant number of Resurgence points shown below based on that unit's Starting Strength. [Aberrants: 5 models - 4 Resurgence points; 10 models - 8 Resurgence points. Acolyte Hybrids with Autopistols, Acolyte Hybrids with Hand Flamers, Hybrid Metamorphs: 5 models - 2 Resurgence points; 10 models - 4 Resurgence points. Atalan Jackals: 5 models - 2 Resurgence points; 10 models - 6 Resurgence points. Neophyte Hybrids: 10 models - 3 Resurgence points; 20 models - 6 Resurgence points. Purestrain Genestealers: 5 models - 2 Resurgence points; 10 models - 6 Resurgence points.] If you do: - Add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot. - Place one Cult Ambush marker (see below) anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed).",
         "modifiers": [
           {
             "conditions": [

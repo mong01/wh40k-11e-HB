@@ -7951,6 +7951,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa92-16bd-9207-0028",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -8490,6 +8499,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa13-8ff0-1334-0029",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -9058,6 +9076,15 @@
             "type": "selectionEntry",
             "id": "3183-f720-7026-3fe7",
             "targetId": "b526-972f-7394-632a"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa2a-c234-2ac4-003d",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -9548,6 +9575,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa44-a091-4454-002a",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -11048,6 +11084,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paca-5288-cac3-002b",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -12039,6 +12084,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa1b-a98b-1b8a-002c",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -12742,6 +12796,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa76-ab67-762b-002d",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -13322,6 +13385,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab6-01c0-b628-002e",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -14581,6 +14653,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa9-8551-a90b-002f",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -15392,42 +15473,6 @@
       {
         "modifiers": [
           {
-            "conditions": [
-              {
-                "field": "selections",
-                "scope": "8467-b3a2-2597-de0d",
-                "value": 6,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "childId": "model",
-                "type": "atLeast"
-              }
-            ],
-            "type": "set",
-            "field": "51b2-306e-1021-d207",
-            "value": 125
-          },
-          {
-            "conditions": [
-              {
-                "field": "selections",
-                "scope": "8467-b3a2-2597-de0d",
-                "value": 8,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "childId": "model",
-                "type": "atLeast"
-              }
-            ],
-            "type": "set",
-            "field": "51b2-306e-1021-d207",
-            "value": 190
-          },
-          {
             "type": "set",
             "value": 4,
             "field": "cfc0-b724-fef4-e595",
@@ -15441,6 +15486,40 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 125,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 7,
+                "field": "selections",
+                "scope": "8467-b3a2-2597-de0d",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "8467-b3a2-2597-de0d",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -16839,246 +16918,7 @@
                 "includeChildSelections": false
               }
             ],
-            "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Insectile Murmuration",
-                "hidden": false,
-                "id": "12d7-6407-cf26-3abb",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "d28f-3231-9858-c37f",
-                    "includeChildSelections": true
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Insectile Murmuration",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "386a-34d2-9ad8-476b",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "When this unit’s attacks target a unit within **Contagion Range** of a friendly unit, those attacks can re‑roll **wound rolls** of 1."
-                      }
-                    ]
-                  }
-                ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "type": "divide",
-                        "value": 2,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "12d7-6407-cf26-3abb",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Insectile Murmuration"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "divide",
-                        "value": 3,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 3,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "12d7-6407-cf26-3abb",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Insectile Murmuration"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 1
-                  }
-                ]
-              },
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Plagueveil",
-                "hidden": false,
-                "id": "ca9d-efd7-c509-04ca",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "1b82-6d50-9bf5-fbcd",
-                    "includeChildSelections": true
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Plagueveil",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "9a99-4696-91ef-4734",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This unit has ‑3\" **detection range**."
-                      }
-                    ]
-                  }
-                ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "type": "divide",
-                        "value": 2,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "ca9d-efd7-c509-04ca",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Plagueveil"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "divide",
-                        "value": 3,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "atLeast",
-                            "value": 3,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "ca9d-efd7-c509-04ca",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Plagueveil"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 15
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 0
-                  }
-                ]
-              }
-            ],
+            "selectionEntries": [],
             "modifiers": [
               {
                 "type": "set",
@@ -17105,7 +16945,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -17175,6 +17015,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa2f-9f7d-2fad-003c",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -18853,6 +18702,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac3-2edb-c3bf-003e",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -19507,23 +19365,6 @@
           {
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 10,
-                "field": "selections",
-                "scope": "7c30-1e92-2faa-eb03",
-                "childId": "model",
-                "shared": true,
-                "id": "f3c9-f1b2-86e0-341f",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
                 "type": "atLeast",
                 "value": 1,
                 "field": "selections",
@@ -19581,6 +19422,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 20,
+                "field": "selections",
+                "scope": "7c30-1e92-2faa-eb03",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -19795,7 +19653,18 @@
         "name": "Poxwalkers",
         "hidden": false,
         "id": "7c30-1e92-2faa-eb03",
-        "publicationId": "6bb4-8611-986f-58fa"
+        "publicationId": "6bb4-8611-986f-58fa",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pacc-3be0-ccd7-003f",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
+          }
+        ]
       },
       {
         "costs": [
@@ -20047,6 +19916,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa96-ad2b-96e1-0030",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -20632,6 +20510,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa2d-3511-2d2e-0031",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -21354,6 +21241,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa28-8bbb-2897-0032",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -22181,6 +22077,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa43-0f5b-4342-0033",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -22803,6 +22708,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3e-34f2-3e4d-0034",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -23238,23 +23152,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "83e8-ebb7-785a-2115",
-                "childId": "model",
-                "shared": true,
-                "id": "657e-5957-a34-ce02",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 320,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "a97f-1f38-1627-f82e",
@@ -23308,6 +23205,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 320,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "83e8-ebb7-785a-2115",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -23643,6 +23557,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab4-c89c-b4b5-0040",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -25685,6 +25608,15 @@
             "type": "selectionEntryGroup",
             "targetId": "f1a6-90d7-2bdb-a66b",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab8-8a1a-b833-003a",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -26212,40 +26144,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "5b4e-dcf1-5c6f-4d35",
-                "childId": "model",
-                "shared": true,
-                "id": "e5c4-3db7-7178-66e0",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 185,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "5b4e-dcf1-5c6f-4d35",
-                "childId": "model",
-                "shared": true,
-                "id": "995e-4eaa-5f0c-fe61",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 370,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "999d-ab62-b2a4-d506",
@@ -26259,6 +26157,40 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 185,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 5,
+                "field": "selections",
+                "scope": "5b4e-dcf1-5c6f-4d35",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 370,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "5b4e-dcf1-5c6f-4d35",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -27570,6 +27502,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa57-4407-57dc-0041",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -29222,6 +29163,15 @@
             "type": "selectionEntryGroup",
             "targetId": "f1a6-90d7-2bdb-a66b",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa47-b975-47cc-003b",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -35805,6 +35755,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa05-6b37-0541-0035",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -36716,6 +36675,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pac5-9541-c576-0036",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -39180,6 +39148,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa72-1520-724a-0042",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -41070,6 +41047,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa93-0e06-93be-0037",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -42931,6 +42917,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa7c-6277-7cc6-0043",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -43481,6 +43476,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa8d-d224-8d66-0038",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -45261,6 +45265,15 @@
             "targetId": "c93c-acdd-5ab4-afb8",
             "type": "selectionEntryGroup",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "padc-cbd0-dc28-0039",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -46615,24 +46628,6 @@
       {
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "cd03-e1f3-fa31-a271",
-                "childId": "model",
-                "shared": true,
-                "percentValue": false,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "conditionGroups": [
               {
                 "conditions": [
@@ -46676,6 +46671,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 220,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "cd03-e1f3-fa31-a271",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -48011,6 +48023,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "5f38-3bbb-ce09-485b",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           }
         ],
         "type": "unit",
@@ -48022,24 +48051,6 @@
       },
       {
         "modifiers": [
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "7e32-0162-71e2-57a0",
-                "childId": "model",
-                "shared": true,
-                "percentValue": false,
-                "includeChildSelections": true,
-                "includeChildForces": false
-              }
-            ],
-            "type": "set",
-            "value": 90,
-            "field": "51b2-306e-1021-d207"
-          },
           {
             "conditionGroups": [
               {
@@ -48084,6 +48095,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 90,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "7e32-0162-71e2-57a0",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -49439,6 +49467,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4d4e-a789-15cf-5d97",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3d-4572-3df7-0044",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -49991,6 +50028,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4d4e-a789-15cf-5d97",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa9f-a607-9fbb-0045",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -50569,6 +50615,15 @@
             "type": "selectionEntryGroup",
             "targetId": "919f-cbc6-374b-3d02",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paec-62b7-eccc-0046",
+            "type": "selectionEntryGroup",
+            "targetId": "pa80-6264-8003-0025",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -52747,295 +52802,6 @@
         ],
         "selectionEntries": [
           {
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 40
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "8b54-f835-48ac-1d96"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "shared": true,
-                "id": "abc9-bdfd-f455-c350",
-                "includeChildSelections": true
-              }
-            ],
-            "modifiers": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "c437-a67d-c0cd-11ab",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": false,
-                        "childName": "Paragons of Putrescence"
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
-                "conditions": [
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ancestor",
-                    "childId": "cf47-a0d7-7207-29dc",
-                    "shared": true,
-                    "includeChildSelections": false
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "(Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the **Plagues** listed in **Nurgle’s Gift** (see Codex: Death Guard). Enemy units within **Contagion Range** of this unit also have the effect of that **Plague** in addition to your army’s chosen **Plague** until the end of the battle."
-                  }
-                ],
-                "name": "Host of the Hybridised Pox",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "21cf-1329-2644-6007"
-              }
-            ],
-            "comment": "Paragons",
-            "type": "upgrade",
-            "import": true,
-            "name": "Host of the Hybridised Pox",
-            "hidden": false,
-            "id": "8192-f68c-a482-67fb",
-            "sortIndex": 9
-          },
-          {
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 20
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "9668-f4a9-56d3-1c4d"
-              },
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "shared": true,
-                "id": "af70-1bba-6d57-6504",
-                "includeChildSelections": true
-              }
-            ],
-            "modifiers": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "c437-a67d-c0cd-11ab",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": false,
-                        "childName": "Paragons of Putrescence"
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "set",
-                "value": true,
-                "field": "hidden"
-              },
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "cf47-a0d7-7207-29dc",
-                        "shared": true,
-                        "includeChildSelections": false
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "740a-892c-8958-defa",
-                        "shared": true,
-                        "includeChildSelections": false,
-                        "childName": "Terminator"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "Attacks that target this unit with a **S** greater than this unit’s **T** have ‑1 to **wound rolls**."
-                  }
-                ],
-                "name": "Rejuvenating Swarm",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "e245-8e53-4eb5-b72f"
-              }
-            ],
-            "comment": "Paragons",
-            "type": "upgrade",
-            "import": true,
-            "name": "Rejuvenating Swarm",
-            "hidden": false,
-            "id": "9dbc-d91b-ac2e-ad5a",
-            "sortIndex": 12
-          },
-          {
             "comment": "Virulent Vectorium",
             "modifiers": [
               {
@@ -53603,7 +53369,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 20
+                "value": 30
               },
               {
                 "name": "Crusade Points",
@@ -64452,57 +64218,191 @@
             ]
           }
         ],
-        "selectionEntries": [
+        "selectionEntries": []
+      },
+      {
+        "name": "Upgrades",
+        "id": "pa80-6264-8003-0025",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
           {
-            "type": "upgrade",
-            "import": true,
-            "name": "Lancet of the Worldsore",
+            "name": "Contagion Engines Upgrades",
+            "id": "pa36-f5d4-360e-000a",
             "hidden": false,
-            "id": "43df-7cb1-574a-20ef",
-            "constraints": [
+            "selectionEntries": [
               {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "9e52-8396-24f4-9436",
-                "includeChildSelections": false
+                "type": "upgrade",
+                "import": true,
+                "name": "Parasitic Woe-Reaper",
+                "hidden": false,
+                "id": "pac0-7959-c0e2-0000",
+                "profiles": [
+                  {
+                    "name": "Parasitic Woe-Reaper",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paa9-407b-a9a5-0001",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The diseased suffering inflicted by this war machine establishes an empyric barb in its victims through which it feasts, its bloated form pulsing with new growth after every attack.\n\nCONTAGION ENGINE unit only. When this unit has fought, one model in this unit heals D3 wounds."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paad-2bd3-adb2-0002"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "paf3-58ce-f38a-0003",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "padf-d15b-df41-0004",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "90e5-df16-1a50-2974",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
-                "type": "max",
-                "value": 3,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "5d8d-60a6-3f06-a6d1",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "profiles": [
-              {
+                "type": "upgrade",
+                "import": true,
                 "name": "Lancet of the Worldsore",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
                 "hidden": false,
-                "id": "d1a3-6bfb-54b0-707b",
-                "characteristics": [
+                "id": "pa67-8d95-6744-0005",
+                "profiles": [
                   {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "This unit has **MOBILE**."
+                    "name": "Lancet of the Worldsore",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa8c-bb1a-8c1c-0006",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Proximity to this infected mass destabilises reality, with even fortress walls bubbling and rupturing in its presence until a bubo-riddled sore forms, which it pierces like a monstrous, rusted lancet.\n\nFriendly HELBRUTE/MYPHITIC BLIGHT-HAULER unit only. This unit has MOBILE."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa8f-6e81-8fe9-0007"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa4d-b509-4d4b-0008",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa22-aaff-22c3-0009",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "5d42-daa2-fd12-7120",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "cef-8477-ba87-91dc",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ],
             "modifiers": [
-              {
-                "type": "add",
-                "value": "355c-0ee6-3cde-6c71",
-                "field": "category",
-                "scope": "parent"
-              },
               {
                 "type": "set",
                 "value": true,
@@ -64512,120 +64412,30 @@
                     "type": "and",
                     "conditions": [
                       {
-                        "type": "notInstanceOf",
+                        "type": "lessThan",
                         "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "5d42-daa2-fd12-7120",
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
                         "shared": true,
-                        "childName": "Helbrute"
+                        "includeChildSelections": true,
+                        "includeChildForces": true
                       },
                       {
-                        "type": "notInstanceOf",
+                        "type": "lessThan",
                         "value": 1,
                         "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "cef-8477-ba87-91dc",
+                        "scope": "roster",
+                        "childId": "e58e-f981-24ed-6cd4",
                         "shared": true,
-                        "childName": "Myphitic Blight-hauler"
+                        "includeChildSelections": true,
+                        "includeChildForces": true
                       }
                     ]
                   }
                 ]
               }
             ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 15
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "modifierGroups": [
-              {
-                "type": "and",
-                "modifiers": [
-                  {
-                    "type": "divide",
-                    "value": 2,
-                    "field": "f759-1bc4-cb3a-f0d2",
-                    "conditions": [
-                      {
-                        "type": "equalTo",
-                        "value": 2,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "43df-7cb1-574a-20ef",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Lancet of the Worldsore"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "divide",
-                    "value": 3,
-                    "field": "f759-1bc4-cb3a-f0d2",
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 3,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "43df-7cb1-574a-20ef",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Lancet of the Worldsore"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Parasitic Woe-reaper",
-            "hidden": false,
-            "id": "04c2-c044-9329-cd4a",
             "constraints": [
               {
                 "type": "max",
@@ -64633,121 +64443,469 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "a678-f6db-a603-1f46",
-                "includeChildSelections": false
+                "id": "paf2-00b0-f2fa-000b"
+              }
+            ]
+          },
+          {
+            "name": "Flyblown Host Upgrades",
+            "id": "pa95-e226-9595-0016",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Insectile Murmuration",
+                "hidden": false,
+                "id": "pa84-d4fa-8432-000c",
+                "profiles": [
+                  {
+                    "name": "Insectile Murmuration",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa3a-477b-3ae4-000d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The buzzing swarms respond to the will of Nurgle's disciples, sweeping down upon their chosen target, their crawling, biting and droning enfeebling the horrified foe.\n\nPLAGUE MARINES unit only. When this unit's attacks target a unit within Contagion Range of a friendly unit, those attacks can re-roll wound rolls of 1."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pab6-d587-b62e-000e"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pad2-d98e-d290-000f",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paa8-e2bf-a812-0010",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8448-53ec-fbc3-467c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
-                "type": "max",
-                "value": 3,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "2879-0bc4-a708-8d4c",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Parasitic Woe-reaper",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
+                "type": "upgrade",
+                "import": true,
+                "name": "Plagueveil",
                 "hidden": false,
-                "id": "2966-4472-01ed-7298",
-                "characteristics": [
+                "id": "pafe-1aa3-fed2-0011",
+                "profiles": [
                   {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "When this unit has fought, one model in this unit **heals** D3 wounds."
+                    "name": "Plagueveil",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa40-3379-40aa-0012",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Nurgle's blessings manifest as a buzzing clot of darkness that falls over these diseased pilgrims, enveloping them like an enshrouding fog.\n\nPLAGUE MARINES unit only. This unit has -3\" detection range."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paeb-3ae5-eb09-0013"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa6c-ba5f-6c1c-0014",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pabc-f184-bc32-0015",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "8448-53ec-fbc3-467c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
             ],
-            "costs": [
+            "modifiers": [
               {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 15
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "modifierGroups": [
-              {
-                "type": "and",
-                "modifiers": [
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
                   {
-                    "type": "divide",
-                    "value": 2,
-                    "field": "f759-1bc4-cb3a-f0d2",
+                    "type": "and",
                     "conditions": [
                       {
-                        "type": "equalTo",
-                        "value": 2,
-                        "field": "selections",
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
                         "scope": "roster",
-                        "childId": "04c2-c044-9329-cd4a",
+                        "childId": "cac3-71d1-ea4b-795d",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Parasitic Woe-reaper"
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "df4a-2ead-43d5-ea61",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa1-ae71-a13d-0017"
+              }
+            ]
+          },
+          {
+            "name": "Paragons of Putrescence Upgrades",
+            "id": "pa44-d438-44a4-0023",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Rejuvenating Swarm",
+                "hidden": false,
+                "id": "pafa-2faa-fa47-0018",
+                "profiles": [
+                  {
+                    "name": "Rejuvenating Swarm",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa55-6408-5514-0019",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "With a hacking prayer to Nurgle, this warrior can call upon a swarm of plague mites. Buzzing clumps of diseased flies and writhing waves of squirming things settle upon the bloated forms of the Death Guard and vomit streams of rejuvenating contagion into festering wounds.\n\nDEATH GUARD INFANTRY model only (excluding TERMINATOR models). Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa1f-8c3a-1f55-001a"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa73-03dd-73f3-001b",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa5e-02b7-5e9b-001c",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9888-ddb2-a141-6037",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "cf47-a0d7-7207-29dc",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
                       }
                     ]
                   },
                   {
-                    "type": "divide",
-                    "value": 3,
-                    "field": "f759-1bc4-cb3a-f0d2",
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa29-7614-29f8-001d",
                     "conditions": [
                       {
-                        "type": "atLeast",
-                        "value": 3,
+                        "type": "instanceOf",
+                        "value": 1,
                         "field": "selections",
-                        "scope": "roster",
-                        "childId": "04c2-c044-9329-cd4a",
+                        "scope": "ancestor",
+                        "childId": "740a-892c-8958-defa",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Parasitic Woe-reaper"
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Host of the Hybridised Pox",
+                "hidden": false,
+                "id": "pa63-462f-6393-001e",
+                "profiles": [
+                  {
+                    "name": "Host of the Hybridised Pox",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pac0-0b46-c02b-001f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "One plague is never enough for this champion, and their repulsive form is a vessel for a mutated and semisentient disease capable of manifesting in varied contagious forms.\n\nDEATH GUARD INFANTRY model only. (Once per battle, per army) In your Command phase, you can use this ability. If you do, select one of the Plagues listed in Nurgle's Gift (see Codex: Death Guard). Enemy units within Contagion Range of this unit also have the effect of that Plague in addition to your army's chosen Plague until the end of the battle."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa40-7bda-4000-0020"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa41-9a99-41c7-0021",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 40
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa33-b151-33e7-0022",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9888-ddb2-a141-6037",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "cf47-a0d7-7207-29dc",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
                       }
                     ]
                   }
                 ]
               }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "c437-a67d-c0cd-11ab",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa46-6296-4654-0024"
+              }
             ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "pacc-e906-cc63-0026",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa61-b497-615c-0027",
+            "includeChildSelections": true
           }
         ]
       }

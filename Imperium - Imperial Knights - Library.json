@@ -2,7 +2,7 @@
   "catalogue": {
     "rules": [
       {
-        "description": "If your Army Faction is **^^Imperial Knights^^**, at the end of the Read Mission Objectives step, you must determine your army's Oath for the coming battle. An Oath consists of two parts - one Deed and one Quality. There are three options for each part.\n\nTo determine your army's Deed, you can either select one Deed or you can randomly select one Deed by rolling a D6 and consulting the relevant table. The selected Deed will describe what needs to be achieved in order to complete that Deed.\n\nTo determine your army's Quality, you can either select one Quality or you can randomly select one Quality by rolling a D6 and consulting the relevant table. Until the end of the battle, the ability described in the Quality selected applies to all models in your army with this ability.\n\nThe first time your selected Deed is completed your Oath is fulfilled and, until the end of the battle, your army becomes Honoured and you gain 2CP, or 3CP if you randomly selected your Deed and/or Quality (CP gained in this way are an exemption to the Core Rules that limit the maximum number of CP you can gain per battle round to 1).",
+        "description": "This deed is completed at the end of the battle round if the number of enemy units destroyed this battle round is greater than the battle round number even if those units are subsequently returned to the battlefield (for example, two destroyed enemy units in the first battle round).",
         "modifiers": [
           {
             "conditions": [
@@ -1408,6 +1408,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paeb-440d-eb6e-002f",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -2223,13 +2232,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pacf-00fe-cfc3-0030",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 135
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -2964,6 +2982,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa9a-ffd0-9af7-001f",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -3080,6 +3107,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8441-8356-5e7c-69ee",
+                        "shared": true,
+                        "childName": "Knight Paladin"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -3732,6 +3800,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa35-91e0-3531-0020",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -3847,6 +3924,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9efd-ec72-353f-4b23",
+                        "shared": true,
+                        "childName": "Knight Errant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -4338,6 +4456,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pade-38b9-deeb-0021",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -4447,6 +4574,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "eb4-4a67-11e9-3cb8",
+                        "shared": true,
+                        "childName": "Knight Gallant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -5221,6 +5389,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa5b-8acf-5b81-0022",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -5344,6 +5521,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c609-c87e-f9dd-5006",
+                        "shared": true,
+                        "childName": "Knight Warden"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -5894,6 +6112,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pab4-b95f-b459-0023",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -6289,7 +6516,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 395
           },
           {
             "name": "Crusade Points",
@@ -6362,6 +6589,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1e27-a6de-3840-a050",
+                        "shared": true,
+                        "childName": "Knight Crusader"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -6767,6 +7035,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa32-f82d-3290-0024",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -7293,6 +7570,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ebd9-7175-3f0c-72a9",
+                        "shared": true,
+                        "childName": "Knight Preceptor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -7705,13 +8023,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa14-0e32-140d-0025",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 410
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -7779,6 +8106,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6e36-f85-1c3b-8bf3",
+                        "shared": true,
+                        "childName": "Knight Castellan"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -8621,13 +8989,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3a-6bd8-3aa6-0026",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 410
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -8695,6 +9072,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8fb9-50b2-adc6-161a",
+                        "shared": true,
+                        "childName": "Knight Valiant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -10371,7 +10789,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 765
+            "value": 785
           }
         ],
         "modifiers": [
@@ -10419,6 +10837,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f8d0-fdf2-2e5e-3b74",
+                        "shared": true,
+                        "childName": "Acastus Knight Asterius"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -11926,7 +12385,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 700
+            "value": 725
           },
           {
             "name": "Crusade Points",
@@ -11994,6 +12453,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "61c9-8baf-22b4-5d84",
+                        "shared": true,
+                        "childName": "Acastus Knight Porphyrion"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -12458,13 +12958,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa96-f137-96d0-0027",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 415
           },
           {
             "name": "Crusade Points",
@@ -12532,6 +13041,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9ee-e289-bc6c-d943",
+                        "shared": true,
+                        "childName": "Cerastus Knight Lancer"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -13217,13 +13767,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa17-23c4-1732-0028",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -13291,6 +13850,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1654-5c17-474e-2d84",
+                        "shared": true,
+                        "childName": "Cerastus Knight Castigator"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -13954,6 +14554,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa9a-f7a3-9af6-0029",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -14016,7 +14625,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 395
+            "value": 380
           },
           {
             "name": "Crusade Points",
@@ -14084,6 +14693,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "11d3-167b-6dff-a4c2",
+                        "shared": true,
+                        "childName": "Cerastus Knight Acheron"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -15110,6 +15760,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa33-92a5-33b6-002a",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -15216,6 +15875,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "37a7-d156-1e4c-8fe1",
+                        "shared": true,
+                        "childName": "Cerastus Knight Atrapos"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -16100,6 +16800,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa93-64e8-93c5-002b",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -16628,6 +17337,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "adfa-19fc-7337-7350",
+                        "shared": true,
+                        "childName": "Questoris Knight Magaera"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -16994,6 +17744,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa77-9884-7718-002c",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -17497,7 +18256,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 385
+            "value": 375
           },
           {
             "name": "Crusade Points",
@@ -17565,6 +18324,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f8f3-a438-1212-93e8",
+                        "shared": true,
+                        "childName": "Questoris Knight Styrix"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -18887,6 +19687,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "e3dd-7e90-140a-b3ab",
+                        "shared": true,
+                        "childName": "Armiger Moirax"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -18898,6 +19739,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paab-4386-ab60-0031",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -19864,6 +20714,15 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa05-2ced-057b-002d",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "infoGroups": [
@@ -19900,7 +20759,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 415
+            "value": 400
           },
           {
             "name": "Crusade Points",
@@ -19973,6 +20832,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f12b-ca2a-9c87-79bb",
+                        "shared": true,
+                        "childName": "Knight Defender"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -21274,13 +22174,22 @@
             "type": "selectionEntryGroup",
             "targetId": "4c8f-eb91-e2f2-42e5",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa24-2a16-2488-002e",
+            "type": "selectionEntryGroup",
+            "targetId": "paa7-fd01-a7bc-001c",
+            "sortIndex": 4
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 250
+            "value": 265
           },
           {
             "name": "Crusade Points",
@@ -21353,6 +22262,47 @@
             "type": "set-primary",
             "value": "887b-ab87-92a2-20f5",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "10d8-d702-f556-5d3c",
+                        "shared": true,
+                        "childName": "Knight Destrier"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -25146,6 +26096,227 @@
             "name": "Freeblade Company Enhancements",
             "id": "134b-0813-63b2-8622",
             "hidden": false
+          },
+          {
+            "name": "Dominus Foebreakers Enhancements",
+            "id": "paea-3194-eadc-000c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Blessed Plate",
+                "hidden": false,
+                "id": "pa6d-cb44-6ddc-0002",
+                "profiles": [
+                  {
+                    "name": "Blessed Plate",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa26-e641-2671-0003",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Some of this Knight's hull plates are revered antiques, dating back millennia; their durability is a testament to the secrets of construction now lost to the mists of time.\n\nIMPERIAL KNIGHTS DOMINUS model only. This model has +1 T."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa5b-c46b-5b2a-0004"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pab6-05f7-b637-0005",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa35-2fcb-35f6-0006",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "af4c-b971-a31c-669c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Archeotech Autoloaders",
+                "hidden": false,
+                "id": "pab8-ea3b-b8e0-0007",
+                "profiles": [
+                  {
+                    "name": "Archeotech Autoloaders",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa80-bfbf-8059-0008",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These ancient and precious components are installed with great reverence; their function is to keep the Dominus-class Knight's guns firing with ferocious efficiency.\n\nIMPERIAL KNIGHTS DOMINUS model only. This unit can re-roll rolls to determine the A of a weapon."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paf2-43fa-f279-0009"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "paf6-7d91-f6ed-000a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pabb-2a37-bb1a-000b",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "b5e4-3253-c157-54fd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "af4c-b971-a31c-669c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pa3a-7ef2-3ae5-0000",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac2-a68b-c2c8-000d"
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -25238,7 +26409,7 @@
           {
             "rules": [
               {
-                "description": "Each time an **IMPERIAL KNIGHTS** unit from your army Advances, until the end of the turn, ranged weapons equipped by **IMPERIAL KNIGHTS** models from your army have the **[ASSAULT]** ability.",
+                "description": "Each time an IMPERIAL KNIGHTS unit from your army Advances, until the end of the turn, ranged weapons equipped by IMPERIAL KNIGHTS models from your army have the [ASSAULT] ability.",
                 "name": "Bold Gallantry",
                 "id": "92f9-bfbb-ce23-f12a",
                 "hidden": false
@@ -25256,7 +26427,14 @@
             "type": "upgrade",
             "import": true,
             "name": "Valourstrike Lance",
-            "id": "e424-58f3-8e79-19a6"
+            "id": "e424-58f3-8e79-19a6",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -25276,7 +26454,14 @@
             "type": "upgrade",
             "import": true,
             "name": "Questor Forgepact",
-            "id": "9a4a-a4c8-a16a-c969"
+            "id": "9a4a-a4c8-a16a-c969",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
+              }
+            ]
           },
           {
             "rules": [
@@ -25315,7 +26500,14 @@
             "type": "upgrade",
             "import": true,
             "name": "Gate Warden Lance",
-            "id": "884c-fbb7-9f22-1297"
+            "id": "884c-fbb7-9f22-1297",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -25335,7 +26527,14 @@
             "type": "upgrade",
             "import": true,
             "name": "Questoris Companions",
-            "id": "a692-b024-09d9-b79f"
+            "id": "a692-b024-09d9-b79f",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
+              }
+            ]
           },
           {
             "rules": [
@@ -25355,7 +26554,14 @@
             "type": "upgrade",
             "import": true,
             "name": "Spearhead-at-Arms",
-            "id": "d469-239c-7e4c-4210"
+            "id": "d469-239c-7e4c-4210",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ]
           },
           {
             "rules": [
@@ -25386,7 +26592,58 @@
             "type": "upgrade",
             "import": true,
             "name": "Freeblade Company",
-            "id": "4e8e-50db-0d32-423c"
+            "id": "4e8e-50db-0d32-423c",
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Dominus Foebreakers",
+            "hidden": false,
+            "id": "pa3a-7ef2-3ae5-0000",
+            "rules": [
+              {
+                "name": "Rain of Devastation",
+                "id": "pa79-a4d7-7903-0001",
+                "hidden": false,
+                "description": "Packing together within the confines of cover might work against small arms, but in the face of Dominus-class Knights, it only serves to concentrate and magnify the fury of their firepower.\n\nFriendly IMPERIAL KNIGHTS DOMINUS units' attacks that target a unit in a terrain area have +1 to hit rolls."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Throne-bonded Outriders",
+            "hidden": false,
+            "id": "paa7-587b-a731-000e",
+            "rules": [
+              {
+                "name": "Driven From Their Lairs",
+                "id": "pa64-f298-64eb-000f",
+                "hidden": false,
+                "description": "The moment the loyal bondsmen locate and identify the foe, they share targeting data-choristry with their ruling lords and ladies.\n\nWhile a friendly ARMIGER unit is affected by a Bondsman ability, that unit's ranged attacks have [IGNORES COVER].\n\nThis detachment has the ARMIGERS tag and cannot be taken with another ARMIGERS detachment."
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
+              }
+            ]
           }
         ],
         "constraints": [
@@ -30035,6 +31292,235 @@
         "id": "0f3a-021c-a01f-377a",
         "hidden": false,
         "collapsible": true
+      },
+      {
+        "name": "Upgrades",
+        "id": "paa7-fd01-a7bc-001c",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Throne-bonded Outriders Upgrades",
+            "id": "pa65-a0e4-652f-001a",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gyro-optimised Actuators",
+                "hidden": false,
+                "id": "paea-2ef5-eac1-0010",
+                "profiles": [
+                  {
+                    "name": "Gyro-optimised Actuators",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa8d-c82a-8d5b-0011",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Flowing down the neural tether between Thrones and Helms Mechanicum, the faint whispering of ancestral gheists drives bondsmen on to greater urgency.\n\nARMIGER unit only. This unit has MOBILE."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "padc-7b2f-dc38-0012"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa8f-6c90-8fdd-0013",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pae1-f5ab-e19d-0014",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4c40-ab9-54af-d290",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Ancestral Overbleed",
+                "hidden": false,
+                "id": "pa5f-f17e-5f65-0015",
+                "profiles": [
+                  {
+                    "name": "Ancestral Overbleed",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pabc-e069-bca1-0016",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Though it requires additional work by the Sacristans, when Armigers are to be used like hunting hounds amidst dense terrain, it is considered worthwhile to enhance their steeds' agility.\n\nARMIGER unit only. When you target this unit with the Fire Overwatch/Heroic Intervention stratagem, that use is -1 CP."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paf7-ff1e-f747-0017"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa9c-73e3-9cfa-0018",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa87-6386-87a4-0019",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4c40-ab9-54af-d290",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "paa7-587b-a731-000e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac4-a955-c4a3-001b"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "pa3f-4a53-3ff0-001d",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa35-f375-3560-001e",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "sharedProfiles": [

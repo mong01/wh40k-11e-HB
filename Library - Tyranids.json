@@ -7063,7 +7063,7 @@
           {
             "characteristics": [
               {
-                "$text": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can use a subterranean tunnel. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+                "$text": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can use a subterranean tunnel. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -8440,7 +8440,7 @@
           {
             "characteristics": [
               {
-                "$text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase.",
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -13739,7 +13739,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is **^^Tyranids^^**, while a **^^Tyranids^^** unit from your army is within 6\" of one or more friendly **^^Synapse^^** models, that **^^Tyranids^^** unit is said to be within Synapse Range of that model and of your army. While a **^^Tyranids^^** unit from your army is within Synapse Range of your army:\n\n■ Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6.\n■ Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
+        "description": "If your Army Faction is TYRANIDS, while a TYRANIDS unit from your army is within 6\" of one or more friendly SYNAPSE models, that TYRANIDS unit is said to be within Synapse Range of that model and of your army. While a TYRANIDS unit from your army is within Synapse Range of your army: - Each time that unit takes a Battle-shock test, take that test on 3D6 instead of 2D6. - Each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack.",
         "modifiers": [
           {
             "conditions": [
@@ -13778,7 +13778,7 @@
         "hidden": false
       },
       {
-        "description": "If your Army Faction is **^^Tyranids^^**, once per battle, in either player’s Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more Synapse units from your army, subtract 1 from that test.",
+        "description": "If your Army Faction is TYRANIDS, once per battle, in either player's Command phase, if one or more units from your army with this ability are on the battlefield, you can unleash the Shadow in the Warp. When you do, each enemy unit on the battlefield must take a Battle-shock test. Each time an enemy unit takes such a Battle-shock test, if it is within 6\" of one or more SYNAPSE units from your army, subtract 1 from that test.",
         "modifiers": [
           {
             "conditions": [
@@ -20809,6 +20809,519 @@
             "name": "Biotide Enhancements",
             "id": "43d4-800e-33df-e468",
             "hidden": false
+          },
+          {
+            "name": "Heroes of the Uprising Enhancements",
+            "id": "paf9-b0a2-f92e-000c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Gene-tailored Toxins",
+                "hidden": false,
+                "id": "pa65-5310-6505-0002",
+                "profiles": [
+                  {
+                    "name": "Gene-tailored Toxins",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa8d-8464-8db8-0003",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Years of experimentation and stolen biodata have gone into the fabrication of these unique and horrible toxins, which are now used to coat the weapons of the cult's favoured champions.\n\nLOCUS/SANCTUS model only. This model's attacks have +1 D."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pade-83bb-de45-0004"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa6b-b534-6bc9-0005",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa38-4e36-38b0-0006",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "dfde-688d-75b8-77bb",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "7eca-eb86-84bd-c846",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Contraband Munitions",
+                "hidden": false,
+                "id": "pa95-13ee-958f-0007",
+                "profiles": [
+                  {
+                    "name": "Contraband Munitions",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa82-276c-82c6-0008",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Carefully husbanded against the Day of Ascension, these rare and powerful black-market rounds are issued only to the cult's finest marksmen.\n\nKELERMORPH/REDUCTUS SABOTEUR model only. This unit's ranged attacks have +2 S."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa71-7d24-710a-0009"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa4f-7619-4fde-000a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa6e-38eb-6eaf-000b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "33d4-a80e-ecc-e821",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "5455-1687-f81e-b3c5",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pac7-42e4-c732-0000",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa95-6bfa-954a-000d"
+              }
+            ]
+          },
+          {
+            "name": "Purestrain Broodswarm Enhancements",
+            "id": "pa0a-a5df-0a5c-0015",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Talons of the Sire",
+                "hidden": false,
+                "id": "pabd-3ce0-bda7-0010",
+                "profiles": [
+                  {
+                    "name": "Talons of the Sire",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paa8-86b9-a8dd-0011",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The broodmind bond between this Patriarch and its Purestrain spawn is so strong that it can virtually wield them like its own vicious talons.\n\nPATRIARCH model only. This unit's attacks can re-roll wound rolls of 1."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa05-bea3-05b2-0012"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa99-1565-99c2-0013",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paba-07cd-bad9-0014",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "94ba-162-6050-a30e",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pa32-975b-32f6-000e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paf5-c5e8-f5a2-0016"
+              }
+            ]
+          },
+          {
+            "name": "Xenocult Masses Enhancements",
+            "id": "pabf-e3c0-bfa4-0025",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Inspired to Greatness",
+                "hidden": false,
+                "id": "pab1-7570-b17d-0020",
+                "profiles": [
+                  {
+                    "name": "Inspired to Greatness",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa6e-f4d9-6eb6-0021",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Fighting under the eyes of the very leaders of their cult, the faithful are gripped by an unwavering determination to excel in battle.\n\nMAGUS/PRIMUS model only. This unit's attacks can re-roll damage rolls."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa78-97b5-78a1-0022"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa20-39f5-2096-0023",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa81-4b24-8142-0024",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditionGroups": [
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "46a5-442b-8c19-355c",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          },
+                          {
+                            "type": "or",
+                            "conditions": [
+                              {
+                                "type": "notInstanceOf",
+                                "value": 0,
+                                "field": "selections",
+                                "scope": "ancestor",
+                                "childId": "3253-f6f5-2121-8a2f",
+                                "shared": true,
+                                "includeChildSelections": true,
+                                "includeChildForces": true
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pa19-3ada-19bd-001e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa59-8768-5947-0026"
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -20951,7 +21464,7 @@
           {
             "rules": [
               {
-                "description": "In your Command phase, each **^^Harvester^^** unit from your army can Regenerate one friendly **^^Tyranids^^** unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates do one of the following:\n\n- One model in that unit regains up to D3+1 lost wounds\n- One destroyed **^^Infantry^^** model (excluding **^^Characters^^**) is returned to that unit with its full wounds. If that unit is an **^^Endless Multitude^^** unit, return up to 3 destroyed models are returned instead.",
+                "description": "In your Command phase, each HARVESTER unit from your army can Regenerate one friendly TYRANIDS unit that is within 6\" of it. A unit can only be regenerated once per phase. Each time a unit regenerates, do one of the following: - One model in that unit regains up to D3+1 lost wounds. - One destroyed INFANTRY model (excluding CHARACTERS) is returned to that unit with its full wounds remaining. If that unit is an ENDLESS MULTITUDE unit, up to 3 destroyed models are returned instead.",
                 "name": "Feed the Swarm",
                 "id": "0442-1dce-2f22-5bbc",
                 "hidden": false
@@ -20984,7 +21497,7 @@
           {
             "rules": [
               {
-                "description": "Each time a **^^Tyranids Monster^^** model from your army makes an attack, add 1 to the Hit roll if that model’s unit is below its Starting Strength, and add 1 to the Wound roll as well if that model’s unit is Below Half-strength. In addition, while a **^^Tyranids Monster^^** unit from your army (excluding Battle-shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit.",
+                "description": "Each time a TYRANIDS MONSTER model from your army makes an attack, add 1 to the Hit roll if that model's unit is below its Starting Strength, and add 1 to the Wound roll as well if that model's unit is Below Half-strength. In addition, while a TYRANIDS MONSTER unit from your army (excluding Battle-shocked units) is at its Starting Strength, add 2 to the Objective Control characteristic of models in that unit.",
                 "name": "Enraged Behemoths",
                 "id": "9e9a-b09f-1a55-1d27",
                 "hidden": false
@@ -21050,7 +21563,7 @@
           {
             "rules": [
               {
-                "description": "Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if one or more models from one or more **^^Endless Multitude^^** units from your army were destroyed as a result of those attacks, each such unit can make a Surge move. To do so, roll one D6: that unit can be moved a distance in inches up to the result, but that unit must end that move as close as possible to the closest enemy unit (excluding **^^Aircraft^^**). When doing so, those models can be moved within Engagement Range of enemy units. A unit cannot make a Surge Move while Battle-shocked",
+                "description": "In your opponent's Shooting phase, when an enemy unit has shot, if a model from a friendly ENDLESS MULTITUDE unit was destroyed as a result of those attacks, that friendly unit can make a surge move of up to D6\".",
                 "name": "Insurmountable Odds",
                 "id": "fe2d-b32d-6e15-8523",
                 "hidden": false
@@ -21417,6 +21930,96 @@
             "name": "Biotide",
             "hidden": false,
             "id": "cbfd-453f-6288-6157"
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Heroes of the Uprising",
+            "hidden": false,
+            "id": "pac7-42e4-c732-0000",
+            "rules": [
+              {
+                "name": "Killer Reputation",
+                "id": "pac0-90fc-c016-0001",
+                "hidden": false,
+                "description": "What passes for folk heroism amongst the deviants of the Genestealer Cults is part broodmind compulsion and unwilling worship, and part these champions' ability to commit deeds of great and terrible violence against any who stand in the way of the cult.\n\n- Friendly KELERMORPH/LOCUS/REDUCTUS SABOTEUR/SANCTUS models have KILLER.\n- Friendly KILLER models' attacks can:\n  - Re-roll hit rolls of 1.\n  - Re-roll wound rolls of 1."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Purestrain Broodswarm",
+            "hidden": false,
+            "id": "pa32-975b-32f6-000e",
+            "rules": [
+              {
+                "name": "Enemy Within",
+                "id": "pa99-b09b-9928-000f",
+                "hidden": false,
+                "description": "Genestealers on the hunt combine malevolent cunning and inhuman agility to strike and fade again and again, until their prey are reduced to panicked disarray.\n\nAt the end of your opponent's Fight phase, friendly unengaged PURESTRAIN GENESTEALER units can be placed in strategic reserves.\n\nThis detachment has the PURESTRAIN tag and cannot be taken with another PURESTRAIN detachment."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Xenocult Masses",
+            "hidden": false,
+            "id": "pa19-3ada-19bd-001e",
+            "rules": [
+              {
+                "name": "Hordes of the Faithful",
+                "id": "pa63-103c-63ae-001f",
+                "hidden": false,
+                "description": "More and yet more Neophytes surge from tunnel mouths, mine entrances and derelict fortifications, drowning the foe in a tide of fanatical killers.\n\nIn your Command phase, if a friendly NEOPHYTE HYBRIDS unit is within a terrain area, that unit heals 3 wounds.\n\nThis detachment has the HOSTS tag and cannot be taken with another HOSTS detachment."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Final Day",
+            "hidden": false,
+            "id": "pa03-8042-0349-002e",
+            "rules": [
+              {
+                "name": "Psionic Parasitism",
+                "id": "pa7b-edb0-7b2e-002f",
+                "hidden": false,
+                "description": "With each tug on the synaptic leash, the Hive Mind drains more of its hapless worshippers.\n\nAt the end of your Movement phase, for each Tyranids Synapse unit from your army, you can select one friendly Genestealer Cults unit (excluding Purestrain Genestealer and Patriarch units) and one friendly Tyranids unit each within 9\" of and visible to that Synapse unit. If you do, that Genestealer Cults unit from your army suffers D3+1 mortal wounds and one model in the selected Tyranids unit regains up to that many lost wounds and until the start of your next Movement phase, each time a model in the selected Tyranids unit makes an attack, add 1 to the Hit roll.\n\nTyranids units from your army have the following ability:\n\nCatalyst (Aura): While an enemy unit is within 6\" of this unit, each time a friendly Genestealer Cults unit makes an attack that targets that enemy unit, add 1 to the Hit roll.\n\nThe Star Children's Blessings: You can include Tyranids Vanguard Invader units (excluding Aircraft, Broodlord and Genestealers units) in your army. The combined points cost of such units depends on your battle size:\n- Incursion: Up to 500 pts\n- Strike Force: Up to 1000 pts\n- Onslaught: Up to 1500 pts\n\nNo Tyranids models from your army can be your Warlord."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ambush Predators",
+            "hidden": false,
+            "id": "pa54-e320-54d0-0000",
+            "rules": [
+              {
+                "name": "Mindhunger",
+                "id": "pafd-67f2-fdb4-0001",
+                "hidden": false,
+                "description": "Ravenous instinct drives these vanguard organisms to predate leaders amongst the prey, and to crack open their crania and devour the quivering mind-meat within.\n\n- Friendly DEATHLEAPER/LICTOR/NEUROLICTOR units have Deep Strike.\n- Friendly LICTOR/NEUROLICTOR units' attacks that target a CHARACTER unit can re-roll hit rolls of 1."
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Talons of the Norn Queen",
+            "hidden": false,
+            "id": "pa4c-65fc-4c95-0002",
+            "rules": [
+              {
+                "name": "Higher Imperatives",
+                "id": "pa8f-b688-8fc7-0003",
+                "hidden": false,
+                "description": "Capable of incredibly complex reasoning and a frightening level of self-direction, Norn Emissaries and Assimilators display great agency and alien cunning in the completion of their tasks.\n\nFriendly NORN EMISSARY/NORN ASSIMILATOR units have the following ability:\n  Protean Purpose: (Once per battle, per unit) In your Command phase, you can use this ability. If you do, this unit can make a selection for its Singular Purpose ability (this replaces the previous selection)."
+              }
+            ]
           }
         ],
         "comment": "Tyranids",
@@ -24956,7 +25559,7 @@
           {
             "rules": [
               {
-                "description": "While a **GENESTEALER CULTS MOUNTED/VEHICLE** model from your army is not Battle‑shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more **ATALAN JACKALS** units from your army are within range of an **objective** you control, that **objective** remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+                "description": "While a GENESTEALER CULTS MOUNTED/VEHICLE model from your army is not Battle-shocked, add 1 to its Objective Control characteristic. In addition, at the end of your Command phase, if one or more ATALAN JACKALS units from your army are within range of an objective you control, that objective remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
                 "name": "Rapid Takeover",
                 "id": "55fe-5524-6833-4196",
                 "hidden": false
@@ -24995,7 +25598,7 @@
                 "hidden": false
               },
               {
-                "description": "Each time an **^^Astra Militarum^^** unit from your army is selected to shoot, you can select one enemy unit within 18\" of and visible to that unit. If you do, until the end of the phase, models in that **^^Astra Militarum^^** unit can only target that enemy unit (and only if it is an eligible target) and that enemy unit is caught in overlapping fire. While an enemy unit is caught in overlapping fire, each time a **^^Genestealer Cult^^** model from your army targets that enemy unit with a ranged attack, add 1 to the Hit roll.",
+                "description": "A GENESTEALER CULTS model must be your WARLORD, and ASTRA MILITARUM models from your army lose the Voice of Command ability if they have it. You cannot include units with any of the following keywords in your army using this rule: AIRCRAFT; COMMISSAR; EPIC HERO; MILITARUM TEMPESTUS; OGRYN; RATLING; TECH-PRIEST ENGINSEER; MINISTORUM PRIEST.",
                 "name": "Integrated Tactics",
                 "id": "2ac6-4080-aea3-847e",
                 "hidden": false
@@ -29362,6 +29965,286 @@
         "id": "f715-a306-e448-9c1b",
         "hidden": false,
         "flatten": true
+      },
+      {
+        "name": "Upgrades",
+        "id": "pa20-cd9e-2047-0030",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Purestrain Broodswarm Upgrades",
+            "id": "pa5b-93b4-5bc2-001c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Mark of the Star Children",
+                "hidden": false,
+                "id": "pa92-de40-920d-0017",
+                "profiles": [
+                  {
+                    "name": "Mark of the Star Children",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paab-7938-ab30-0018",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Spontaneous biomorphs amongst this brood of Purestrains render them bigger, stronger, and mark them out as surely being the chosen of the Star Children themselves.\n\nPURESTRAIN GENESTEALERS unit only. This unit has:\n- +1 T.\n- 4+ Sv.\n- This unit's melee attacks have +1 S."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa51-3a8d-51ac-0019"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa6c-67f8-6c30-001a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa6f-4436-6f23-001b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "6d9c-2e39-be0b-aee9",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pa32-975b-32f6-000e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa6b-54a4-6b89-001d"
+              }
+            ]
+          },
+          {
+            "name": "Xenocult Masses Upgrades",
+            "id": "pa75-16db-75c5-002c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Devious Disguises",
+                "hidden": false,
+                "id": "pa40-7de7-40d0-0027",
+                "profiles": [
+                  {
+                    "name": "Devious Disguises",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa3f-766f-3f2f-0028",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Whether it be stolen uniforms, ad-hoc camouflage or even some chameleonic xenomutation, these Neophytes are able to blend into their surroundings.\n\nNEOPHYTE HYBRIDS unit only. This unit has -3\" detection range."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa9c-a76b-9ce5-0029"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa65-c3d0-6525-002a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa1e-0581-1efd-002b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9ffe-1e2a-b828-b7af",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "pa19-3ada-19bd-001e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa9c-dc41-9c46-002d"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "pa61-27f7-61b7-0031",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa35-cb05-3516-0032",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "sharedProfiles": [

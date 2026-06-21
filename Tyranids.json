@@ -762,6 +762,30 @@
         "id": "d1a5-352d-83ad-9b58",
         "targetId": "7173-1bd9-b60b-6555",
         "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "The Red Terror",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa65-969d-65a3-001c",
+        "targetId": "pa49-0e01-4943-0004"
+      },
+      {
+        "import": true,
+        "name": "Raveners",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pabe-3088-beff-002d",
+        "targetId": "pa5f-50e2-5ff7-001d"
+      },
+      {
+        "import": true,
+        "name": "Hyperadapted Raveners",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa28-8d0d-28a1-0049",
+        "targetId": "pa07-93bd-07ca-002e"
       }
     ],
     "sharedSelectionEntries": [
@@ -1828,7 +1852,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 220
+            "value": 210
           },
           {
             "name": "Crusade Points",
@@ -3018,7 +3042,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 140
           }
         ],
         "entryLinks": [
@@ -3167,25 +3191,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 60
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "a125-b6fb-2945-56a",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "constraints": [
@@ -4476,20 +4501,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "5815-871c-9260-287a",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "constraints": [
@@ -5375,7 +5401,7 @@
           {
             "characteristics": [
               {
-                "$text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
+                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\".",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -5459,20 +5485,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 10,
+                "type": "atLeast",
+                "value": 20,
                 "field": "selections",
                 "scope": "359c-db2c-681a-8d62",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 120,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -7099,26 +7126,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 70
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 11,
+                "value": 20,
                 "field": "selections",
                 "scope": "f15b-9f9c-9bf0-8160",
                 "childId": "model",
                 "shared": true,
-                "id": "95a5-2185-1210-de69",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -7959,7 +7986,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 150
+            "value": 135
           }
         ],
         "entryLinks": [
@@ -8456,20 +8483,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "1645-5407-92c8-1441",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "costs": [
@@ -9295,7 +9323,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 115
           }
         ],
         "entryLinks": [
@@ -9687,7 +9715,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 170
+            "value": 180
           }
         ],
         "profiles": [
@@ -10268,7 +10296,50 @@
         "import": true,
         "name": "Maleceptor",
         "hidden": false,
-        "id": "2c2d-a2f9-61a8-a6c6"
+        "id": "2c2d-a2f9-61a8-a6c6",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2c2d-a2f9-61a8-a6c6",
+                        "shared": true,
+                        "childName": "Maleceptor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -10362,7 +10433,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -10410,34 +10481,79 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 65,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "equalTo",
+                "type": "atLeast",
                 "value": 2,
                 "field": "selections",
                 "scope": "d2c6-bd0b-3205-3319",
                 "childId": "model",
-                "shared": true
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 70,
-            "field": "51b2-306e-1021-d207"
+            ]
           },
           {
+            "type": "set",
+            "value": 95,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "equalTo",
+                "type": "atLeast",
                 "value": 3,
                 "field": "selections",
                 "scope": "d2c6-bd0b-3205-3319",
                 "childId": "model",
-                "shared": true
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 105,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d2c6-bd0b-3205-3319",
+                        "shared": true,
+                        "childName": "Pyrovores"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -11571,7 +11687,50 @@
         "import": true,
         "name": "Haruspex",
         "hidden": false,
-        "id": "6249-358f-27d7-ef60"
+        "id": "6249-358f-27d7-ef60",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6249-358f-27d7-ef60",
+                        "shared": true,
+                        "childName": "Haruspex"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -11616,25 +11775,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 55
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "b563-c6d3-d0e5-1b78",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "categoryLinks": [
@@ -12155,20 +12315,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 90,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 11,
+                "type": "atLeast",
+                "value": 22,
                 "field": "selections",
                 "scope": "8ccc-3f27-7e4e-da81",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 90,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "profiles": [
@@ -13027,20 +13188,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "b622-a22-a04f-6303",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "profiles": [
@@ -13700,7 +13862,26 @@
         "import": true,
         "name": "Mucolid Spores",
         "hidden": false,
-        "id": "707a-9de8-f75b-41c5"
+        "id": "707a-9de8-f75b-41c5",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 60,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "707a-9de8-f75b-41c5",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -13805,20 +13986,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "c590-436d-4fd-ef26",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 110,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "costs": [
@@ -14477,7 +14659,50 @@
         "import": true,
         "name": "Exocrine",
         "hidden": false,
-        "id": "bbfd-5b01-5bd3-a28b"
+        "id": "bbfd-5b01-5bd3-a28b",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "bbfd-5b01-5bd3-a28b",
+                        "shared": true,
+                        "childName": "Exocrine"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -14551,7 +14776,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 50
+                "value": 60
               }
             ],
             "constraints": [
@@ -15069,7 +15294,43 @@
         "import": true,
         "name": "Biovores",
         "hidden": false,
-        "id": "3f2c-85ec-d83c-4a2f"
+        "id": "3f2c-85ec-d83c-4a2f",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 100,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "3f2c-85ec-d83c-4a2f",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "3f2c-85ec-d83c-4a2f",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -16011,7 +16272,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase.",
+                "$text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\".",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -16281,7 +16542,26 @@
         "import": true,
         "name": "Carnifexes",
         "hidden": false,
-        "id": "9efd-5564-f0f5-21ea"
+        "id": "9efd-5564-f0f5-21ea",
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "9efd-5564-f0f5-21ea",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -17047,7 +17327,50 @@
         "import": true,
         "name": "Screamer-killer",
         "hidden": false,
-        "id": "8e53-d4a-a69f-e71d"
+        "id": "8e53-d4a-a69f-e71d",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8e53-d4a-a69f-e71d",
+                        "shared": true,
+                        "childName": "Screamer-killer"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -17091,26 +17414,69 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 4,
+                "value": 6,
                 "field": "selections",
                 "scope": "ac7a-2560-c083-45b8",
                 "childId": "model",
-                "shared": true
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 180,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ac7a-2560-c083-45b8",
+                        "shared": true,
+                        "childName": "Hive Guard"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -18224,7 +18590,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 180
           },
           {
             "name": "Crusade Points",
@@ -18479,7 +18845,50 @@
         "import": true,
         "name": "Tyrannofex",
         "hidden": false,
-        "id": "1705-379b-330d-36d4"
+        "id": "1705-379b-330d-36d4",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1705-379b-330d-36d4",
+                        "shared": true,
+                        "childName": "Tyrannofex"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -18677,7 +19086,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 200
+            "value": 170
           }
         ],
         "modifierGroups": [
@@ -19408,7 +19817,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time this model ends a Normal move, you can do one of the following:\n- Select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.\n- Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 9\" horizontally away from all enemy units. You cannot select this option for more than one model per turn.",
+                "$text": "At the end of your opponent's Fight phase, you can do one of the following: - Select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit and roll six D6 for that unit: for each 3+, that unit suffers 1 mortal wound. - Add a new SPORE MINES unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 8\" horizontally away from all enemy units. You cannot select this option for more than one model per turn.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -19793,7 +20202,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 215
+            "value": 185
           }
         ],
         "modifierGroups": [
@@ -21616,10 +22025,13 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "6de-ccee-11b4-be3e",
                 "childId": "model",
@@ -21627,10 +22039,7 @@
                 "includeChildSelections": true,
                 "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 110,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "infoLinks": [
@@ -23787,7 +24196,50 @@
         "import": true,
         "name": "Harridan",
         "hidden": false,
-        "id": "9b5c-3b5a-1f80-9a74"
+        "id": "9b5c-3b5a-1f80-9a74",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 50,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9b5c-3b5a-1f80-9a74",
+                        "shared": true,
+                        "childName": "Harridan"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -24622,7 +25074,50 @@
         "import": true,
         "name": "Hierophant",
         "hidden": false,
-        "id": "fbc0-3a2b-1d7d-23d9"
+        "id": "fbc0-3a2b-1d7d-23d9",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 100,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "fbc0-3a2b-1d7d-23d9",
+                        "shared": true,
+                        "childName": "Hierophant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -24915,21 +25410,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 10,
                 "field": "selections",
                 "scope": "853e-48b8-4cc5-3704",
                 "childId": "model",
                 "shared": true,
-                "id": "52ff-9693-18ed-8ce1",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "853e-48b8-4cc5-3704",
+                        "shared": true,
+                        "childName": "Genestealers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "modifierGroups": [
@@ -26854,7 +27390,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 275
+            "value": 250
           },
           {
             "name": "Crusade Points",
@@ -27532,14 +28068,57 @@
         "import": true,
         "name": "Norn Assimilator",
         "hidden": false,
-        "id": "6a9b-8e2f-edac-fa2d"
+        "id": "6a9b-8e2f-edac-fa2d",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6a9b-8e2f-edac-fa2d",
+                        "shared": true,
+                        "childName": "Norn Assimilator"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 260
+            "value": 250
           },
           {
             "name": "Crusade Points",
@@ -28440,7 +29019,50 @@
         "import": true,
         "name": "Norn Emissary",
         "hidden": false,
-        "id": "5720-2873-8c2c-edc3"
+        "id": "5720-2873-8c2c-edc3",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "5720-2873-8c2c-edc3",
+                        "shared": true,
+                        "childName": "Norn Emissary"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -30367,7 +30989,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -31330,6 +31952,1013 @@
         "name": "Mucolid Spores (Sporocyst)",
         "hidden": false,
         "id": "9943-934a-221b-e0c0"
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "The Red Terror",
+        "hidden": false,
+        "id": "pa49-0e01-4943-0004",
+        "profiles": [
+          {
+            "name": "The Red Terror",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa96-d286-9687-0005",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa0a-aad3-0a8c-0006",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa13-deb5-133d-0007",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Synapse"
+              }
+            ]
+          },
+          {
+            "name": "Swallow Whole",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa1a-676e-1af4-0008",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an attack with this model's gaping maw targets an Infantry, Mounted or Beasts unit, each successful unmodified Wound roll is a Critical Wound. Each time an Infantry, Mounted or Beasts model is destroyed as a result of an attack made by this model's gaping maw, this model regains up to D3+2 lost wounds."
+              }
+            ]
+          },
+          {
+            "name": "Subterranean Hunter",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa94-9faa-9451-0009",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the Fight phase, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+              }
+            ]
+          },
+          {
+            "name": "Serpentine Fiend",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa98-7b9b-9857-000a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can move through terrain features, but cannot end a move within a wall, a floor, etc. This model can be set up or end a move on any floor level of Ruins, but if that level is not the ground floor, it can only do so if its base does not overhang the floor at that level."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa41-97ad-4108-000b",
+            "primary": true,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "pad3-7462-d372-000c",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "7850-cc5a-c191-b80d",
+            "id": "paad-7074-ad92-000d",
+            "primary": false,
+            "name": "Great Devourer"
+          },
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa7f-2003-7f63-000e",
+            "primary": false,
+            "name": "Monster"
+          },
+          {
+            "targetId": "7dcd-38cd-5892-32b5",
+            "id": "pa41-87a0-4127-000f",
+            "primary": false,
+            "name": "Burrower"
+          },
+          {
+            "targetId": "5ff0-d52d-e2b8-9de",
+            "id": "pa78-9c82-7815-0010",
+            "primary": false,
+            "name": "Vanguard Invader"
+          },
+          {
+            "targetId": "d60b-23a2-629e-dc7e",
+            "id": "paa4-27bc-a4bd-0011",
+            "primary": false,
+            "name": "The Red Terror"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pae5-d5f3-e5b7-0012",
+            "primary": false,
+            "name": "Tyranids"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pa98-4d64-9814-0013",
+            "primary": false,
+            "name": "Faction: Tyranids"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 130
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gaping maw",
+            "hidden": false,
+            "id": "paf5-e336-f54f-0014",
+            "profiles": [
+              {
+                "name": "Gaping maw",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pab2-4426-b2fd-0015",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "D3+2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "EXTRA ATTACKS, DEVASTATING WOUNDS, PRECISION"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa5a-c661-5a28-0016"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pacd-728e-cdad-0017"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Scything talons",
+            "hidden": false,
+            "id": "pa5b-f256-5b25-0018",
+            "profiles": [
+              {
+                "name": "Scything talons",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa20-c20d-20f6-0019",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "12"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "7"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab6-4869-b60f-001a"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac3-fc4c-c305-001b"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Raveners",
+        "hidden": false,
+        "id": "pa5f-50e2-5ff7-001d",
+        "profiles": [
+          {
+            "name": "Raveners",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa0d-39bf-0dfd-001e",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "3"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa3a-aa5d-3a15-001f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa92-15f1-9240-0020",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Synapse"
+              }
+            ]
+          },
+          {
+            "name": "Death from Below",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paaa-dd9d-aa4a-0021",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your opponent's turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pab3-698c-b32a-0022",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "7850-cc5a-c191-b80d",
+            "id": "pa2b-7942-2bb0-0023",
+            "primary": false,
+            "name": "Great Devourer"
+          },
+          {
+            "targetId": "5ff0-d52d-e2b8-9de",
+            "id": "pae8-3eea-e828-0024",
+            "primary": false,
+            "name": "Vanguard Invader"
+          },
+          {
+            "targetId": "9e1e-ad1d-e864-7164",
+            "id": "pa44-84f8-4499-0025",
+            "primary": false,
+            "name": "Burrowers"
+          },
+          {
+            "targetId": "1785-c8af-b343-a1a6",
+            "id": "pac2-919b-c25d-0026",
+            "primary": false,
+            "name": "Raveners"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pa89-56e0-89c8-0027",
+            "primary": false,
+            "name": "Tyranids"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pa2b-19d0-2b84-0028",
+            "primary": false,
+            "name": "Faction: Tyranids"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 125
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ravener claws and talons",
+            "hidden": false,
+            "id": "pab2-ec5c-b23b-0029",
+            "profiles": [
+              {
+                "name": "Ravener claws and talons",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa3a-9ee7-3aea-002a",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "TWIN-LINKED"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paf9-29b3-f935-002b"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pad7-e195-d77c-002c"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "pa5f-50e2-5ff7-001d",
+                        "shared": true,
+                        "childName": "Raveners"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Hyperadapted Raveners",
+        "hidden": false,
+        "id": "pa07-93bd-07ca-002e",
+        "profiles": [
+          {
+            "name": "Hyperadapted Raveners",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "paf0-aec3-f0d4-002f",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa69-cd4c-696f-0030",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Leader"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa0a-9fa2-0aa5-0031",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Shadow In The Warp (Ravener Prime only), Synapse"
+              }
+            ]
+          },
+          {
+            "name": "Alpha Invader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pac4-bef3-c44e-0032",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability."
+              }
+            ]
+          },
+          {
+            "name": "Hypersensory Array",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paed-dd23-ed67-0033",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle round, you can target this unit with the Rapid Ingress/Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pa66-2a49-6650-0034",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "7850-cc5a-c191-b80d",
+            "id": "pae2-c1de-e2cc-0035",
+            "primary": false,
+            "name": "Great Devourer"
+          },
+          {
+            "targetId": "5ff0-d52d-e2b8-9de",
+            "id": "pa8a-765c-8a09-0036",
+            "primary": false,
+            "name": "Vanguard Invader"
+          },
+          {
+            "targetId": "9e1e-ad1d-e864-7164",
+            "id": "pab8-4de1-b8b2-0037",
+            "primary": false,
+            "name": "Burrowers"
+          },
+          {
+            "targetId": "54a9-c42f-3578-c683",
+            "id": "paff-613d-ff27-0038",
+            "primary": false,
+            "name": "Hyperadapted Raveners"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa2d-19e5-2d3b-0039",
+            "primary": false,
+            "name": "Character (Ravener Prime only)"
+          },
+          {
+            "targetId": "4129-a453-686a-d38a",
+            "id": "pa81-151c-813b-003a",
+            "primary": false,
+            "name": "Synapse (Ravener Prime only)"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pa6c-9634-6c7f-003b",
+            "primary": false,
+            "name": "Tyranids"
+          },
+          {
+            "targetId": "d1d8-6ae0-1be7-e9e",
+            "id": "pa2d-cd3b-2d70-003c",
+            "primary": false,
+            "name": "Faction: Tyranids"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 165
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Venom bolt",
+            "hidden": false,
+            "id": "pa8a-9e6c-8a04-003d",
+            "profiles": [
+              {
+                "name": "Venom bolt",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa99-be52-9904-003e",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "N/A"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "ASSAULT, IGNORES COVER, TORRENT"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pad6-7717-d61d-003f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa39-1348-3950-0040"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Prime claws and talons",
+            "hidden": false,
+            "id": "pab8-c26b-b89f-0041",
+            "profiles": [
+              {
+                "name": "Prime claws and talons",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa8b-425b-8bcc-0042",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "ANTI-MONSTER 5+, ANTI-VEHICLE 5+, TWIN-LINKED"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa3-7abb-a3be-0043"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa27-99a4-2726-0044"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ravener heavy claws and talons",
+            "hidden": false,
+            "id": "paa1-c7df-a1ed-0045",
+            "profiles": [
+              {
+                "name": "Ravener heavy claws and talons",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pab2-ddaf-b280-0046",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "ANTI-MONSTER 5+, ANTI-VEHICLE 5+, TWIN-LINKED"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa26-9ecf-264a-0047"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa2e-90c8-2ed9-0048"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "pa07-93bd-07ca-002e",
+                        "shared": true,
+                        "childName": "Hyperadapted Raveners"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedProfiles": [

@@ -746,6 +746,15 @@
             "type": "selectionEntry",
             "id": "e231-fce8-28bf-5568",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa1-a563-a1a4-0047",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -1745,6 +1754,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "ca59-3760-5efc-9846",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -5262,6 +5288,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paac-e3dd-acd7-003d",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -6753,24 +6788,6 @@
       {
         "modifiers": [
           {
-            "conditions": [
-              {
-                "field": "selections",
-                "scope": "f1af-4984-1a52-c5",
-                "value": 6,
-                "percentValue": false,
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "childId": "model",
-                "type": "atLeast"
-              }
-            ],
-            "type": "set",
-            "field": "51b2-306e-1021-d207",
-            "value": 150
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "070e-f0cd-7753-8f15",
@@ -6824,6 +6841,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "f1af-4984-1a52-c5",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -7136,137 +7170,7 @@
                 "includeChildSelections": false
               }
             ],
-            "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Writ of Compunction",
-                "hidden": false,
-                "id": "9cc7-bfa9-ca48-9853",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "99d4-0cff-17d1-4c22",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Writ of Compunction",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "1a67-e385-3eb1-ce04",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This unit has +1 OC."
-                      }
-                    ]
-                  }
-                ],
-                "modifiers": [
-                  {
-                    "type": "increment",
-                    "value": 1,
-                    "field": "bef7-942a-1a23-59f8",
-                    "scope": "parent",
-                    "affects": "self.entries.profiles.Unit"
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 20
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 1
-                  }
-                ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "type": "divide",
-                        "value": 2,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "9cc7-bfa9-ca48-9853",
-                            "shared": true,
-                            "childName": "Writ of Compunction",
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      },
-                      {
-                        "type": "divide",
-                        "value": 3,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "greaterThan",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "9cc7-bfa9-ca48-9853",
-                            "shared": true,
-                            "childName": "Writ of Compunction",
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
+            "selectionEntries": [],
             "modifiers": [
               {
                 "type": "set",
@@ -7394,6 +7298,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa2d-70ff-2d3f-0046",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -8150,7 +8063,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do: \n- That use is ‑1 **CP**. \n- That use does not prevent any uses of that **stratagem** on other units this phase.'"
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
               }
             ],
             "name": "Mysterious Saviours",
@@ -8198,6 +8111,15 @@
             "type": "selectionEntry",
             "id": "89e4-78fe-17e6-d87f",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa02-8f4b-02e6-0048",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -8330,6 +8252,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa83-cd47-83f1-003e",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -8952,6 +8883,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paba-5282-ba33-003f",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -10443,7 +10383,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units it can make a Normal move of up to D6”."
+                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units it can make a Normal move of up to D6\"."
               }
             ],
             "name": "Righteous Awareness",
@@ -10951,6 +10891,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pad5-6523-d569-0045",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -11347,127 +11296,7 @@
                 "includeChildSelections": false
               }
             ],
-            "selectionEntries": [
-              {
-                "type": "upgrade",
-                "import": true,
-                "name": "Symphonic Payload",
-                "hidden": false,
-                "id": "bd97-06c3-a527-9a3e",
-                "constraints": [
-                  {
-                    "type": "max",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "roster",
-                    "shared": true,
-                    "id": "60ec-ed70-c549-5734",
-                    "includeChildSelections": true
-                  }
-                ],
-                "costs": [
-                  {
-                    "name": "pts",
-                    "typeId": "51b2-306e-1021-d207",
-                    "value": 10
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 1
-                  }
-                ],
-                "modifierGroups": [
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
-                        "type": "divide",
-                        "value": 2,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "equalTo",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "bd97-06c3-a527-9a3e",
-                            "shared": true,
-                            "childName": "Symphonic Payload",
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      },
-                      {
-                        "type": "divide",
-                        "value": 3,
-                        "field": "f759-1bc4-cb3a-f0d2",
-                        "conditions": [
-                          {
-                            "type": "greaterThan",
-                            "value": 2,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "bd97-06c3-a527-9a3e",
-                            "shared": true,
-                            "childName": "Symphonic Payload",
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "profiles": [
-                  {
-                    "name": "Symphonic Payload",
-                    "typeId": "9cc3-6d83-4dd3-9b64",
-                    "typeName": "Abilities",
-                    "hidden": false,
-                    "id": "d6d8-b673-01f6-0f83",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This unit can re‑roll rolls to determine the **A** of a weapon."
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
+            "selectionEntries": [],
             "sortIndex": 2
           }
         ],
@@ -11879,6 +11708,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa91-c100-913a-0040",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -12557,6 +12395,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3e-124f-3eae-0041",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -14369,6 +14216,15 @@
             "type": "selectionEntry",
             "id": "4ebb-868d-bc85-48e9",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pabb-0d76-bb6f-0049",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -16192,6 +16048,15 @@
             "type": "selectionEntry",
             "id": "fca0-a25c-eabc-5a79",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paea-a9c2-ea8d-004a",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "rules": [
@@ -17046,6 +16911,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa37-2c80-3761-0042",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -20980,6 +20854,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paba-bb89-ba42-0043",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -21607,23 +21490,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "7d63-7b55-a632-6a10",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "77f9-3bb6-61ec-9722",
@@ -21637,6 +21503,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "7d63-7b55-a632-6a10",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -22428,7 +22311,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time a model in this unit makes a ranged attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ^^**Adepta Sororitas^^** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well.",
+                "$text": "Each time a model in this unit makes a ranged attack, that model can re-roll a Hit roll of 1 and re-roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more ADEPTA SORORITAS units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll as well.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -24164,23 +24047,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "bee9-172b-7db7-f748",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "3bba-1b1c-73a2-05c8",
@@ -24234,6 +24100,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "bee9-172b-7db7-f748",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -26916,7 +26799,7 @@
           {
             "characteristics": [
               {
-                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.’",
+                "$text": "Each time you gain 1 Miracle dice at the start of the battle round, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -26947,6 +26830,15 @@
             "id": "62d9-b7ef-8abe-2a78",
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa9a-d845-9ab1-004b",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -27443,7 +27335,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase:\n- Sustained Hits 1\n- Lethal Hits\n\nIf this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
+                "$text": "Each time this unit is selected to fight, select one of the following abilities to apply to melee weapons equipped by models in this unit until the end of the phase: [SUSTAINED HITS 1] / [LETHAL HITS]. If this unit made a Charge move this turn, until the end of the phase, select both abilities above to apply to melee weapons equipped by models in this unit instead."
               }
             ],
             "name": "Embodied Prophecy",
@@ -27482,23 +27374,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "22f0-a7d8-b2b6-e26",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "6206-2b41-bf0a-23b5",
@@ -27512,6 +27387,23 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "22f0-a7d8-b2b6-e26",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -29917,6 +29809,15 @@
             "type": "selectionEntryGroup",
             "targetId": "b0df-6a60-8561-efde",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa0-61fe-a0c2-0044",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -31629,6 +31530,15 @@
             "id": "68b0-794b-606d-9244",
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0"
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa93-5c33-932b-004c",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "selectionEntries": [
@@ -35307,6 +35217,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa39-7915-39bd-004d",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -35903,6 +35822,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa80-2d95-800b-004e",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -36492,6 +36420,15 @@
             "type": "selectionEntryGroup",
             "targetId": "acdc-9c11-8d38-1fd8",
             "sortIndex": 5
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa6-e888-a6ce-004f",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -37545,6 +37482,15 @@
             "type": "selectionEntry",
             "targetId": "66c6-be4b-a1dc-10d0",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa40-0ff2-4047-0050",
+            "type": "selectionEntryGroup",
+            "targetId": "pabd-3241-bdf0-003a",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -38388,7 +38334,7 @@
     ],
     "sharedRules": [
       {
-        "description": "If your Army Faction is ^^**Adepta Sororitas**^^, each unit from your army with this ability can perform one Act of Faith per phase. This is done using Miracle dice.\n\nGAINING MIRACLE DICE\nIf your Army Faction is ^^**Adepta Sororitas**^^, you gain 1 Miracle dice:\n- At the start of each battle round.\n- Each time an ^^**Adepta Sororitas**^^ unit from your army is destroyed.\n\nEach time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side – this is your Miracle dice pool.\n\nPERFORMING AN ACT OF FAITH\nBefore making a dice roll for a model or unit from your army with the Acts of Faith ability, if you have one or more dice in your Miracle dice pool, that unit can perform an Act of Faith. If it does, select one of the dice from your Miracle dice pool to substitute that dice roll (if a roll involves more than one dice, e.g. a Charge roll or Battle-shock test, only a single dice can\nbe substituted). The dice that is being substituted is not rolled; instead the value of the selected Miracle dice is used as if it had been rolled (this counts as an unmodified dice roll of that value for all rules purposes). Each Miracle dice can only be selected for substitution once. Once all Miracle dice substitutions have been made, remove the chosen Miracle dice from your Miracle dice pool, and roll all remaining, unsubstituted dice that are a part of the dice roll. You can use Miracle dice when a unit performs an Act of Faith for any of the following types of dice roll:\n■ Advance roll\n■ Battle-shock test\n■ Charge roll\n■ Damage roll\n■ Hit roll\n■ Saving throw\n■ Wound roll",
+        "description": "If your Army Faction is ADEPTA SORORITAS, you gain 1 Miracle dice: - At the start of each battle round. - Each time an ADEPTA SORORITAS unit from your army is destroyed. Each time you gain a Miracle dice, roll one D6. The number you roll is the value of that Miracle dice. This value cannot be changed or re-rolled, unless a rule specifically states otherwise. Keep your Miracle dice to one side - this is your Miracle dice pool.",
         "name": "Acts of Faith",
         "hidden": false,
         "id": "7ef7-dca6-e2ea-ecc8"
@@ -38400,7 +38346,7 @@
         "id": "afa4-169c-3aaa-650"
       },
       {
-        "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.\n\n\nThe Path of the Penitent: Add 3\" to the Move characteristic of PENITENT model from your army.\n\n\nAbsolution in Battle: Each time a unit from your army is selected to fight, if that units made a Charge move this turn, until the end of the phase, add 1 to the Attacks and Strength characteristics of melee weapons equipped by PENITENT models in that unit.\n\n\nDeath Before Disgrace: Each time a PENITENT model from your army is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+        "description": "At the start of the battle round, you can select one of the following Vows of Atonement to be active for your army until the start of the next battle round. You can only select each Vow of Atonement once per battle.",
         "name": "Desperate for Redemption",
         "id": "909a-664e-ff1a-1985",
         "hidden": false
@@ -40429,651 +40375,6 @@
           {
             "type": "upgrade",
             "import": true,
-            "name": "Eyes of the Oracle",
-            "hidden": false,
-            "id": "5344-3b0c-c939-e6a2",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "c5e3-48fa-d84c-71f7",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 10
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Eyes of the Oracle",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "0565-355a-2b90-415c",
-                "characteristics": [
-                  {
-                    "$text": "ADEPTA SORORITAS model only. The bearer’s weapons have the [PRECISION] ability. Each time the bearer’s unit destroys an enemy Character model, you gain 1CP.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5c81-a47b-d3a0-31e8",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "comment": "Champions of Faith",
-            "sortIndex": 9
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Mark of Devotion",
-            "hidden": false,
-            "id": "6a87-e11a-7a83-54ac",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "1a7e-c1e0-f5d5-2abb",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 30
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Mark of Devotion",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "2458-a30b-3f7d-69ca",
-                "characteristics": [
-                  {
-                    "$text": "**^^Adepta Sororitas^^** model only. Add 1 to the Attacks characteristic of the bearer’s melee weapons. While the bearer’s unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer’s melee weapons instead.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
-            ],
-            "modifierGroups": [
-              {
-                "type": "and",
-                "modifiers": [
-                  {
-                    "type": "append",
-                    "value": "Mark of Devotion",
-                    "field": "annotation",
-                    "join": ", ",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.profiles.Melee Weapons"
-                  },
-                  {
-                    "type": "append",
-                    "value": "+0",
-                    "field": "2337-daa1-6682-b110",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons",
-                    "arg": "+0",
-                    "join": ""
-                  },
-                  {
-                    "type": "replace",
-                    "value": true,
-                    "field": "2337-daa1-6682-b110",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.6337-b83b-0d1e-5770.profiles.Melee Weapons",
-                    "arg": "+0"
-                  },
-                  {
-                    "type": "increment",
-                    "value": 1,
-                    "field": "2337-daa1-6682-b110",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.profiles.Melee Weapons",
-                    "position": -1
-                  },
-                  {
-                    "type": "decrement",
-                    "value": 1,
-                    "field": "2337-daa1-6682-b110",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
-                    "position": -1
-                  },
-                  {
-                    "type": "replace",
-                    "value": true,
-                    "field": "2337-daa1-6682-b110",
-                    "scope": "model",
-                    "affects": "self.entries.recursive.profiles.Melee Weapons",
-                    "arg": "+0"
-                  },
-                  {
-                    "type": "add",
-                    "value": "6337-b83b-0d1e-5770",
-                    "field": "category",
-                    "scope": "model",
-                    "arg": "+0",
-                    "affects": "self.entries.recursive.e993-e086-6de1-12af"
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5c81-a47b-d3a0-31e8",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "comment": "Champions of Faith",
-            "sortIndex": 10
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Sanctified Amulet",
-            "hidden": false,
-            "id": "2c1d-5416-8c0d-f790",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "a91d-7ec5-14e1-1dcc",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 25
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Sanctified Amulet",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "ef03-fbc3-b77b-a35a",
-                "characteristics": [
-                  {
-                    "$text": "ADEPTA SORORITAS model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5c81-a47b-d3a0-31e8",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "comment": "Champions of Faith",
-            "sortIndex": 11
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Triptych of Judgement",
-            "hidden": false,
-            "id": "4e52-3be7-153f-2ef8",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "4a83-4be3-45af-8872",
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 15
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Triptych of Judgement",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "cf4d-3336-e6e7-56a9",
-                "characteristics": [
-                  {
-                    "$text": "ADEPTA SORORITAS model only. Each time a model in the bearer’s unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "and",
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "forces",
-                        "scope": "roster",
-                        "childId": "cac3-71d1-ea4b-795d",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5c81-a47b-d3a0-31e8",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "comment": "Champions of Faith",
-            "sortIndex": 12
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Clarion of Urgency",
-            "hidden": false,
-            "id": "2474-62bc-deab-c31b",
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "a026-e7e9-78d9-f45e",
-                "includeChildSelections": true
-              }
-            ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 15
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Clarion of Urgency",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "952f-fdc6-00ab-6fe8",
-                "characteristics": [
-                  {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "At the end of your opponent’s Fight phase, if this unit is **unengaged**, you can place this unit in **strategic reserves**."
-                  }
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "type": "set",
-                "value": true,
-                "field": "hidden",
-                "conditionGroups": [
-                  {
-                    "type": "or",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "forces",
-                            "scope": "roster",
-                            "childId": "cac3-71d1-ea4b-795d",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "3ee6-23e1-8bc0-90f7",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Chorus of Condemnation"
-                          }
-                        ]
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "type": "notInstanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "dda2-bb0a-215e-ad9c",
-                        "shared": true,
-                        "childName": "Jump Pack"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "sortIndex": 13,
-            "comment": "Chorus of Condemnation"
-          },
-          {
-            "type": "upgrade",
-            "import": true,
             "name": "Chaplet of Sacrifice",
             "hidden": false,
             "id": "ab0f-119b-4628-eb86",
@@ -42262,23 +41563,214 @@
             ],
             "comment": "Penitent Host",
             "sortIndex": 21
-          },
+          }
+        ],
+        "selectionEntryGroups": [
           {
-            "type": "upgrade",
-            "import": true,
-            "name": "Perfervid Haste",
+            "name": "Chorus of Condemnation Enhancements",
+            "id": "pa58-d805-58a9-0005",
             "hidden": false,
-            "id": "becb-e7cd-ff9f-f8ac",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Clarion of Urgency",
+                "hidden": false,
+                "id": "pa59-238d-59bc-0000",
+                "profiles": [
+                  {
+                    "name": "Clarion of Urgency",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa92-75b0-9233-0001",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This passionate slayer of the blasphemous leads her warriors in powered jet-leaps to reach the condemned foe, no matter where they lurk.\n\nCANONESS WITH JUMP PACK model only. At the end of your opponent's Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa98-2abf-982b-0002"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pad1-5141-d195-0003",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paae-a292-ae85-0004",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "e80a-4a97-2c3b-710e",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3ee6-23e1-8bc0-90f7",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
             "constraints": [
               {
                 "type": "max",
                 "value": 1,
                 "field": "selections",
-                "scope": "roster",
+                "scope": "parent",
                 "shared": true,
-                "id": "439e-b3c2-5923-cc93",
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "id": "pae5-9f0c-e5d5-0006"
+              }
+            ]
+          },
+          {
+            "name": "Sacred Champions Enhancements",
+            "id": "paca-1dfd-caf5-0013",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Perfervid Haste",
+                "hidden": false,
+                "id": "pac3-eb8e-c3b9-000e",
+                "profiles": [
+                  {
+                    "name": "Perfervid Haste",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa46-eda5-46d4-000f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This warrior's passion to secure her quest is a lash wrought from her faith, which drives her sisters on at a relentless pace.\n\nADEPTA SORORITAS model only. This unit has +1\" M."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa48-ca2a-48a5-0010"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa8c-9497-8c18-0011",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa81-6f8f-81be-0012",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "modifiers": [
@@ -42308,87 +41800,13 @@
                         "childId": "0017-3a94-11f8-7fca",
                         "shared": true,
                         "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Sacred Champions"
+                        "includeChildForces": true
                       }
                     ]
                   }
                 ]
-              },
-              {
-                "type": "increment",
-                "value": 1,
-                "field": "e703-ecb6-5ce7-aec1",
-                "scope": "parent",
-                "affects": "self.entries.profiles.Unit"
               }
             ],
-            "costs": [
-              {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 10
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 1
-              }
-            ],
-            "comment": "Sacred Champions",
-            "profiles": [
-              {
-                "name": "Perfervid Haste",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "0c5e-7505-e29f-acb2",
-                "characteristics": [
-                  {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "This unit has +1\" M."
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "upgrade",
-            "import": true,
-            "name": "Hagiomnifex",
-            "hidden": false,
-            "id": "df1f-deb6-d44c-b653",
             "constraints": [
               {
                 "type": "max",
@@ -42396,31 +41814,312 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "ce80-b725-5ca5-deae",
-                "includeChildSelections": false
+                "id": "pa95-45b6-9536-0014"
+              }
+            ]
+          },
+          {
+            "name": "Champions of Faith Enhancements",
+            "id": "paef-6b7a-ef22-0038",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Triptych of Judgement",
+                "hidden": false,
+                "id": "pa6a-510c-6a13-0024",
+                "profiles": [
+                  {
+                    "name": "Triptych of Judgement",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa41-d0a4-411a-0025",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The three windows of this sacred artefact display three aspects of the God-Emperor in judgement over mortal souls. No warrior of faith will countenance failure beneath its threefold gaze.\n\nAdepta Sororitas model only. Each time a model in the bearer's unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pad2-7881-d2bf-0026"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pab2-9dc0-b22b-0027",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa31-dcc1-3166-0028",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
               },
               {
-                "type": "max",
-                "value": 3,
-                "field": "selections",
-                "scope": "roster",
-                "shared": true,
-                "id": "1209-f301-e6bc-3734",
-                "includeChildSelections": true
-              }
-            ],
-            "profiles": [
-              {
-                "name": "Hagiomnifex",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
+                "type": "upgrade",
+                "import": true,
+                "name": "Mark of Devotion",
                 "hidden": false,
-                "id": "0689-e00e-3022-a235",
-                "characteristics": [
+                "id": "pa0c-a856-0ccf-0029",
+                "profiles": [
                   {
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "(Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below: \n- **Rite of Revelation**: While this unit is shooting, enemy units have +6\" detection range. \n- **Sermon of Intolerance**: This unit’s battle‑shock rolls automatically succeed. \n- **Catechism of Raging Fervour**: This unit has +1\" M. \n- **Psalm of Righteous Smiting**: This unit’s attacks have +1 S. \n- **Chorus of Repudiation**: Attacks that target this unit with a S greater than this unit’s T have ‑1 to wound rolls."
+                    "name": "Mark of Devotion",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa14-35ae-1485-002a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "A fresh oath brand burns in this champion's flesh, its heat remaining miraculously undimmed and its searing pain focusing their devout wrath.\n\nAdepta Sororitas model only. Add 1 to the Attacks characteristic of the bearer's melee weapons. While the bearer's unit is Righteous, add 2 to the Attacks characteristic and add 1 to the Damage characteristic of the bearer's melee weapons instead."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pac2-4a99-c282-002b"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa66-8ee8-66f9-002c",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa82-0934-82e9-002d",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Eyes of the Oracle",
+                "hidden": false,
+                "id": "pa69-95d7-69c0-002e",
+                "profiles": [
+                  {
+                    "name": "Eyes of the Oracle",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa70-1d64-7031-002f",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Having torn them from the sockets of a heretical witch, this warrior of faith keeps these shrivelled orbs sealed in a miniature reliquary about their neck. They believe that - tormented by holy imprisonment - the traitorous eyes guide their aim towards other infernal champions.\n\nAdepta Sororitas model only. The bearer's weapons have the [PRECISION] ability. Each time the bearer's unit destroys an enemy Character model, you gain 1CP."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paff-624e-ff84-0030"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa29-ba10-29d6-0031",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pac1-3e63-c18a-0032",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Sanctified Amulet",
+                "hidden": false,
+                "id": "paa2-4735-a205-0033",
+                "profiles": [
+                  {
+                    "name": "Sanctified Amulet",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paeb-9f1c-eb39-0034",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Belief radiates out from this blessed icon, forming a holy circle of abjuration that holds at bay the unclean and leaves this champion free to do their duty to the God-Emperor.\n\nAdepta Sororitas model only. Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of the bearer."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa20-6bea-2002-0035"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa4e-52b8-4e96-0036",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa7f-dc9d-7f3b-0037",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -42432,91 +42131,41 @@
                 "field": "hidden",
                 "conditionGroups": [
                   {
-                    "type": "or",
-                    "conditionGroups": [
-                      {
-                        "type": "and",
-                        "conditions": [
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "forces",
-                            "scope": "roster",
-                            "childId": "cac3-71d1-ea4b-795d",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true
-                          },
-                          {
-                            "type": "lessThan",
-                            "value": 1,
-                            "field": "selections",
-                            "scope": "roster",
-                            "childId": "f9b6-3e44-772b-8eb1",
-                            "shared": true,
-                            "includeChildSelections": true,
-                            "includeChildForces": true,
-                            "childName": "Sanctified Orators"
-                          }
-                        ]
-                      }
-                    ],
+                    "type": "and",
                     "conditions": [
                       {
-                        "type": "instanceOf",
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
                         "value": 1,
                         "field": "selections",
-                        "scope": "ancestor",
-                        "childId": "e2c8-1479-a7c4-228e",
+                        "scope": "roster",
+                        "childId": "5c81-a47b-d3a0-31e8",
                         "shared": true,
-                        "includeChildSelections": false,
-                        "childName": "Penitent"
+                        "includeChildSelections": true,
+                        "includeChildForces": true
                       }
                     ]
                   }
                 ]
               }
             ],
-            "costs": [
+            "constraints": [
               {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
-                "value": 25
-              },
-              {
-                "name": "Crusade Points",
-                "typeId": "b03b-c239-15a5-da55",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Battle Honours",
-                "typeId": "75bb-ded1-c86d-bdf0",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Experience",
-                "typeId": "a623-fe74-1d33-cddf",
-                "value": 0
-              },
-              {
-                "name": "Crusade: Weapon Modifications",
-                "typeId": "716d-91b7-d55a-1022",
-                "value": 0
-              },
-              {
-                "name": "Blackstone Fragments",
-                "typeId": "ac6b-ced3-9b5e-9a6e",
-                "value": 0
-              },
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 0
-              },
-              {
-                "name": "Enhancements",
-                "typeId": "f759-1bc4-cb3a-f0d2",
-                "value": 0
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab0-9774-b08e-0039"
               }
             ]
           }
@@ -52172,6 +51821,440 @@
         "name": "Weapons",
         "id": "acdc-9c11-8d38-1fd8",
         "hidden": false
+      },
+      {
+        "name": "Upgrades",
+        "id": "pabd-3241-bdf0-003a",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Chorus of Condemnation Upgrades",
+            "id": "pa49-1897-49b2-000c",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Symphonic Payload",
+                "hidden": false,
+                "id": "pa96-4d3f-96f8-0007",
+                "profiles": [
+                  {
+                    "name": "Symphonic Payload",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pab8-b634-b873-0008",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These caches of thrice-blessed ordnance are launched in sacred salvoes of harmonised immolation that can scour the Emperor's foes from existence.\n\nEXORCIST unit only. This unit can re-roll rolls to determine the A of a weapon."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pabe-acd5-be4b-0009"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa3e-8522-3edd-000a",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa19-11a5-1909-000b",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "2236-d428-61e-fa4f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "3ee6-23e1-8bc0-90f7",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paeb-b164-ebd5-000d"
+              }
+            ]
+          },
+          {
+            "name": "Sacred Champions Upgrades",
+            "id": "pa7c-93fd-7c10-001a",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Writ of Compunction",
+                "hidden": false,
+                "id": "pac0-7bd7-c01d-0015",
+                "profiles": [
+                  {
+                    "name": "Writ of Compunction",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pab6-25ae-b68f-0016",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "Within this ornate cylindrical casket is a holy authorisation of the Ecclesiarch. Warriors in its presence tasked with a sacred duty are filled with righteous purpose, and the will to succeed no matter the odds.\n\nCELESTIAN SACRESANTS unit only. This unit has +1 OC."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pafe-fc7b-fe58-0017"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa35-48b8-35ae-0018",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa4b-7ffb-4b4c-0019",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "4038-4f63-856e-fa4c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "0017-3a94-11f8-7fca",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa63-ff9a-6303-001b"
+              }
+            ]
+          },
+          {
+            "name": "Sanctified Orators Upgrades",
+            "id": "pa99-9446-998b-0022",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hagiomnifex",
+                "hidden": false,
+                "id": "pafc-2f61-fc29-001c",
+                "profiles": [
+                  {
+                    "name": "Hagiomnifex",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "paf4-a98f-f4d1-001d",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "A master of martial saintly lore, this vehement orator knows there is no form of enemy that the God-Emperor's holiest martyrs have not overcome. With vox-augmented sermonising, they roar the sacred hymns of the saints' deeds to embolden the faithful.\n\nADEPTA SORORITAS CHARACTER unit only (excluding PENITENT units). (Once per turn, per unit) At the start of a phase, you can use this ability. If you do, select one of the abilities below:\n- Rite of Revelation: While this unit is shooting, enemy units have +6\" detection range.\n- Sermon of Intolerance: This unit's battle-shock rolls automatically succeed.\n- Catechism of Raging Fervour: This unit has +1\" M.\n- Psalm of Righteous Smiting: This unit's attacks have +1 S.\n- Chorus of Repudiation: Attacks that target this unit with a S greater than this unit's T have -1 to wound rolls."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa3d-adc2-3d86-001e"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa01-6fc6-0199-001f",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paa0-b8af-a00d-0020",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "fd71-afa6-b13b-7fda",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9cfd-1c32-585f-7d5c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa58-b1fa-5844-0021",
+                    "conditions": [
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "e2c8-1479-a7c4-228e",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "f9b6-3e44-772b-8eb1",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa13-c527-1301-0023"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "paf9-48d0-f9fb-003b",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa33-8978-334f-003c",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "entryLinks": [

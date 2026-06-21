@@ -584,7 +584,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 125
           }
         ],
         "modifiers": [
@@ -657,7 +657,18 @@
         "import": true,
         "name": "Vindicare Assassin",
         "hidden": false,
-        "id": "efa3-2cf5-dcfb-b976"
+        "id": "efa3-2cf5-dcfb-b976",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa76-7182-767c-0022",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
+          }
+        ]
       },
       {
         "constraints": [
@@ -1239,14 +1250,25 @@
         "import": true,
         "name": "Culexus Assassin",
         "hidden": false,
-        "id": "5e5e-d6b2-6a1c-aa69"
+        "id": "5e5e-d6b2-6a1c-aa69",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa01-a902-017d-0020",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 120
           }
         ],
         "categoryLinks": [
@@ -1791,7 +1813,18 @@
         "import": true,
         "name": "Eversor Assassin",
         "hidden": false,
-        "id": "f201-1f4a-b907-d9d1"
+        "id": "f201-1f4a-b907-d9d1",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa37-ee77-376a-0021",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
+          }
+        ]
       },
       {
         "costs": [
@@ -2307,14 +2340,25 @@
         "import": true,
         "name": "Callidus Assassin",
         "hidden": false,
-        "id": "1cfe-be05-5603-133"
+        "id": "1cfe-be05-5603-133",
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "paa1-e9c5-a1cc-001f",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 105
           }
         ],
         "categoryLinks": [
@@ -2505,6 +2549,15 @@
                 "type": "selectionEntryGroup",
                 "targetId": "c3c8-4ca0-ec6e-6686",
                 "sortIndex": 2
+              },
+              {
+                "import": true,
+                "name": "Upgrades",
+                "hidden": false,
+                "id": "pa65-30be-65ee-0019",
+                "type": "selectionEntryGroup",
+                "targetId": "pad1-c186-d1dd-0016",
+                "sortIndex": 4
               }
             ],
             "selectionEntryGroups": [
@@ -3752,7 +3805,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 70
           }
         ],
         "modifiers": [
@@ -7010,7 +7063,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 100
           }
         ],
         "infoLinks": [
@@ -7806,7 +7859,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 85
           }
         ],
         "modifiers": [
@@ -10777,7 +10830,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 110
           }
         ],
         "categoryLinks": [
@@ -11295,7 +11348,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 95
           }
         ],
         "categoryLinks": [
@@ -12795,7 +12848,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 65
           }
         ],
         "categoryLinks": [
@@ -12894,6 +12947,15 @@
             "type": "selectionEntryGroup",
             "targetId": "ab49-9567-bfbd-7b0c",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa3d-619b-3ded-001a",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -17782,6 +17844,15 @@
             "type": "selectionEntryGroup",
             "targetId": "ab49-9567-bfbd-7b0c",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pacd-fd5c-cdb4-001b",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -19384,7 +19455,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 75
           }
         ],
         "categoryLinks": [
@@ -19642,6 +19713,15 @@
             "type": "selectionEntryGroup",
             "targetId": "ab49-9567-bfbd-7b0c",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa4a-2bc8-4a24-001c",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -20666,6 +20746,15 @@
             "type": "selectionEntryGroup",
             "targetId": "ab49-9567-bfbd-7b0c",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pafa-174e-fa38-001d",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -22270,7 +22359,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 50
+            "value": 60
           }
         ],
         "modifiers": [
@@ -22351,6 +22440,40 @@
                 "shared": true,
                 "includeChildSelections": false,
                 "childName": "Imperium - Agents of the Imperium"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 100,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 12,
+                "field": "selections",
+                "scope": "4469-7239-717e-9abd",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 12,
+                "field": "selections",
+                "scope": "4469-7239-717e-9abd",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -23500,7 +23623,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 210
           }
         ],
         "modifiers": [
@@ -25877,7 +26000,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 115
           }
         ],
         "selectionEntries": [
@@ -28192,7 +28315,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 115
           }
         ],
         "categoryLinks": [
@@ -30199,6 +30322,15 @@
             "type": "selectionEntryGroup",
             "targetId": "ab49-9567-bfbd-7b0c",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "pa23-63af-2341-001e",
+            "type": "selectionEntryGroup",
+            "targetId": "pad1-c186-d1dd-0016",
+            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -33766,22 +33898,6 @@
           {
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
-                "field": "selections",
-                "scope": "0744-61ce-619d-ffe1",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
                 "type": "instanceOf",
                 "value": 1,
                 "field": "selections",
@@ -33797,37 +33913,6 @@
             "field": "hidden"
           },
           {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "greaterThan",
-                    "value": 5,
-                    "field": "selections",
-                    "scope": "0744-61ce-619d-ffe1",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "notInstanceOf",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "childId": "b00-cd86-4b4c-97ba",
-                    "shared": true,
-                    "id": "764e-c2de-54a4-bc1c",
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 4,
             "field": "dc92-681c-9681-938b",
@@ -33841,6 +33926,40 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "0744-61ce-619d-ffe1",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "0744-61ce-619d-ffe1",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -50194,7 +50313,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -58462,6 +58581,40 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "b040-ce24-7e1a-c903",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "b040-ce24-7e1a-c903",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -78230,6 +78383,385 @@
         "name": "Weapons",
         "id": "b9ec-397d-5dc2-91d8",
         "hidden": false
+      },
+      {
+        "name": "Upgrades",
+        "id": "pad1-c186-d1dd-0016",
+        "hidden": false,
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Veiled Blade Elimination Force Upgrades",
+            "id": "pa43-df3e-4309-0014",
+            "hidden": false,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Decoy Targets",
+                "hidden": false,
+                "id": "pab2-42d3-b2a5-0000",
+                "profiles": [
+                  {
+                    "name": "Decoy Targets",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa88-b325-8844-0001",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "The agents of the Callidus Temple are known to utilise vat-grown doubles to confound their foes.\n\nCallidus Assassin models only. Twice per battle, in your Movement phase, you can select one other friendly Infantry model that is on the battlefield and not within Engagement Range of one or more enemy units. The selected model is destroyed (ignoring any rules that are triggered when a model is destroyed) and this model is removed from the battlefield and set up again as close as possible to where that destroyed model was and not within Engagement Range of one or more enemy units. This ability cannot be used more than once in the same battle round."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa03-6f43-032d-0002"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa88-d525-8826-0003",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 40
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa2d-1281-2dfd-0004",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "9063-fa49-9ba2-9350",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Esoteric Explosives",
+                "hidden": false,
+                "id": "pa11-8597-11de-0005",
+                "profiles": [
+                  {
+                    "name": "Esoteric Explosives",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa1d-78bd-1dcc-0006",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This Culexus operative has been outfitted with various grenades tailored to destroy their assigned targets.\n\nCulexus Assassin models only. Each time this model is targeted with the Grenades Stratagem, 1 mortal wound is inflicted for each D6 roll of 3+ instead of for each 4+."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa94-6dda-9478-0007"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "paad-4e45-ad44-0008",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 40
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa1c-91d6-1c9f-0009",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "1d30-5c67-e36f-9e55",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Intraneural Biotech",
+                "hidden": false,
+                "id": "pa2c-b02a-2c74-000a",
+                "profiles": [
+                  {
+                    "name": "Intraneural Biotech",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "padd-ed18-dd2e-000b",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This Eversor agent's neurons have been surgically spliced to enhance awareness and speed of thought.\n\nEversor Assassin models only. You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa8d-b01f-8d8a-000c"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pab5-dc15-b5e2-000d",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 35
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "pa0e-616a-0ec0-000e",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "3494-754d-59d1-1d6c",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Micromelta Rounds",
+                "hidden": false,
+                "id": "pafb-1975-fbb9-000f",
+                "profiles": [
+                  {
+                    "name": "Micromelta Rounds",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pa07-b986-074f-0010",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "These projectiles are tipped with miniaturised melta charges that detonate on impact.\n\nVindicare Assassin models only. This model's exitus rifle has the [ANTI-MONSTER 4+] and [ANTI-VEHICLE 4+] abilities."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "paab-f2e6-abad-0011"
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "pa69-90a5-6988-0012",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 45
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "id": "paea-8b10-eac7-0013",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 0,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "bbce-4a66-765f-6f5f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "e203-73dc-18d9-f390",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa7-7467-a7eb-0015"
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "self",
+            "shared": true,
+            "id": "pa82-b14a-822b-0017",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "pa57-c56e-57a9-0018",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "selectionEntries": [
