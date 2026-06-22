@@ -532,7 +532,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 140
           },
           {
             "name": "Crusade Points",
@@ -969,7 +969,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 75
           }
         ],
         "infoLinks": [
@@ -1684,7 +1684,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -3280,7 +3280,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 315
+            "value": 285
           },
           {
             "name": "Crusade Points",
@@ -4860,7 +4860,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 200
           }
         ],
         "constraints": [
@@ -6267,14 +6267,57 @@
         "name": "Land Speeder Vengeance",
         "hidden": false,
         "id": "b4a0-d2fe-a988-f28b",
-        "page": 35
+        "page": 35,
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b4a0-d2fe-a988-f28b",
+                        "shared": true,
+                        "childName": "Land Speeder Vengeance"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 80
           },
           {
             "name": "Crusade Points",
@@ -7002,7 +7045,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -8248,20 +8291,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "212d-f302-aaaf-5c12",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "212d-f302-aaaf-5c12",
+                        "shared": true,
+                        "childName": "Ravenwing Black Knights"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -8529,7 +8614,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 115
           },
           {
             "name": "Crusade Points",
@@ -10540,7 +10625,50 @@
         "hidden": false,
         "id": "e87d-f173-88b9-aa84",
         "publicationId": "3931-1b04-c00e-afad",
-        "page": 30
+        "page": 30,
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "e87d-f173-88b9-aa84",
+                        "shared": true,
+                        "childName": "Ravenwing Command Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "selectionEntries": [
@@ -10703,7 +10831,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 250
+            "value": 240
           },
           {
             "name": "Crusade Points",
@@ -11466,7 +11594,50 @@
         "hidden": false,
         "id": "a6cc-9a65-dbf1-71b0",
         "publicationId": "8b50-6bb0-b6bb-e187",
-        "page": 27
+        "page": 27,
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a6cc-9a65-dbf1-71b0",
+                        "shared": true,
+                        "childName": "Deathwing Knights"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "categoryLinks": [
@@ -11579,25 +11750,26 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 165
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 330,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "6135-d842-8e61-889d",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 360,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "selectionEntries": [
@@ -13131,25 +13303,67 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 90
+            "value": 80
           }
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 3,
+                "type": "atLeast",
+                "value": 6,
                 "field": "selections",
                 "scope": "f34-e2f9-c98e-1916",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 180,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f34-e2f9-c98e-1916",
+                        "shared": true,
+                        "childName": "Inner Circle Companions"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [

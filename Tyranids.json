@@ -18442,7 +18442,14 @@
                     "id": "d262-4214-141c-9a25",
                     "type": "selectionEntry",
                     "name": "Rupture cannon",
-                    "hidden": false
+                    "hidden": false,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 20
+                      }
+                    ]
                   },
                   {
                     "entryLinks": [
@@ -18476,7 +18483,14 @@
                     "id": "ac03-5f75-11e7-0e5a",
                     "type": "selectionEntry",
                     "name": "Acid spray",
-                    "hidden": false
+                    "hidden": false,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Fleshborer Hive",

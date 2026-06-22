@@ -45276,7 +45276,14 @@
                     "id": "1d0a-f8ca-03b1-f1e5",
                     "targetId": "a63d-1bb5-1779-21e2",
                     "type": "selectionEntry",
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -45285,7 +45292,14 @@
                     "id": "b9fb-f8bb-f436-dd8f",
                     "type": "selectionEntry",
                     "targetId": "b069-6851-b6a8-3026",
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy missile launcher",
@@ -45624,7 +45638,14 @@
                     "id": "66a7-6c3d-5eed-9e06",
                     "targetId": "a63d-1bb5-1779-21e2",
                     "type": "selectionEntry",
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -45633,7 +45654,14 @@
                     "id": "5096-9f9b-0bf8-ce5f",
                     "type": "selectionEntry",
                     "targetId": "b069-6851-b6a8-3026",
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy baleflamer",

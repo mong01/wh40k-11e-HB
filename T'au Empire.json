@@ -15996,7 +15996,14 @@
                     "import": true,
                     "name": "Cyclic ion raker",
                     "hidden": false,
-                    "id": "607c-5de1-21e-96bf"
+                    "id": "607c-5de1-21e-96bf",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -18053,7 +18060,14 @@
                         "name": "Ion rifle",
                         "hidden": false,
                         "id": "8cea-1395-699c-a0d0",
-                        "collective": true
+                        "collective": true,
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "entryLinks": [
@@ -22604,7 +22618,14 @@
                         "hidden": false,
                         "id": "0697-6cdb-4a54-3adc",
                         "type": "selectionEntry",
-                        "targetId": "57c5-a602-9f2e-bd7e"
+                        "targetId": "57c5-a602-9f2e-bd7e",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "name": "Heavy rail rifle",
@@ -22837,7 +22858,14 @@
                             "hidden": false,
                             "id": "7404-3eed-57ee-ba12",
                             "type": "selectionEntry",
-                            "targetId": "57c5-a602-9f2e-bd7e"
+                            "targetId": "57c5-a602-9f2e-bd7e",
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              }
+                            ]
                           }
                         ],
                         "name": "Heavy rail rifle",
@@ -23866,7 +23894,14 @@
                     "import": true,
                     "name": "Ion accelerator",
                     "hidden": false,
-                    "id": "fac9-3d5c-53c2-b08c"
+                    "id": "fac9-3d5c-53c2-b08c",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 20
+                      }
+                    ]
                   }
                 ],
                 "name": "Heavy Burst Cannon",
@@ -49134,7 +49169,14 @@
                         "id": "0ea4-6323-6103-5675",
                         "type": "selectionEntry",
                         "targetId": "8290-c852-cce9-d50e",
-                        "defaultAmount": 1
+                        "defaultAmount": 1,
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -49411,7 +49453,14 @@
                             "id": "0926-4604-2901-2eae",
                             "type": "selectionEntry",
                             "targetId": "8290-c852-cce9-d50e",
-                            "defaultAmount": 1
+                            "defaultAmount": 1,
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              }
+                            ]
                           },
                           {
                             "constraints": [
@@ -50213,7 +50262,14 @@
                         "id": "aec0-6731-a113-a8c5",
                         "type": "selectionEntry",
                         "targetId": "6e8-cf2e-cedd-9028",
-                        "defaultAmount": 1
+                        "defaultAmount": 1,
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -50484,7 +50540,14 @@
                             "id": "7988-2344-a087-e5a0",
                             "type": "selectionEntry",
                             "targetId": "6e8-cf2e-cedd-9028",
-                            "defaultAmount": 1
+                            "defaultAmount": 1,
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              }
+                            ]
                           }
                         ],
                         "name": "Weapons",

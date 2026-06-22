@@ -3065,7 +3065,14 @@
                             "hidden": false,
                             "id": "1a72-a226-6838-a4c5",
                             "type": "selectionEntry",
-                            "targetId": "fef0-fb67-5285-7552"
+                            "targetId": "fef0-fb67-5285-7552",
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 10
+                              }
+                            ]
                           }
                         ],
                         "name": "Heavy Mining Laser",

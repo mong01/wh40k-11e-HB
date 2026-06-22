@@ -7389,7 +7389,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 190
+            "value": 180
           },
           {
             "name": "Crusade Points",
@@ -7970,7 +7970,14 @@
                             "import": true,
                             "name": "Thunder Hammer",
                             "hidden": false,
-                            "id": "7361-e230-fa4d-4ac4"
+                            "id": "7361-e230-fa4d-4ac4",
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              }
+                            ]
                           },
                           {
                             "profiles": [
@@ -8763,7 +8770,14 @@
                             "import": true,
                             "name": "Thunder Hammer",
                             "hidden": false,
-                            "id": "ff14-7e0a-4b32-6fc1"
+                            "id": "ff14-7e0a-4b32-6fc1",
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              }
+                            ]
                           },
                           {
                             "profiles": [
@@ -9065,20 +9079,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 330,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "390e-706b-a059-378b",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 350,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "constraints": [
@@ -9401,7 +9416,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 195
           },
           {
             "name": "Crusade Points",
@@ -11618,14 +11633,57 @@
         "import": true,
         "name": "Fortis Kill Team",
         "hidden": false,
-        "id": "a077-e1c9-f8f0-d38"
+        "id": "a077-e1c9-f8f0-d38",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a077-e1c9-f8f0-d38",
+                        "shared": true,
+                        "childName": "Fortis Kill Team"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 265
+            "value": 275
           },
           {
             "name": "Crusade Points",
@@ -13598,14 +13656,57 @@
         "import": true,
         "name": "Indomitor Kill Team",
         "hidden": false,
-        "id": "6cb-912c-c43-210b"
+        "id": "6cb-912c-c43-210b",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6cb-912c-c43-210b",
+                        "shared": true,
+                        "childName": "Indomitor Kill Team"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 170
           },
           {
             "name": "Crusade Points",
@@ -16339,7 +16440,50 @@
         "import": true,
         "name": "Spectrus Kill Team",
         "hidden": false,
-        "id": "2544-5189-7806-30f3"
+        "id": "2544-5189-7806-30f3",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2544-5189-7806-30f3",
+                        "shared": true,
+                        "childName": "Spectrus Kill Team"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -18446,20 +18590,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "greaterThan",
-                "value": 5,
+                "type": "atLeast",
+                "value": 10,
                 "field": "selections",
                 "scope": "66ab-476a-134e-ec7b",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "constraints": [
@@ -19357,7 +19502,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 275
+            "value": 265
           },
           {
             "name": "Crusade Points",
@@ -20351,7 +20496,50 @@
         "import": true,
         "name": "Talonstrike Kill Team",
         "hidden": false,
-        "id": "c679-f252-32b1-ebcc"
+        "id": "c679-f252-32b1-ebcc",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c679-f252-32b1-ebcc",
+                        "shared": true,
+                        "childName": "Talonstrike Kill Team"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [
@@ -21136,6 +21324,23 @@
             "type": "set",
             "value": 200,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "b169-ff89-b05e-3884",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           }
         ],
         "constraints": [

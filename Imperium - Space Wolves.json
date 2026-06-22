@@ -8488,21 +8488,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 270,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 11,
+                "value": 20,
                 "field": "selections",
                 "scope": "fa8f-f5a2-993-bdbb",
                 "childId": "model",
                 "shared": true,
-                "id": "9637-69a3-7f0f-f34c",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 285,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "profiles": [
@@ -12157,7 +12157,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 170
+            "value": 150
           },
           {
             "name": "Crusade Points",
@@ -12203,21 +12203,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 10,
                 "field": "selections",
                 "scope": "ca30-caf3-d7a8-1d32",
                 "childId": "model",
                 "shared": true,
-                "id": "f400-1fa2-8969-b370",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 340,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ca30-caf3-d7a8-1d32",
+                        "shared": true,
+                        "childName": "Wolf Guard Terminators"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -12885,7 +12926,14 @@
                     "hidden": false,
                     "id": "fd41-4ba2-3e4e-7897",
                     "type": "selectionEntry",
-                    "targetId": "d576-d444-2286-9eeb"
+                    "targetId": "d576-d444-2286-9eeb",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 5
+                      }
+                    ]
                   }
                 ],
                 "modifiers": [
@@ -13269,7 +13317,14 @@
                         "hidden": false,
                         "id": "44d4-1a7b-b37c-e4f5",
                         "type": "selectionEntry",
-                        "targetId": "d576-d444-2286-9eeb"
+                        "targetId": "d576-d444-2286-9eeb",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       }
                     ],
                     "selectionEntries": [
@@ -14833,21 +14888,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 10,
                 "field": "selections",
                 "scope": "d937-bd7d-618d-4e2d",
                 "childId": "model",
                 "shared": true,
-                "id": "5aef-47e5-58e1-5de9",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d937-bd7d-618d-4e2d",
+                        "shared": true,
+                        "childName": "Wulfen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -16320,7 +16416,50 @@
         "import": true,
         "name": "Wulfen Dreadnought",
         "hidden": false,
-        "id": "91fa-49ac-5b0a-c155"
+        "id": "91fa-49ac-5b0a-c155",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "91fa-49ac-5b0a-c155",
+                        "shared": true,
+                        "childName": "Wulfen Dreadnought"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "costs": [
@@ -16733,7 +16872,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 100
           },
           {
             "name": "Crusade Points",
@@ -16811,21 +16950,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 4,
+                "value": 6,
                 "field": "selections",
                 "scope": "7a50-3722-8195-5877",
                 "childId": "model",
                 "shared": true,
-                "id": "75dd-2178-4086-f46e",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 230,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7a50-3722-8195-5877",
+                        "shared": true,
+                        "childName": "Thunderwolf Cavalry"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -17151,7 +17331,14 @@
                     "hidden": false,
                     "type": "selectionEntry",
                     "id": "de28-9f74-b8ae-3a76",
-                    "targetId": "14d9-290f-100f-881c"
+                    "targetId": "14d9-290f-100f-881c",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 5
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -17824,7 +18011,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -18079,21 +18266,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 75,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 10,
                 "field": "selections",
                 "scope": "dc75-5a79-4121-1d72",
                 "childId": "model",
                 "shared": true,
-                "id": "79db-1719-becb-4d42",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 80,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "dc75-5a79-4121-1d72",
+                        "shared": true,
+                        "childName": "Fenrisian Wolves"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -30449,7 +30677,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 130
+            "value": 125
           },
           {
             "name": "Crusade Points",
@@ -31360,7 +31588,50 @@
         "import": true,
         "name": "Venerable Dreadnought",
         "hidden": false,
-        "id": "c125-1106-f06d-9682"
+        "id": "c125-1106-f06d-9682",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c125-1106-f06d-9682",
+                        "shared": true,
+                        "childName": "Venerable Dreadnought"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "profiles": [
@@ -34545,21 +34816,62 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 10,
                 "field": "selections",
                 "scope": "4c72-3f0c-7f94-af96",
                 "childId": "model",
                 "shared": true,
-                "id": "8078-7a71-8c1a-2887",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "4c72-3f0c-7f94-af96",
+                        "shared": true,
+                        "childName": "Wulfen with Storm Shields"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -36598,7 +36910,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -37834,6 +38146,9 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -37842,12 +38157,51 @@
                 "scope": "ee6b-3815-3a1a-6458",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 210,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ee6b-3815-3a1a-6458",
+                        "shared": true,
+                        "childName": "Wolf Scouts"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "unit",

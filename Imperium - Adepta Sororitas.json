@@ -10073,7 +10073,14 @@
                         "import": true,
                         "name": "Meltagun",
                         "hidden": false,
-                        "id": "fc05-599e-2f63-d4e4"
+                        "id": "fc05-599e-2f63-d4e4",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       },
                       {
                         "profiles": [
@@ -13452,7 +13459,14 @@
                     "import": true,
                     "name": "Twin Multi-melta",
                     "hidden": false,
-                    "id": "fe9c-67db-68e4-45af"
+                    "id": "fe9c-67db-68e4-45af",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 15
+                      }
+                    ]
                   }
                 ],
                 "name": "Immolator Weapons",
@@ -17701,7 +17715,14 @@
                     "import": true,
                     "name": "Multi-melta",
                     "hidden": false,
-                    "id": "e50-ed9a-722a-e69"
+                    "id": "e50-ed9a-722a-e69",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -18429,7 +18450,14 @@
                         "import": true,
                         "name": "Multi-melta",
                         "hidden": false,
-                        "id": "9403-6ce4-fcc2-e5e8"
+                        "id": "9403-6ce4-fcc2-e5e8",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 10
+                          }
+                        ]
                       }
                     ],
                     "constraints": [
@@ -21712,7 +21740,14 @@
                         "hidden": false,
                         "type": "selectionEntry",
                         "id": "c67d-428c-b52e-2ac8",
-                        "targetId": "1eae-cf99-54ba-2e0a"
+                        "targetId": "1eae-cf99-54ba-2e0a",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 5
+                          }
+                        ]
                       },
                       {
                         "constraints": [

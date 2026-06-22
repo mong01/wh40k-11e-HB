@@ -5181,6 +5181,13 @@
                             "targetId": "982b-de77-dd2d-d9bd",
                             "primary": false
                           }
+                        ],
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 10
+                          }
                         ]
                       }
                     ],
@@ -20891,7 +20898,7 @@
                       {
                         "name": "pts",
                         "typeId": "51b2-306e-1021-d207",
-                        "value": 0
+                        "value": 10
                       }
                     ],
                     "entryLinks": [

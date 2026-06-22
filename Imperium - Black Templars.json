@@ -3897,53 +3897,43 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
-                "type": "equalTo",
+                "type": "atLeast",
                 "value": 5,
                 "field": "selections",
                 "scope": "206c-6b4d-4aaa-7e79",
                 "childId": "model",
                 "shared": true,
-                "id": "8c55-cc1f-8b59-6cc0",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207"
+            ]
           },
           {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 6,
-                    "field": "selections",
-                    "scope": "206c-6b4d-4aaa-7e79",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "lessThan",
-                    "value": 10,
-                    "field": "selections",
-                    "scope": "206c-6b4d-4aaa-7e79",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
             "type": "set",
             "value": 235,
-            "field": "51b2-306e-1021-d207"
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 9,
+                "field": "selections",
+                "scope": "206c-6b4d-4aaa-7e79",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           },
           {
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -3952,13 +3942,51 @@
                 "scope": "206c-6b4d-4aaa-7e79",
                 "childId": "model",
                 "shared": true,
-                "id": "296d-05da-c4b1-b708",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 260,
-            "field": "51b2-306e-1021-d207"
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 15,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -7964,6 +7992,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7dec-dc3d-c40a-8ce",
+                        "shared": true,
+                        "childName": "Gladiator Lancer"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -8753,6 +8822,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "bfb6-4320-74cf-bbda",
+                        "shared": true,
+                        "childName": "Gladiator Reaper"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -9485,6 +9595,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "5704-ffe4-4a53-8789",
+                        "shared": true,
+                        "childName": "Gladiator Valiant"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -10361,7 +10512,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 180
+            "value": 170
           },
           {
             "name": "Crusade Points",
@@ -11168,6 +11319,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c3e8-3cde-8b39-4b19",
+                        "shared": true,
+                        "childName": "Repulsor"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -11181,7 +11373,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 235
+            "value": 245
           },
           {
             "name": "Crusade Points",
@@ -12107,6 +12299,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a344-192f-aae2-16e5",
+                        "shared": true,
+                        "childName": "Repulsor Executioner"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -13587,7 +13820,50 @@
         "import": true,
         "name": "Marshal",
         "hidden": false,
-        "id": "68dd-5f49-4f17-cd84"
+        "id": "68dd-5f49-4f17-cd84",
+        "modifiers": [
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "68dd-5f49-4f17-cd84",
+                        "shared": true,
+                        "childName": "Marshal"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "infoLinks": [
@@ -14936,7 +15212,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 55
+            "value": 45
           },
           {
             "name": "Crusade Points",
@@ -15765,6 +16041,47 @@
             "type": "add",
             "value": "9cfd-1c32-585f-7d5c",
             "field": "category"
+          },
+          {
+            "type": "increment",
+            "value": 20,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8525-2de1-14fd-c1f5",
+                        "shared": true,
+                        "childName": "Land Raider Crusader"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "model",
@@ -16742,6 +17059,23 @@
             "type": "set",
             "value": 170,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "a499-86fa-4d0c-b06d",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -17162,7 +17496,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 175
+            "value": 160
           },
           {
             "name": "Crusade Points",
@@ -17945,6 +18279,23 @@
             "type": "set",
             "value": 330,
             "field": "51b2-306e-1021-d207"
+          },
+          {
+            "type": "set",
+            "value": 320,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "80ad-6e62-65e3-e667",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           }
         ],
         "entryLinks": [

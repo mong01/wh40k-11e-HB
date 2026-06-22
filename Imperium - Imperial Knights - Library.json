@@ -6436,7 +6436,14 @@
                         "hidden": false,
                         "id": "13ea-1f02-677-7538",
                         "type": "selectionEntry",
-                        "targetId": "d6c0-4d42-c3c4-db8a"
+                        "targetId": "d6c0-4d42-c3c4-db8a",
+                        "costs": [
+                          {
+                            "name": "pts",
+                            "typeId": "51b2-306e-1021-d207",
+                            "value": 15
+                          }
+                        ]
                       }
                     ],
                     "type": "upgrade",

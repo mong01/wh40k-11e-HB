@@ -23615,7 +23615,14 @@
                     "type": "selectionEntry",
                     "name": "Hades lascannon",
                     "hidden": false,
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -23625,7 +23632,14 @@
                     "targetId": "8e4e-08dd-0af5-398c",
                     "type": "selectionEntry",
                     "collective": false,
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy missile launcher",
@@ -23969,7 +23983,14 @@
                     "name": "Heavy reaper autocannon",
                     "hidden": false,
                     "collective": false,
-                    "sortIndex": 3
+                    "sortIndex": 3,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   },
                   {
                     "import": true,
@@ -23987,7 +24008,14 @@
                     "id": "f10d-0f8f-b354-fda3",
                     "targetId": "1097-7d15-14e0-f8c7",
                     "type": "selectionEntry",
-                    "sortIndex": 2
+                    "sortIndex": 2,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 10
+                      }
+                    ]
                   }
                 ],
                 "name": "Replace heavy baleflamer",
