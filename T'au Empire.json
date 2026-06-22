@@ -1643,9 +1643,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pab2-5044-b293-0017",
+            "id": "pab8-2f15-b8fd-0017",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -2711,9 +2711,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3c-4272-3ce1-0018",
+            "id": "pa83-3114-83fb-0018",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -3695,9 +3695,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf1-b2a3-f1fc-0019",
+            "id": "pa43-4202-43b0-0019",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -4682,9 +4682,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad8-e111-d883-001a",
+            "id": "pa38-810f-38fd-001a",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -5313,9 +5313,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac6-218d-c69d-001b",
+            "id": "paa3-1b1b-a3d9-001b",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -15054,9 +15054,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa99-e975-9918-0021",
+            "id": "paa2-5e89-a2cd-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -16147,9 +16147,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa51-ac55-5187-0022",
+            "id": "pa26-81e3-26bb-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -16738,9 +16738,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paac-a894-acf0-001c",
+            "id": "pabe-e6c9-be13-001c",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -18985,9 +18985,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa8f-77e6-8f06-0023",
+            "id": "pa19-079b-193e-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -33570,7 +33570,7 @@
           },
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -51474,9 +51474,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0b-47da-0ba5-001d",
+            "id": "pa7e-afb5-7ece-001d",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -52135,9 +52135,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa62-5be1-62da-001e",
+            "id": "pac2-ee6b-c281-001e",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -52882,9 +52882,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9c-69a1-9ccf-001f",
+            "id": "pa95-d36b-9594-001f",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -53937,9 +53937,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf6-a259-f6b8-0020",
+            "id": "pa63-755e-6386-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pa43-299a-4348-0014",
+            "targetId": "pad6-6e15-d646-0014",
             "sortIndex": 4
           }
         ],
@@ -64224,14 +64224,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3b-62e8-3b89-000e",
+                    "id": "pa51-e56d-5151-000e",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "79c5-9fc4-7b97-7c3f",
@@ -64241,7 +64241,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "39f9-dcd3-1e80-fa1f",
@@ -64340,14 +64340,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa6e-f782-6e2c-000f",
+                    "id": "pa39-959f-39b5-000f",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "3d58-2655-391e-ecc",
@@ -64363,7 +64363,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa75-69ad-75a2-0010",
+                    "id": "pa53-8656-5366-0010",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -64887,14 +64887,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa32-f26c-3268-0011",
+                    "id": "paaa-715e-aa08-0011",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7288-48b3-c4df-66c6",
@@ -64984,14 +64984,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad3-52f0-d332-0012",
+                    "id": "pa73-632a-733c-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7288-48b3-c4df-66c6",
@@ -65081,14 +65081,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8d-c8ed-8d2a-0013",
+                    "id": "pa79-3ebf-7985-0013",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "7288-48b3-c4df-66c6",
@@ -66657,11 +66657,11 @@
             "import": true,
             "name": "Advanced Acquisition Cadre",
             "hidden": false,
-            "id": "pac0-be87-c091-0000",
+            "id": "pa3f-d9b8-3f8d-0000",
             "rules": [
               {
                 "name": "Expert Fieldcraft",
-                "id": "pa83-cd0f-8399-0001",
+                "id": "pa29-3491-2988-0001",
                 "hidden": false,
                 "description": "Extensive additional training - including tuition by Trail Shapers - enables these warriors to fire and relocate seamlessly while remaining concealed.\n\nIn your Shooting phase, when a friendly PATHFINDER TEAM/STEALTH BATTLESUITS unit is selected to shoot, those ranged attacks do not prevent your unit from being hidden."
               }
@@ -66678,7 +66678,7 @@
         "constraints": [
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "parent",
             "shared": true,
@@ -80445,13 +80445,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa43-299a-4348-0014",
+        "id": "pad6-6e15-d646-0014",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Advanced Acquisition Cadre Upgrades",
-            "id": "pa30-66ea-308e-0002",
+            "id": "pa55-419e-55d8-0002",
             "hidden": false,
             "selectionEntries": [
               {
@@ -80459,14 +80459,14 @@
                 "import": true,
                 "name": "Negation Emitters",
                 "hidden": false,
-                "id": "pacf-1761-cf6a-0004",
+                "id": "pa1d-86fd-1d7f-0004",
                 "profiles": [
                   {
                     "name": "Negation Emitters",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pab5-52a4-b5e6-0005",
+                    "id": "pae3-e916-e317-0005",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80483,7 +80483,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa2e-a3cb-2eb1-0006"
+                    "id": "pac3-d641-c34f-0006"
                   },
                   {
                     "type": "max",
@@ -80491,7 +80491,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "paae-01e4-ae1a-0007",
+                    "id": "paf6-639c-f687-0007",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80508,14 +80508,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5b-6aef-5be7-0008",
+                    "id": "pacd-dc35-cd97-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5d3a-803e-7cbc-b2f1",
@@ -80534,14 +80534,14 @@
                 "import": true,
                 "name": "Unmasking Suite",
                 "hidden": false,
-                "id": "pa09-95cb-09be-0009",
+                "id": "paa3-42b6-a360-0009",
                 "profiles": [
                   {
                     "name": "Unmasking Suite",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa83-ce2a-8331-000a",
+                    "id": "pae4-e074-e4c1-000a",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -80558,7 +80558,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa74-21a6-74b5-000b"
+                    "id": "pa0f-4d39-0f4d-000b"
                   },
                   {
                     "type": "max",
@@ -80566,7 +80566,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa95-8096-955a-000c",
+                    "id": "pac3-56c1-c3dc-000c",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -80583,7 +80583,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa10-839f-100f-000d",
+                    "id": "pa23-725a-23de-000d",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -80593,7 +80593,7 @@
                             "conditions": [
                               {
                                 "type": "notInstanceOf",
-                                "value": 0,
+                                "value": 1,
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "5268-6e9-8f5c-c810",
@@ -80608,7 +80608,7 @@
                             "conditions": [
                               {
                                 "type": "notInstanceOf",
-                                "value": 0,
+                                "value": 1,
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "c3af-6e36-252c-1006",
@@ -80623,7 +80623,7 @@
                             "conditions": [
                               {
                                 "type": "notInstanceOf",
-                                "value": 0,
+                                "value": 1,
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "5d3a-803e-7cbc-b2f1",
@@ -80664,7 +80664,7 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "roster",
-                        "childId": "pac0-be87-c091-0000",
+                        "childId": "pa3f-d9b8-3f8d-0000",
                         "shared": true,
                         "includeChildSelections": true,
                         "includeChildForces": true
@@ -80681,7 +80681,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paf1-f276-f192-0003"
+                "id": "pad9-ace9-d900-0003"
               }
             ]
           }
@@ -80693,7 +80693,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pad6-d0dc-d64b-0015",
+            "id": "pa77-9241-77dd-0015",
             "includeChildSelections": true
           },
           {
@@ -80702,7 +80702,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa10-da3c-1021-0016",
+            "id": "pa91-8605-9147-0016",
             "includeChildSelections": true
           }
         ]

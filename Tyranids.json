@@ -22201,7 +22201,7 @@
           },
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -22223,7 +22223,7 @@
             "constraints": [
               {
                 "type": "max",
-                "value": 1,
+                "value": 20,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,

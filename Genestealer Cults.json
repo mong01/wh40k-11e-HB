@@ -5,7 +5,7 @@
         "constraints": [
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -45,7 +45,7 @@
               },
               {
                 "type": "max",
-                "value": 1,
+                "value": 20,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -1279,9 +1279,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa45-e78f-45a6-0021",
+            "id": "pa1a-6ee2-1ac3-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -4654,9 +4654,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3e-4ff9-3e47-0022",
+            "id": "pa95-f99c-95f2-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -7647,9 +7647,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0e-816a-0e5a-0023",
+            "id": "pa4d-bccc-4d39-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -8451,9 +8451,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa5c-87ab-5cd3-0024",
+            "id": "paf4-2851-f4aa-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -12654,9 +12654,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6c-fb7b-6c0f-0025",
+            "id": "pa16-9504-162c-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -13251,9 +13251,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa76-f0ad-767b-0026",
+            "id": "pa19-1275-194c-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -14198,9 +14198,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa35-6eec-352a-0027",
+            "id": "pa1e-c860-1e3f-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -14862,9 +14862,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa61-410d-61cb-0028",
+            "id": "pa35-c90d-35e5-0028",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -17776,9 +17776,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7a-63b9-7a82-0030",
+            "id": "pa6f-997c-6f58-0030",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -18330,9 +18330,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paba-10f1-bad1-0029",
+            "id": "pad9-dc52-d963-0029",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -18866,9 +18866,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa76-2d70-761b-002a",
+            "id": "pa2b-2a00-2b8e-002a",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -19711,9 +19711,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1e-e73d-1e24-002b",
+            "id": "pa72-a5ab-72cb-002b",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -20451,9 +20451,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7c-f74d-7c8e-002f",
+            "id": "paf4-1a87-f43a-002f",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -21124,9 +21124,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa32-ae28-3259-002c",
+            "id": "pa92-e762-92ca-002c",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -21960,9 +21960,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7f-8395-7fd8-002d",
+            "id": "pac8-4d10-c8cc-002d",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],
@@ -24452,9 +24452,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa40-a36a-409e-002e",
+            "id": "paa0-d4b2-a031-002e",
             "type": "selectionEntryGroup",
-            "targetId": "pa05-9194-0583-001e",
+            "targetId": "pa01-76af-0148-001e",
             "sortIndex": 4
           }
         ],

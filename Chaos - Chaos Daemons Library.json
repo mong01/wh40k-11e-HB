@@ -1627,7 +1627,7 @@
           },
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -2821,9 +2821,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa2e-366a-2e94-0057",
+            "id": "pab6-4293-b695-0057",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -3972,9 +3972,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0e-d690-0e26-0037",
+            "id": "pa19-3e77-1995-0037",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -4636,9 +4636,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad6-e7b2-d604-0058",
+            "id": "pa19-a9e0-192c-0058",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -4999,9 +4999,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf5-8c07-f5db-0038",
+            "id": "pad8-dc1e-d855-0038",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -5568,9 +5568,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa0f-3769-0f94-0039",
+            "id": "padc-365d-dc08-0039",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -6397,9 +6397,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7a-dd92-7abd-003a",
+            "id": "pa74-b71d-74c3-003a",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -7369,9 +7369,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa69-dfe4-69d5-0059",
+            "id": "pa94-e24d-9477-0059",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -7856,9 +7856,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf3-5abe-f327-0069",
+            "id": "pa29-a2a9-2974-0069",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -8832,9 +8832,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa49-e58e-496f-003b",
+            "id": "paba-e945-ba0b-003b",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -10647,9 +10647,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa8d-40ce-8d98-003c",
+            "id": "paf6-76be-f6fb-003c",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -11733,9 +11733,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa1a-0e9e-1ac1-005a",
+            "id": "pa85-8129-85d8-005a",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -15451,9 +15451,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa60-8b85-60a5-003d",
+            "id": "pa06-57b9-067f-003d",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -16680,9 +16680,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa42-c6b0-42e1-003e",
+            "id": "pae6-c281-e6d6-003e",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -17583,9 +17583,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa3-6c63-a34f-005b",
+            "id": "pa57-e88a-57fd-005b",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -18552,9 +18552,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6a-493e-6aca-003f",
+            "id": "pafc-4e75-fc15-003f",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -19410,9 +19410,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa09-dfa9-099c-005c",
+            "id": "pa3b-35ab-3beb-005c",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -19824,9 +19824,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa43-5b2e-43c3-0040",
+            "id": "pa9d-de25-9d8a-0040",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -20587,9 +20587,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad9-152c-d9db-0041",
+            "id": "pa32-d9b0-3287-0041",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -21362,9 +21362,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabd-ae41-bd8c-0054",
+            "id": "pa3c-2c5d-3c9b-0054",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -21732,9 +21732,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa36-8828-36c7-0042",
+            "id": "pae6-c19d-e61c-0042",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -22905,9 +22905,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paa0-1b67-a0b4-006a",
+            "id": "pac4-6165-c456-006a",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -23969,9 +23969,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa49-65c1-498f-006b",
+            "id": "pad1-aab3-d1aa-006b",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -25421,9 +25421,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "padd-5950-dd80-005d",
+            "id": "pa70-ccce-7012-005d",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -26762,9 +26762,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa02-57ad-020e-0043",
+            "id": "pafb-7bd1-fbdd-0043",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -27966,9 +27966,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9b-cc61-9b1b-005e",
+            "id": "pa51-41b0-5162-005e",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -29078,9 +29078,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad0-359b-d074-0044",
+            "id": "pa74-d0c8-74a3-0044",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -29699,9 +29699,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pad8-8f7d-d8b6-0045",
+            "id": "pa2a-76ec-2ae5-0045",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -30362,9 +30362,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa36-25a9-362d-0046",
+            "id": "pa25-64eb-2506-0046",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -31210,9 +31210,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6c-a15e-6ce3-005f",
+            "id": "pabb-7527-bbd4-005f",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -31573,9 +31573,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa33-a8cf-3383-0047",
+            "id": "pa4a-25d8-4adf-0047",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -32388,9 +32388,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pae9-81cb-e97b-0055",
+            "id": "paa4-c623-a448-0055",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -33018,9 +33018,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pade-a620-dea1-006c",
+            "id": "pac3-4126-c3b5-006c",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -33809,9 +33809,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pafb-bbc6-fb6d-006d",
+            "id": "paa5-f7a3-a55f-006d",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -35762,9 +35762,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf1-6bb3-f174-0048",
+            "id": "padc-b983-dca6-0048",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -36937,9 +36937,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paaa-7622-aac6-0060",
+            "id": "paaf-1b5f-affc-0060",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -38082,9 +38082,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4d-7d40-4df3-0049",
+            "id": "pa5c-b40b-5ca9-0049",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -38695,9 +38695,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa6f-53ab-6fb7-004a",
+            "id": "pa74-ef20-747c-004a",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -39580,9 +39580,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paee-09ba-eec8-0061",
+            "id": "pa25-0da0-2515-0061",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -40332,9 +40332,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa05-6eed-0522-0062",
+            "id": "pac1-89f6-c1f8-0062",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -40709,9 +40709,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa57-46ed-574d-004b",
+            "id": "paca-725e-ca1d-004b",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -41549,9 +41549,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa29-430d-29d3-004c",
+            "id": "pa8d-e45b-8d17-004c",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -42620,9 +42620,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa67-5715-67ed-004d",
+            "id": "pa4d-15b8-4dbf-004d",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -43497,9 +43497,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa87-daf3-879c-006e",
+            "id": "pa95-76b0-95e5-006e",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -45459,9 +45459,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pade-7d51-de59-004e",
+            "id": "pa7e-989f-7efb-004e",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -46419,9 +46419,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa28-fb8f-28a4-004f",
+            "id": "pae1-03a3-e188-004f",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -47310,9 +47310,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa25-64e6-253e-0050",
+            "id": "pab7-027c-b77e-0050",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -48217,9 +48217,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa05-2d78-05e8-0051",
+            "id": "pa65-63fd-6521-0051",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -50458,9 +50458,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa92-ce51-92c8-0052",
+            "id": "pa6e-aef8-6e6c-0052",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -52280,9 +52280,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pac0-34a6-c062-0063",
+            "id": "pa81-63f9-815b-0063",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -52525,9 +52525,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa3a-7d3e-3a70-0064",
+            "id": "paa5-0914-a50b-0064",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -53374,9 +53374,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa14-60ea-1486-0065",
+            "id": "paee-1193-ee03-0065",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -53683,9 +53683,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa9d-9561-9d30-0066",
+            "id": "pac0-5f52-c0a7-0066",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -54345,9 +54345,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa7c-5c10-7caa-0053",
+            "id": "pa11-2f0c-11e6-0053",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -56372,9 +56372,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa03-7d97-03eb-0067",
+            "id": "pa73-5b18-7377-0067",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -56992,9 +56992,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa35-4dc5-35a0-0056",
+            "id": "pac0-0c7c-c087-0056",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -57555,9 +57555,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa72-9613-724d-0068",
+            "id": "pa0d-1f3a-0d40-0068",
             "type": "selectionEntryGroup",
-            "targetId": "pa2c-7e0d-2cc4-0034",
+            "targetId": "pafd-f696-fd1d-0034",
             "sortIndex": 4
           }
         ],
@@ -58261,7 +58261,7 @@
         "selectionEntryGroups": [
           {
             "name": "Daemonic Incursion Enhancements",
-            "id": "pa7e-bade-7eb5-0000",
+            "id": "pa90-7339-9008-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -58270,14 +58270,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8d-38ef-8d93-0002",
+                    "id": "pa79-293e-7995-0002",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4bd-5ee0-f179-2fc5",
@@ -58287,7 +58287,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -58496,14 +58496,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3e-d7f1-3e97-0003",
+                    "id": "pafe-b52b-fedb-0003",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b188-114f-6ba5-79a1",
@@ -58513,7 +58513,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -58683,14 +58683,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paee-8726-ee35-0004",
+                    "id": "pa77-89f8-77a9-0004",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed0d-8e2a-225c-2340",
@@ -58700,7 +58700,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -58826,14 +58826,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa21-95d6-215f-0005",
+                    "id": "pa0c-08de-0c35-0005",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b2a9-ede5-7a83-4da8",
@@ -58843,7 +58843,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -58989,13 +58989,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa0a-ae73-0a72-0001"
+                "id": "pa76-3fcc-7642-0001"
               }
             ]
           },
           {
             "name": "Shadow Legion Enhancements",
-            "id": "pac9-cc6e-c9c8-0006",
+            "id": "pa70-106d-7047-0006",
             "hidden": false,
             "selectionEntries": [
               {
@@ -59079,14 +59079,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa15-5e1e-1568-0008",
+                    "id": "paa6-ce5f-a6d9-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4df3-beae-010c-9087",
@@ -59124,14 +59124,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf2-c4e9-f26e-0009",
+                    "id": "pae8-9e49-e8b4-0009",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4df3-beae-010c-9087",
@@ -59227,14 +59227,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa95-217a-9581-000a",
+                    "id": "pa05-8665-053c-000a",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4df3-beae-010c-9087",
@@ -59388,14 +59388,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3b-95b5-3b5e-000b",
+                    "id": "paaf-e2a8-af20-000b",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4df3-beae-010c-9087",
@@ -59468,13 +59468,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paf9-a4a8-f984-0007"
+                "id": "pa33-74e1-33c7-0007"
               }
             ]
           },
           {
             "name": "Blood Legion Enhancements",
-            "id": "pa5b-8fc1-5bd6-0018",
+            "id": "pa9b-43c5-9b54-0018",
             "hidden": false,
             "selectionEntries": [
               {
@@ -59482,14 +59482,14 @@
                 "import": true,
                 "name": "Slaughterthirst (Aura)",
                 "hidden": false,
-                "id": "pa1c-4826-1ca6-001a",
+                "id": "pa81-8101-8110-001a",
                 "profiles": [
                   {
                     "name": "Slaughterthirst (Aura)",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
-                    "id": "pa6e-1e4b-6edd-001b",
+                    "id": "pae6-9736-e6c6-001b",
                     "characteristics": [
                       {
                         "name": "Description",
@@ -59506,7 +59506,7 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "pa55-8fab-55c0-001c"
+                    "id": "pa3c-ff56-3c64-001c"
                   },
                   {
                     "type": "max",
@@ -59514,7 +59514,7 @@
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "pa43-6a1a-430b-001d",
+                    "id": "pae0-4ee8-e0ed-001d",
                     "includeChildSelections": true,
                     "includeChildForces": true
                   }
@@ -59531,14 +59531,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa12-36dd-123b-001e",
+                    "id": "pab1-57c1-b162-001e",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -59548,7 +59548,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4bd-5ee0-f179-2fc5",
@@ -59646,14 +59646,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5f-727e-5fcd-001f",
+                    "id": "pa3b-aa6d-3bcf-001f",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -59663,7 +59663,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4bd-5ee0-f179-2fc5",
@@ -59673,7 +59673,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -59778,14 +59778,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pabd-67f1-bd4b-0020",
+                    "id": "paae-fd78-aedb-0020",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -59795,7 +59795,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4bd-5ee0-f179-2fc5",
@@ -59900,14 +59900,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pad3-956c-d30e-0021",
+                    "id": "pa94-2513-9491-0021",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -59917,7 +59917,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "4bd-5ee0-f179-2fc5",
@@ -59927,7 +59927,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -59990,13 +59990,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paf3-1ba6-f37b-0019"
+                "id": "pa96-02f8-96fe-0019"
               }
             ]
           },
           {
             "name": "Scintillating Legion Enhancements",
-            "id": "pa32-c760-32f8-0022",
+            "id": "pa73-b874-733a-0022",
             "hidden": false,
             "selectionEntries": [
               {
@@ -60083,14 +60083,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa86-61ed-8693-0024",
+                    "id": "pae4-db6c-e4b4-0024",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60100,7 +60100,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b188-114f-6ba5-79a1",
@@ -60205,14 +60205,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa38-88c3-3876-0025",
+                    "id": "pa73-4018-7399-0025",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60222,7 +60222,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b188-114f-6ba5-79a1",
@@ -60232,7 +60232,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -60337,14 +60337,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa48-1593-4840-0026",
+                    "id": "paab-54e0-ab89-0026",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60354,7 +60354,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b188-114f-6ba5-79a1",
@@ -60364,7 +60364,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -60545,14 +60545,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8d-912e-8dce-0027",
+                    "id": "paac-dea3-aca2-0027",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60562,7 +60562,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b188-114f-6ba5-79a1",
@@ -60625,13 +60625,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa83-e573-838d-0023"
+                "id": "pa5e-fd39-5eec-0023"
               }
             ]
           },
           {
             "name": "Plague Legion Enhancements",
-            "id": "pab8-7ad0-b819-0028",
+            "id": "pad2-16ee-d2b3-0028",
             "hidden": false,
             "selectionEntries": [
               {
@@ -60718,14 +60718,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa22-96f7-2220-002a",
+                    "id": "pa82-8a14-8254-002a",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60735,7 +60735,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed0d-8e2a-225c-2340",
@@ -60840,14 +60840,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa1a-e2a6-1a1c-002b",
+                    "id": "pa55-5b9c-5597-002b",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60857,7 +60857,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed0d-8e2a-225c-2340",
@@ -60962,14 +60962,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa51-6df3-51f8-002c",
+                    "id": "pa48-11d4-483c-002c",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -60979,7 +60979,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed0d-8e2a-225c-2340",
@@ -60989,7 +60989,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -61094,14 +61094,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf0-1c78-f08f-002d",
+                    "id": "pa62-1da3-6265-002d",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -61111,7 +61111,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "ed0d-8e2a-225c-2340",
@@ -61121,7 +61121,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -61184,13 +61184,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paa1-0c2a-a13a-0029"
+                "id": "pa7e-f409-7e3e-0029"
               }
             ]
           },
           {
             "name": "Legion of Excess Enhancements",
-            "id": "pa2a-8e6e-2ac2-002e",
+            "id": "paa0-901c-a05c-002e",
             "hidden": false,
             "selectionEntries": [
               {
@@ -61277,14 +61277,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pabe-eb6e-be76-0030",
+                    "id": "pa3f-357c-3f7f-0030",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -61294,7 +61294,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b2a9-ede5-7a83-4da8",
@@ -61399,14 +61399,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa58-1ec2-5806-0031",
+                    "id": "pae0-3a74-e09b-0031",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -61416,7 +61416,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b2a9-ede5-7a83-4da8",
@@ -61521,14 +61521,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3f-79c5-3fb4-0032",
+                    "id": "paaf-d32d-afbc-0032",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -61538,7 +61538,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b2a9-ede5-7a83-4da8",
@@ -61548,7 +61548,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -61653,14 +61653,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa69-528b-696d-0033",
+                    "id": "pa89-8e8d-8946-0033",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -61670,7 +61670,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b2a9-ede5-7a83-4da8",
@@ -61680,7 +61680,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9693-cf84-fe69-37a9",
@@ -61743,7 +61743,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paa0-db50-a0f3-002f"
+                "id": "pa31-19b3-31e4-002f"
               }
             ]
           }
@@ -67986,13 +67986,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pa2c-7e0d-2cc4-0034",
+        "id": "pafd-f696-fd1d-0034",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Cavalcade of Chaos Upgrades",
-            "id": "pac5-06a9-c5f9-000c",
+            "id": "pa6c-12b4-6c86-000c",
             "hidden": false,
             "selectionEntries": [
               {
@@ -68026,14 +68026,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa39-1323-3942-000e",
+                    "id": "pa95-294e-95fc-000e",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -68043,7 +68043,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "14a0-40c9-2748-ae6e",
@@ -68189,14 +68189,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa72-bc39-729b-000f",
+                    "id": "pa87-adc8-8712-000f",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -68206,7 +68206,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "14a0-40c9-2748-ae6e",
@@ -68363,13 +68363,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa41-8d6b-418a-000d"
+                "id": "pa96-8131-968b-000d"
               }
             ]
           },
           {
             "name": "Lords of the Warp Upgrades",
-            "id": "pa99-0b80-99f6-0010",
+            "id": "pa39-cef6-3987-0010",
             "hidden": false,
             "selectionEntries": [
               {
@@ -68403,14 +68403,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa06-69ad-0602-0012",
+                    "id": "pa75-4a7d-7572-0012",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -68420,7 +68420,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "9cfd-1c32-585f-7d5c",
@@ -68436,7 +68436,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa4c-d904-4c8f-0013",
+                    "id": "pa5f-999f-5f4a-0013",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -68595,13 +68595,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa3e-3e01-3e94-0011"
+                "id": "paa8-426a-a8dd-0011"
               }
             ]
           },
           {
             "name": "Warptide Upgrades",
-            "id": "pa0f-e1b7-0fb3-0014",
+            "id": "pa82-3f07-82d7-0014",
             "hidden": false,
             "selectionEntries": [
               {
@@ -68642,14 +68642,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5d-098b-5d2d-0016",
+                    "id": "paf2-3dff-f2d3-0016",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -68659,7 +68659,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "e338-111e-d0c6-b687",
@@ -68881,14 +68881,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa0-6676-a09e-0017",
+                    "id": "pa0a-890a-0a46-0017",
                     "conditionGroups": [
                       {
                         "type": "or",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "571f-ec3a-a5a2-751a",
@@ -68898,7 +68898,7 @@
                           },
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "e338-111e-d0c6-b687",
@@ -68954,7 +68954,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa8b-4d1f-8b48-0015"
+                "id": "pac5-7b4c-c5f1-0015"
               }
             ]
           }
@@ -68966,7 +68966,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "pad3-2e46-d37b-0035",
+            "id": "pa21-d673-21a2-0035",
             "includeChildSelections": true
           },
           {
@@ -68975,7 +68975,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa49-def1-49ef-0036",
+            "id": "pafe-17ce-fe2d-0036",
             "includeChildSelections": true
           }
         ]

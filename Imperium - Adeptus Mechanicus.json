@@ -784,8 +784,8 @@
         "name": "X-101",
         "hidden": false,
         "type": "selectionEntry",
-        "id": "pa11-6a49-1199-0039",
-        "targetId": "pae8-b5d9-e8b2-0024"
+        "id": "pa1d-9e2e-1d9f-003d",
+        "targetId": "pa54-aacd-549a-0028"
       }
     ],
     "sharedSelectionEntries": [
@@ -12658,9 +12658,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa46-ccee-4697-0023",
+            "id": "pacd-ba23-cd25-0027",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -16615,9 +16615,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa4b-5541-4bed-001c",
+            "id": "pafe-e4b7-fecf-0020",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -23391,9 +23391,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf6-260d-f639-001d",
+            "id": "pab1-4386-b14a-0021",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -23921,9 +23921,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "paf9-b9ea-f975-001e",
+            "id": "pa6c-a5e5-6cc8-0022",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -25083,9 +25083,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa42-a048-4229-001f",
+            "id": "pa39-6ef8-390a-0023",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -25599,9 +25599,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "padf-5ea7-dfd0-0020",
+            "id": "pa23-0364-2381-0024",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -26259,9 +26259,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pa32-96ed-320e-0021",
+            "id": "pa59-f1ce-5995-0025",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -30798,7 +30798,7 @@
           },
           {
             "type": "max",
-            "value": 1,
+            "value": 20,
             "field": "selections",
             "scope": "roster",
             "shared": true,
@@ -32991,9 +32991,9 @@
             "import": true,
             "name": "Upgrades",
             "hidden": false,
-            "id": "pabd-9b25-bde6-0022",
+            "id": "pa29-17e2-290b-0026",
             "type": "selectionEntryGroup",
-            "targetId": "pae4-a827-e4fd-0019",
+            "targetId": "pa2a-d31a-2a57-001d",
             "sortIndex": 4
           }
         ],
@@ -41533,14 +41533,14 @@
         "import": true,
         "name": "X-101",
         "hidden": false,
-        "id": "pae8-b5d9-e8b2-0024",
+        "id": "pa54-aacd-549a-0028",
         "profiles": [
           {
             "name": "X-101",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
-            "id": "paab-0b90-abba-0025",
+            "id": "paab-7d14-ab8c-0029",
             "characteristics": [
               {
                 "name": "M",
@@ -41579,7 +41579,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pac6-dd35-c679-0026",
+            "id": "pae7-831f-e7f7-002a",
             "characteristics": [
               {
                 "name": "Description",
@@ -41593,7 +41593,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa62-fc87-626a-0027",
+            "id": "pa54-89bd-544d-002b",
             "characteristics": [
               {
                 "name": "Description",
@@ -41607,7 +41607,7 @@
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
             "hidden": false,
-            "id": "pa54-bfc2-54b5-0028",
+            "id": "pab4-e04e-b471-002c",
             "characteristics": [
               {
                 "name": "Description",
@@ -41620,49 +41620,49 @@
         "categoryLinks": [
           {
             "targetId": "cf47-a0d7-7207-29dc",
-            "id": "pa35-0681-3582-0029",
+            "id": "pa3f-eece-3fcd-002d",
             "primary": true,
             "name": "Infantry"
           },
           {
             "targetId": "aff3-d6a3-2a95-9dc",
-            "id": "pae7-e576-e79c-002a",
+            "id": "pa48-c459-4833-002e",
             "primary": false,
             "name": "Imperium"
           },
           {
             "targetId": "9cfd-1c32-585f-7d5c",
-            "id": "pac2-3d93-c216-002b",
+            "id": "pa4b-1346-4b93-002f",
             "primary": false,
             "name": "Character"
           },
           {
             "targetId": "4f3a-f0f7-6647-348d",
-            "id": "pa77-c559-7778-002c",
+            "id": "pacb-5ebb-cbeb-0030",
             "primary": false,
             "name": "Epic Hero"
           },
           {
             "targetId": "6d46-7883-e5d1-45ee",
-            "id": "pa74-8f5a-7413-002d",
+            "id": "pa4e-2fdf-4e73-0031",
             "primary": false,
             "name": "Cult Mechanicus"
           },
           {
             "targetId": "2565-ab00-5e76-8873",
-            "id": "pad9-6dcc-d980-002e",
+            "id": "pa22-a26f-2236-0032",
             "primary": false,
             "name": "X-101"
           },
           {
             "targetId": "5418-f86b-6e76-c5a",
-            "id": "pa80-bce0-80e7-002f",
+            "id": "pa7b-40c9-7bf6-0033",
             "primary": false,
             "name": "Adeptus Mechanicus"
           },
           {
             "targetId": "5418-f86b-6e76-c5a",
-            "id": "pa66-f0f5-669f-0030",
+            "id": "pa6f-dae0-6f2d-0034",
             "primary": false,
             "name": "Faction: Adeptus Mechanicus"
           }
@@ -41680,14 +41680,14 @@
             "import": true,
             "name": "Grav-gun",
             "hidden": false,
-            "id": "paf0-9fa5-f0bf-0031",
+            "id": "pa3d-d5ec-3d07-0035",
             "profiles": [
               {
                 "name": "Grav-gun",
                 "typeId": "f77d-b953-8fa4-b762",
                 "typeName": "Ranged Weapons",
                 "hidden": false,
-                "id": "pae0-7a16-e02c-0032",
+                "id": "pa0c-2971-0cf4-0036",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -41734,7 +41734,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa46-6a48-46cc-0033"
+                "id": "pa57-b2e1-5730-0037"
               },
               {
                 "type": "max",
@@ -41742,7 +41742,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pac2-19d3-c2ea-0034"
+                "id": "pa26-995d-2600-0038"
               }
             ]
           },
@@ -41751,14 +41751,14 @@
             "import": true,
             "name": "Hydraulic claw",
             "hidden": false,
-            "id": "pa20-fa7c-20b3-0035",
+            "id": "pac6-11f8-c6fe-0039",
             "profiles": [
               {
                 "name": "Hydraulic claw",
                 "typeId": "8a40-4aaa-c780-9046",
                 "typeName": "Melee Weapons",
                 "hidden": false,
-                "id": "pafd-53e1-fd2a-0036",
+                "id": "pa50-3349-5077-003a",
                 "characteristics": [
                   {
                     "name": "Range",
@@ -41805,7 +41805,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa4c-a7ed-4c65-0037"
+                "id": "pa4c-20de-4c4e-003b"
               },
               {
                 "type": "max",
@@ -41813,7 +41813,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa1a-655a-1a67-0038"
+                "id": "pa71-eba0-71c5-003c"
               }
             ]
           }
@@ -44436,6 +44436,191 @@
             "id": "d5ab-b1f8-7963-ed08",
             "comment": "Cohort Cybernetica",
             "sortIndex": 2
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "TL-409",
+            "hidden": false,
+            "id": "3c7a-55cf-0e00-e031",
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "shared": true,
+                "id": "e73f-58a7-6c9d-afd6",
+                "includeChildSelections": true
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 30
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 1
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "or",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "59a9-b5cc-7c11-aaad",
+                        "shared": true,
+                        "childName": "Tech-Priest"
+                      }
+                    ],
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "24e2-b690-37b5-de9e",
+                            "shared": true,
+                            "id": "8e1c-0b4b-4d4f-26b1",
+                            "includeChildSelections": true,
+                            "includeChildForces": true,
+                            "childName": "Lords of the Forge"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "profiles": [
+              {
+                "name": "TL-409",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "2b47-5a73-e4e1-d695",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "11"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D3+2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "Devastating Wounds, Hazardous"
+                  }
+                ]
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Damage Dx+0 Modifier",
+                "hidden": false,
+                "id": "3371-0135-2cf4-77a3",
+                "targetId": "982b-de77-dd2d-d9bd",
+                "primary": false
+              }
+            ],
+            "infoLinks": [
+              {
+                "name": "Devastating Wounds",
+                "id": "42b8-806e-7419-2afd",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "be1e-ac8e-1e2c-3528"
+              },
+              {
+                "name": "Hazardous",
+                "id": "4d20-9c0c-24e1-394b",
+                "hidden": false,
+                "type": "rule",
+                "targetId": "8367-374c-f87-c627"
+              }
+            ],
+            "comment": "Lords of the Forge",
+            "sortIndex": 18
           }
         ],
         "modifiers": [
@@ -44526,14 +44711,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab7-8515-b75b-000e",
+                    "id": "pa98-f6b1-98ab-0012",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
@@ -44638,14 +44823,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3b-0555-3b86-000f",
+                    "id": "pa57-6030-5756-0013",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
@@ -44750,14 +44935,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa85-a995-8581-0010",
+                    "id": "pa3c-5e80-3cfd-0014",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
@@ -44893,14 +45078,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa22-be6a-228b-0011",
+                    "id": "pa6a-055b-6a3a-0015",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
@@ -45031,7 +45216,7 @@
           },
           {
             "name": "Cohort Acquisitus Enhancements",
-            "id": "pa46-b520-4692-0000",
+            "id": "pa96-67d1-967b-0000",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45098,14 +45283,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa01-7104-01c7-0002",
+                    "id": "pa9c-6a3b-9c11-0002",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "b897-e4c6-fcb6-6538",
@@ -45188,13 +45373,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pad1-4c55-d161-0001"
+                "id": "pa1f-c483-1f9d-0001"
               }
             ]
           },
           {
             "name": "Lords of the Forge Enhancements",
-            "id": "pab7-f533-b712-0006",
+            "id": "pa77-5a3f-775e-0006",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45261,14 +45446,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa8c-34e7-8c1b-0008",
+                    "id": "pa80-2b6e-8037-0008",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "6785-add8-89f-d960",
@@ -45303,18 +45488,43 @@
               {
                 "type": "upgrade",
                 "import": true,
-                "name": "TL-409",
+                "name": "TL-4Ø09",
                 "hidden": false,
-                "id": "3c7a-55cf-0e00-e031",
+                "id": "pa29-b1dc-29d5-0009",
+                "profiles": [
+                  {
+                    "name": "TL-4Ø09",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "pac2-d1ae-c2fa-000a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This modest-seeming casket is named for the almost indecipherable sigils on its ancient casing. The prevailing theocratic dogma is that this artefact is a weapon, for when its iris shutter is opened, a night-black beam of incredible power is released.\n\nTECH-PRIEST model only. This model has the following weapon:\nTL-4ø09 [DEVASTATING WOUNDS, HAZARDOUS] - Range 24\", A 3, BS 2+, S 11, AP -2, D D3+2.\nUNIQUE: DATA-PSALM"
+                      }
+                    ]
+                  }
+                ],
                 "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "pa0e-773a-0e77-000b"
+                  },
                   {
                     "type": "max",
                     "value": 1,
                     "field": "selections",
                     "scope": "roster",
                     "shared": true,
-                    "id": "e73f-58a7-6c9d-afd6",
-                    "includeChildSelections": true
+                    "id": "pa69-a6f1-69f6-000c",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
                   }
                 ],
                 "costs": [
@@ -45322,41 +45532,6 @@
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
                     "value": 0
-                  },
-                  {
-                    "name": "Crusade Points",
-                    "typeId": "b03b-c239-15a5-da55",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Battle Honours",
-                    "typeId": "75bb-ded1-c86d-bdf0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Experience",
-                    "typeId": "a623-fe74-1d33-cddf",
-                    "value": 0
-                  },
-                  {
-                    "name": "Crusade: Weapon Modifications",
-                    "typeId": "716d-91b7-d55a-1022",
-                    "value": 0
-                  },
-                  {
-                    "name": "Blackstone Fragments",
-                    "typeId": "ac6b-ced3-9b5e-9a6e",
-                    "value": 0
-                  },
-                  {
-                    "name": "Detachment Points",
-                    "typeId": "82ae-1066-5107-6ae0",
-                    "value": 0
-                  },
-                  {
-                    "name": "Enhancements",
-                    "typeId": "f759-1bc4-cb3a-f0d2",
-                    "value": 1
                   }
                 ],
                 "modifiers": [
@@ -45364,14 +45539,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf4-32a1-f47d-0009",
+                    "id": "paf6-c0f1-f61e-000d",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
@@ -45383,80 +45558,7 @@
                       }
                     ]
                   }
-                ],
-                "profiles": [
-                  {
-                    "name": "TL-409",
-                    "typeId": "f77d-b953-8fa4-b762",
-                    "typeName": "Ranged Weapons",
-                    "hidden": false,
-                    "id": "2b47-5a73-e4e1-d695",
-                    "characteristics": [
-                      {
-                        "name": "Range",
-                        "typeId": "9896-9419-16a1-92fc",
-                        "$text": "24\""
-                      },
-                      {
-                        "name": "A",
-                        "typeId": "3bb-c35f-f54-fb08",
-                        "$text": "3"
-                      },
-                      {
-                        "name": "BS",
-                        "typeId": "94d-8a98-cf90-183e",
-                        "$text": "2+"
-                      },
-                      {
-                        "name": "S",
-                        "typeId": "2229-f494-25db-c5d3",
-                        "$text": "11"
-                      },
-                      {
-                        "name": "AP",
-                        "typeId": "9ead-8a10-520-de15",
-                        "$text": "-2"
-                      },
-                      {
-                        "name": "D",
-                        "typeId": "a354-c1c8-a745-f9e3",
-                        "$text": "D3+2"
-                      },
-                      {
-                        "name": "Keywords",
-                        "typeId": "7f1b-8591-2fcf-d01c",
-                        "$text": "Devastating Wounds, Hazardous"
-                      }
-                    ]
-                  }
-                ],
-                "categoryLinks": [
-                  {
-                    "name": "Damage Dx+0 Modifier",
-                    "hidden": false,
-                    "id": "3371-0135-2cf4-77a3",
-                    "targetId": "982b-de77-dd2d-d9bd",
-                    "primary": false
-                  }
-                ],
-                "infoLinks": [
-                  {
-                    "name": "Devastating Wounds",
-                    "id": "42b8-806e-7419-2afd",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "be1e-ac8e-1e2c-3528"
-                  },
-                  {
-                    "name": "Hazardous",
-                    "id": "4d20-9c0c-24e1-394b",
-                    "hidden": false,
-                    "type": "rule",
-                    "targetId": "8367-374c-f87-c627"
-                  }
-                ],
-                "comment": "Lords of the Forge",
-                "sortIndex": 18
+                ]
               }
             ],
             "modifiers": [
@@ -45500,13 +45602,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa2d-acb6-2df4-0007"
+                "id": "pa30-6342-30b6-0007"
               }
             ]
           },
           {
             "name": "Luminen Auto-choir Enhancements",
-            "id": "pae0-4a62-e095-000a",
+            "id": "pae8-0d70-e8bd-000e",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45532,14 +45634,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa5a-32b3-5a23-000c",
+                    "id": "pa50-088a-503c-0010",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
@@ -45592,14 +45694,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paf0-8af4-f0bd-000d",
+                    "id": "paea-043f-eae7-0011",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "59a9-b5cc-7c11-aaad",
@@ -45722,13 +45824,13 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa10-9d87-10bc-000b"
+                "id": "pae6-0249-e6cd-000f"
               }
             ]
           },
           {
             "name": "Haloscreed Battle Clade Enhancements",
-            "id": "pad7-b24f-d7e4-0012",
+            "id": "paa1-646a-a1f4-0016",
             "hidden": false,
             "selectionEntries": [
               {
@@ -45737,14 +45839,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa34-1df5-3489-0014",
+                    "id": "paf0-696e-f0c4-0018",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "6785-add8-89f-d960",
@@ -45840,14 +45942,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa82-28a5-82d8-0015",
+                    "id": "pae4-f73d-e4c8-0019",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
@@ -45863,7 +45965,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pafc-a691-fc77-0016",
+                    "id": "pa5b-6d35-5b92-001a",
                     "conditions": [
                       {
                         "type": "instanceOf",
@@ -45961,14 +46063,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pab3-3c40-b305-0017",
+                    "id": "pabb-e97c-bbf2-001b",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "5418-f86b-6e76-c5a",
@@ -46064,7 +46166,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa06-43bd-065b-0018",
+                    "id": "paf0-be7c-f01b-001c",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46074,7 +46176,7 @@
                             "conditions": [
                               {
                                 "type": "notInstanceOf",
-                                "value": 0,
+                                "value": 1,
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "6424-ed86-9e15-3e14",
@@ -46089,7 +46191,7 @@
                             "conditions": [
                               {
                                 "type": "notInstanceOf",
-                                "value": 0,
+                                "value": 1,
                                 "field": "selections",
                                 "scope": "ancestor",
                                 "childId": "2d9b-610a-dc4d-15ae",
@@ -46327,7 +46429,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa1c-5b5b-1cfd-0013"
+                "id": "paab-eac3-ab4a-0017"
               }
             ]
           }
@@ -54709,13 +54811,13 @@
       },
       {
         "name": "Upgrades",
-        "id": "pae4-a827-e4fd-0019",
+        "id": "pa2a-d31a-2a57-001d",
         "hidden": false,
         "collapsible": true,
         "selectionEntryGroups": [
           {
             "name": "Cohort Acquisitus Upgrades",
-            "id": "pa59-a513-59b9-0003",
+            "id": "paf2-5316-f269-0003",
             "hidden": false,
             "selectionEntries": [
               {
@@ -54855,14 +54957,14 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa20-2aea-2071-0005",
+                    "id": "pa34-8273-34d7-0005",
                     "conditionGroups": [
                       {
                         "type": "and",
                         "conditions": [
                           {
                             "type": "notInstanceOf",
-                            "value": 0,
+                            "value": 1,
                             "field": "selections",
                             "scope": "ancestor",
                             "childId": "2ca0-ee66-2659-8616",
@@ -54918,7 +55020,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "pa01-541a-0113-0004"
+                "id": "paf9-2840-f904-0004"
               }
             ]
           }
@@ -54930,7 +55032,7 @@
             "field": "selections",
             "scope": "self",
             "shared": true,
-            "id": "padf-de87-df07-001a",
+            "id": "pac9-2e0e-c95f-001e",
             "includeChildSelections": true
           },
           {
@@ -54939,7 +55041,7 @@
             "field": "selections",
             "scope": "roster",
             "shared": true,
-            "id": "pa2e-e267-2ec8-001b",
+            "id": "pa34-60bf-34e3-001f",
             "includeChildSelections": true
           }
         ]
