@@ -13839,25 +13839,7 @@
         "name": "Mucolid Spores",
         "hidden": false,
         "id": "707a-9de8-f75b-41c5",
-        "modifiers": [
-          {
-            "type": "set",
-            "value": 60,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "707a-9de8-f75b-41c5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          }
-        ]
+        "modifiers": []
       },
       {
         "infoLinks": [
@@ -15271,42 +15253,7 @@
         "name": "Biovores",
         "hidden": false,
         "id": "3f2c-85ec-d83c-4a2f",
-        "modifiers": [
-          {
-            "type": "set",
-            "value": 100,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "3f2c-85ec-d83c-4a2f",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "3f2c-85ec-d83c-4a2f",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          }
-        ]
+        "modifiers": []
       },
       {
         "constraints": [
@@ -16519,25 +16466,7 @@
         "name": "Carnifexes",
         "hidden": false,
         "id": "9efd-5564-f0f5-21ea",
-        "modifiers": [
-          {
-            "type": "set",
-            "value": 180,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "9efd-5564-f0f5-21ea",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          }
-        ]
+        "modifiers": []
       },
       {
         "profiles": [

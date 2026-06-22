@@ -34472,23 +34472,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "2de0-5897-f724-a592",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ],
         "entryLinks": [
@@ -46401,23 +46384,6 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "e8d-bf22-b29-d20e",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
               }
             ]
           }

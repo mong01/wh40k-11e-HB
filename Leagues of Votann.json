@@ -23158,23 +23158,6 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
-          },
-          {
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 2,
-                "field": "selections",
-                "scope": "f788-ecf2-9b2e-bc23",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           }
         ]
       },

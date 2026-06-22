@@ -584,7 +584,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 125
+            "value": 110
           }
         ],
         "modifiers": [
@@ -1268,7 +1268,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 120
+            "value": 110
           }
         ],
         "categoryLinks": [
@@ -2358,7 +2358,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 75
           }
         ],
         "categoryLinks": [
@@ -3805,7 +3805,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 70
+            "value": 50
           }
         ],
         "modifiers": [
@@ -7063,7 +7063,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 100
+            "value": 85
           }
         ],
         "infoLinks": [
@@ -7859,7 +7859,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 85
+            "value": 90
           }
         ],
         "modifiers": [
@@ -10830,7 +10830,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 110
+            "value": 75
           }
         ],
         "categoryLinks": [
@@ -11348,7 +11348,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 75
           }
         ],
         "categoryLinks": [
@@ -12848,7 +12848,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 65
+            "value": 55
           }
         ],
         "categoryLinks": [
@@ -19455,7 +19455,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 75
+            "value": 60
           }
         ],
         "categoryLinks": [
@@ -22359,7 +22359,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 60
+            "value": 50
           }
         ],
         "modifiers": [
@@ -23623,7 +23623,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 210
+            "value": 190
           }
         ],
         "modifiers": [
@@ -26000,7 +26000,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 100
           }
         ],
         "selectionEntries": [
@@ -28315,7 +28315,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 115
+            "value": 100
           }
         ],
         "categoryLinks": [
@@ -50313,7 +50313,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 105
+            "value": 95
           },
           {
             "name": "Crusade Points",
