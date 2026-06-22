@@ -32318,9 +32318,7 @@
                 "$text": "This unit has +1 to charge rolls."
               }
             ],
-            "alias": [
-              "Unbridled Bloodlust"
-            ],
+            "alias": ["Unbridled Bloodlust"],
             "id": "51f5-e7af-9e0f-b904",
             "name": "1. Unbridled Bloodlust",
             "hidden": false,
@@ -32340,9 +32338,7 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": [
-              "Rage-fuelled Invigoration"
-            ],
+            "alias": ["Rage-fuelled Invigoration"],
             "id": "4ba4-2d3a-a3b2-2a0c",
             "name": "2. Rage-fuelled Invigoration",
             "hidden": false,
@@ -32399,9 +32395,7 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": [
-              "Total Carnage"
-            ],
+            "alias": ["Total Carnage"],
             "id": "a2db-113d-0cc8-8d7d",
             "name": "3. Total Carnage",
             "hidden": false,
@@ -32495,9 +32489,7 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": [
-              "Martial Excellence"
-            ],
+            "alias": ["Martial Excellence"],
             "id": "35da-066e-5d34-b312",
             "name": "4. Martial Excellence",
             "hidden": false,
@@ -32591,9 +32583,7 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": [
-              "Warp Blades"
-            ],
+            "alias": ["Warp Blades"],
             "id": "fbfe-9079-46e0-0cbf",
             "name": "5. Warp Blades",
             "hidden": false,
@@ -32650,9 +32640,7 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": [
-              "Decapitating Strikes"
-            ],
+            "alias": ["Decapitating Strikes"],
             "id": "3444-f024-bee5-e731",
             "name": "6. Decapitating Strikes",
             "hidden": false,
@@ -52713,7 +52701,7 @@
     "revision": 105,
     "battleScribeVersion": 2.03,
     "library": false,
-    "gameSystemId": "sys-352e-adc2-7639-d6a9",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "type": "catalogue"
   }
