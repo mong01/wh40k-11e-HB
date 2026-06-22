@@ -1025,7 +1025,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 5,
+                "value": 4,
                 "field": "selections",
                 "scope": "c8a6-a4c5-703e-b717",
                 "childId": "model",
@@ -7925,7 +7925,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 9,
+                "value": 6,
                 "field": "selections",
                 "scope": "3ec3-a4df-fdbf-5507",
                 "childId": "model",
@@ -15571,7 +15571,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 9,
+                "value": 6,
                 "field": "selections",
                 "scope": "dd2d-568a-9c56-1b6e",
                 "childId": "model",
@@ -16464,7 +16464,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 9,
+                "value": 6,
                 "field": "selections",
                 "scope": "503b-f7be-eeeb-9e31",
                 "childId": "model",
@@ -17995,7 +17995,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "03bc-0141-b967-40e0",
                 "childId": "model",
@@ -18793,7 +18793,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "00ab-41c4-cf52-4ad2",
                 "childId": "model",
@@ -19855,7 +19855,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "201e-e502-a8d1-3974",
                 "childId": "model",

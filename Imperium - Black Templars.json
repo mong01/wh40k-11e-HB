@@ -3897,57 +3897,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 130,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 5,
-                "field": "selections",
-                "scope": "206c-6b4d-4aaa-7e79",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 235,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 9,
-                "field": "selections",
-                "scope": "206c-6b4d-4aaa-7e79",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 260,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "206c-6b4d-4aaa-7e79",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207",
@@ -3985,6 +3934,57 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 5,
+                "field": "selections",
+                "scope": "206c-6b4d-4aaa-7e79",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 235,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "206c-6b4d-4aaa-7e79",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 10,
+                "field": "selections",
+                "scope": "206c-6b4d-4aaa-7e79",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -17044,30 +17044,13 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "a499-86fa-4d0c-b06d",
-                "childId": "a14d-5fc3-6d6f-56bd",
-                "shared": true,
-                "id": "d696-3289-d08a-1be4",
-                "includeChildSelections": false
-              }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 160,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "a499-86fa-4d0c-b06d",
                 "childId": "model",
@@ -18264,30 +18247,13 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "80ad-6e62-65e3-e667",
-                "childId": "57c1-cad8-095d-71a0",
-                "shared": true,
-                "id": "6891-3ec6-b098-c1d5",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 330,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 320,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "80ad-6e62-65e3-e667",
                 "childId": "model",

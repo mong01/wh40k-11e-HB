@@ -22450,7 +22450,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 12,
+                "value": 7,
                 "field": "selections",
                 "scope": "4469-7239-717e-9abd",
                 "childId": "model",
@@ -22467,7 +22467,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 12,
+                "value": 7,
                 "field": "selections",
                 "scope": "4469-7239-717e-9abd",
                 "childId": "model",
@@ -33936,7 +33936,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "0744-61ce-619d-ffe1",
                 "childId": "model",
@@ -33953,7 +33953,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "0744-61ce-619d-ffe1",
                 "childId": "model",
@@ -58591,7 +58591,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b040-ce24-7e1a-c903",
                 "childId": "model",
@@ -58608,7 +58608,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b040-ce24-7e1a-c903",
                 "childId": "model",

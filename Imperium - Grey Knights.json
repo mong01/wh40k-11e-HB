@@ -4596,57 +4596,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 175,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 5,
-                "field": "selections",
-                "scope": "a037-a89c-f59f-8b1e",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 8,
-                "field": "selections",
-                "scope": "a037-a89c-f59f-8b1e",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 375,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "a037-a89c-f59f-8b1e",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -4684,6 +4633,57 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 175,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 5,
+                "field": "selections",
+                "scope": "a037-a89c-f59f-8b1e",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "a037-a89c-f59f-8b1e",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 375,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 9,
+                "field": "selections",
+                "scope": "a037-a89c-f59f-8b1e",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -15323,23 +15323,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 250,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "d9f7-71b7-8e67-7f44",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -15377,6 +15360,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "d9f7-71b7-8e67-7f44",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -17632,57 +17632,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 215,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 5,
-                "field": "selections",
-                "scope": "6528-4634-c2cf-2840",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 360,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 8,
-                "field": "selections",
-                "scope": "6528-4634-c2cf-2840",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 450,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "6528-4634-c2cf-2840",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207",
@@ -17720,6 +17669,57 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 215,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 5,
+                "field": "selections",
+                "scope": "6528-4634-c2cf-2840",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 360,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "6528-4634-c2cf-2840",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 450,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 9,
+                "field": "selections",
+                "scope": "6528-4634-c2cf-2840",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -19076,23 +19076,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "e8ad-bd40-5952-6859",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -19130,6 +19113,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 220,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "e8ad-bd40-5952-6859",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -19972,23 +19972,6 @@
       {
         "modifiers": [
           {
-            "type": "set",
-            "value": 260,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "8865-df22-1629-bf02",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -20026,6 +20009,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "8865-df22-1629-bf02",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -22172,7 +22172,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "d81f-c9ac-e338-ba37",
                 "childId": "model",

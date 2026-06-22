@@ -12689,7 +12689,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "f909-00c7-8ba4-018a",
                 "childId": "model",
@@ -14396,7 +14396,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "45f6-8429-a1d9-2a51",
                 "childId": "model",
@@ -16554,7 +16554,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "6f81-4538-a414-251e",
                 "childId": "model",
@@ -18485,7 +18485,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "9435-1f44-7e5b-d510",
                 "childId": "model",
@@ -19264,7 +19264,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "9932-3d2b-1e47-d53b",
                 "childId": "model",
@@ -32318,7 +32318,9 @@
                 "$text": "This unit has +1 to charge rolls."
               }
             ],
-            "alias": ["Unbridled Bloodlust"],
+            "alias": [
+              "Unbridled Bloodlust"
+            ],
             "id": "51f5-e7af-9e0f-b904",
             "name": "1. Unbridled Bloodlust",
             "hidden": false,
@@ -32338,7 +32340,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Rage-fuelled Invigoration"],
+            "alias": [
+              "Rage-fuelled Invigoration"
+            ],
             "id": "4ba4-2d3a-a3b2-2a0c",
             "name": "2. Rage-fuelled Invigoration",
             "hidden": false,
@@ -32395,7 +32399,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Total Carnage"],
+            "alias": [
+              "Total Carnage"
+            ],
             "id": "a2db-113d-0cc8-8d7d",
             "name": "3. Total Carnage",
             "hidden": false,
@@ -32489,7 +32495,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Martial Excellence"],
+            "alias": [
+              "Martial Excellence"
+            ],
             "id": "35da-066e-5d34-b312",
             "name": "4. Martial Excellence",
             "hidden": false,
@@ -32583,7 +32591,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Warp Blades"],
+            "alias": [
+              "Warp Blades"
+            ],
             "id": "fbfe-9079-46e0-0cbf",
             "name": "5. Warp Blades",
             "hidden": false,
@@ -32640,7 +32650,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Decapitating Strikes"],
+            "alias": [
+              "Decapitating Strikes"
+            ],
             "id": "3444-f024-bee5-e731",
             "name": "6. Decapitating Strikes",
             "hidden": false,
@@ -38123,7 +38135,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "e65f-c7c7-1d18-1a60",
                 "childId": "model",
@@ -38648,7 +38660,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b657-1743-6e3a-0838",
                 "childId": "model",

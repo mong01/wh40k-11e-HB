@@ -9085,7 +9085,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "390e-706b-a059-378b",
                 "childId": "model",
@@ -18596,7 +18596,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "66ab-476a-134e-ec7b",
                 "childId": "model",
@@ -21332,7 +21332,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b169-ff89-b05e-3884",
                 "childId": "model",

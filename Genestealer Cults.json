@@ -181,23 +181,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "f51d-bc51-f301-9dee",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -235,6 +218,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 300,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "f51d-bc51-f301-9dee",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -3338,7 +3338,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "a197-f6c3-5d4a-5326",
                 "childId": "model",
@@ -5486,23 +5486,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "3a81-2b84-bf4c-4f85",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -5540,6 +5523,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "3a81-2b84-bf4c-4f85",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -11260,23 +11260,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "8a84-a8fd-977e-9118",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -11314,6 +11297,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "8a84-a8fd-977e-9118",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -15533,7 +15533,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "b5d2-8681-6bba-f05b",
                 "childId": "model",
@@ -20233,23 +20233,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "965b-496a-3a1b-22a8",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -20287,6 +20270,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "965b-496a-3a1b-22a8",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -24983,7 +24983,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "04cc-6196-1755-ad58",
                 "childId": "model",

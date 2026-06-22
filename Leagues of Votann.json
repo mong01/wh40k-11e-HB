@@ -10003,7 +10003,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "09d3-6357-7888-00d9",
                 "childId": "model",
@@ -12068,7 +12068,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "415a-e6f6-d17f-d700",
                 "childId": "model",
@@ -13523,7 +13523,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "9086-5272-398b-bbce",
                 "childId": "model",
@@ -16527,7 +16527,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "ea1b-99f6-c398-06b1",
                 "childId": "model",
@@ -24696,7 +24696,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "1e3f-209d-798f-3a42",
                 "childId": "model",
@@ -25620,7 +25620,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "2add-0a08-fbef-8f5e",
                 "childId": "model",

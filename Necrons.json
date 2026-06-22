@@ -23137,7 +23137,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "58e9-5212-f5a6-c12d",
                 "childId": "model",
@@ -23579,7 +23579,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "f81-b23c-e183-39d7",
                 "childId": "model",
@@ -25623,7 +25623,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "c4e3-f6b0-f3aa-9d90",
                 "childId": "model",
@@ -26400,7 +26400,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b7d7-14c9-63c1-ded5",
                 "childId": "model",
@@ -27089,7 +27089,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "c219-a708-f5b0-f0e7",
                 "childId": "model",
@@ -28513,7 +28513,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "66e-26f2-7c38-e4d8",
                 "childId": "model",
@@ -33372,7 +33372,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "259b-a8e3-928f-1d0c",
                 "childId": "model",
@@ -33712,23 +33712,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 145,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "c6db-9736-4d53-3ef6",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -33766,6 +33749,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 145,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "c6db-9736-4d53-3ef6",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -34487,7 +34487,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "77d-d442-a3-422c",
                 "childId": "model",
@@ -35483,7 +35483,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "6829-6dcb-b342-afe4",
                 "childId": "model",
@@ -36543,7 +36543,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "a022-9bf6-f08b-c416",
                 "childId": "model",
@@ -38761,7 +38761,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "6f72-b8f7-fd8d-5c2c",
                 "childId": "model",

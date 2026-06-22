@@ -7514,23 +7514,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 230,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "65f6-18df-f6df-7e39",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207",
@@ -7568,6 +7551,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "65f6-18df-f6df-7e39",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -11484,40 +11484,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "25e4-ead-faac-2531",
-                "childId": "b36d-e83-6a91-e2b4",
-                "shared": true,
-                "id": "91f1-bb67-e1ee-4bad",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 260,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "type": "set",
-            "value": 260,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "25e4-ead-faac-2531",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 20,
             "field": "51b2-306e-1021-d207",
@@ -11555,6 +11521,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "25e4-ead-faac-2531",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -17583,22 +17566,6 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "self",
-                "childId": "2ed1-aba1-feec-a885",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
                 "value": 1,
                 "field": "selections",
                 "scope": "roster",
@@ -17626,23 +17593,6 @@
             "type": "set",
             "value": 6,
             "field": "8e4c-cf17-a45a-b02a"
-          },
-          {
-            "type": "set",
-            "value": 155,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "4aab-3ca5-0435-ed5e",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
           },
           {
             "type": "increment",
@@ -17682,6 +17632,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 155,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "4aab-3ca5-0435-ed5e",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -18596,23 +18563,6 @@
             "field": "d4b4-df13-559a-8e76"
           },
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "3825-ac3a-75ec-fa0d",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -18650,6 +18600,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "3825-ac3a-75ec-fa0d",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }

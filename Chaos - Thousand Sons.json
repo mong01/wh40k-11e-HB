@@ -22349,7 +22349,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "5d3d-e13b-8b76-dad3",
                 "childId": "model",
@@ -24296,7 +24296,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "b1cf-c5-5121-92a4",
                 "childId": "model",
@@ -29954,7 +29954,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "1703-3edd-5eb3-fcef",
                 "childId": "model",
@@ -31149,7 +31149,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "f5b9-50c8-5c60-d8ea",
                 "childId": "model",
@@ -37301,7 +37301,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 4,
+                "value": 3,
                 "field": "selections",
                 "scope": "fe4b-b3a4-69b7-3088",
                 "childId": "model",
@@ -38264,7 +38264,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "8b9f-917f-37c1-99c3",
                 "childId": "model",
@@ -40644,7 +40644,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "694f-a205-b260-783c",
                 "childId": "model",
@@ -41002,7 +41002,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "7cbe-2406-8e67-aff5",
                 "childId": "model",
@@ -41857,7 +41857,9 @@
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ],
-            "alias": ["Sullen Malevolence"],
+            "alias": [
+              "Sullen Malevolence"
+            ],
             "name": "Sullen Malevolence (Aura)",
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",

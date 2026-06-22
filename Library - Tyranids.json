@@ -2213,7 +2213,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "9ce8-7a63-15c3-0347",
                 "childId": "model",
@@ -8526,7 +8526,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "9bd8-ac8c-2d3b-79f6",
                 "childId": "model",

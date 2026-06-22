@@ -1680,22 +1680,6 @@
         ],
         "modifiers": [
           {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "ca59-3760-5efc-9846",
-                "childId": "4950-9b2a-c4de-5e",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "type": "set",
             "value": 2,
             "field": "4404-b91a-9b5b-4f79",
@@ -1719,7 +1703,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 4,
                 "field": "selections",
                 "scope": "ca59-3760-5efc-9846",
                 "childId": "model",
@@ -6731,23 +6715,6 @@
             ]
           },
           {
-            "type": "set",
-            "value": 150,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "f1af-4984-1a52-c5",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 15,
             "field": "51b2-306e-1021-d207",
@@ -6785,6 +6752,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "f1af-4984-1a52-c5",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -21179,7 +21163,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "7d63-7b55-a632-6a10",
                 "childId": "model",
@@ -23706,23 +23690,6 @@
             ]
           },
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "bee9-172b-7db7-f748",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -23760,6 +23727,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "bee9-172b-7db7-f748",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -27025,7 +27009,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "22f0-a7d8-b2b6-e26",
                 "childId": "model",

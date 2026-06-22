@@ -3178,7 +3178,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "a125-b6fb-2945-56a",
                 "childId": "model",
@@ -4483,7 +4483,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "5815-871c-9260-287a",
                 "childId": "model",
@@ -5467,7 +5467,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "359c-db2c-681a-8d62",
                 "childId": "model",
@@ -7113,7 +7113,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 20,
+                "value": 11,
                 "field": "selections",
                 "scope": "f15b-9f9c-9bf0-8160",
                 "childId": "model",
@@ -8465,7 +8465,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "1645-5407-92c8-1441",
                 "childId": "model",
@@ -11762,7 +11762,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "b563-c6d3-d0e5-1b78",
                 "childId": "model",
@@ -12297,7 +12297,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 22,
+                "value": 12,
                 "field": "selections",
                 "scope": "8ccc-3f27-7e4e-da81",
                 "childId": "model",
@@ -13170,7 +13170,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "b622-a22-a04f-6303",
                 "childId": "model",
@@ -13950,7 +13950,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "c590-436d-4fd-ef26",
                 "childId": "model",
@@ -17319,23 +17319,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "ac7a-2560-c083-45b8",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -17373,6 +17356,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "ac7a-2560-c083-45b8",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -21950,7 +21950,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "6de-ccee-11b4-be3e",
                 "childId": "model",
@@ -25329,23 +25329,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 140,
-            "field": "51b2-306e-1021-d207",
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 10,
-                "field": "selections",
-                "scope": "853e-48b8-4cc5-3704",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
-              }
-            ]
-          },
-          {
             "type": "increment",
             "value": 10,
             "field": "51b2-306e-1021-d207",
@@ -25383,6 +25366,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "853e-48b8-4cc5-3704",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }

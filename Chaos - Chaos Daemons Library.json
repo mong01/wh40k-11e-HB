@@ -8428,7 +8428,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "2f31-9132-b703-5fd8",
                 "childId": "model",
@@ -9142,7 +9142,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "fd31-64a2-b20f-f0bc",
                 "childId": "model",
@@ -24236,7 +24236,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "5f23-4d6-f2f9-5973",
                 "childId": "model",
@@ -25939,7 +25939,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "550b-c5ab-5e27-f59b",
                 "childId": "model",
@@ -33379,7 +33379,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "e403-3a9-279e-41b7",
                 "childId": "model",
@@ -34748,7 +34748,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "d620-146a-41cd-f28f",
                 "childId": "model",
@@ -43940,7 +43940,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 4,
                 "field": "selections",
                 "scope": "d1ee-8d05-4fae-1727",
                 "childId": "model",
@@ -44611,7 +44611,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 10,
+                "value": 6,
                 "field": "selections",
                 "scope": "112d-8078-777f-76a5",
                 "childId": "model",
