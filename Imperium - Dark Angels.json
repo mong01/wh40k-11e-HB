@@ -6270,12 +6270,24 @@
         "page": 35,
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 130,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b4a0-d2fe-a988-f28b",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -8308,12 +8320,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 85,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "212d-f302-aaaf-5c12",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "212d-f302-aaaf-5c12",
+                        "shared": true,
+                        "childName": "Ravenwing Black Knights"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "212d-f302-aaaf-5c12",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10628,12 +10705,24 @@
         "page": 30,
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 125,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e87d-f173-88b9-aa84",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -11597,12 +11686,24 @@
         "page": 27,
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 260,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a6cc-9a65-dbf1-71b0",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13325,12 +13426,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f34-e2f9-c98e-1916",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "f34-e2f9-c98e-1916",
+                        "shared": true,
+                        "childName": "Inner Circle Companions"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "f34-e2f9-c98e-1916",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -18960,7 +19126,7 @@
     "name": "Imperium - Adeptus Astartes - Dark Angels",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 51,
+    "revision": 52,
     "battleScribeVersion": 2.03,
     "authorName": "Simon Porter",
     "type": "catalogue"

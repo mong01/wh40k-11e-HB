@@ -11636,12 +11636,24 @@
         "id": "a077-e1c9-f8f0-d38",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 210,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a077-e1c9-f8f0-d38",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13659,12 +13671,24 @@
         "id": "6cb-912c-c43-210b",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 290,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "6cb-912c-c43-210b",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16443,12 +16467,24 @@
         "id": "2544-5189-7806-30f3",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 180,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "2544-5189-7806-30f3",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -20499,12 +20535,24 @@
         "id": "c679-f252-32b1-ebcc",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 280,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c679-f252-32b1-ebcc",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23730,7 +23778,7 @@
     "name": "Imperium - Adeptus Astartes - Deathwatch",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 65,
+    "revision": 66,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

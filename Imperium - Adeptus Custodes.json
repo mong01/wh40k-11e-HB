@@ -3519,12 +3519,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 125,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "48b7-e713-d5b1-f11c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -3540,8 +3552,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -3598,12 +3611,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 180,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "91b3-2e1c-e642-d213",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -3619,8 +3644,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "91b3-2e1c-e642-d213",
+                        "shared": true,
+                        "childName": "Custodian Guard"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 225,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "91b3-2e1c-e642-d213",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -4720,12 +4799,41 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 5,
+                "field": "selections",
+                "scope": "9610-b148-8433-93b8",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9610-b148-8433-93b8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -4741,8 +4849,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -4761,18 +4870,54 @@
           },
           {
             "type": "set",
-            "value": 260,
+            "value": 280,
             "field": "51b2-306e-1021-d207",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 5,
-                "field": "selections",
-                "scope": "9610-b148-8433-93b8",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "9610-b148-8433-93b8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9610-b148-8433-93b8",
+                        "shared": true,
+                        "childName": "Custodian Wardens"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -12857,12 +13002,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 185,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "188b-e48b-29f-1456",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12878,8 +13035,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -13771,16 +13929,28 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 240,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "76be-3bcb-cf4-bcbd",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
-                    "value": 2,
+                    "value": 1,
                     "scope": "parent",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -13792,8 +13962,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -17303,12 +17474,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 260,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "af0f-5212-907e-7125",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17324,8 +17507,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -21408,12 +21592,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 180,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "4988-d93e-5034-2b3c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -21429,8 +21625,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -22403,12 +22600,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 170,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "db3b-02cd-87a2-3b52",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22424,8 +22633,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -23961,12 +24171,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 225,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "3ee2-62a9-af84-1a90",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23982,8 +24204,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -25161,12 +25384,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 245,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e7d8-1c73-7d03-8b62",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25182,8 +25417,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -25966,12 +26202,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 200,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f35e-ef9c-9ef4-77e1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25987,8 +26235,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -26825,12 +27074,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 50,
+            "type": "set",
+            "value": 740,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9c1a-7efd-ed36-440e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -26846,8 +27107,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -27563,12 +27825,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 30,
+            "type": "set",
+            "value": 610,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9335-74d9-ad68-3ff7",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -27584,8 +27858,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -43095,7 +43370,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "1f19-6509-d906-ca10",
     "name": "Imperium - Adeptus Custodes",
-    "revision": 92,
+    "revision": 93,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",

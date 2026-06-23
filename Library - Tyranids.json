@@ -3488,12 +3488,24 @@
         "id": "c10d-772e-a54f-a2b9",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 175,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c10d-772e-a54f-a2b9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -5671,12 +5683,24 @@
         "id": "642f-9302-4fdc-ab68",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "642f-9302-4fdc-ab68",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -7210,12 +7234,24 @@
         "id": "3f5-f7d6-1ce8-e6b9",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 135,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "3f5-f7d6-1ce8-e6b9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23635,6 +23671,15 @@
                 "id": "71fe-075b-7b7f-a697",
                 "includeChildSelections": false
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "2e79-7a80-190d-8406",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -23685,6 +23730,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "e21f-61a7-2b86-367c",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
               }
             ]
           },
@@ -23737,6 +23791,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "8f5f-dee6-b44e-7d2c",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -23788,6 +23851,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "dfda-3801-8922-f8d3",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -23838,6 +23910,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "c022-6ec9-e5e6-3dd4",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
               }
             ]
           },
@@ -23895,6 +23976,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "fe23-1f78-ec41-df9c",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
               }
             ]
           },
@@ -23975,6 +24065,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "f266-637d-7a52-40ff",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -24031,6 +24130,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "1f86-d1f9-4b7e-7c56",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
               }
             ]
           },
@@ -24324,6 +24432,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "8f25-5633-1415-3e05",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -24384,6 +24501,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "7f85-7978-4c89-cf1d",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -24416,6 +24542,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "7779-42db-2996-609b"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "641c-eff5-2408-b0c9",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
               }
             ]
           },
@@ -24450,6 +24585,15 @@
                 "includeChildSelections": true,
                 "id": "98e0-97a3-2858-2374"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "fb29-767e-3215-2417",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              }
             ]
           },
           {
@@ -24483,6 +24627,15 @@
                 "includeChildSelections": true,
                 "id": "97c7-f7a3-d365-9ecf"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "58e4-c95b-2c60-3f4c",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -24515,6 +24668,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "2038-a2eb-2c13-e16d"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "6f7e-a153-1fcd-44d3",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
               }
             ]
           }
@@ -28005,6 +28167,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "a5b8-facb-7ccd-c455",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -28065,6 +28236,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "fd21-673e-78b4-5def",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              }
             ]
           },
           {
@@ -28116,6 +28296,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "98f1-e414-248f-6f41",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -28166,6 +28355,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "45ec-1b17-ae2c-4c6f",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
               }
             ]
           },
@@ -28266,6 +28464,15 @@
                 "shared": true,
                 "id": "3201-d9d1-fa04-2f0b",
                 "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "6f7e-a153-1fcd-44d3",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
               }
             ]
           },
@@ -28449,6 +28656,15 @@
                 "id": "3585-2492-71d4-1870",
                 "includeChildSelections": false
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "641c-eff5-2408-b0c9",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -28489,6 +28705,13 @@
                 "hidden": false,
                 "id": "871e-63d8-6f0e-b979",
                 "targetId": "a552-36b4-181a-b833",
+                "primary": false
+              },
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "fb29-767e-3215-2417",
+                "targetId": "0936-9767-1cc7-52ae",
                 "primary": false
               }
             ],
@@ -28542,6 +28765,13 @@
                 "hidden": false,
                 "id": "3a07-0a86-e7c9-6ccc",
                 "targetId": "93df-6aba-9508-326f",
+                "primary": false
+              },
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "58e4-c95b-2c60-3f4c",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
                 "primary": false
               }
             ],
@@ -32809,7 +33039,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 30
                   },
                   {
                     "name": "Crusade Points",
@@ -33054,7 +33284,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -33438,7 +33668,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -33809,7 +34039,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 25
                   },
                   {
                     "name": "Crusade Points",
@@ -35090,7 +35320,7 @@
     "name": "Library - Tyranids",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 77,
-    "revision": 21,
+    "revision": 22,
     "authorName": "Dunamis55",
     "battleScribeVersion": 2.03,
     "type": "catalogue",

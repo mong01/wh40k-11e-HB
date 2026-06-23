@@ -10045,12 +10045,41 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 270,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "09d3-6357-7888-00d9",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 140,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "09d3-6357-7888-00d9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10066,8 +10095,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -10086,18 +10116,54 @@
           },
           {
             "type": "set",
-            "value": 270,
+            "value": 280,
             "field": "51b2-306e-1021-d207",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "09d3-6357-7888-00d9",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "09d3-6357-7888-00d9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "09d3-6357-7888-00d9",
+                        "shared": true,
+                        "childName": "Einhyr Hearthguard"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -13565,12 +13631,41 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "9086-5272-398b-bbce",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9086-5272-398b-bbce",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13586,8 +13681,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -13606,18 +13702,54 @@
           },
           {
             "type": "set",
-            "value": 160,
+            "value": 170,
             "field": "51b2-306e-1021-d207",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "9086-5272-398b-bbce",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "9086-5272-398b-bbce",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9086-5272-398b-bbce",
+                        "shared": true,
+                        "childName": "Hernkyn Pioneers"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -16569,12 +16701,41 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 4,
+                "field": "selections",
+                "scope": "ea1b-99f6-c398-06b1",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ea1b-99f6-c398-06b1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16590,8 +16751,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -16610,18 +16772,54 @@
           },
           {
             "type": "set",
-            "value": 160,
+            "value": 170,
             "field": "51b2-306e-1021-d207",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "ea1b-99f6-c398-06b1",
-                "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "ea1b-99f6-c398-06b1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ea1b-99f6-c398-06b1",
+                        "shared": true,
+                        "childName": "Brôkhyr Thunderkyn"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           }
@@ -18836,12 +19034,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 265,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a110-e538-4e85-159b",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -18857,8 +19067,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -22888,7 +23099,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 65
+                "value": 0
               },
               {
                 "name": "Crusade Points",
@@ -23246,6 +23457,30 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "f788-ecf2-9b2e-bc23",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 65
           }
         ]
       },
@@ -24754,12 +24989,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "1e3f-209d-798f-3a42",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -24775,8 +25022,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1e3f-209d-798f-3a42",
+                        "shared": true,
+                        "childName": "Ironkin Steeljacks with Heavy Volkanite Disintegrators"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "1e3f-209d-798f-3a42",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -25677,12 +25978,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "2add-0a08-fbef-8f5e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25698,8 +26011,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "2add-0a08-fbef-8f5e",
+                        "shared": true,
+                        "childName": "Ironkin Steeljacks with Melee Weapons"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "2add-0a08-fbef-8f5e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -46696,7 +47063,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "f616-3f08-ee8e-3349",
     "name": "Xenos - Leagues of Votann",
-    "revision": 84,
+    "revision": 85,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",

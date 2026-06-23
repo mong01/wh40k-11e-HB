@@ -21456,12 +21456,24 @@
         "id": "852a-ba39-e93f-6b62",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "852a-ba39-e93f-6b62",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -21477,8 +21489,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -22767,12 +22780,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5b7d-54ea-f7a8-9688",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22788,8 +22813,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -27225,12 +27251,24 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 70,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b7d7-14c9-63c1-ded5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -27246,8 +27284,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b7d7-14c9-63c1-ded5",
+                        "shared": true,
+                        "childName": "Deathmarks"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 130,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "b7d7-14c9-63c1-ded5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -29338,16 +29430,28 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 95,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
-                "localConditionGroups": [
+                "conditions": [
                   {
                     "type": "atLeast",
                     "value": 1,
+                    "field": "selections",
+                    "scope": "66e-26f2-7c38-e4d8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
                     "scope": "parent",
                     "field": "selections",
                     "includeChildSelections": true,
@@ -29359,8 +29463,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "66e-26f2-7c38-e4d8",
+                        "shared": true,
+                        "childName": "Skorpekh Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "66e-26f2-7c38-e4d8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -30515,12 +30673,24 @@
         "id": "14fa-6813-e51b-7942",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 120,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "14fa-6813-e51b-7942",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -30536,8 +30706,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -33145,12 +33316,24 @@
         "id": "276e-bc21-e1d0-3c41",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 360,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "276e-bc21-e1d0-3c41",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -33166,8 +33349,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -34583,12 +34767,77 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c6db-9736-4d53-3ef6",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "c6db-9736-4d53-3ef6",
+                        "shared": true,
+                        "childName": "Ophydian Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 155,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "c6db-9736-4d53-3ef6",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -35311,12 +35560,24 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 80,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "77d-d442-a3-422c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -35332,8 +35593,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "77d-d442-a3-422c",
+                        "shared": true,
+                        "childName": "Tomb Blades"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "77d-d442-a3-422c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -37366,12 +37681,24 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 115,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a022-9bf6-f08b-c416",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -37387,8 +37714,62 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a022-9bf6-f08b-c416",
+                        "shared": true,
+                        "childName": "Canoptek Wraiths"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "a022-9bf6-f08b-c416",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -39359,12 +39740,24 @@
         "id": "e046-8220-d8a2-1d19",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 220,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e046-8220-d8a2-1d19",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -39380,8 +39773,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -39584,12 +39978,24 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 50,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "6f72-b8f7-fd8d-5c2c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -39605,8 +40011,168 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6f72-b8f7-fd8d-5c2c",
+                        "shared": true,
+                        "childName": "Lokhust Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 65,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "6f72-b8f7-fd8d-5c2c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6f72-b8f7-fd8d-5c2c",
+                        "shared": true,
+                        "childName": "Lokhust Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 90,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "6f72-b8f7-fd8d-5c2c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6f72-b8f7-fd8d-5c2c",
+                        "shared": true,
+                        "childName": "Lokhust Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "6f72-b8f7-fd8d-5c2c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -40402,7 +40968,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -40583,7 +41149,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -40994,12 +41560,58 @@
         "id": "d9ea-2965-24-d3a3",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 100,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "d9ea-2965-24-d3a3",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 150,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "d9ea-2965-24-d3a3",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 60,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d9ea-2965-24-d3a3",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -41015,8 +41627,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -41032,6 +41645,119 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "d9ea-2965-24-d3a3",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d9ea-2965-24-d3a3",
+                        "shared": true,
+                        "childName": "Lokhust Heavy Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "d9ea-2965-24-d3a3",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d9ea-2965-24-d3a3",
+                        "shared": true,
+                        "childName": "Lokhust Heavy Destroyers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 50
           }
         ]
       },
@@ -44289,12 +45015,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 30,
+            "type": "set",
+            "value": 310,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "256d-92cd-5d14-bbab",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -44310,8 +45048,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -45184,12 +45923,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 465,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5451-67b5-a66c-71d2",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -45205,8 +45956,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -46127,12 +46879,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 440,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "db10-2662-da6a-516e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -46148,8 +46912,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -47204,7 +47969,7 @@
               {
                 "name": "pts",
                 "typeId": "51b2-306e-1021-d207",
-                "value": 60
+                "value": 0
               }
             ],
             "type": "model",
@@ -47228,6 +47993,49 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 60
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "919f-7076-c827-b844",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "919f-7076-c827-b844",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           }
         ]
       },
@@ -50913,12 +51721,24 @@
         "id": "fa11-cd65-fcf6-427c",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 30,
+            "type": "set",
+            "value": 570,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "fa11-cd65-fcf6-427c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -50934,8 +51754,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -62092,7 +62913,7 @@
     "name": "Xenos - Necrons",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 106,
+    "revision": 107,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

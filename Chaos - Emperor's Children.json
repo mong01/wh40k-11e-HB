@@ -2306,12 +2306,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7b4c-dfe0-6a0a-304a",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -2327,17 +2339,18 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "b541-3292-a5cc-dbeb",
+                        "childId": "7b4c-dfe0-6a0a-304a",
                         "shared": true,
-                        "childName": "Defiler"
+                        "childName": "Lord Exultant"
                       }
                     ]
                   }
@@ -5326,12 +5339,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 185,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ad59-b823-900d-ee2d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -5347,8 +5372,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -6154,12 +6180,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 30,
+            "type": "set",
+            "value": 235,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e452-08be-33e6-3864",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -6175,8 +6213,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -12829,12 +12868,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 240,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f10c-5f3e-c09d-0b12",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12850,8 +12901,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -14173,12 +14225,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 160,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5817-0d6c-973c-68f8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14194,8 +14258,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -15837,12 +15902,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 140,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "656c-8b78-8e59-0591",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15858,8 +15935,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -19022,12 +19100,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 270,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7b2b-4508-263d-f20f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19043,8 +19133,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -25655,12 +25746,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 30,
+            "type": "set",
+            "value": 320,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b541-3292-a5cc-dbeb",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25676,8 +25779,9 @@
                         "value": 1,
                         "field": "selections",
                         "scope": "self",
-                        "childId": "any",
-                        "shared": true
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
                       },
                       {
                         "type": "instanceOf",
@@ -40089,7 +40193,7 @@
     "name": "Chaos - Emperor's Children",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 31,
-    "revision": 49,
+    "revision": 50,
     "authorContact": "Mad_Spy",
     "battleScribeVersion": 2.03,
     "type": "catalogue",

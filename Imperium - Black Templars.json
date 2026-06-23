@@ -2576,20 +2576,21 @@
         ],
         "modifiers": [
           {
+            "type": "set",
+            "value": 290,
+            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
                 "value": 11,
                 "field": "selections",
                 "scope": "8bbe-e7fc-44b7-ed94",
-                "childId": "6fc8-d787-7895-ec66",
+                "childId": "model",
                 "shared": true,
-                "id": "f8f1-a0a-81ed-680b"
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
-            ],
-            "type": "set",
-            "value": 300,
-            "field": "51b2-306e-1021-d207"
+            ]
           }
         ],
         "profiles": [
@@ -3948,12 +3949,183 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 120,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "206c-6b4d-4aaa-7e79",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 145,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "206c-6b4d-4aaa-7e79",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "206c-6b4d-4aaa-7e79",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "206c-6b4d-4aaa-7e79",
+                        "shared": true,
+                        "childName": "Sword Brethren Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 275,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 10,
+                    "field": "selections",
+                    "scope": "206c-6b4d-4aaa-7e79",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -7994,12 +8166,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 170,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7dec-dc3d-c40a-8ce",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -8824,12 +9008,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 170,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "bfb6-4320-74cf-bbda",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9597,12 +9793,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 160,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5704-ffe4-4a53-8789",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -11321,12 +11529,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 190,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c3e8-3cde-8b39-4b19",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12301,12 +12521,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 265,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a344-192f-aae2-16e5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13823,12 +14055,24 @@
         "id": "68dd-5f49-4f17-cd84",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "68dd-5f49-4f17-cd84",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16043,12 +16287,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 240,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8525-2de1-14fd-c1f5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19328,7 +19584,7 @@
     "name": "Imperium - Adeptus Astartes - Black Templars",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 62,
+    "revision": 63,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
     "authorName": "Acebaur"

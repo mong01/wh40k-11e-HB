@@ -3727,12 +3727,24 @@
         "id": "5412-1f01-b7cc-bf12",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 100,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5412-1f01-b7cc-bf12",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -4647,12 +4659,183 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 150,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a037-a89c-f59f-8b1e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a037-a89c-f59f-8b1e",
+                        "shared": true,
+                        "childName": "Brotherhood Terminator Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 185,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "a037-a89c-f59f-8b1e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a037-a89c-f59f-8b1e",
+                        "shared": true,
+                        "childName": "Brotherhood Terminator Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 310,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "a037-a89c-f59f-8b1e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "a037-a89c-f59f-8b1e",
+                        "shared": true,
+                        "childName": "Brotherhood Terminator Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 385,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 9,
+                    "field": "selections",
+                    "scope": "a037-a89c-f59f-8b1e",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -8126,12 +8309,24 @@
         "id": "3625-f9f1-122b-bf9d",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 215,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "3625-f9f1-122b-bf9d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9455,12 +9650,24 @@
         "id": "512d-b972-911e-4cac",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 240,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "512d-b972-911e-4cac",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10135,12 +10342,24 @@
         "id": "4c63-cca-8d26-6330",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 240,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "4c63-cca-8d26-6330",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10885,12 +11104,24 @@
         "id": "ada7-eb0b-c920-d77f",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 270,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ada7-eb0b-c920-d77f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13863,12 +14094,24 @@
         "id": "2efe-459b-9562-e7a9",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 300,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "2efe-459b-9562-e7a9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15241,12 +15484,24 @@
         "id": "bd43-b303-66e0-4c10",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 140,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "bd43-b303-66e0-4c10",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15338,12 +15593,77 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 135,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d9f7-71b7-8e67-7f44",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d9f7-71b7-8e67-7f44",
+                        "shared": true,
+                        "childName": "Interceptor Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 260,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "d9f7-71b7-8e67-7f44",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17567,12 +17887,24 @@
         "id": "5458-a458-c51d-c4e9",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 210,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "5458-a458-c51d-c4e9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17690,12 +18022,183 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 185,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "6528-4634-c2cf-2840",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6528-4634-c2cf-2840",
+                        "shared": true,
+                        "childName": "Paladin Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 5,
+                    "field": "selections",
+                    "scope": "6528-4634-c2cf-2840",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6528-4634-c2cf-2840",
+                        "shared": true,
+                        "childName": "Paladin Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 375,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "6528-4634-c2cf-2840",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "6528-4634-c2cf-2840",
+                        "shared": true,
+                        "childName": "Paladin Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 465,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 9,
+                    "field": "selections",
+                    "scope": "6528-4634-c2cf-2840",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19100,12 +19603,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 120,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e8ad-bd40-5952-6859",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "e8ad-bd40-5952-6859",
+                        "shared": true,
+                        "childName": "Purgation Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "e8ad-bd40-5952-6859",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -20005,12 +20573,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 140,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8865-df22-1629-bf02",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8865-df22-1629-bf02",
+                        "shared": true,
+                        "childName": "Purifier Squad"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 270,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "8865-df22-1629-bf02",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23989,12 +24622,24 @@
         "id": "8989-2fd2-4d29-e795",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 50,
+            "type": "set",
+            "value": 855,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8989-2fd2-4d29-e795",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -35762,6 +36407,15 @@
                 "includeChildSelections": true,
                 "id": "44ee-1bac-32fd-229e"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "82ca-ceff-2bd3-4ee7",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -35812,6 +36466,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "cf2b-bd75-8faf-15b1"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "b0b7-96d7-f6b0-9592",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
               }
             ]
           },
@@ -35864,6 +36527,15 @@
                 "includeChildSelections": true,
                 "id": "cd64-6252-184e-8b1a"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "eb64-d900-ba7c-81fa",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -35914,6 +36586,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "3aac-61b4-7de8-cf49"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "3890-348d-6930-15e2",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
               }
             ]
           },
@@ -35966,6 +36647,15 @@
                 "includeChildSelections": true,
                 "id": "dd49-e173-e3fc-2c27"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "2323-b101-7260-f27a",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              }
             ]
           },
           {
@@ -36016,6 +36706,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "4864-f51c-cb24-f50d"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "9b9a-ec2c-e51e-9436",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
               }
             ]
           },
@@ -36200,6 +36899,15 @@
                 "includeChildSelections": true,
                 "id": "50e9-57dd-b122-b60b"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "e663-79eb-9f87-3bf8",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -36251,6 +36959,15 @@
                 "includeChildSelections": true,
                 "id": "e8c9-4f98-8eef-550a"
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "7802-bcca-851a-bd1b",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -36301,6 +37018,15 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "id": "5daf-5696-8fe2-b149"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "bd33-1409-d864-718c",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
               }
             ]
           }
@@ -44503,7 +45229,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -44718,7 +45444,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -44844,7 +45570,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -45774,7 +46500,7 @@
     "name": "Imperium - Grey Knights",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 106,
+    "revision": 107,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

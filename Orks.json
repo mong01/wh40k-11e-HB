@@ -7460,12 +7460,24 @@
         "id": "dde2-ca42-e3bc-2ef6",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 80,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "dde2-ca42-e3bc-2ef6",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15022,12 +15034,24 @@
         "id": "1594-b986-e77e-d89d",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 120,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "1594-b986-e77e-d89d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17261,12 +17285,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 85,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "1de9-b138-28a1-9c4b",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "1de9-b138-28a1-9c4b",
+                        "shared": true,
+                        "childName": "Flash Gitz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "1de9-b138-28a1-9c4b",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19487,12 +19576,24 @@
         "id": "56d6-a7fc-fa08-4345",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 275,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "56d6-a7fc-fa08-4345",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23339,12 +23440,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 130,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8c36-c946-2e0f-f648",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8c36-c946-2e0f-f648",
+                        "shared": true,
+                        "childName": "Killa Kans"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 250,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "8c36-c946-2e0f-f648",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -26139,12 +26305,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 60,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "3bff-9fad-2d11-7866",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "3bff-9fad-2d11-7866",
+                        "shared": true,
+                        "childName": "Lootas"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "3bff-9fad-2d11-7866",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -28260,12 +28491,183 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 80,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7067-34f4-5272-e05f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7067-34f4-5272-e05f",
+                        "shared": true,
+                        "childName": "Meganobz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 110,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "7067-34f4-5272-e05f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7067-34f4-5272-e05f",
+                        "shared": true,
+                        "childName": "Meganobz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "7067-34f4-5272-e05f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7067-34f4-5272-e05f",
+                        "shared": true,
+                        "childName": "Meganobz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "7067-34f4-5272-e05f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -30538,7 +30940,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 45
+                    "value": 0
                   }
                 ],
                 "selectionEntryGroups": [
@@ -30735,7 +31137,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "value": 0
                   }
                 ],
                 "selectionEntryGroups": [
@@ -31065,7 +31467,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "value": 0
                   }
                 ],
                 "selectionEntryGroups": [
@@ -31285,7 +31687,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 50
+                    "value": 0
                   }
                 ],
                 "selectionEntryGroups": [
@@ -31690,14 +32092,173 @@
         "name": "Mek Gunz",
         "hidden": false,
         "id": "b37a-8686-db2c-8cbd",
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          }
+        ],
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "b37a-8686-db2c-8cbd",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 135,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "b37a-8686-db2c-8cbd",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 55,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b37a-8686-db2c-8cbd",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b37a-8686-db2c-8cbd",
+                        "shared": true,
+                        "childName": "Mek Gunz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 100,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "b37a-8686-db2c-8cbd",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b37a-8686-db2c-8cbd",
+                        "shared": true,
+                        "childName": "Mek Gunz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 145,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "b37a-8686-db2c-8cbd",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -32603,12 +33164,24 @@
         "id": "9ee5-2b39-de06-dda6",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 290,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9ee5-2b39-de06-dda6",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -34624,12 +35197,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 115,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b16a-7132-3f8a-abe5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b16a-7132-3f8a-abe5",
+                        "shared": true,
+                        "childName": "Nobz"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 220,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "b16a-7132-3f8a-abe5",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -39667,12 +40305,24 @@
         "id": "6c08-9131-14a3-a3b4",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 100,
+            "type": "set",
+            "value": 700,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "6c08-9131-14a3-a3b4",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -41909,12 +42559,24 @@
         "id": "dadc-d370-ef10-853c",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 135,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "dadc-d370-ef10-853c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -52970,12 +53632,24 @@
         "id": "aeed-c6d9-4b90-376a",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 50,
+            "type": "set",
+            "value": 490,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "aeed-c6d9-4b90-376a",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -74334,12 +75008,24 @@
         "id": "a596-3d99-257e-0ea1",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 135,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "a596-3d99-257e-0ea1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -82724,12 +83410,24 @@
         ],
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 110,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "78a7-cf35-aa8d-c420",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -89073,6 +89771,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "41fa-a916-813a-8672",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -89123,6 +89830,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "3dcb-5f37-2972-478a",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
               }
             ]
           },
@@ -89250,6 +89966,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "f4db-bb60-92bc-caea",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -89300,6 +90025,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "29a2-1def-5df6-66bc",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
               }
             ]
           },
@@ -89352,6 +90086,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "8bf4-d9ba-eee9-d880",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -89403,6 +90146,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "31c6-21a1-dc4b-9833",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -89453,6 +90205,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "67cb-772b-9938-bd91",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
               }
             ]
           },
@@ -89521,6 +90282,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "c64b-f583-af5c-a888",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -89580,6 +90350,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "2d5a-a8a9-8144-d987",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
               }
             ]
           },
@@ -89779,6 +90558,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "9037-8cfd-ba3b-b2fd",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
+              }
             ]
           },
           {
@@ -89839,6 +90627,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "1295-45d3-54ad-bec1",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
+              }
             ]
           },
           {
@@ -89890,6 +90687,13 @@
                 "hidden": false,
                 "id": "8249-3f58-f4f1-882b",
                 "targetId": "ee0a-b1a9-b0e5-9f8a",
+                "primary": false
+              },
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "d91c-e2d7-4a1a-eeef",
+                "targetId": "0936-9767-1cc7-52ae",
                 "primary": false
               }
             ],
@@ -96761,7 +97565,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -96921,7 +97725,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -97118,7 +97922,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -99473,7 +100277,7 @@
     "name": "Xenos - Orks",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 162,
+    "revision": 163,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
     "authorName": "BSData Developers",

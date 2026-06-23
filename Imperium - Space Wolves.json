@@ -12220,12 +12220,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 160,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ca30-caf3-d7a8-1d32",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ca30-caf3-d7a8-1d32",
+                        "shared": true,
+                        "childName": "Wolf Guard Terminators"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 310,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "ca30-caf3-d7a8-1d32",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14905,12 +14970,77 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 95,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d937-bd7d-618d-4e2d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d937-bd7d-618d-4e2d",
+                        "shared": true,
+                        "childName": "Wulfen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "d937-bd7d-618d-4e2d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16419,12 +16549,24 @@
         "id": "91fa-49ac-5b0a-c155",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 145,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "91fa-49ac-5b0a-c155",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16967,12 +17109,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 110,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7a50-3722-8195-5877",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7a50-3722-8195-5877",
+                        "shared": true,
+                        "childName": "Thunderwolf Cavalry"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 210,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "7a50-3722-8195-5877",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -18283,12 +18490,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 5,
+            "type": "set",
+            "value": 50,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "dc75-5a79-4121-1d72",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "dc75-5a79-4121-1d72",
+                        "shared": true,
+                        "childName": "Fenrisian Wolves"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 80,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "dc75-5a79-4121-1d72",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -31591,12 +31863,24 @@
         "id": "c125-1106-f06d-9682",
         "modifiers": [
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 135,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c125-1106-f06d-9682",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -34559,112 +34843,6 @@
         ],
         "modifiers": [
           {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "equalTo",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "equalTo",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "d4ef-1ddc-1ed5-5156",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 110,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "d4ef-1ddc-1ed5-5156",
-                "childId": "2097-c650-2684-5972",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "conditions": [
               {
                 "type": "atLeast",
@@ -34678,6 +34856,441 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 85,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 115,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 95,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d4ef-1ddc-1ed5-5156",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 125,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d4ef-1ddc-1ed5-5156",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d4ef-1ddc-1ed5-5156",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d4ef-1ddc-1ed5-5156",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "d4ef-1ddc-1ed5-5156",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "d4ef-1ddc-1ed5-5156",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "type": "unit",
@@ -34833,12 +35446,77 @@
             "field": "51b2-306e-1021-d207"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 110,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "4c72-3f0c-7f94-af96",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "4c72-3f0c-7f94-af96",
+                        "shared": true,
+                        "childName": "Wulfen with Storm Shields"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 210,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "4c72-3f0c-7f94-af96",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -35729,112 +36407,6 @@
         ],
         "modifiers": [
           {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "equalTo",
-                    "value": 0,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 170,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 4,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "equalTo",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "c135-aa4c-6d86-2e05",
-                    "shared": true,
-                    "includeChildSelections": true
-                  },
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "0f93-6850-8f14-a351",
-                    "childId": "2097-c650-2684-5972",
-                    "shared": true,
-                    "includeChildSelections": true
-                  }
-                ],
-                "type": "and"
-              }
-            ],
-            "type": "set",
-            "value": 110,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 4,
-                "field": "selections",
-                "scope": "0f93-6850-8f14-a351",
-                "childId": "2097-c650-2684-5972",
-                "shared": true,
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 220,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
             "conditions": [
               {
                 "type": "lessThan",
@@ -35848,6 +36420,441 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 85,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 115,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 230,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 95,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0f93-6850-8f14-a351",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 125,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0f93-6850-8f14-a351",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 180,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0f93-6850-8f14-a351",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0f93-6850-8f14-a351",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "c135-aa4c-6d86-2e05",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "0f93-6850-8f14-a351",
+                    "childId": "2097-c650-2684-5972",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "0f93-6850-8f14-a351",
+                        "shared": true,
+                        "childName": "Wolf Guard Headtakers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "comment": "Crusade variant",
@@ -38163,12 +39170,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 105,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ee6b-3815-3a1a-6458",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "ee6b-3815-3a1a-6458",
+                        "shared": true,
+                        "childName": "Wolf Scouts"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 7,
+                    "field": "selections",
+                    "scope": "ee6b-3815-3a1a-6458",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -39830,7 +40902,7 @@
     "name": "Imperium - Adeptus Astartes - Space Wolves",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 76,
+    "revision": 77,
     "battleScribeVersion": 2.03,
     "type": "catalogue",
     "authorName": "Acebaur/Mad Spy"

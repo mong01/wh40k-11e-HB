@@ -3145,12 +3145,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 390,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8441-8356-5e7c-69ee",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -3962,12 +3974,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 370,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9efd-ec72-353f-4b23",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -4612,12 +4636,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 370,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "eb4-4a67-11e9-3cb8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -5559,12 +5595,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 390,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "c609-c87e-f9dd-5006",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -6634,12 +6682,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 415,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "1e27-a6de-3840-a050",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -7615,12 +7675,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 380,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ebd9-7175-3f0c-72a9",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -8151,12 +8223,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 420,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "6e36-f85-1c3b-8bf3",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9117,12 +9201,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 415,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8fb9-50b2-adc6-161a",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10893,12 +10989,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 75,
+            "type": "set",
+            "value": 860,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f8d0-fdf2-2e5e-3b74",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12509,12 +12617,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 75,
+            "type": "set",
+            "value": 800,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "61c9-8baf-22b4-5d84",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13097,12 +13217,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 435,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9ee-e289-bc6c-d943",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13906,12 +14038,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 395,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "1654-5c17-474e-2d84",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14749,12 +14893,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 395,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "11d3-167b-6dff-a4c2",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15931,12 +16087,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 425,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "37a7-d156-1e4c-8fe1",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17393,12 +17561,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 400,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "adfa-19fc-7337-7350",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -18380,12 +18560,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 390,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f8f3-a438-1212-93e8",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19743,12 +19935,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 160,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "e3dd-7e90-140a-b3ab",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -20897,12 +21101,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 420,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "f12b-ca2a-9c87-79bb",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22327,12 +22543,24 @@
             "field": "category"
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 280,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "10d8-d702-f556-5d3c",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -26995,6 +27223,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "1fe3-39a4-1a0e-1e61",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -27063,6 +27300,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "561c-8725-632c-2477",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
+                "primary": false
+              }
             ]
           },
           {
@@ -27120,6 +27366,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "ea71-dc4a-3ffd-e816",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
+              }
             ]
           },
           {
@@ -27158,6 +27413,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "8292-7a05-cff9-4582",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -27195,6 +27459,15 @@
                 "name": "Detachment Points",
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "a3c2-e82a-8ecb-aa53",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
               }
             ]
           },
@@ -27245,6 +27518,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 3
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "ab46-6d7c-fe52-3a88",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -27277,6 +27559,15 @@
                 "typeId": "82ae-1066-5107-6ae0",
                 "value": 1
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "326d-6fa1-452d-6b65",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -27298,6 +27589,13 @@
                 "hidden": false,
                 "id": "0718-f85d-2f62-adc5",
                 "targetId": "c8e9-fe52-a119-afb3",
+                "primary": false
+              },
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "fb49-dff1-d9b3-286a",
+                "targetId": "b4a7-5083-fe94-4d24",
                 "primary": false
               }
             ],
@@ -31866,7 +32164,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 15
                   },
                   {
                     "name": "Crusade Points",
@@ -32021,7 +32319,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 20
+                    "value": 10
                   },
                   {
                     "name": "Crusade Points",
@@ -32496,7 +32794,7 @@
     "name": "Imperium - Imperial Knights - Library",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 85,
+    "revision": 86,
     "battleScribeVersion": 2.03,
     "authorName": "BSData Developers",
     "type": "catalogue",

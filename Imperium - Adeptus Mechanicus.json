@@ -4820,7 +4820,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 80
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -5011,7 +5011,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 85
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -5227,7 +5227,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 0
+            "value": 80
           }
         ],
         "constraints": [
@@ -5499,12 +5499,164 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "7efb-de37-79c4-cccb",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 240,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "7efb-de37-79c4-cccb",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 95,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "7efb-de37-79c4-cccb",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7efb-de37-79c4-cccb",
+                        "shared": true,
+                        "childName": "Ironstrider Ballistarii"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 175,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "7efb-de37-79c4-cccb",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "7efb-de37-79c4-cccb",
+                        "shared": true,
+                        "childName": "Ironstrider Ballistarii"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 255,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "7efb-de37-79c4-cccb",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -5578,12 +5730,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 20,
+            "type": "set",
+            "value": 180,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "bd6c-8683-8bc4-962d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "bd6c-8683-8bc4-962d",
+                        "shared": true,
+                        "childName": "Kastelan Robots"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 340,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "bd6c-8683-8bc4-962d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9700,12 +9917,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "b31e-5003-5b63-a305",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "b31e-5003-5b63-a305",
+                        "shared": true,
+                        "childName": "Pteraxii Skystalkers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "b31e-5003-5b63-a305",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10664,12 +10946,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 90,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "958-a256-360-8620",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "958-a256-360-8620",
+                        "shared": true,
+                        "childName": "Pteraxii Sterylizors"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "958-a256-360-8620",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14159,12 +14506,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 85,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "9b4-26b2-9e6d-a62d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "9b4-26b2-9e6d-a62d",
+                        "shared": true,
+                        "childName": "Sicarian Infiltrators"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 165,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "9b4-26b2-9e6d-a62d",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15459,12 +15871,77 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 10,
+            "type": "set",
+            "value": 85,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "8863-9784-8377-aa7a",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "8863-9784-8377-aa7a",
+                        "shared": true,
+                        "childName": "Sicarian Ruststalkers"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "8863-9784-8377-aa7a",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -21894,7 +22371,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 60
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -22221,7 +22698,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 0
+            "value": 60
           }
         ],
         "infoLinks": [
@@ -22519,6 +22996,40 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 2,
+                "field": "selections",
+                "scope": "3053-c0c1-aedd-b211",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 170,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 3,
+                "field": "selections",
+                "scope": "3053-c0c1-aedd-b211",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
@@ -40191,12 +40702,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 130,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "52d3-71a9-f755-d6aa",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -41249,12 +41772,24 @@
             ]
           },
           {
-            "type": "increment",
-            "value": 15,
+            "type": "set",
+            "value": 130,
             "field": "51b2-306e-1021-d207",
             "conditionGroups": [
               {
                 "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "d653-1ac3-d944-224f",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -54157,6 +54692,15 @@
                 "id": "dda0-4dd7-7621-4b6f",
                 "includeChildSelections": false
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "7433-94b2-b336-57ed",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
+              }
             ]
           },
           {
@@ -54234,6 +54778,15 @@
                 "id": "05b3-3c2e-79a0-372c",
                 "includeChildSelections": false
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "2b6b-d395-4594-b068",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
+              }
             ]
           },
           {
@@ -54301,6 +54854,15 @@
                 "shared": true,
                 "id": "ac74-906c-0583-5b8f",
                 "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "42a7-2bc5-7db3-3eab",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
               }
             ]
           },
@@ -54377,6 +54939,13 @@
                 "hidden": false,
                 "id": "1945-0a39-40a1-e996",
                 "targetId": "c753-eb3a-0308-ef3e",
+                "primary": false
+              },
+              {
+                "name": "Disruption",
+                "hidden": false,
+                "id": "604e-38a4-6c6c-42bc",
+                "targetId": "ecf8-cf72-7d5b-1b5b",
                 "primary": false
               }
             ]
@@ -54462,6 +55031,15 @@
                 "shared": true,
                 "id": "aab8-e26d-d34d-b2d2",
                 "includeChildSelections": false
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "3237-474c-c79a-bec3",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
               }
             ]
           },
@@ -54599,6 +55177,15 @@
                 "id": "e0ac-6ff6-1431-fd28",
                 "includeChildSelections": false
               }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Purge the Foe",
+                "hidden": false,
+                "id": "4f9b-d80f-815b-a21a",
+                "targetId": "6fe0-3dbe-f7e0-10bb",
+                "primary": false
+              }
             ]
           },
           {
@@ -54666,6 +55253,15 @@
                 "id": "1651-2f8e-81c9-b135",
                 "hidden": false,
                 "description": "- Friendly **PTERAXII/INFILTRATORS/RANGERS/SERBERYS RAIDERS/ SERBERYS SULPHURHOUNDS** units have **RECON AUGURY**. \n- Friendly **RECON AUGURY** units have the following ability: **Enhanced Augurs**: In your Shooting phase, this unit can select one **visible** enemy unit within 12\". That enemy unit is **analysed**: \n- While a unit is **analysed**, that unit has +3\" **detection range**."
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Reconnaissance",
+                "hidden": false,
+                "id": "f744-bf52-902d-d1d4",
+                "targetId": "b4a7-5083-fe94-4d24",
+                "primary": false
               }
             ]
           },
@@ -54743,6 +55339,15 @@
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "roster",
                 "affects": "self.entries.forces.recursive.59a9-b5cc-7c11-aaad.profiles.Unit"
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "54d6-b182-d183-def6",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
               }
             ]
           },
@@ -55092,7 +55697,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "77b9-2f66-3f9b-5cf3",
     "name": "Imperium - Adeptus Mechanicus",
-    "revision": 106,
+    "revision": 107,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
