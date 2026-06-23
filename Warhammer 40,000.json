@@ -2376,7 +2376,8 @@
             "id": "a00c-6979-992f-046b",
             "includeChildSelections": true
           }
-        ]
+        ],
+        "readme": "*** REMINDER PLEASE READ ***\n\n\nThis is an EXPERIMENTAL version of 11th made using automatic tools to scan Faction Packs and MFM\n\n\n- Leaders are not in yet, the old Leaders system may be used\n- Stuff that is in the 40k app but not in Faction Packs / MFM is not in (some detachments like Black Templars for example)\n\n\nWhen the \"official\" 11th is released, some selections may be lost (detachments or enhancements)"
       },
       {
         "categoryLinks": [
