@@ -1929,6 +1929,47 @@
         "name": "Explosives",
         "id": "e33d-891d-33aa-e9bf",
         "hidden": false
+      },
+      {
+        "name": "Disruption",
+        "id": "ecf8-cf72-7d5b-1b5b",
+        "hidden": false
+      },
+      {
+        "name": "Priority Assets",
+        "id": "0936-9767-1cc7-52ae",
+        "hidden": false
+      },
+      {
+        "name": "Purge the Foe",
+        "id": "6fe0-3dbe-f7e0-10bb",
+        "hidden": false
+      },
+      {
+        "name": "Take and Hold",
+        "id": "1cc1-f11a-4e8f-1bcc",
+        "hidden": false
+      },
+      {
+        "name": "Reconnaissance",
+        "id": "b4a7-5083-fe94-4d24",
+        "hidden": false
+      },
+      {
+        "name": "Leader",
+        "id": "1556-9b56-fba6-4370",
+        "hidden": true
+      },
+      {
+        "name": "Support",
+        "id": "7dcd-7f61-69a7-0294",
+        "hidden": true
+      },
+      {
+        "name": "Rapid Fire Weapon",
+        "id": "751c-b78a-45fa-cc5f",
+        "hidden": true,
+        "comment": "Used for Enhancement / Crusade Relic upgrades"
       }
     ],
     "forceEntries": [
@@ -2841,6 +2882,14 @@
         "id": "48c5-2a0a-1c81-ebac",
         "targetId": "8d9a-d925-56f3-1890",
         "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Force Disposition",
+        "hidden": false,
+        "id": "8bc8-6bfe-78bd-2480",
+        "type": "selectionEntry",
+        "targetId": "2f69-9148-45b4-86a8"
       }
     ],
     "sharedSelectionEntries": [
@@ -5594,12 +5643,79 @@
             ]
           }
         ]
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Force Disposition",
+        "hidden": false,
+        "id": "2f69-9148-45b4-86a8",
+        "categoryLinks": [
+          {
+            "name": "Configuration",
+            "hidden": false,
+            "id": "4670-da6d-33d0-55f8",
+            "targetId": "4ac9-fd30-1e3d-b249",
+            "primary": true
+          }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Force Disposition",
+            "hidden": false,
+            "id": "9c70-af87-0c32-afcf",
+            "type": "selectionEntryGroup",
+            "targetId": "eece-6d68-6710-7a7f"
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "e219-1d50-0a55-a5de-min",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "roster",
+            "shared": true,
+            "id": "e219-1d50-0a55-a5de-max",
+            "includeChildSelections": true,
+            "includeChildForces": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "cac3-71d1-ea4b-795d",
+                "shared": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedRules": [
       {
         "description": "**[PISTOL]** and **[CLOSE-QUARTERS]** are identical for all rules purposes. \n\nUnits containing one or more models with a **[CLOSE-QUARTERS]** weapon can shoot using **close-quarters shooting** (10.06). When using another **shooting type**, for each model in that unit (excluding **MONSTER/VEHICLE** models), you can only select one of the following to make attacks with: \n- One or more of its **[CLOSE-QUARTERS]** weapons. \n- One or more of its other ranged weapons.",
-        "alias": ["PISTOL"],
+        "alias": [
+          "PISTOL"
+        ],
         "id": "8bf7-8812-923d-29e4",
         "name": "Pistol",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5608,7 +5724,9 @@
       },
       {
         "description": "Each time a unit is **selected to shoot** or **selected to fight**, after that unit has resolved all of its attacks, make a number of **hazard rolls** (06.03) for that unit equal to the number of **[HAZARDOUS]** weapons you selected in the Select Weapons step.",
-        "alias": ["HAZARDOUS"],
+        "alias": [
+          "HAZARDOUS"
+        ],
         "id": "8367-374c-f87-c627",
         "name": "Hazardous",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5625,7 +5743,9 @@
       },
       {
         "description": "Each time an attack made with a **[DEVASTATING WOUNDS]** weapon results in a **critical wound**, the attack sequence for that attack ends and the target unit suffers a number of **mortal wounds** equal to the **D** characteristic of that weapon. These are inflicted after resolving any normal damage inflicted by those attacks. \n**Mortal wounds** inflicted by **[DEVASTATING WOUNDS]** weapons can damage a maximum of one model for each **critical wound**; any remaining **mortal wounds** inflicted by that attack are lost. \n**Example: An attack made with a **[DEVASTATING WOUNDS]** weapon with a **D** characteristic of 3 results in a **critical wound** against an Intercessor Squad, so inflicts 3 **mortal wounds**. The first 2 **mortal wounds** are sufficient to **destroy** 1 Intercessor model, so the remaining **mortal wound** is lost.*",
-        "alias": ["DEVASTATING WOUNDS"],
+        "alias": [
+          "DEVASTATING WOUNDS"
+        ],
         "id": "be1e-ac8e-1e2c-3528",
         "name": "Devastating Wounds",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5634,7 +5754,9 @@
       },
       {
         "description": "Units containing one or more models with an **[ASSAULT]** weapon can shoot using **assault shooting** (10.05).",
-        "alias": ["ASSAULT"],
+        "alias": [
+          "ASSAULT"
+        ],
         "id": "fc8a-8c24-bae9-cc1c",
         "name": "Assault",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5643,7 +5765,9 @@
       },
       {
         "description": "Each time a unit containing one or more models with an **[EXTRA ATTACKS]** weapon fights, those models will make attacks with those weapons in addition to any others. In the Select Weapons step (04.01), for each of those models, you must select: \n- All of that model’s **[EXTRA ATTACKS]** weapons. \n- One of that model’s other melee weapons, if possible.",
-        "alias": ["EXTRA ATTACKS"],
+        "alias": [
+          "EXTRA ATTACKS"
+        ],
         "id": "115b-79dc-f723-d761",
         "name": "Extra Attacks",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5652,7 +5776,9 @@
       },
       {
         "description": "Each time an attack is made with a **[TWIN-LINKED]** weapon, you can re-roll the **wound roll**.",
-        "alias": ["TWIN-LINKED"],
+        "alias": [
+          "TWIN-LINKED"
+        ],
         "id": "cf93-ad4d-2f08-a79d",
         "name": "Twin-linked",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5661,7 +5787,9 @@
       },
       {
         "description": "This ability always takes the form **[ANTI-X Y+]**. Each time an attack is made with an **[ANTI]** weapon, if the target unit has the keyword denoted by **X**, an unmodified **wound roll** of **Y+** is a **critical wound**.\n***Example:** An attack made with an **[ANTI-VEHICLE 4+]** weapon against a ^^**Vehicle**^^ unit will result in a **critical wound** on an unmodified **wound roll** of 4+, while an attack made with an **[ANTI-PSYKER 2+]** weapon against a ^^**Psyker**^^ unit will result in a **critical wound** on an unmodified **wound roll** of 2+.*",
-        "alias": ["ANTI"],
+        "alias": [
+          "ANTI"
+        ],
         "id": "4111-82e3-9444-e942",
         "name": "Anti",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5670,7 +5798,9 @@
       },
       {
         "description": "This ability always takes the form **[SUSTAINED HITS X]**. Each time an attack made with a **[SUSTAINED HITS]** weapon results in a **critical hit**, that attack results in a number of additional hits on the target as denoted by **X**.\n***Example: An attack made with a **[SUSTAINED HITS 2]** weapon results in a **critical hit**. That attack therefore hits the target three times (once from the **critical hit**, and twice more from the **[SUSTAINED HITS 2]** ability).",
-        "alias": ["SUSTAINED HITS"],
+        "alias": [
+          "SUSTAINED HITS"
+        ],
         "id": "1897-c22c-9597-12b1",
         "name": "Sustained Hits",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5679,7 +5809,9 @@
       },
       {
         "description": "In your Shooting phase, each time an attack is made with a **[HEAVY]** weapon, add 1 to the **hit roll** if all of the following apply to the attacking unit: \n- That unit is **unengaged**. \n- That unit was not set up on the battlefield this turn. \n- No model in that unit has moved more than 3\" this turn.",
-        "alias": ["HEAVY"],
+        "alias": [
+          "HEAVY"
+        ],
         "id": "1202-10a8-78e9-4c67",
         "name": "Heavy",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5688,7 +5820,9 @@
       },
       {
         "description": "This ability always takes the form **[MELTA X]**. Each time a model makes an attack with a **[MELTA]** weapon, if the target unit was within half range of that weapon in the Select Targets step, until the attacking unit’s attacks have been resolved, add **X** to that weapon’s **D** characteristic. \n***Example:** A model targets a unit that is within half range of a **[MELTA 2]** weapon with a **D** characteristic of D6. While resolving those attacks, that weapon has a **D** characteristic of **D6+2**.",
-        "alias": ["MELTA"],
+        "alias": [
+          "MELTA"
+        ],
         "id": "7cdb-fb99-44a9-8849",
         "name": "Melta",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5705,7 +5839,9 @@
       },
       {
         "description": "Each time you gather attack dice for a **[BLAST]** weapon, add one additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down). If this ability takes the form **[BLAST X]**, each time you gather **attack dice** for such a weapon, add **X** additional **attack dice** for every five models that were in the target unit in the Select Targets step (rounding down) instead. \n***Example:** If a **[BLAST 2]** weapon with an **A** characteristic of 3 targets a unit containing 12 models, you would gather four additional **attack dice** for that weapon (for a total of seven for that weapon).*",
-        "alias": ["BLAST"],
+        "alias": [
+          "BLAST"
+        ],
         "id": "6c1f-1cf7-ff25-c99e",
         "name": "Blast",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5714,7 +5850,9 @@
       },
       {
         "description": "While resolving attacks made with one or more **[PRECISION]** weapons, at the start of the Allocation Order step (05.03), if the target unit contains one or more **CHARACTER** models **visible** to one or more of the attacking models, the active player can select one allocation group that contains one of those **visible CHARACTER** models. If they do, until those attacks are resolved, or until that **CHARACTER** group is **destroyed** (whichever happens first), that **CHARACTER** group is the current allocation group.",
-        "alias": ["PRECISION"],
+        "alias": [
+          "PRECISION"
+        ],
         "id": "9143-31ae-e0a6-6007",
         "name": "Precision",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5723,7 +5861,9 @@
       },
       {
         "description": "Units containing one or more models with an **[INDIRECT FIRE]** weapon can shoot using indirect shooting (10.07).",
-        "alias": ["INDIRECT FIRE"],
+        "alias": [
+          "INDIRECT FIRE"
+        ],
         "id": "4ddd-4e29-acdd-5e6d",
         "name": "Indirect Fire",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5732,7 +5872,9 @@
       },
       {
         "description": "Each time an attack is made with a **[LANCE]** weapon, if the attacking model’s unit made a **charge move** this turn, add 1 to the **wound roll**.",
-        "alias": ["LANCE"],
+        "alias": [
+          "LANCE"
+        ],
         "id": "2ebc-abdf-8129-6c57",
         "name": "Lance",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5741,7 +5883,9 @@
       },
       {
         "description": "Each time an attack made with a **[LETHAL HITS]** weapon results in a **critical hit**, you can choose for that attack to automatically wound the target. \n***Designer’s Note:** Choosing to automatically wound the target means that no **wound roll** is made for that attack. You may decide against this, as it means that attack cannot result in a **critical wound** and so cannot trigger other abilities such as [DEVASTATING WOUNDS].*",
-        "alias": ["LETHAL HITS"],
+        "alias": [
+          "LETHAL HITS"
+        ],
         "id": "d1d1-611e-5191-1095",
         "name": "Lethal Hits",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5750,7 +5894,9 @@
       },
       {
         "description": "Each time an attack is made with an **[IGNORES COVER]** weapon, the target cannot have the **benefit of cover** against that attack (13.08), including from rules that give a model or unit the **benefit of cover** (e.g. **Stealth**).",
-        "alias": ["IGNORES COVER"],
+        "alias": [
+          "IGNORES COVER"
+        ],
         "id": "4640-43e7-30b-215a",
         "name": "Ignores Cover",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5759,7 +5905,9 @@
       },
       {
         "description": "This ability always takes the form **[RAPID FIRE X]**. Each time you gather **attack dice** for a **[RAPID FIRE]** weapon, add **X** additional **attack dice** if the target unit was within half range of that weapon in the Select Targets step. \n***Example:** If a **[RAPID FIRE 1]** weapon with an **A** characteristic of 1 targets a unit that is within half range, you would gather one additional **attack dice** for that weapon (for a total of two for that weapon).*",
-        "alias": ["RAPID FIRE"],
+        "alias": [
+          "RAPID FIRE"
+        ],
         "id": "c5c8-8b58-b8b6-7786",
         "name": "Rapid Fire",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5768,7 +5916,9 @@
       },
       {
         "description": "Each time an attack is made with a **[TORRENT]** weapon, that attack automatically hits the target.",
-        "alias": ["TORRENT"],
+        "alias": [
+          "TORRENT"
+        ],
         "id": "5edf-d619-23e0-9b56",
         "name": "Torrent",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5865,7 +6015,9 @@
       },
       {
         "description": "Each time an attack is made with a **[PSYCHIC]** weapon, you can ignore any or all modifiers to that attack’s **BS** or **WS** characteristic and any or all modifiers to the **hit roll**. Attacks made with **[PSYCHIC]** weapons are known as **psychic attacks** (this can be important for the triggering of other rules).",
-        "alias": ["PSYCHIC"],
+        "alias": [
+          "PSYCHIC"
+        ],
         "id": "e9c4-2bb8-12ee-cd1b",
         "name": "Psychic",
         "publicationId": "48fc-15aa-b307-9443",
@@ -5881,7 +6033,9 @@
       },
       {
         "description": "Each weapon with this ability can only be selected to make attacks with once per battle. \nIf a **destroyed** model is returned to a unit, all of its **[ONE SHOT]** weapons that have already been selected to make attacks with during the battle cannot be selected to make attacks with again. \nIf a new unit is added to an army, all **[ONE SHOT]** weapons in that unit can be selected to make attacks with once per battle.",
-        "alias": ["ONE SHOT"],
+        "alias": [
+          "ONE SHOT"
+        ],
         "id": "cd26-1611-860a-91e4",
         "name": "One Shot",
         "hidden": false
@@ -32245,6 +32399,168 @@
         "id": "9c28-2876-4721-62f5",
         "hidden": false,
         "collapsible": true
+      },
+      {
+        "name": "Force Disposition",
+        "id": "eece-6d68-6710-7a7f",
+        "hidden": false,
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Disruption",
+            "hidden": false,
+            "id": "31ed-50f0-6571-c4c1",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "ecf8-cf72-7d5b-1b5b",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Disruption"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Priority Assets",
+            "hidden": false,
+            "id": "081d-bc07-5d4e-ab22",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "0936-9767-1cc7-52ae",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Priority Assets"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Purge the Foe",
+            "hidden": false,
+            "id": "7da4-f0a6-65ec-da48",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "6fe0-3dbe-f7e0-10bb",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Purge the Foe"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Take and Hold",
+            "hidden": false,
+            "id": "a271-bfab-1b97-c55d",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "1cc1-f11a-4e8f-1bcc",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Take and Hold"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Reconnaissance",
+            "hidden": false,
+            "id": "3b81-de3e-f72c-b208",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "childId": "b4a7-5083-fe94-4d24",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Reconnaissance"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "min",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ad56-59fe-9aae-55ee-min",
+            "includeChildSelections": false
+          },
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "ad56-59fe-9aae-55ee-max",
+            "includeChildSelections": false
+          }
+        ]
       }
     ],
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
@@ -32252,7 +32568,6 @@
     "name": "Warhammer 40,000 11th Edition",
     "revision": 118,
     "battleScribeVersion": 2.03,
-    "type": "gameSystem",
-    "readme": "EXPERIMENTAL PREVIEW OF 11th\nThis version of 11th has been generated automatically from the Faction Packs and MFM, it will be temporarily used by New Recruit until 11th is ready. Please mind the Following:\n- Leaders are not in (old system may be used).\n- Anything not in the Faction Packs will not be in, some detachments are already in the 40k app but not released officially.\n- Lists you make here may be lost when 11th is officially released on New Recruit (probably within 1-2 weeks "
+    "type": "gameSystem"
   }
 }

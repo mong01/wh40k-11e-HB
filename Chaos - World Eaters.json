@@ -31795,6 +31795,15 @@
                     "id": "008c-738d-aa2c-597e",
                     "includeChildSelections": false
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "8c22-eff2-1e34-87f1",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -31859,6 +31868,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 1
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "3512-0027-144a-47d7",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -31921,6 +31939,15 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Priority Assets",
+                    "hidden": false,
+                    "id": "b39f-274e-228b-10a3",
+                    "targetId": "0936-9767-1cc7-52ae",
+                    "primary": false
                   }
                 ]
               },
@@ -31985,6 +32012,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Reconnaissance",
+                    "hidden": false,
+                    "id": "c6bf-c0db-549d-085a",
+                    "targetId": "b4a7-5083-fe94-4d24",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -32048,6 +32084,15 @@
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
                   }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "b254-9f95-8daf-3afa",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
+                  }
                 ]
               },
               {
@@ -32110,6 +32155,22 @@
                     "name": "Detachment Points",
                     "typeId": "82ae-1066-5107-6ae0",
                     "value": 2
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Onslaught",
+                    "hidden": false,
+                    "id": "176c-8c3c-b33a-c34a",
+                    "targetId": "76cc-d661-ce7d-62ae",
+                    "primary": false
+                  },
+                  {
+                    "name": "Take and Hold",
+                    "hidden": false,
+                    "id": "acff-96d5-1464-b3ff",
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "primary": false
                   }
                 ]
               },
@@ -32182,6 +32243,13 @@
                     "id": "45d7-b20c-cd32-fe5e",
                     "targetId": "76cc-d661-ce7d-62ae",
                     "primary": false
+                  },
+                  {
+                    "name": "Purge the Foe",
+                    "hidden": false,
+                    "id": "3257-2056-f290-1750",
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "primary": false
                   }
                 ]
               },
@@ -32245,6 +32313,15 @@
                     "id": "4f7e-2f47-db67-d845",
                     "hidden": false,
                     "description": "At the start of the Fight phase, if a friendly **TERMINATOR SQUAD** unit is **engaged**, make a **Blessings of Khorne** roll and use the results to activate one **Blessing of Khorne**. Until the end of the phase, that **Blessing of Khorne** is active for friendly **TERMINATOR SQUAD** units in addition to any other **Blessings of Khorne** that are currently active."
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "name": "Disruption",
+                    "hidden": false,
+                    "id": "bd8b-7a58-04d0-ca96",
+                    "targetId": "ecf8-cf72-7d5b-1b5b",
+                    "primary": false
                   }
                 ]
               }
@@ -32318,7 +32395,9 @@
                 "$text": "This unit has +1 to charge rolls."
               }
             ],
-            "alias": ["Unbridled Bloodlust"],
+            "alias": [
+              "Unbridled Bloodlust"
+            ],
             "id": "51f5-e7af-9e0f-b904",
             "name": "1. Unbridled Bloodlust",
             "hidden": false,
@@ -32338,7 +32417,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Rage-fuelled Invigoration"],
+            "alias": [
+              "Rage-fuelled Invigoration"
+            ],
             "id": "4ba4-2d3a-a3b2-2a0c",
             "name": "2. Rage-fuelled Invigoration",
             "hidden": false,
@@ -32395,7 +32476,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Total Carnage"],
+            "alias": [
+              "Total Carnage"
+            ],
             "id": "a2db-113d-0cc8-8d7d",
             "name": "3. Total Carnage",
             "hidden": false,
@@ -32489,7 +32572,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Martial Excellence"],
+            "alias": [
+              "Martial Excellence"
+            ],
             "id": "35da-066e-5d34-b312",
             "name": "4. Martial Excellence",
             "hidden": false,
@@ -32583,7 +32668,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Warp Blades"],
+            "alias": [
+              "Warp Blades"
+            ],
             "id": "fbfe-9079-46e0-0cbf",
             "name": "5. Warp Blades",
             "hidden": false,
@@ -32640,7 +32727,9 @@
                 "typeId": "fcc3-ca7a-d697-7098"
               }
             ],
-            "alias": ["Decapitating Strikes"],
+            "alias": [
+              "Decapitating Strikes"
+            ],
             "id": "3444-f024-bee5-e731",
             "name": "6. Decapitating Strikes",
             "hidden": false,

@@ -34,31 +34,23 @@
         ],
         "entryLinks": [
           {
+            "import": true,
+            "name": "Detachment",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6c8a-a2ef-13ea-516b",
+            "targetId": "7170-c243-d89f-6644",
             "constraints": [
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "1cfe-4506-7c64-b62b"
-              },
               {
                 "type": "max",
                 "value": 20,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "1951-f4c-826-26ab",
-                "includeChildSelections": true
+                "includeChildSelections": true,
+                "id": "62db-1b98-77d6-a17a"
               }
-            ],
-            "import": true,
-            "name": "Detachment",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "6c8a-a2ef-13ea-516b",
-            "targetId": "7170-c243-d89f-6644"
+            ]
           }
         ],
         "modifiers": [

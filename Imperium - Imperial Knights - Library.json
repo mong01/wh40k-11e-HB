@@ -26978,13 +26978,6 @@
             "import": true,
             "name": "Valourstrike Lance",
             "id": "e424-58f3-8e79-19a6",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 2
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -26992,8 +26985,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "9d06-c688-37ee-81a4"
+                "id": "c90a-edb1-8fb0-1b5a",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
               }
             ]
           },
@@ -27046,13 +27046,6 @@
                 ]
               }
             ],
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 1
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27060,8 +27053,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "35e9-6bca-75e7-e9a7"
+                "id": "7e26-5bf8-f71c-6424",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -27103,13 +27103,6 @@
             "import": true,
             "name": "Gate Warden Lance",
             "id": "884c-fbb7-9f22-1297",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 2
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27117,8 +27110,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "2777-5607-6a68-b4fb"
+                "id": "0578-2902-d11a-9e47",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
               }
             ]
           },
@@ -27141,13 +27141,6 @@
             "import": true,
             "name": "Questoris Companions",
             "id": "a692-b024-09d9-b79f",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 3
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27155,8 +27148,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "3860-80ed-af36-1bc2"
+                "id": "60bd-ad2c-4941-430b",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
               }
             ]
           },
@@ -27179,13 +27179,6 @@
             "import": true,
             "name": "Spearhead-at-Arms",
             "id": "d469-239c-7e4c-4210",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 2
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27193,8 +27186,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "40e7-dca6-ab04-6af4"
+                "id": "4a47-3c80-af4b-a39a",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
               }
             ]
           },
@@ -27228,13 +27228,6 @@
             "import": true,
             "name": "Freeblade Company",
             "id": "4e8e-50db-0d32-423c",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 3
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27242,8 +27235,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "102e-a3d5-d948-c7a9"
+                "id": "53a2-b41c-fc7b-6d5a",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
               }
             ]
           },
@@ -27260,13 +27260,6 @@
             "import": true,
             "name": "Dominus Foebreakers",
             "id": "d3a1-4b10-4d2c-d44f",
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 1
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27274,8 +27267,15 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "edfc-b81f-84cb-7dae"
+                "id": "1f42-7654-5c81-8b17",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           },
@@ -27301,13 +27301,6 @@
                 "primary": false
               }
             ],
-            "costs": [
-              {
-                "name": "Detachment Points",
-                "typeId": "82ae-1066-5107-6ae0",
-                "value": 1
-              }
-            ],
             "constraints": [
               {
                 "type": "max",
@@ -27315,22 +27308,20 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "includeChildSelections": true,
-                "id": "c05d-77fb-fee5-176a"
+                "id": "46a6-aa64-5ed5-59a8",
+                "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 1
               }
             ]
           }
         ],
         "constraints": [
-          {
-            "type": "max",
-            "value": 20,
-            "field": "selections",
-            "scope": "parent",
-            "shared": true,
-            "id": "b27-2395-910d-8372",
-            "includeChildSelections": false
-          },
           {
             "type": "min",
             "value": 1,
