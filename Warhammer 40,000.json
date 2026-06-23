@@ -2134,10 +2134,6 @@
         "modifiers": [
           {
             "type": "set",
-            "field": "readme"
-          },
-          {
-            "type": "set",
             "value": 3,
             "field": "95c5-effd-74f1-c8f4",
             "conditions": [
@@ -2377,7 +2373,7 @@
             "includeChildSelections": true
           }
         ],
-        "readme": "*** REMINDER PLEASE READ ***\n\n\nThis is an EXPERIMENTAL version of 11th made using automatic tools to scan Faction Packs and MFM\n\n\n- Leaders are not in yet, the old Leaders system may be used\n- Stuff that is in the 40k app but not in Faction Packs / MFM is not in (some detachments like Black Templars for example)\n\n\nWhen the \"official\" 11th is released, some selections may be lost (detachments or enhancements)"
+        "readme": "*** REMINDER PLEASE READ ***\n\nThis is an EXPERIMENTAL version of 11th made using automatic tools to scan Faction Packs and MFM\n\n- Leaders are not in yet, the old Leaders system may be used\n- Stuff that is in the 40k app but not in Faction Packs / MFM is not in (some detachments like Black Templars for example)\n\nWhen the \"official\" 11th is released, some selections may be lost (detachments or enhancements).\n\n\n*** REPORT ISSUE TEMPORARILY DISABLED ***\nA lot of issues have been found, it is going to take a while to fix them until issues are fixed we disabled any further reports."
       },
       {
         "categoryLinks": [
