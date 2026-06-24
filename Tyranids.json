@@ -10271,18 +10271,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "2c2d-a2f9-61a8-a6c6",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -11792,18 +11780,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "6249-358f-27d7-ef60",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14783,18 +14759,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "bbfd-5b01-5bd3-a28b",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -17477,18 +17441,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "8e53-d4a-a69f-e71d",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19086,18 +19038,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "1705-379b-330d-36d4",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -24441,18 +24381,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "9b5c-3b5a-1f80-9a74",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25338,18 +25266,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "fbc0-3a2b-1d7d-23d9",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -28451,18 +28367,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "6a9b-8e2f-edac-fa2d",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -29449,18 +29353,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "5720-2873-8c2c-edc3",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",

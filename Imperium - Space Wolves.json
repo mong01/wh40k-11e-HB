@@ -16555,18 +16555,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "91fa-49ac-5b0a-c155",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -28914,7 +28902,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 80
+            "value": 95
           },
           {
             "name": "Crusade Points",
@@ -30670,23 +30658,6 @@
           {
             "conditions": [
               {
-                "type": "atLeast",
-                "value": 6,
-                "field": "selections",
-                "scope": "91e4-38c4-a96f-2090",
-                "childId": "model",
-                "shared": true,
-                "id": "7811-a191-ebc5-392d",
-                "includeChildSelections": true
-              }
-            ],
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207"
-          },
-          {
-            "conditions": [
-              {
                 "type": "lessThan",
                 "value": 1,
                 "field": "selections",
@@ -30701,6 +30672,129 @@
             "type": "set",
             "value": true,
             "field": "hidden"
+          },
+          {
+            "type": "set",
+            "value": 190,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 7,
+                "field": "selections",
+                "scope": "91e4-38c4-a96f-2090",
+                "childId": "model",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 105,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "91e4-38c4-a96f-2090",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "91e4-38c4-a96f-2090",
+                        "shared": true,
+                        "childName": "Wolf Scouts [Legends]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 200,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 7,
+                    "field": "selections",
+                    "scope": "91e4-38c4-a96f-2090",
+                    "childId": "model",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "localConditionGroups": [
+                  {
+                    "type": "atLeast",
+                    "value": 2,
+                    "scope": "parent",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "repeats": 1,
+                    "conditions": [
+                      {
+                        "type": "before",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "self",
+                        "shared": true,
+                        "childName": "self"
+                      },
+                      {
+                        "type": "instanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "self",
+                        "childId": "91e4-38c4-a96f-2090",
+                        "shared": true,
+                        "childName": "Wolf Scouts [Legends]"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -31869,18 +31963,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "c125-1106-f06d-9682",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -37917,7 +37999,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 95
+            "value": 105
           },
           {
             "name": "Crusade Points",
@@ -39153,127 +39235,20 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 190,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 7,
+                "value": 12,
                 "field": "selections",
                 "scope": "ee6b-3815-3a1a-6458",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "includeChildSelections": true
               }
-            ]
-          },
-          {
+            ],
             "type": "set",
-            "value": 105,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ee6b-3815-3a1a-6458",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ee6b-3815-3a1a-6458",
-                        "shared": true,
-                        "childName": "Wolf Scouts"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "set",
-            "value": 200,
-            "field": "51b2-306e-1021-d207",
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 7,
-                    "field": "selections",
-                    "scope": "ee6b-3815-3a1a-6458",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "localConditionGroups": [
-                  {
-                    "type": "atLeast",
-                    "value": 2,
-                    "scope": "parent",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "includeChildForces": true,
-                    "repeats": 1,
-                    "conditions": [
-                      {
-                        "type": "before",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "self",
-                        "shared": true,
-                        "childName": "self"
-                      },
-                      {
-                        "type": "instanceOf",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "self",
-                        "childId": "ee6b-3815-3a1a-6458",
-                        "shared": true,
-                        "childName": "Wolf Scouts"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+            "value": 210,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "type": "unit",

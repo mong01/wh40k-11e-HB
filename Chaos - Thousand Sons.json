@@ -9130,18 +9130,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "dfde-eaff-e63e-3aae",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10325,18 +10313,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "a619-beee-4bde-d049",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -11398,18 +11374,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "4819-dbbe-8547-4e23",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -13325,18 +13289,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "3413-b8fd-e22c-da4f",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16310,18 +16262,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "d2f1-7a0b-f7cd-9b46",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -21447,18 +21387,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "f2aa-19fd-335a-09b3",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22380,18 +22308,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "094c-c618-92c1-b394",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -27947,18 +27863,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "c6d1-e73b-9d26-5d8b",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -29928,18 +29832,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "66f4-929e-1769-f277",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -40340,18 +40232,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "c964-c75a-2a9d-e451",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -46532,18 +46412,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "f158-2979-c38b-65b5",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -50982,6 +50850,234 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "pa7f-ead5-9ce0-b33e"
+              }
+            ]
+          },
+          {
+            "name": "Changehost of Deceit Enhancements",
+            "hidden": false,
+            "id": "f159-5269-f156-4c08",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "6acc-9928-2b67-73c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "da61-70ba-560d-5698"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Diabolic Savant",
+                "hidden": false,
+                "collective": false,
+                "id": "9333-e162-eaa3-7480",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "5efd-88cb-6c59-3d26",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Grand Coven Enhancements",
+            "hidden": false,
+            "id": "2ab7-ec82-d6d1-2f5f",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "9aba-cb08-cd38-9e01",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "48cb-17b5-1c7a-8e5c"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Incandaeum",
+                "hidden": false,
+                "collective": false,
+                "id": "e92c-d566-520a-bffc",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "b414-11df-eeb0-8d55",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Rubricae Phalanx Enhancements",
+            "hidden": false,
+            "id": "9ef5-38e4-7ff4-2573",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "7510-5cb8-60fe-61a0",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9406-f51f-f0c7-ed76"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Arcane Thralls",
+                "hidden": false,
+                "collective": false,
+                "id": "ed30-b437-1c6e-ed34",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 5
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "9314-49f6-61f5-21f0",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }

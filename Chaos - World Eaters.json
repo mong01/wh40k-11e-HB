@@ -20933,18 +20933,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "4251-bd4f-f7ac-9487",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22155,18 +22143,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "497c-f787-5a7e-1020",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -23262,18 +23238,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "04a0-269e-3bab-2c61",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -24805,18 +24769,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ea51-5575-9e74-9346",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25756,18 +25708,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "81e1-b212-69c1-308f",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -29475,18 +29415,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "a619-8a52-be03-3bd5",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -31928,18 +31856,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "836c-f65b-6bcb-9663",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -32315,7 +32231,7 @@
               {
                 "rules": [
                   {
-                    "description": "^^**World Eaters Possessed^^** units in your army have the following ability:\n\n**Brazen Fury**: In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\". That **surge move** is a **Brazen Fury move**.",
+                    "description": "In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\". That surge move is a Brazen Fury move.",
                     "name": "Brazen Fury",
                     "id": "4d60-d00d-497d-ca18",
                     "hidden": false
@@ -37831,18 +37747,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "4ad2-bd20-6dfe-776b",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",

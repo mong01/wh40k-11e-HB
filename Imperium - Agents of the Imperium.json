@@ -21196,7 +21196,7 @@
           {
             "characteristics": [
               {
-                "$text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each INQUISITOR unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include.",
+                "$text": "If your Army Faction is not AGENTS OF THE IMPERIUM, then for each INQUISITOR unit you include in your army, you can include one INQUISITORIAL AGENTS unit in your army that does not count towards the number of RETINUE units your army can include (see Assigned Agents, page 75).",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -67537,7 +67537,85 @@
         "name": "Enhancements",
         "id": "c3c8-4ca0-ec6e-6686",
         "hidden": false,
-        "collapsible": true
+        "collapsible": true,
+        "selectionEntryGroups": [
+          {
+            "name": "Veiled Blade Elimination Force Enhancements",
+            "hidden": false,
+            "id": "956c-4fbe-c3f1-13c0",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "forces",
+                        "scope": "roster",
+                        "childId": "cac3-71d1-ea4b-795d",
+                        "shared": true,
+                        "includeChildSelections": true
+                      },
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "childId": "e203-73dc-18d9-f390",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "includeChildForces": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "d8b0-a661-88a7-c882"
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Introneural Biotech",
+                "hidden": false,
+                "collective": false,
+                "id": "aa7e-6cc4-d38b-4062",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 35
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "aad0-7927-cef4-75bf",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "constraints": [

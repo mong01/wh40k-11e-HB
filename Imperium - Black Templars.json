@@ -8172,18 +8172,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "7dec-dc3d-c40a-8ce",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9014,18 +9002,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "bfb6-4320-74cf-bbda",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9799,18 +9775,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "5704-ffe4-4a53-8789",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -11535,18 +11499,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "c3e8-3cde-8b39-4b19",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12527,18 +12479,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "a344-192f-aae2-16e5",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -14061,18 +14001,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "68dd-5f49-4f17-cd84",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -16293,18 +16221,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "8525-2de1-14fd-c1f5",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",

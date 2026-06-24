@@ -5689,18 +5689,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "642f-9302-4fdc-ab68",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15092,6 +15080,32 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Instinctive Defence",
+                "hidden": false,
+                "collective": false,
+                "id": "83d8-dc5c-8e80-1d9a",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 15
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "7bac-2455-8447-888a",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ],
             "comment": "Tyranids",
@@ -16726,6 +16740,32 @@
                 "collective": false,
                 "import": true,
                 "type": "upgrade"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Naturalised Camouflage",
+                "hidden": false,
+                "collective": false,
+                "id": "4ff1-a909-7322-c137",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "c069-65cb-1c81-152d",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ],
             "comment": "Tyranids",
@@ -16962,7 +17002,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**TYRANIDS** model only. After both players have deployed their armies, you can select up to three **VANGUARD INVADER** units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+                        "$text": "TYRANIDS model only. After both players have deployed their armies, you can select up to three VANGUARD INVADER units from your army and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
                       }
                     ],
                     "id": "a260-81c2-7cda-a6ae",
@@ -18574,7 +18614,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**ABOMINANT**, **BIOPHAGUS** or **PATRIARCH** model only.\n- Models in the bearer's unit have the Infiltrators ability.\n- You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n-- That use is ‑1 CP.\n-- That use does not prevent any uses of that **stratagem** on other units this phase."
+                        "$text": "ABOMINANT, BIOPHAGUS or PATRIARCH model only. - Models in the bearer's unit have the Infiltrators ability. - You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
                       }
                     ],
                     "name": "Predatory Instincts",
@@ -19105,6 +19145,32 @@
                 "name": "Alien Majesty",
                 "hidden": false,
                 "id": "826e-321d-6d5d-a609"
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Biomorph Adaptation",
+                "hidden": false,
+                "collective": false,
+                "id": "1bd3-15f9-bc91-cf34",
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "roster",
+                    "shared": true,
+                    "id": "2c44-5a0e-d236-672e",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -19310,7 +19376,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**GENESTEALER CULTS INFANTRY** model only. When you target this unit with the **Heroic Intervention stratagem**, that use is ‑1 CP."
+                        "$text": "GENESTEALER CULTS INFANTRY model only. When you target this unit with the Heroic Intervention stratagem, that use is -1 CP."
                       }
                     ],
                     "name": "Adaptive Reprisal",
@@ -20303,7 +20369,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**GENESTEALER CULTS** model only. In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6”."
+                        "$text": "GENESTEALER CULTS model only. In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\"."
                       }
                     ],
                     "name": "Prowling Agitant",
@@ -21009,7 +21075,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**MAGUS**, **PRIMUS** or **ACOLYTE ICONWARD** model only. You start the battle with 2 additional Resurgence points."
+                        "$text": "MAGUS, PRIMUS or ACOLYTE ICONWARD model only. You start the battle with 2 additional Resurgence points."
                       }
                     ],
                     "name": "Deeds That Speak to the Masses",
@@ -28414,6 +28480,22 @@
                 "shared": true,
                 "id": "f261-3139-c966-359c",
                 "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 2
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Take and Hold",
+                "hidden": false,
+                "id": "92c6-e817-1c3d-d056",
+                "targetId": "1cc1-f11a-4e8f-1bcc",
+                "primary": false
               }
             ]
           },

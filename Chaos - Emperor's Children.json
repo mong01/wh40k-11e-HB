@@ -2312,18 +2312,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "7b4c-dfe0-6a0a-304a",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -5345,18 +5333,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "ad59-b823-900d-ee2d",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -6186,18 +6162,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "e452-08be-33e6-3864",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -9114,6 +9078,84 @@
                             "childName": "Spectacle of Slaughter"
                           }
                         ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "selectionEntryGroups": [
+              {
+                "name": "Rapid Evisceration Enhancements",
+                "hidden": false,
+                "id": "ee99-4cbd-798d-9625",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "26ff-306a-fca9-ebfd",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e52f-b189-3fc1-1b25"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Sublime Prescience",
+                    "hidden": false,
+                    "collective": false,
+                    "id": "328c-1257-6b4d-d4f3",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 25
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "shared": true,
+                        "id": "128c-72e8-5958-6cd1",
+                        "includeChildSelections": true
                       }
                     ]
                   }
@@ -12874,18 +12916,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "f10c-5f3e-c09d-0b12",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -15908,18 +15938,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "656c-8b78-8e59-0591",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19106,18 +19124,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "7b2b-4508-263d-f20f",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -25752,18 +25758,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "b541-3292-a5cc-dbeb",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -27465,7 +27459,7 @@
                   {
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that stratagem this phase. If you do: \n- That use is -1 CP. \n- That use does not prevent any uses of that **stratagem** on other units this phase.'"
+                    "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
                   }
                 ],
                 "name": "Faultless Opportunist",
@@ -29732,7 +29726,7 @@
                   {
                     "name": "Description",
                     "typeId": "9b8f-694b-e5e-b573",
-                    "$text": "When you target this unit with the **Heroic Intervention stratagem**, that use is -1 CP."
+                    "$text": "EMPEROR'S CHILDREN model only. When you target this unit with the Heroic Intervention stratagem, that use is -1 CP."
                   }
                 ],
                 "name": "Empyric Suffusion",

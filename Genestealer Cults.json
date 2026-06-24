@@ -1846,18 +1846,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "97b1-4873-9fcb-5cb8",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -10396,18 +10384,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "5ac1-3adb-212a-5e02",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -12256,7 +12232,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was **destroyed** as a result of those attacks, this unit can make a **surge move** of up to D6\"."
+                "$text": "In your opponent's Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6\"."
               }
             ],
             "modifiers": [
@@ -13573,7 +13549,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per turn, in your opponent’s Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a Transport as part of this move)."
+                "$text": "Once per turn, in your opponent's Movement phase, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, if this model is not within Engagement Range of one or more enemy units, it can shoot at that unit as if it were your Shooting phase and then make a Normal move of up to D6\" (it cannot embark within a Transport as part of this move)."
               }
             ],
             "name": "Hypersensory Abilities",
@@ -18536,7 +18512,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+                "$text": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
               }
             ],
             "name": "Battlefield Analysis",
@@ -19899,7 +19875,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll."
               }
             ],
             "name": "Cult Demagogue",
@@ -26768,7 +26744,7 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }

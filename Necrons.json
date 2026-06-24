@@ -8012,7 +8012,7 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model and roll 4 D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+                        "$text": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound.",
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
@@ -12112,7 +12112,7 @@
           },
           {
             "name": "The Phaeron's Armoury Upgrades",
-            "id": "pa18-c71d-1459-2268",
+            "id": "pac2-5209-6ed6-42fb",
             "hidden": false,
             "selectionEntries": [
               {
@@ -12139,7 +12139,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa33-3218-e314-35e7",
+                    "id": "paa3-6b02-af8c-465f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -12348,7 +12348,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pace-be21-f2c9-9aec",
+                    "id": "pabc-536b-7a79-5062",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -12411,7 +12411,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paea-d01f-87c9-1aa2"
+                "id": "pabe-ce87-edb5-9555"
               }
             ]
           }
@@ -21462,18 +21462,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "852a-ba39-e93f-6b62",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -22786,18 +22774,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "5b7d-54ea-f7a8-9688",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -30679,18 +30655,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "14fa-6813-e51b-7942",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -33322,18 +33286,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "276e-bc21-e1d0-3c41",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -39746,18 +39698,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "e046-8220-d8a2-1d19",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -45021,18 +44961,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "256d-92cd-5d14-bbab",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -45929,18 +45857,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "5451-67b5-a66c-71d2",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -46885,18 +46801,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "db10-2662-da6a-516e",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -51727,18 +51631,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "fa11-cd65-fcf6-427c",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",

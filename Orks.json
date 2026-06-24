@@ -3652,7 +3652,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n▪ That use is ‑1 CP.\n▪ That use does not prevent any uses of that **stratagem** on other units this phase."
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: That use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase."
               }
             ],
             "name": "Single-minded Predator",
@@ -7466,18 +7466,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "dde2-ca42-e3bc-2ef6",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -8161,7 +8149,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for that unit: On a 4+, that unit suffers D6 mortal wounds."
+                "$text": "At the end of your opponent's Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for that unit: On a 4+, that unit suffers D6 mortal wounds."
               }
             ],
             "name": "Boom Bomb",
@@ -10545,7 +10533,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a **WARBOSS** unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
+                "$text": "If this unit has a Starting Strength of 20, you can attach up to two Leader units to it instead of one (but only if one of those is a WARBOSS unit). If you do, and this unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths."
               }
             ],
             "name": "Bodyguard",
@@ -13155,7 +13143,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the end of your opponent’s Fight phase, you can select one **visible** enemy unit (excluding **Lone Operative** units) within 24\" of this unit:\n- Friendly **ORKS** units' ranged attacks that target that enemy unit have **[IGNORES COVER]** until the end of your next turn.\n- Roll one D6 for each model in that enemy unit:\n-- For each 6, that enemy unit suffers 1 **mortal wound**."
+                "$text": "At the end of your opponent's Fight phase, you can select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit: Friendly ORKS units' ranged attacks that target that enemy unit have [IGNORES COVER] until the end of your next turn. Roll one D6 for each model in that enemy unit: For each 6, that enemy unit suffers 1 mortal wound."
               }
             ],
             "name": "Burna Bomb",
@@ -14355,7 +14343,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+                "$text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
               }
             ],
             "name": "Piston-driven Brutality",
@@ -15040,18 +15028,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "1594-b986-e77e-d89d",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19582,18 +19558,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "56d6-a7fc-fa08-4345",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -19716,7 +19680,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle‑shocked units). If one or more of those rolls is a 4+, you gain 1CP."
+                "$text": "At the start of your Movement phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it (excluding Battle-shocked units). If one or more of those rolls is a 4+, you gain 1CP."
               }
             ],
             "name": "Thievin’ Scavengers",
@@ -22770,7 +22734,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this unit is selected to shoot, you can roll one D6:\n- On a 1‑2, this unit suffers D3 mortal wounds.\n- On a 3‑4, until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in this unit.\n- On a 5‑6, until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in this unit."
+                "$text": "Each time this unit is selected to shoot, you can roll one D6: On a 1-2, this unit suffers D3 mortal wounds. On a 3-4, until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in this unit. On a 5-6, until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in this unit."
               }
             ],
             "name": "Shooty Power Trip",
@@ -27411,7 +27375,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability."
+                "$text": "While the Waaagh! is active for your army, models in this unit have the Feel No Pain 5+ ability."
               }
             ],
             "modifiers": [
@@ -32495,7 +32459,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Each time this model makes a ranged attack, if the Waaagh! is active for your army, add 1 to the Hit roll."
+                "$text": "Each time this model makes a ranged attack, if the Waaagh! is active for your army, add 1 to the Hit roll."
               }
             ],
             "name": "Big an’ Shooty",
@@ -33170,18 +33134,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "9ee5-2b39-de06-dda6",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -40311,18 +40263,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "6c08-9131-14a3-a3b4",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -44318,7 +44258,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While the Waaagh! is active for your army, add 4 to the Attacks characteristic of this model’s melee weapons."
+                "$text": "While the Waaagh! is active for your army, add 4 to the Attacks characteristic of this model's melee weapons."
               }
             ],
             "name": "Da Biggest and da Best",
@@ -45386,7 +45326,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While the Waaagh! is active for your army, this model’s ’uge choppa has a Damage characteristic of 3."
+                "$text": "While the Waaagh! is active for your army, this model's 'uge choppa has a Damage characteristic of 3."
               }
             ],
             "name": "Dead Brutal",
@@ -48975,7 +48915,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "While the Waaagh! is active for your army, add 6\" to the Move characteristic of models in this model’s unit."
+                "$text": "While the Waaagh! is active for your army, add 6\" to the Move characteristic of models in this model's unit."
               }
             ],
             "modifiers": [
@@ -53638,18 +53578,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "aeed-c6d9-4b90-376a",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -71625,7 +71553,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "You can re‑roll Advance rolls made for this model’s unit. In addition, each time this model’s unit makes a Normal, Advance or Fall Back move, models in that unit can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
+                "$text": "You can re-roll Advance rolls made for this model's unit. In addition, each time this model's unit makes a Normal, Advance or Fall Back move, models in that unit can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed."
               }
             ],
             "modifiers": [
@@ -83416,18 +83344,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "78a7-cf35-aa8d-c420",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -99845,6 +99761,14 @@
         "hidden": false,
         "id": "c5f9-b0ad-28ca-c6be",
         "targetId": "78a7-cf35-aa8d-c420",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Bigboss",
+        "hidden": false,
+        "id": "1d8f-d4db-bf86-77f4",
+        "targetId": "181e-be55-d9c6-2b69",
         "type": "selectionEntry"
       }
     ],

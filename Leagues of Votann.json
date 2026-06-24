@@ -15042,7 +15042,237 @@
             "id": "9e7e-44ac-63de-4f43",
             "hidden": false,
             "sortIndex": 2,
-            "selectionEntries": []
+            "selectionEntries": [],
+            "selectionEntryGroups": [
+              {
+                "name": "Brandfast Oathband Enhancements",
+                "hidden": false,
+                "id": "8b2c-6714-c6b9-7bbb",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "437f-0cb8-194f-a716",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1e1a-679b-2556-3744"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Trivärg Cyber Implant",
+                    "hidden": false,
+                    "collective": false,
+                    "id": "ad24-75f8-dbcd-b2cb",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 40
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "shared": true,
+                        "id": "12b2-6e51-5540-fa1b",
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Dêlve Assault Shift Enhancements",
+                "hidden": false,
+                "id": "2d32-1995-be11-369a",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "faf5-7477-8cdc-679f",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "b1e3-59d1-a36b-8edb"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Dêlvewerke Navigator",
+                    "hidden": false,
+                    "collective": false,
+                    "id": "6fd8-fc5f-716d-1080",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 25
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "shared": true,
+                        "id": "296b-fceb-f519-c343",
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Hearthfyre Arsenal Enhancements",
+                "hidden": false,
+                "id": "ff22-d52a-19c2-8424",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "forces",
+                            "scope": "roster",
+                            "childId": "cac3-71d1-ea4b-795d",
+                            "shared": true,
+                            "includeChildSelections": true
+                          },
+                          {
+                            "type": "lessThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "768a-d0b6-e9a1-c221",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "includeChildForces": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "4f00-dfe6-b1dd-6166"
+                  }
+                ],
+                "selectionEntries": [
+                  {
+                    "type": "upgrade",
+                    "import": true,
+                    "name": "Fârstrydr Node",
+                    "hidden": false,
+                    "collective": false,
+                    "id": "169b-5e16-efa8-cc1b",
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 20
+                      }
+                    ],
+                    "constraints": [
+                      {
+                        "type": "max",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "roster",
+                        "shared": true,
+                        "id": "a750-fbef-61b8-997b",
+                        "includeChildSelections": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ],
         "costs": [
@@ -19040,18 +19270,6 @@
             "conditionGroups": [
               {
                 "type": "and",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "a110-e538-4e85-159b",
-                    "childId": "model",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "localConditionGroups": [
                   {
                     "type": "atLeast",
@@ -45965,7 +46183,7 @@
         "selectionEntryGroups": [
           {
             "name": "Armoured Trailblazers Upgrades",
-            "id": "pad6-a806-333b-cfe0",
+            "id": "pa1d-8b79-200d-66eb",
             "hidden": false,
             "selectionEntries": [
               {
@@ -46015,7 +46233,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "pa3b-cc08-8abd-9576",
+                    "id": "paad-ce5b-2a5b-ca39",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46166,7 +46384,7 @@
                     "type": "set",
                     "value": true,
                     "field": "hidden",
-                    "id": "paa1-8781-7813-4d60",
+                    "id": "pa65-fd26-5fdf-909f",
                     "conditionGroups": [
                       {
                         "type": "and",
@@ -46312,7 +46530,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "paa2-68e4-6e23-2af8"
+                "id": "paf2-13f5-8547-6c8a"
               }
             ]
           },
