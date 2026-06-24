@@ -5189,7 +5189,7 @@
           {
             "characteristics": [
               {
-                "$text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\".",
+                "$text": "You can re-roll Advance and Charge rolls made for this unit.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }

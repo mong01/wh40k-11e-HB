@@ -33404,15 +33404,6 @@
             "type": "selectionEntryGroup",
             "targetId": "5209-d523-7428-d6b9",
             "sortIndex": 2
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa96-3e38-df93-4451",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -34090,15 +34081,6 @@
             "type": "selectionEntryGroup",
             "targetId": "5209-d523-7428-d6b9",
             "sortIndex": 2
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pafe-eef8-b3fc-5743",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifierGroups": [

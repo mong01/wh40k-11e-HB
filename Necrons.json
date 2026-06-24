@@ -14479,15 +14479,6 @@
             "type": "selectionEntry",
             "id": "975-28e7-e4fb-819",
             "targetId": "6920-cba8-a495-6d1e"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa3d-7607-93f8-e002",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -14693,15 +14684,6 @@
             "type": "selectionEntry",
             "id": "f531-743c-bd45-7718",
             "targetId": "2c98-86cf-889-2293"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa98-c690-58eb-18fc",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "selectionEntries": [
@@ -15574,15 +15556,6 @@
             "type": "selectionEntry",
             "id": "70ec-2575-7972-2ce",
             "targetId": "2c98-86cf-889-2293"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa20-fe4c-342e-8988",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -48152,15 +48125,6 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pafe-1223-8730-601e",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -48732,15 +48696,6 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa5d-f7d7-842e-2d75",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "categoryLinks": [
@@ -49645,15 +49600,6 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa27-4eb4-2ae2-e0d8",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "constraints": [
@@ -50019,15 +49965,6 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa1c-a533-460f-3284",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "selectionEntryGroups": [
@@ -52107,18 +52044,7 @@
         "import": true,
         "name": "Gauss Pylon [Legends]",
         "hidden": false,
-        "id": "b6b0-9a60-d2e4-7ef0",
-        "entryLinks": [
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa98-92ca-64b8-fb9f",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
-          }
-        ]
+        "id": "b6b0-9a60-d2e4-7ef0"
       },
       {
         "costs": [
@@ -52503,18 +52429,7 @@
         "import": true,
         "name": "Sentry Pylon [Legends]",
         "hidden": false,
-        "id": "37d1-5b3e-b4e6-f8ef",
-        "entryLinks": [
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "paa2-7655-7e9a-9697",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
-          }
-        ]
+        "id": "37d1-5b3e-b4e6-f8ef"
       },
       {
         "costs": [
@@ -52676,15 +52591,6 @@
             "type": "selectionEntryGroup",
             "targetId": "34da-c1ba-b0f2-1ba6",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa68-9b2f-963e-5f61",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -59567,6 +59473,1067 @@
       {
         "type": "model",
         "import": true,
+        "name": "Gauss Pylon",
+        "hidden": false,
+        "id": "pa90-654f-f246-d143",
+        "profiles": [
+          {
+            "name": "Gauss Pylon",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa8a-1bf6-95ef-719b",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa85-8c75-f699-cdc8",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D6+2"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paab-7f06-503e-6757",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Fortification",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa9-3b03-2a82-42d2",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+              }
+            ]
+          },
+          {
+            "name": "Phase Shift Generator (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa4c-146c-680a-68e2",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Necrons unit is within 3\" of this Fortification, models in that unit have a 5+ invulnerable save against ranged attacks."
+              }
+            ]
+          },
+          {
+            "name": "Phase-shifted Cover",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa71-1ba7-2cb1-9816",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa3f-beaa-48a3-ddf8",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-7 WOUNDS REMAINING - While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "19d7-9c74-2140-5851",
+            "id": "pa8d-7d45-b483-dbb2",
+            "primary": true,
+            "name": "Fortification"
+          },
+          {
+            "targetId": "dbd4-63-af05-998",
+            "id": "pa80-aa10-dcd7-91b8",
+            "primary": false,
+            "name": "Vehicle"
+          },
+          {
+            "targetId": "d666-e2c9-b6cc-5716",
+            "id": "pa67-7bb9-b23d-87c0",
+            "primary": false,
+            "name": "Towering"
+          },
+          {
+            "targetId": "5929-ad51-d006-e008",
+            "id": "pafe-e611-7924-9fc4",
+            "primary": false,
+            "name": "Titanic"
+          },
+          {
+            "targetId": "56ce-1117-43d7-4bb1",
+            "id": "paae-a77b-721b-fa89",
+            "primary": false,
+            "name": "Gauss Pylon"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa15-c1f8-50c7-1b37",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "paee-c69f-f6e9-38be",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gauss annihilator",
+            "hidden": false,
+            "id": "paf4-4ce3-9aa9-b687",
+            "profiles": [
+              {
+                "name": "Gauss annihilator",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pacc-6b93-36ad-6ffc",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "120\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "16"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-4"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D6+6"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "ANTI-FLY 2+, LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab8-95db-4026-4a29"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "padf-d669-188e-59f9"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tesla arc",
+            "hidden": false,
+            "id": "pac9-f9a0-24fb-d5e4",
+            "profiles": [
+              {
+                "name": "Tesla arc",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "paca-3be4-b950-d588",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "SUSTAINED HITS 2"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4e-358d-8b91-de99"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paf0-13dd-cc30-4bcd"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Sentry Pylon",
+        "hidden": false,
+        "id": "pae4-83c7-d1eb-d047",
+        "profiles": [
+          {
+            "name": "Sentry Pylon",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "padc-1d01-e4f1-8e47",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "0"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa94-9d90-ab6a-4fdd",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D3"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa4f-c24f-7d1e-43a6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Fortification",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa5c-abde-e08e-1ecc",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army:\n- That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n- Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+              }
+            ]
+          },
+          {
+            "name": "Teleportation Matrix",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa92-520f-6aa8-4938",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, at the end of your opponent's turn, if this Fortification is not within Engagement Range of one or more enemy units, you can remove it from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 8\" horizontally away from all enemy models. If the battle ends and this Fortification is not on the battlefield, it is destroyed."
+              }
+            ]
+          },
+          {
+            "name": "Phase-shifted Cover",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pac7-c587-5757-a083",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "19d7-9c74-2140-5851",
+            "id": "pae8-7ddf-71ee-9587",
+            "primary": true,
+            "name": "Fortification"
+          },
+          {
+            "targetId": "dbd4-63-af05-998",
+            "id": "pa32-df3a-8412-4d90",
+            "primary": false,
+            "name": "Vehicle"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "pab1-697f-29f9-b330",
+            "primary": false,
+            "name": "Frame"
+          },
+          {
+            "targetId": "8951-a7b6-7fde-10da",
+            "id": "pa2e-4525-37ed-1417",
+            "primary": false,
+            "name": "Sentry Pylon"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa77-e040-45b8-4e51",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa3e-fcf5-57a3-2c02",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Focused death ray",
+            "hidden": false,
+            "id": "pab9-c181-2f9e-b0af",
+            "profiles": [
+              {
+                "name": "Focused death ray",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa5e-72e8-48b4-e10b",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "SUSTAINED HITS 2"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pacf-4d2d-2cac-c018"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paed-a477-218a-139f"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gauss exterminator",
+            "hidden": false,
+            "id": "pa7d-2b71-722f-6f4e",
+            "profiles": [
+              {
+                "name": "Gauss exterminator",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa39-4ae0-c7b8-855b",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "48\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "14"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa7f-17f2-73d8-df97"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa45-4d79-68b5-7b8a"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Heat cannon",
+            "hidden": false,
+            "id": "pabf-1266-8eab-673b",
+            "profiles": [
+              {
+                "name": "Heat cannon",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "paf6-1bab-4684-2375",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-4"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D6"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "MELTA 4"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa57-2bb5-9936-ef5f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac0-9451-5712-42e5"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Night Shroud",
+        "hidden": false,
+        "id": "pa5d-7970-748f-af94",
+        "profiles": [
+          {
+            "name": "Night Shroud",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "paf4-9499-69ef-6f1a",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "20\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "14"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa44-664a-69d4-ca17",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D3"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad2-1d7a-1123-de45",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Death Sphere Bombardment",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa9b-b885-1dd3-fbc5",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa66-6b74-a8a1-9c8f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-5 WOUNDS REMAINING - While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "dbd4-63-af05-998",
+            "id": "pae7-68bf-5cb1-14ee",
+            "primary": true,
+            "name": "Vehicle"
+          },
+          {
+            "targetId": "63f1-e6e8-f6f6-a4f0",
+            "id": "pa90-ab3f-9e42-227c",
+            "primary": false,
+            "name": "Aircraft"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "pa71-fedb-fdd7-975d",
+            "primary": false,
+            "name": "Fly"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "pac4-fc29-ac10-9a84",
+            "primary": false,
+            "name": "Frame"
+          },
+          {
+            "targetId": "3186-f3ec-ffe2-a794",
+            "id": "pa65-aef8-1cad-61b0",
+            "primary": false,
+            "name": "Night Shroud"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa7b-af50-a194-a489",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "padd-40e5-de70-a62f",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Twin tesla destructor",
+            "hidden": false,
+            "id": "pa87-12e0-2640-896e",
+            "profiles": [
+              {
+                "name": "Twin tesla destructor",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pace-e2e4-9763-61ad",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "SUSTAINED HITS 2, TWIN-LINKED"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa12-d03a-92dc-476c"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paea-e78f-5d68-4e9c"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Armoured bulk",
+            "hidden": false,
+            "id": "pac3-47bb-1f1e-a09d",
+            "profiles": [
+              {
+                "name": "Armoured bulk",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pab0-9117-cd8a-31a2",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa24-49f3-fb1c-83f8"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab3-d6a0-1206-8159"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
         "name": "Tomb Citadel",
         "hidden": false,
         "id": "pa4b-79d4-4b90-8b50",
@@ -59886,6 +60853,2836 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "pa26-d5ef-8789-b0b3"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Anrakyr the Traveller",
+        "hidden": false,
+        "id": "paaf-bc08-3c0a-6536",
+        "profiles": [
+          {
+            "name": "Anrakyr the Traveller",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa25-acab-fb1c-8418",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padb-fd2f-bb30-1f9f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa58-2d4a-834d-8549",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "One Shot",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa5b-7659-2028-af79",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The bearer can only shoot with this weapon once per battle."
+              }
+            ]
+          },
+          {
+            "name": "Lord of the Pyrrhian Eternals",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa98-96c4-d3a7-8e4c",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll."
+              }
+            ]
+          },
+          {
+            "name": "Mind in the Machine",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa33-d8d4-63e2-ff25",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of your opponent's Shooting phase, select one enemy Vehicle unit within 12\" of and visible to this model. That unit must take a Leadership test. If that test is passed, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll; if that test is failed, that unit is not eligible to shoot this phase."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa99-7ac3-182a-d116",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following unit:\n- Immortals"
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pad1-ba8b-c05e-44d1",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa6f-7509-6e6d-140d",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "paeb-fdf9-4bc4-cd36",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "b473-c92b-6882-86b0",
+            "id": "pac9-ba1a-b003-3e25",
+            "primary": false,
+            "name": "Noble"
+          },
+          {
+            "targetId": "b8ad-2a93-ce18-9e25",
+            "id": "pa68-8e08-2a80-5853",
+            "primary": false,
+            "name": "Anrakyr the Traveller"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa71-b4c9-fe51-f54c",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pace-c161-7f23-8655",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tachyon arrow",
+            "hidden": false,
+            "id": "pae6-fcd2-bc25-1dd0",
+            "profiles": [
+              {
+                "name": "Tachyon arrow",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pacf-70bd-4920-873d",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "72\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "16"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-5"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D6+2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "ONE SHOT"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa18-79db-ad4a-2e3d"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa6-773d-ca83-1185"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Warscythe",
+            "hidden": false,
+            "id": "pac2-29e5-3131-2b7f",
+            "profiles": [
+              {
+                "name": "Warscythe",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa3f-ca23-f762-3cfc",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "DEVASTATING WOUNDS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab1-e47e-d205-a765"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa6f-51b2-16d4-d359"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Vargard Obyron",
+        "hidden": false,
+        "id": "pac4-ded4-9e92-8cb2",
+        "profiles": [
+          {
+            "name": "Vargard Obyron",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pae4-8142-379b-6ec2",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa4-d4bb-2988-6ec4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pade-1034-5621-9c17",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Ghostwalk Mantle",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paf7-20f7-a72a-cb93",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, models in that unit have the Fights First ability."
+              }
+            ]
+          },
+          {
+            "name": "The Vargard's Duty",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad3-fd59-b8a0-ed16",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is in the same unit as Nemesor Zahndrekh, Character models in that unit have the Feel No Pain 4+ ability."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paaa-39cd-a0ee-2d28",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- Immortals\n- Lychguard\n- Necron Warriors\n\nThis model can be attached to a unit even if Nemesor Zahndrekh has already been attached to it. If it is, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pae0-19d4-9bcf-e5e9",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pad1-bdf1-422a-88a9",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "pacd-e01b-4e87-1192",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "3311-d741-5a07-847d",
+            "id": "pa37-aaf6-894b-236c",
+            "primary": false,
+            "name": "Vargard Obyron"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa5d-930e-7710-a4b9",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa49-27c2-a0e6-9391",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Warscythe",
+            "hidden": false,
+            "id": "pa9d-f307-1ec0-d83a",
+            "profiles": [
+              {
+                "name": "Warscythe",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pab1-4599-2799-b5ad",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "DEVASTATING WOUNDS, PRECISION"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa75-255b-aa83-c65e"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa5f-424c-6e0e-e314"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Nemesor Zahndrekh",
+        "hidden": false,
+        "id": "pa7a-40f3-655b-a8c0",
+        "profiles": [
+          {
+            "name": "Nemesor Zahndrekh",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pad8-af74-7b0d-11bf",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "2+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "6"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa4d-b105-f364-12f7",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa95-ac73-5175-ac6c",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Transient Madness",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa80-4e4d-ecde-7c86",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, at the start of your Command phase, roll one D6: until the start of your next Command phase, weapons equipped by models in that unit gain the ability below that corresponds with that roll:\n- 1-2: [SUSTAINED HITS 1]\n- 3-4: [LETHAL HITS]\n- 5-6: [DEVASTATING WOUNDS]"
+              }
+            ]
+          },
+          {
+            "name": "Counter-tactics",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa3-c219-ac5a-704b",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, after your opponent uses a Stratagem, if this model is on the battlefield, it can use this ability. If it does, until the end of the battle, the CP cost your opponent must pay to use that Stratagem again is increased by 1CP."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa50-2494-7e72-17be",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- Immortals\n- Lychguard\n- Necron Warriors"
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pabf-53b5-1bb3-a166",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa68-2a73-650c-d7a1",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "paaf-4ee7-901f-d9ab",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "b473-c92b-6882-86b0",
+            "id": "paba-3bd0-fd82-c465",
+            "primary": false,
+            "name": "Noble"
+          },
+          {
+            "targetId": "e59f-adae-9b57-2845",
+            "id": "pac7-d77b-8c5a-76d2",
+            "primary": false,
+            "name": "Nemesor Zahndrekh"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa92-14e9-33cb-9c0c",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "paa9-1d9b-9c5e-9ef1",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Staff of light",
+            "hidden": false,
+            "id": "pa53-dc96-ef30-348d",
+            "profiles": [
+              {
+                "name": "Staff of light",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa32-fc5f-da27-708d",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab0-c9e5-5d0a-87d7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paca-8d20-b091-464f"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Staff of light",
+            "hidden": false,
+            "id": "pa52-dd96-df30-358d",
+            "profiles": [
+              {
+                "name": "Staff of light",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa33-fb5f-db27-6f8d",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paaf-cae5-5c0a-88d7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac9-8e20-af91-474f"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Lord",
+        "hidden": false,
+        "id": "pa65-99b5-b33a-b68c",
+        "profiles": [
+          {
+            "name": "Lord",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pac1-91d5-3474-9835",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "5\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa5-ee45-f317-c969",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Leader"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa64-ee31-af77-2992",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Relentless March",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa71-e915-f745-6ad3",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, add 1\" to the Move characteristic of models in that unit."
+              }
+            ]
+          },
+          {
+            "name": "The Lord's Will",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pacb-8598-916a-23e1",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, you can target that unit with Stratagems even when it is Battle-shocked."
+              }
+            ]
+          },
+          {
+            "name": "Resurrection Orb (Wargear)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padd-4488-3738-4890",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit's Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+              }
+            ]
+          },
+          {
+            "name": "Leader",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa14-29b9-d447-49c0",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model can be attached to the following units:\n- Immortals\n- Lychguard\n- Necron Warriors"
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pa6f-928a-39fb-a62d",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "paf8-caf4-589c-9ee2",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "b473-c92b-6882-86b0",
+            "id": "pa73-5354-eabd-531f",
+            "primary": false,
+            "name": "Noble"
+          },
+          {
+            "targetId": "98c1-2caa-6883-c8dd",
+            "id": "pabc-c420-24ab-351f",
+            "primary": false,
+            "name": "Lord"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pad7-c7ff-5f95-c56a",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa66-85d1-364c-839e",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Staff of light",
+            "hidden": false,
+            "id": "pa35-4c53-6e6c-5390",
+            "profiles": [
+              {
+                "name": "Staff of light",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa6a-354e-2553-aefe",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa2b-104a-956c-9198"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4c-c191-8007-d023"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Staff of light",
+            "hidden": false,
+            "id": "pa36-4b53-6f6c-5290",
+            "profiles": [
+              {
+                "name": "Staff of light",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa69-364e-2453-affe",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa2c-f4a3-966c-9098"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4d-c091-8107-cf23"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Lord's blade",
+            "hidden": false,
+            "id": "pa20-50a5-6de9-39da",
+            "profiles": [
+              {
+                "name": "Lord's blade",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa3d-bd3e-550b-7a92",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "DEVASTATING WOUNDS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paad-c415-9b0c-d6a7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pabb-471f-c736-7836"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Canoptek Tomb Stalker",
+        "hidden": false,
+        "id": "pa74-bab1-3572-92e5",
+        "profiles": [
+          {
+            "name": "Canoptek Tomb Stalker",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa78-4735-23d9-1580",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa64-cb3a-fbde-e141",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pab2-a134-7961-42ec",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Snaking Ambush",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa43-d795-4379-835f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that stratagem on other units this phase."
+              }
+            ]
+          },
+          {
+            "name": "Gloom Prism (Aura) (Wargear)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padf-7a4a-fee4-44ad",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa45-d223-6740-a4a2",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "79e3-91-f577-a6a6",
+            "id": "pa37-5399-2050-880f",
+            "primary": false,
+            "name": "Canoptek"
+          },
+          {
+            "targetId": "2bab-a022-dfef-2d61",
+            "id": "pab5-e3ee-cec1-2594",
+            "primary": false,
+            "name": "Tomb Stalker"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "paeb-3bde-a2f2-7ade",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "paf9-2a80-f033-9cff",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gauss slicers",
+            "hidden": false,
+            "id": "paaa-e402-1a41-cddb",
+            "profiles": [
+              {
+                "name": "Gauss slicers",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa69-2b3d-c390-48f2",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa63-4d8f-baf1-6dfd"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pabb-6270-4875-b4d5"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tomb Stalker claws",
+            "hidden": false,
+            "id": "pa8b-9350-7a91-68f1",
+            "profiles": [
+              {
+                "name": "Tomb Stalker claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa6f-1f81-1852-12e3",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "SUSTAINED HITS 1"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa6d-6911-c3fb-b8d6"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac7-5f5f-a24a-76b3"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Canoptek Tomb Sentinel",
+        "hidden": false,
+        "id": "paff-1acd-881b-ccba",
+        "profiles": [
+          {
+            "name": "Canoptek Tomb Sentinel",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa7b-a1a7-3bac-4fbc",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "9"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pac5-23ea-9bb3-9337",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa9-1d81-1f6e-a4dd",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Aggressor Guardian",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa2b-1dd9-51b6-22f8",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an attack targets this model, if this model is within range of an objective marker, worsen the Armour Penetration characteristic of that attack by 1. In addition, each time this model makes an attack that targets a unit within range of an objective marker, improve the Armour Penetration characteristic of that attack by 1."
+              }
+            ]
+          },
+          {
+            "name": "Gloom Prism (Aura) (Wargear)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa69-91f6-4f2a-9fdd",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Necrons unit is within 6\" of the bearer, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa2b-8682-53ef-f04a",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "79e3-91-f577-a6a6",
+            "id": "pad3-1461-7c58-adfc",
+            "primary": false,
+            "name": "Canoptek"
+          },
+          {
+            "targetId": "b1a6-e02e-a8ff-1c87",
+            "id": "pa95-c648-16f5-92f7",
+            "primary": false,
+            "name": "Tomb Sentinel"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pac5-5330-63c2-d8f0",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa10-20d0-cd50-8f8f",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Exile cannon",
+            "hidden": false,
+            "id": "pada-8b8d-2296-4422",
+            "profiles": [
+              {
+                "name": "Exile cannon",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa81-8848-8930-ccc7",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "BLAST"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa66-26dc-e0c0-ecce"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa80-c6af-dc8a-1260"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tomb Sentinel claws",
+            "hidden": false,
+            "id": "pa1e-7262-551c-9104",
+            "profiles": [
+              {
+                "name": "Tomb Sentinel claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa68-abdf-c709-a337",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa48-b321-3175-30a0"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab6-a743-a45e-cd41"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Canoptek Acanthrites",
+        "hidden": false,
+        "id": "pa43-8145-62a6-f67b",
+        "profiles": [
+          {
+            "name": "Canoptek Acanthrites",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pabf-506f-4124-b3b5",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "2"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad9-431e-a0a3-9879",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Infiltrators"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa34-edf6-7053-6f70",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Damaged Armour",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paba-3536-dee7-870f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Necrons model makes an attack that targets that unit, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "pad8-aef6-5e46-d822",
+            "id": "pa8a-98e1-cbca-d39a",
+            "primary": true,
+            "name": "Beasts"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "pa18-b0e3-fd9e-cb9a",
+            "primary": false,
+            "name": "Fly"
+          },
+          {
+            "targetId": "79e3-91-f577-a6a6",
+            "id": "pa16-2253-79d2-acfe",
+            "primary": false,
+            "name": "Canoptek"
+          },
+          {
+            "targetId": "6086-2a43-b9-ecc4",
+            "id": "pa69-5f62-f515-af51",
+            "primary": false,
+            "name": "Acanthrites"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa44-1680-fb79-4db5",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa23-2a54-dcdc-70ec",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Cutting beam",
+            "hidden": false,
+            "id": "pa2f-4cdf-7697-b3d6",
+            "profiles": [
+              {
+                "name": "Cutting beam",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa17-aec5-b218-b2cc",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-4"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D6"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "MELTA 2"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4d-391d-3ded-10ce"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa21-9bef-9cc4-5ebc"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Voidblade",
+            "hidden": false,
+            "id": "paa6-cb8f-4173-ec81",
+            "profiles": [
+              {
+                "name": "Voidblade",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa60-2b2c-345f-8a2c",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa97-6d28-1129-9d62"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab4-78a0-f438-baca"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Tesseract Ark",
+        "hidden": false,
+        "id": "pa18-4a44-42eb-48d7",
+        "profiles": [
+          {
+            "name": "Tesseract Ark",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa76-bf32-918d-ecf7",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "9\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa4a-a184-3702-e6f4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise 1"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa35-af8c-1be5-cd8f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Reanimation Protocols"
+              }
+            ]
+          },
+          {
+            "name": "Gravitational Field",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paf3-b95a-1e75-9a10",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an enemy unit selects this model as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other reductions to that Charge roll)."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "dbd4-63-af05-998",
+            "id": "pa80-3997-f99d-84c0",
+            "primary": true,
+            "name": "Vehicle"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "pa21-7e41-9565-7f47",
+            "primary": false,
+            "name": "Fly"
+          },
+          {
+            "targetId": "6fdd-ca96-ef7-cb5f",
+            "id": "pa4e-dac7-8e78-a233",
+            "primary": false,
+            "name": "Tesseract Ark"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa4f-3ea1-dcee-f2e8",
+            "primary": false,
+            "name": "Necrons"
+          },
+          {
+            "targetId": "ee0-cf31-4fb5-6b26",
+            "id": "pa44-8795-1fe7-d4ea",
+            "primary": false,
+            "name": "Faction: Necrons"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Gauss cannon",
+            "hidden": false,
+            "id": "pac3-4a4e-eae1-8f23",
+            "profiles": [
+              {
+                "name": "Gauss cannon",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa1d-7158-bbfc-8d18",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa2-bb19-2ef6-c0c0"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa0-c282-eaf4-98c1"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Particle beamer",
+            "hidden": false,
+            "id": "pa61-d9fd-fe6a-4451",
+            "profiles": [
+              {
+                "name": "Particle beamer",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa6a-2893-819b-5bea",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "BLAST, DEVASTATING WOUNDS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa7e-a03e-697f-d2ad"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa55-5994-f662-84bf"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tesla cannon",
+            "hidden": false,
+            "id": "pa4e-f0eb-c6b9-5294",
+            "profiles": [
+              {
+                "name": "Tesla cannon",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa4d-6ca9-e55b-9281",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "SUSTAINED HITS 2"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa1c-dd62-edb2-cc5f"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa12-367e-5634-d095"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tesseract singularity chamber - particle hurricane",
+            "hidden": false,
+            "id": "pae7-41a8-e9a2-3a99",
+            "profiles": [
+              {
+                "name": "Tesseract singularity chamber - particle hurricane",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "paf7-7ee4-a9e8-2be4",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "N/A"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "IGNORES COVER, TORRENT"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pae6-dbf7-a57e-b8a0"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pada-4988-6fb5-728f"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Tesseract singularity chamber - seismic lash",
+            "hidden": false,
+            "id": "pa17-c393-da6c-abb1",
+            "profiles": [
+              {
+                "name": "Tesseract singularity chamber - seismic lash",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa95-7bae-8465-a75e",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "36\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-3"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D6+1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "BLAST"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa98-1838-f3f4-cf36"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa8d-f039-5417-fbde"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Armoured bulk",
+            "hidden": false,
+            "id": "pa84-2a25-d68c-c782",
+            "profiles": [
+              {
+                "name": "Armoured bulk",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa7b-15d1-7903-66b4",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa27-e104-2027-b7ad"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4f-e86d-64f6-24e1"
               }
             ]
           }
@@ -61882,6 +65679,11 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Beasts",
+        "hidden": false,
+        "id": "pad8-aef6-5e46-d822"
       }
     ],
     "entryLinks": [
@@ -62473,11 +66275,99 @@
       },
       {
         "import": true,
+        "name": "Gauss Pylon",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "paf4-256e-ec19-d99a",
+        "targetId": "pa90-654f-f246-d143"
+      },
+      {
+        "import": true,
+        "name": "Sentry Pylon",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa9b-a7ef-9403-da4f",
+        "targetId": "pae4-83c7-d1eb-d047"
+      },
+      {
+        "import": true,
+        "name": "Night Shroud",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pab3-ac93-2bb2-36a0",
+        "targetId": "pa5d-7970-748f-af94"
+      },
+      {
+        "import": true,
         "name": "Tomb Citadel",
         "hidden": false,
         "type": "selectionEntry",
         "id": "pa56-6974-1ae1-712e",
         "targetId": "pa4b-79d4-4b90-8b50"
+      },
+      {
+        "import": true,
+        "name": "Anrakyr the Traveller",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pad8-5450-dadf-b9f8",
+        "targetId": "paaf-bc08-3c0a-6536"
+      },
+      {
+        "import": true,
+        "name": "Vargard Obyron",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pac4-4288-9b94-96bd",
+        "targetId": "pac4-ded4-9e92-8cb2"
+      },
+      {
+        "import": true,
+        "name": "Nemesor Zahndrekh",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pad4-731c-f907-f84b",
+        "targetId": "pa7a-40f3-655b-a8c0"
+      },
+      {
+        "import": true,
+        "name": "Lord",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "paf8-d7ba-6f1f-b26e",
+        "targetId": "pa65-99b5-b33a-b68c"
+      },
+      {
+        "import": true,
+        "name": "Canoptek Tomb Stalker",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa81-8ee6-70b3-81d8",
+        "targetId": "pa74-bab1-3572-92e5"
+      },
+      {
+        "import": true,
+        "name": "Canoptek Tomb Sentinel",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa5f-a0bd-a47a-9cc3",
+        "targetId": "paff-1acd-881b-ccba"
+      },
+      {
+        "import": true,
+        "name": "Canoptek Acanthrites",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pade-f123-f0b2-2866",
+        "targetId": "pa43-8145-62a6-f67b"
+      },
+      {
+        "import": true,
+        "name": "Tesseract Ark",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa28-83ca-928f-d8cc",
+        "targetId": "pa18-4a44-42eb-48d7"
       }
     ],
     "sharedProfiles": [

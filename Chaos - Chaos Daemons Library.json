@@ -1610,6 +1610,86 @@
         "id": "e87c-7137-de65-faeb",
         "type": "selectionEntry",
         "targetId": "3594-bf68-4a46-fbf8"
+      },
+      {
+        "import": true,
+        "name": "GIANT CHAOS SPAWN",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa31-9cb7-9de2-717c",
+        "targetId": "pa28-ca30-c256-dc45"
+      },
+      {
+        "import": true,
+        "name": "SPINED CHAOS BEAST",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "paff-a7d3-a7de-8c02",
+        "targetId": "paaf-bc7f-e2f5-752a"
+      },
+      {
+        "import": true,
+        "name": "POX RIDERS",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa7e-a844-906b-765f",
+        "targetId": "pa59-94a6-8168-7cac"
+      },
+      {
+        "import": true,
+        "name": "PLAGUE TOADS",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa25-367b-3831-f87c",
+        "targetId": "pa8b-7ffc-ba31-7c81"
+      },
+      {
+        "import": true,
+        "name": "AN'GGRATH THE UNBOUND",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pab6-6159-a6a4-25b9",
+        "targetId": "pad3-7770-73a3-dc1a"
+      },
+      {
+        "import": true,
+        "name": "AETAOS'RAU'KERES",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa90-f06b-c4ab-7f19",
+        "targetId": "pa93-655b-3134-b546"
+      },
+      {
+        "import": true,
+        "name": "SCABEIATHRAX THE BLOATED",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa5a-94bb-d1b7-a25e",
+        "targetId": "pa43-ff0e-c375-e29e"
+      },
+      {
+        "import": true,
+        "name": "ZARAKYNEL",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pafc-14c4-15ea-ecfe",
+        "targetId": "pa56-4d91-f64d-72b1"
+      },
+      {
+        "import": true,
+        "name": "HERALD OF SLAANESH ON STEED OF SLAANESH",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pac0-225e-a8e3-a87f",
+        "targetId": "pa3a-3cdf-5840-b5c8"
+      },
+      {
+        "import": true,
+        "name": "FURIES",
+        "hidden": false,
+        "type": "selectionEntry",
+        "id": "pa58-433f-291b-544c",
+        "targetId": "pa55-b473-1f76-8cb0"
       }
     ],
     "sharedSelectionEntries": [
@@ -52460,15 +52540,6 @@
             "type": "selectionEntry",
             "id": "bdbb-4a8a-217d-b4eb",
             "targetId": "13f1-2794-34e7-4bd6"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa5b-3778-c6de-3630",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "modifiers": [
@@ -52705,15 +52776,6 @@
             "type": "selectionEntry",
             "id": "82a8-da79-ba69-8a80",
             "targetId": "13f1-2794-34e7-4bd6"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "paeb-9200-8077-417d",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -53554,15 +53616,6 @@
             "import": true,
             "targetId": "13f1-2794-34e7-4bd6",
             "type": "selectionEntry"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pa75-da8f-14a5-5a38",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -53863,15 +53916,6 @@
             "import": true,
             "targetId": "13f1-2794-34e7-4bd6",
             "type": "selectionEntry"
-          },
-          {
-            "import": true,
-            "name": "Upgrades",
-            "hidden": false,
-            "id": "pab5-1b71-c130-a70a",
-            "type": "selectionEntryGroup",
-            "targetId": "paaa-8856-a358-91fb",
-            "sortIndex": 4
           }
         ],
         "profiles": [
@@ -58201,6 +58245,3750 @@
         "name": "Immortal Champion [Crucible]",
         "hidden": false,
         "id": "3594-bf68-4a46-fbf8"
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "GIANT CHAOS SPAWN",
+        "hidden": false,
+        "id": "pa28-ca30-c256-dc45",
+        "profiles": [
+          {
+            "name": "GIANT CHAOS SPAWN",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "paa6-524d-f64a-6e74",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "3"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa9d-b953-8bc6-cd9d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Feel No Pain 5+"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa29-9081-79ad-6f36",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pacb-8d90-9741-c861",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "DAEMONIC ALLEGIANCE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padf-d13a-4c79-2e9f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Creature of Khorne: If this model has the Khorne keyword, add 2 to the Strength characteristic of this model's melee weapons.\nCreature of Tzeentch: If this model has the Tzeentch keyword, this model has a 4+ invulnerable save.\nCreature of Nurgle: If this model has the Nurgle keyword, add 1 to this model's Toughness characteristic.\nCreature of Slaanesh: If this model has the Slaanesh keyword, add 2\" to this model's Move characteristic."
+              }
+            ]
+          },
+          {
+            "name": "Regenerating Monstrosity",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa6e-5d36-41ac-d824",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the start of each player's Command phase, this model regains up to D3 lost wounds."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pae2-c9c0-d66a-a3ba",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa9c-ef6c-6014-5cc9",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "84ba-2263-aa20-149a",
+            "id": "pa21-39e6-e898-b78e",
+            "primary": false,
+            "name": "Giant Chaos Spawn"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pae7-1f7d-27b9-5045",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa70-809d-141c-5d60",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Churning fangs and claws",
+            "hidden": false,
+            "id": "paff-593e-346d-34d7",
+            "profiles": [
+              {
+                "name": "Churning fangs and claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa3e-b70d-5d71-705c",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "D6+6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac5-8f07-3f02-901c"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa61-96c8-d53f-bc10"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "SPINED CHAOS BEAST",
+        "hidden": false,
+        "id": "paaf-bc7f-e2f5-752a",
+        "profiles": [
+          {
+            "name": "SPINED CHAOS BEAST",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa3e-fa57-80aa-4f4a",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "10\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "12"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "4"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padd-96cd-fb4d-7e47",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa5e-d5ff-48f4-60e7",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa99-1591-7277-b512",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "DAEMONIC ALLEGIANCE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pac1-5675-d283-1b4f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Creature of Khorne: If this model has the Khorne keyword, add 2 to the Strength characteristic of this model's melee weapons.\nCreature of Tzeentch: If this model has the Tzeentch keyword, this model has a 4+ invulnerable save.\nCreature of Nurgle: If this model has the Nurgle keyword, add 1 to this model's Toughness characteristic.\nCreature of Slaanesh: If this model has the Slaanesh keyword, add 2\" to this model's Move characteristic."
+              }
+            ]
+          },
+          {
+            "name": "Warp Spines",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad3-6a6e-4c55-3bbe",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-3, that enemy unit suffers D3 mortal wounds; on a 4-5, that enemy unit suffers 3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa3a-e4f2-ec70-193f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-4 WOUNDS REMAINING While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa73-b23b-1c9e-b6a8",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pafd-6279-114b-993a",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "d550-ad4d-14e2-10e4",
+            "id": "pa8a-6fd1-b182-f0c4",
+            "primary": false,
+            "name": "Spined Chaos Beast"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa57-75da-9fb8-8676",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pace-912d-a9d3-fec0",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Jagged claws and tusked maw",
+            "hidden": false,
+            "id": "pa2d-c07a-ff4c-2dca",
+            "profiles": [
+              {
+                "name": "Jagged claws and tusked maw",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pae5-9983-2a28-fb9e",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "12"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa7-dfa1-c8e9-21cc"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pad5-fb7c-33cf-43f6"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "POX RIDERS",
+        "hidden": false,
+        "id": "pa59-94a6-8168-7cac",
+        "profiles": [
+          {
+            "name": "POX RIDERS",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa17-b9ea-1193-68b4",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "5"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad0-7ca6-14a6-f7c6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa2c-dbba-4252-173c",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa12-9b94-81f9-4c7e",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "Bounding Assault",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa78-166e-d329-2fdd",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this unit ends a Charge move, until the end of the turn, Pox Rider plagueswords equipped by models in this unit have the [LANCE] ability."
+              }
+            ]
+          },
+          {
+            "name": "Daemonic Icon",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pab9-9c0b-4e34-f5e9",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Models in the bearer's unit have a Leadership characteristic of 6+."
+              }
+            ]
+          },
+          {
+            "name": "Instrument of Chaos",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pab5-57f0-a663-d760",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Add 1 to Charge rolls made for the bearer's unit."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "14a0-40c9-2748-ae6e",
+            "id": "pacc-13cc-10de-62f7",
+            "primary": true,
+            "name": "Mounted"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "paf6-f1fe-272e-8b49",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "paca-d307-325d-fad9",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "ed0d-8e2a-225c-2340",
+            "id": "pa64-2e16-f2ba-a496",
+            "primary": false,
+            "name": "Nurgle"
+          },
+          {
+            "targetId": "1992-1150-1cf0-9968",
+            "id": "pa99-87b5-2c65-72b5",
+            "primary": false,
+            "name": "Pox Riders"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "paab-957e-7af8-5fcb",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa68-c07f-5127-ca18",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Grasping tongue",
+            "hidden": false,
+            "id": "pafc-14d1-634e-25b9",
+            "profiles": [
+              {
+                "name": "Grasping tongue",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pab9-a5d6-9223-7191",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "9\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa8b-1087-60a5-ad55"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa7a-ce64-cd19-d496"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Pox Rider plaguesword",
+            "hidden": false,
+            "id": "pa5b-3fd3-1feb-ef04",
+            "profiles": [
+              {
+                "name": "Pox Rider plaguesword",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa63-1a6f-3ae3-6a02",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "EXTRA ATTACKS, LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab1-80e8-63c1-4841"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa3e-d977-8565-b5d2"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Yawning maw",
+            "hidden": false,
+            "id": "padf-f18e-77d7-bb9c",
+            "profiles": [
+              {
+                "name": "Yawning maw",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pad7-ba9b-46b8-56b9",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa3b-10b1-c2bb-5887"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa2f-a247-d5f3-ff6b"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "PLAGUE TOADS",
+        "hidden": false,
+        "id": "pa8b-7ffc-ba31-7c81",
+        "profiles": [
+          {
+            "name": "PLAGUE TOADS",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pada-3cf8-f3e0-a469",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa6-a14b-fa1a-5b5f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paaf-9bfd-6306-ee18",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa3f-a107-8600-49a6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "Pouncing Leap",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa76-582b-6332-3c87",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n■ That use is -1 CP.\n■ That use does not prevent any uses of that stratagem on other units this phase."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "4c3e-9310-a516-3590",
+            "id": "pac6-d3fc-7d68-faa4",
+            "primary": true,
+            "name": "Beast"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa39-ac75-7a3d-30cd",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pac8-f464-eee5-f864",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "ed0d-8e2a-225c-2340",
+            "id": "pae8-cac5-de66-f55e",
+            "primary": false,
+            "name": "Nurgle"
+          },
+          {
+            "targetId": "b3ce-e371-5841-1ced",
+            "id": "paf4-bd9e-1646-c876",
+            "primary": false,
+            "name": "Plague Toads"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pab6-3202-ac88-833b",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa85-d447-54d6-e023",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Grasping tongue",
+            "hidden": false,
+            "id": "pa15-4086-d232-3f5d",
+            "profiles": [
+              {
+                "name": "Grasping tongue",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa94-5e84-7cf9-2fc4",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "9\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac5-feb2-e693-2075"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa72-a4db-2732-c1ad"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Yawning maw",
+            "hidden": false,
+            "id": "pa40-5cf0-19a4-82be",
+            "profiles": [
+              {
+                "name": "Yawning maw",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "paaa-8053-e3e5-8f2a",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab9-a281-9306-4515"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa8-8d1b-e131-5bde"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "AN'GGRATH THE UNBOUND",
+        "hidden": false,
+        "id": "pad3-7770-73a3-dc1a",
+        "profiles": [
+          {
+            "name": "AN'GGRATH THE UNBOUND",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa55-9929-bdf5-c8ef",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "11"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "24"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad0-b6f1-9313-a3e8",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D6+2, Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa88-e41c-c30a-c09f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa66-8f66-a2d7-4c78",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Emissary of the Blood God (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa52-df28-8b8b-f7f0",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Khorne Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+              }
+            ]
+          },
+          {
+            "name": "Relentless Carnage",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa53-58d8-dd2f-35a6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pacd-9eec-5c01-ab0e",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-8 WOUNDS REMAINING While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa71-83de-13e4-6c50",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pac5-cb48-6fa9-398e",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "paeb-75ce-349c-5b48",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "5929-ad51-d006-e008",
+            "id": "pad5-23d3-81f6-a927",
+            "primary": false,
+            "name": "Titanic"
+          },
+          {
+            "targetId": "d666-e2c9-b6cc-5716",
+            "id": "pae3-bdb3-36eb-9358",
+            "primary": false,
+            "name": "Towering"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pafc-4643-7bca-e855",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pa19-fb05-113d-c97e",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "4bd-5ee0-f179-2fc5",
+            "id": "pab4-4c0c-ecd7-7e31",
+            "primary": false,
+            "name": "Khorne"
+          },
+          {
+            "targetId": "44f2-f864-3a76-f234",
+            "id": "paf8-1d08-ca7c-4279",
+            "primary": false,
+            "name": "An'ggrath the Unbound"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pabb-c036-f8d4-242a",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa38-253e-5e3c-82c3",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Bloodlash",
+            "hidden": false,
+            "id": "pa62-e674-86d8-3333",
+            "profiles": [
+              {
+                "name": "Bloodlash",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa40-ffd4-3046-e8d8",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "12\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paf3-eebe-79f9-6896"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pad0-2d48-1035-85cf"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Axe of Khorne – strike",
+            "hidden": false,
+            "id": "pae8-73f1-3a3d-1a31",
+            "profiles": [
+              {
+                "name": "Axe of Khorne – strike",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa7f-cf3b-8781-2b91",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "16"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-4"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "D6+2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa3-53f8-5747-113b"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paca-5403-6a7f-7003"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Axe of Khorne – sweep",
+            "hidden": false,
+            "id": "pa46-a341-ebd9-ec59",
+            "profiles": [
+              {
+                "name": "Axe of Khorne – sweep",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "paf8-46d2-7814-b8ab",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "16"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa99-7803-5c66-6e2d"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa5d-e594-1d2c-1b99"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "AETAOS'RAU'KERES",
+        "hidden": false,
+        "id": "pa93-655b-3134-b546",
+        "profiles": [
+          {
+            "name": "AETAOS'RAU'KERES",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa69-e2bf-dcca-6b65",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "6+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "24"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "6"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pafd-2c87-7324-e4d3",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D6, Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pade-a04d-e3d1-64c0",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paed-99a2-182e-e331",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Emissary of the Great Mutator (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa9f-37b4-88cb-1337",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Tzeentch Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+              }
+            ]
+          },
+          {
+            "name": "Master of Magicks (Psychic)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paf4-553b-139a-f30f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "In your Shooting phase, select one of the following abilities: [IGNORES COVER]; [LETHAL HITS]; [SUSTAINED HITS D3]. Until the end of the phase, this model's ranged weapon has that ability."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pae4-8fab-bafb-db61",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-8 WOUNDS REMAINING While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa6d-7137-636a-f20b",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa48-dada-eb5d-1523",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "pa2c-b831-c7de-4702",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "5929-ad51-d006-e008",
+            "id": "pa43-f4b5-38e8-b332",
+            "primary": false,
+            "name": "Titanic"
+          },
+          {
+            "targetId": "d666-e2c9-b6cc-5716",
+            "id": "pa59-1fe1-b4f8-9ecb",
+            "primary": false,
+            "name": "Towering"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "pa5d-6295-7e92-8b14",
+            "primary": false,
+            "name": "Fly"
+          },
+          {
+            "targetId": "13bf-2bee-3ae0-b414",
+            "id": "padd-c152-9f11-6d24",
+            "primary": false,
+            "name": "Psyker"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa8c-b5e0-559f-1be9",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pa2d-4134-f1aa-fc14",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "b188-114f-6ba5-79a1",
+            "id": "pa9b-9a74-225a-885f",
+            "primary": false,
+            "name": "Tzeentch"
+          },
+          {
+            "targetId": "1c65-8603-5702-eb89",
+            "id": "pa3c-2e24-5c4e-5916",
+            "primary": false,
+            "name": "Aetaos'rau'keres"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa34-a312-795c-7a58",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pae0-bdc0-fb5e-7755",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Bolt of Tzeentch – focused witchfire",
+            "hidden": false,
+            "id": "pae8-eff0-13b1-21c5",
+            "profiles": [
+              {
+                "name": "Bolt of Tzeentch – focused witchfire",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa3b-d934-31ea-405d",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "D3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "HAZARDOUS, PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa50-8b64-cfa1-7faf"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa60-9326-102f-f298"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Bolt of Tzeentch – witchfire",
+            "hidden": false,
+            "id": "pa2e-c09d-3051-d87e",
+            "profiles": [
+              {
+                "name": "Bolt of Tzeentch – witchfire",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pafc-10d7-f74b-a075",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "24\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "10"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa73-643c-c649-28ce"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pacc-ee38-e33a-1cf0"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Staff of cataclysm",
+            "hidden": false,
+            "id": "pa4d-8f25-d484-52e1",
+            "profiles": [
+              {
+                "name": "Staff of cataclysm",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "paf2-ce2b-fe7a-ae6c",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "8"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa6b-efc7-ec35-9673"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa1-3496-4551-fe45"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Warpfire talons",
+            "hidden": false,
+            "id": "pa87-9d1a-a50b-33b5",
+            "profiles": [
+              {
+                "name": "Warpfire talons",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pab1-7186-b7ce-ec75",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "12"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "3+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac6-d235-b138-619d"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa8d-64a4-f1c5-7e53"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "SCABEIATHRAX THE BLOATED",
+        "hidden": false,
+        "id": "pa43-ff0e-c375-e29e",
+        "profiles": [
+          {
+            "name": "SCABEIATHRAX THE BLOATED",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa54-417b-41dc-98e0",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "7\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "12"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "22"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa5e-c64e-43a5-15e6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D6, Deep Strike, Feel No Pain 6+"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pace-1ca0-322d-9d04",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa4e-bc90-bec3-3de3",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Emissary of the Plague God (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa62-4a84-6119-d63f",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Nurgle Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+              }
+            ]
+          },
+          {
+            "name": "Nurgle's Rot (Psychic)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pafe-6dad-cda8-3228",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, you can select one enemy unit within 12\" of this model. Until the start of your next Movement phase, subtract 1 from the Toughness characteristic of models in that unit."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad7-89b8-50c5-ad44",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-7 WOUNDS REMAINING While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pabf-e917-7965-d2e2",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pad5-210a-a4d4-a4c2",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "pa9f-dc39-382e-a1a5",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "13bf-2bee-3ae0-b414",
+            "id": "pacd-d5e1-ecd4-4c37",
+            "primary": false,
+            "name": "Psyker"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa52-e2e9-9865-91da",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pa67-dd1f-9bbe-8767",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "ed0d-8e2a-225c-2340",
+            "id": "pa2d-95a6-49a7-7d09",
+            "primary": false,
+            "name": "Nurgle"
+          },
+          {
+            "targetId": "3763-589b-4840-f20e",
+            "id": "pac5-96ae-4558-6d75",
+            "primary": false,
+            "name": "Scabeiathrax the Bloated"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pac3-118c-9d62-3994",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa4c-218b-75d7-1b12",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Putrid vomit",
+            "hidden": false,
+            "id": "pa7a-b414-9b36-d21d",
+            "profiles": [
+              {
+                "name": "Putrid vomit",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "paef-645b-c421-dab7",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "6\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "D6+3"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "N/A"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "5"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "IGNORES COVER, TORRENT"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pacc-4874-7a3e-f9bd"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa13-5f5e-5d86-25b0"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Blade of decay – Strike",
+            "hidden": false,
+            "id": "pa62-fc1b-df78-59c4",
+            "profiles": [
+              {
+                "name": "Blade of decay – Strike",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pafe-44c0-1b70-5ac1",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "7"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "D6"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa62-df49-f27e-9ce1"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa3-4cda-9c0a-2c5f"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Blade of decay – Sweep",
+            "hidden": false,
+            "id": "pada-4705-6458-62c8",
+            "profiles": [
+              {
+                "name": "Blade of decay – Sweep",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pad3-7f4f-6aa9-cfd2",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "14"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "7"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa20-3cbe-b99f-b150"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pae4-4af6-8047-ce06"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "ZARAKYNEL",
+        "hidden": false,
+        "id": "pa56-4d91-f64d-72b1",
+        "profiles": [
+          {
+            "name": "ZARAKYNEL",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa9e-4eed-9061-25ba",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "10"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "20"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "5"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pae2-e570-715b-c9a6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deadly Demise D6, Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "padb-4bed-ae7b-5710",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa65-3d92-bb59-97e6",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "4+"
+              }
+            ]
+          },
+          {
+            "name": "Emissary of the Prince of Excess (Aura)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa9d-9d00-f837-9e7b",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a friendly Slaanesh Legiones Daemonica unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+              }
+            ]
+          },
+          {
+            "name": "Mesmerising Form",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa8-9c1b-a673-329a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an attack targets this model, subtract 1 from the Hit roll."
+              }
+            ]
+          },
+          {
+            "name": "Damaged",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa94-aa96-bac4-c45a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "DAMAGED: 1-7 WOUNDS REMAINING While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "9693-cf84-fe69-37a9",
+            "id": "pa10-7dd2-7f2c-c131",
+            "primary": true,
+            "name": "Monster"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa33-ac13-bf2c-7e6b",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "4f3a-f0f7-6647-348d",
+            "id": "pa70-eb03-659d-2630",
+            "primary": false,
+            "name": "Epic Hero"
+          },
+          {
+            "targetId": "13bf-2bee-3ae0-b414",
+            "id": "paef-1cc6-3297-2f27",
+            "primary": false,
+            "name": "Psyker"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pac1-8fe1-7775-4fa8",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pa8a-cea6-8495-5a9a",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "b2a9-ede5-7a83-4da8",
+            "id": "pa88-f32f-7062-2ef0",
+            "primary": false,
+            "name": "Slaanesh"
+          },
+          {
+            "targetId": "3bb1-d38c-2687-7601",
+            "id": "pae4-daf1-7c2e-3989",
+            "primary": false,
+            "name": "Zarakynel"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "paf9-c231-7d9c-a19e",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pabc-e2ab-9982-d08d",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Phantasmagoria – focused witchfire",
+            "hidden": false,
+            "id": "paf6-9023-e388-2ca6",
+            "profiles": [
+              {
+                "name": "Phantasmagoria – focused witchfire",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa31-598d-6cfe-7846",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "DEVASTATING WOUNDS, HAZARDOUS, PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa18-db97-e329-1623"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa5-1a22-6842-3314"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Phantasmagoria – witchfire",
+            "hidden": false,
+            "id": "pa25-62e4-9031-9cba",
+            "profiles": [
+              {
+                "name": "Phantasmagoria – witchfire",
+                "typeId": "f77d-b953-8fa4-b762",
+                "typeName": "Ranged Weapons",
+                "hidden": false,
+                "id": "pa4d-a49d-3ab2-862f",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "9896-9419-16a1-92fc",
+                    "$text": "18\""
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "3bb-c35f-f54-fb08",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "BS",
+                    "typeId": "94d-8a98-cf90-183e",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "2229-f494-25db-c5d3",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "9ead-8a10-520-de15",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "a354-c1c8-a745-f9e3",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "7f1b-8591-2fcf-d01c",
+                    "$text": "DEVASTATING WOUNDS, PSYCHIC"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pab8-be65-6706-9f10"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa4a-1097-83bc-93ce"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Snapping claws",
+            "hidden": false,
+            "id": "pa80-5d4f-a312-f17c",
+            "profiles": [
+              {
+                "name": "Snapping claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa76-2b7c-9385-6ba1",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "DEVASTATING WOUNDS, EXTRA ATTACKS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paf5-1fa4-72eb-e24b"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa7-e9db-9515-ffb3"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Souleater blade",
+            "hidden": false,
+            "id": "paf9-baf4-e96b-5ecd",
+            "profiles": [
+              {
+                "name": "Souleater blade",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa11-ac0b-f715-d292",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "9"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-2"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "3"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pac4-5317-a6d4-23b9"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa7-dffa-ff64-e944"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "HERALD OF SLAANESH ON STEED OF SLAANESH",
+        "hidden": false,
+        "id": "pa3a-3cdf-5840-b5c8",
+        "profiles": [
+          {
+            "name": "HERALD OF SLAANESH ON STEED OF SLAANESH",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pa72-fbcb-88d5-ef64",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "14\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "7+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "4"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pad8-acf3-4ae8-246d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike, Leader, Scouts 9\""
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "paa3-b9e1-f9be-6fd4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa28-20c2-b894-522a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "Lethal Caress",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa24-b200-90f0-a08a",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+              }
+            ]
+          },
+          {
+            "name": "Symphony of Pain (Psychic)",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa20-a510-a592-6658",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a Slaanesh Legiones Daemonica model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "14a0-40c9-2748-ae6e",
+            "id": "pa40-1084-a449-c2d1",
+            "primary": true,
+            "name": "Mounted"
+          },
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "pa5c-7e47-e6e8-2550",
+            "primary": false,
+            "name": "Character"
+          },
+          {
+            "targetId": "13bf-2bee-3ae0-b414",
+            "id": "paa5-39c3-ffde-33dc",
+            "primary": false,
+            "name": "Psyker"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa83-493d-846b-464b",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "pa38-8a1a-319b-493d",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "b2a9-ede5-7a83-4da8",
+            "id": "paa8-275a-9d84-d56c",
+            "primary": false,
+            "name": "Slaanesh"
+          },
+          {
+            "targetId": "3454-872d-df3-914c",
+            "id": "pa21-6251-3b9b-3275",
+            "primary": false,
+            "name": "Herald of Slaanesh"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa5c-6c95-5d6b-86bb",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pa6a-5b44-bed7-850c",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Lashing tongue",
+            "hidden": false,
+            "id": "pa7f-49b3-1d4a-f8e8",
+            "profiles": [
+              {
+                "name": "Lashing tongue",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "paf1-225b-d055-ea70",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "EXTRA ATTACKS, LETHAL HITS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paff-c429-60f6-8991"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pafc-8eb5-7e5e-d03c"
+              }
+            ]
+          },
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Ravaging claws",
+            "hidden": false,
+            "id": "pa93-6067-8ad9-68ef",
+            "profiles": [
+              {
+                "name": "Ravaging claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa21-1fe9-4bcc-5b05",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "6"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "2+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "-1"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "DEVASTATING WOUNDS"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paa4-2c94-d0bc-13a7"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa38-f33c-eba0-a10f"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "FURIES",
+        "hidden": false,
+        "id": "pa55-b473-1f76-8cb0",
+        "profiles": [
+          {
+            "name": "FURIES",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "pace-948e-4a1c-b754",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "12\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "3"
+              },
+              {
+                "name": "SV",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "7+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "8+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              }
+            ]
+          },
+          {
+            "name": "CORE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pab0-9981-6619-d4dc",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Deep Strike"
+              }
+            ]
+          },
+          {
+            "name": "FACTION",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa85-9565-dc20-3e2b",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "The Shadow of Chaos"
+              }
+            ]
+          },
+          {
+            "name": "INVULNERABLE SAVE",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa6c-5d09-732e-1386",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "5+"
+              }
+            ]
+          },
+          {
+            "name": "Prey on the Weak",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "pa9e-8e2c-9b84-497d",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time this model makes an attack that targets an enemy unit that is Battle-shocked, add 1 to the Wound roll."
+              }
+            ]
+          }
+        ],
+        "categoryLinks": [
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "pa98-e066-8e68-39ae",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "4c00-2578-faf5-6918",
+            "id": "pa6b-8aaf-f46f-6045",
+            "primary": false,
+            "name": "Chaos"
+          },
+          {
+            "targetId": "9c0e-7e25-4580-e439",
+            "id": "paa8-c149-a3ac-5457",
+            "primary": false,
+            "name": "Daemon"
+          },
+          {
+            "targetId": "c619-2086-bbcf-69c9",
+            "id": "pae4-6d38-3fae-2c81",
+            "primary": false,
+            "name": "Fly"
+          },
+          {
+            "targetId": "2b4d-1769-dbca-fa0d",
+            "id": "pa95-e88b-d5ac-20ec",
+            "primary": false,
+            "name": "Furies"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pae1-cca4-79fc-1bf0",
+            "primary": false,
+            "name": "Legiones Daemonica"
+          },
+          {
+            "targetId": "571f-ec3a-a5a2-751a",
+            "id": "pad9-5cee-4cd6-6569",
+            "primary": false,
+            "name": "Faction: Legiones Daemonica"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 0
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "upgrade",
+            "import": true,
+            "name": "Daemonic claws",
+            "hidden": false,
+            "id": "pa75-bc0c-8ecc-2432",
+            "profiles": [
+              {
+                "name": "Daemonic claws",
+                "typeId": "8a40-4aaa-c780-9046",
+                "typeName": "Melee Weapons",
+                "hidden": false,
+                "id": "pa18-407a-4914-8e34",
+                "characteristics": [
+                  {
+                    "name": "Range",
+                    "typeId": "914c-b413-91e3-a132",
+                    "$text": "Melee"
+                  },
+                  {
+                    "name": "A",
+                    "typeId": "2337-daa1-6682-b110",
+                    "$text": "2"
+                  },
+                  {
+                    "name": "WS",
+                    "typeId": "95d1-95f-45b4-11d6",
+                    "$text": "4+"
+                  },
+                  {
+                    "name": "S",
+                    "typeId": "ab33-d393-96ce-ccba",
+                    "$text": "4"
+                  },
+                  {
+                    "name": "AP",
+                    "typeId": "41a0-1301-112a-e2f2",
+                    "$text": "0"
+                  },
+                  {
+                    "name": "D",
+                    "typeId": "3254-9fe6-d824-513e",
+                    "$text": "1"
+                  },
+                  {
+                    "name": "Keywords",
+                    "typeId": "893f-9000-ccf7-648e",
+                    "$text": "-"
+                  }
+                ]
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "paaf-7ac7-de31-de24"
+              },
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "pa85-5916-f169-a89d"
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditions": [
+              {
+                "type": "lessThan",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "9ed-cbf4-bfe5-90bf",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedSelectionEntryGroups": [
