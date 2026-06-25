@@ -34303,6 +34303,15 @@
             "collective": false,
             "targetId": "cde4-4b0b-0fa4-766e",
             "type": "selectionEntry"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "af54-e613-e582-64c3",
+            "targetId": "39d5-3a4f-172f-6d38",
+            "sortIndex": 2
           }
         ],
         "costs": [
@@ -36874,7 +36883,18 @@
         "id": "71d9-9dc2-2b9a-6db3",
         "publicationId": "e3ec-7a32-ae62-8727",
         "page": "7-8",
-        "collective": false
+        "collective": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "96d4-c39a-e2d8-7ce5",
+            "targetId": "39d5-3a4f-172f-6d38",
+            "sortIndex": 0
+          }
+        ]
       },
       {
         "constraints": [
@@ -38037,6 +38057,15 @@
             "targetId": "4932-180c-3eb7-39dd",
             "type": "selectionEntry",
             "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "da8d-9199-ce4d-757f",
+            "targetId": "39d5-3a4f-172f-6d38",
+            "sortIndex": 2
           }
         ],
         "costs": [
@@ -38775,6 +38804,15 @@
             "targetId": "4932-180c-3eb7-39dd",
             "type": "selectionEntry",
             "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6a78-7450-7810-e2b3",
+            "targetId": "39d5-3a4f-172f-6d38",
+            "sortIndex": 2
           }
         ],
         "costs": [
@@ -39429,7 +39467,18 @@
         "name": "Flesh Hounds",
         "hidden": false,
         "id": "b657-1743-6e3a-0838",
-        "collective": false
+        "collective": false,
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "259a-aa3e-18b9-3854",
+            "targetId": "39d5-3a4f-172f-6d38",
+            "sortIndex": 0
+          }
+        ]
       },
       {
         "constraints": [

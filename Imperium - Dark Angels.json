@@ -516,6 +516,15 @@
             "type": "selectionEntry",
             "id": "f9b4-af73-c499-66ce",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ef8c-d4a8-7ff1-c2e5",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "constraints": [
@@ -720,6 +729,15 @@
             "id": "f866-3d70-3616-663a",
             "targetId": "caa-f869-3cbd-b48e",
             "page": 9
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "72c2-e1ae-210e-eb35",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "categoryLinks": [
@@ -1678,6 +1696,15 @@
             "id": "9773-db57-97ab-287c",
             "type": "selectionEntry",
             "targetId": "13b0-11f0-4db1-41de"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6b56-5a6e-b63b-d92a",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 2
           }
         ],
         "costs": [
@@ -1857,6 +1884,15 @@
             "type": "selectionEntry",
             "id": "af9b-34af-a41-d47c",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "4c79-efe2-85f6-9166",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "categoryLinks": [
@@ -2707,6 +2743,15 @@
             "type": "selectionEntry",
             "id": "5776-d280-768-f69e",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5f66-4671-c1ce-878d",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "costs": [
@@ -3274,6 +3319,15 @@
             "type": "selectionEntry",
             "id": "9370-b89e-1e0a-6c22",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d139-aa3a-b2d4-b68e",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "costs": [
@@ -3659,6 +3713,15 @@
             "type": "selectionEntry",
             "id": "19b9-1536-c543-80d2",
             "targetId": "caa-f869-3cbd-b48e"
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d8e7-2f7e-9ff9-e72d",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "costs": [
@@ -4479,6 +4542,15 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "78cc-2d5a-403c-5c71",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -4909,6 +4981,15 @@
             "id": "d4ac-0066-a557-3919",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ed85-841d-b28a-b773",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -6065,6 +6146,15 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c2ef-6120-e586-7eac",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -6835,6 +6925,15 @@
             "id": "fad4-f276-cc87-fa87",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5b17-cf66-571f-6408",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -8469,6 +8568,15 @@
             "id": "4958-4072-b617-4fa2",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6e29-d980-17ef-b8d4",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -10503,6 +10611,15 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "9087-2cb9-5187-ff97",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -11467,6 +11584,15 @@
             "id": "4360-d8c0-0995-ee5e",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "9302-4e3b-dd6e-ecdd",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -13087,6 +13213,15 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1d5e-ddef-ca77-fc88",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
+            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -13911,6 +14046,15 @@
             "id": "467e-14a5-0a76-bb20",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c848-7c35-17d9-d1b0",
+            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
