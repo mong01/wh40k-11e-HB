@@ -2134,7 +2134,8 @@
         "modifiers": [
           {
             "type": "set",
-            "field": "readme"
+            "field": "readme",
+            "value": "*** IMPORTANT PLEASE READ ***\n\n\nThis is an EXPERIMENTAL version of 11 generated using automated tools. Expect many errors problems! Proper, human reviewed version will come later.\n\n\nPlease do not report issues about the follow:\n- Leaders are NOT implemented in this version\n- Yellowscribe not officially supported yet (100% untested)\n- Stratagems not officially supported yet (100% untested)\n\n"
           },
           {
             "type": "set",

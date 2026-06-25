@@ -62137,7 +62137,7 @@
                 "field": "hidden",
                 "conditionGroups": [
                   {
-                    "type": "or",
+                    "type": "and",
                     "conditionGroups": [
                       {
                         "type": "and",

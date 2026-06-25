@@ -616,7 +616,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "3+"
               },
               {
                 "name": "W",
@@ -804,7 +804,8 @@
             "collective": false,
             "import": true,
             "targetId": "0574-f558-2957-584f",
-            "type": "selectionEntry"
+            "type": "selectionEntry",
+            "sortIndex": 1
           },
           {
             "import": true,
@@ -943,7 +944,8 @@
             "import": true,
             "name": "Somnus",
             "hidden": false,
-            "id": "76cd-8f1-1163-3b37"
+            "id": "76cd-8f1-1163-3b37",
+            "sortIndex": 3
           }
         ],
         "constraints": [
@@ -972,7 +974,7 @@
             "name": "Crusade",
             "id": "f789-0314-9e04-4a83",
             "hidden": false,
-            "sortIndex": 1
+            "sortIndex": 2
           }
         ],
         "id": "9e42-7207-9c30-6122",
@@ -1125,7 +1127,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -2837,7 +2839,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -3841,7 +3843,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -4047,7 +4049,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -4275,7 +4277,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -4974,7 +4976,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -6054,7 +6056,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "3+"
               },
               {
                 "name": "W",
@@ -7458,39 +7460,39 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "3+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "1",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "1"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "2",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "2"
                   },
                   {
                     "name": "InSv",
                     "typeId": "55a7-5b54-c60d-11dc",
-                    "$text": ""
+                    "$text": "3+"
                   }
                 ],
                 "id": "5449-e7c1-406f-4898",
@@ -7725,39 +7727,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "3",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "3"
                       },
                       {
-                        "$text": "3+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "1",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "1"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "2",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "2"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "3+"
                       }
                     ],
                     "id": "74e7-c9ce-4f03-655e",
@@ -8182,7 +8184,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -9558,7 +9560,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -10470,7 +10472,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -11776,7 +11778,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -12142,7 +12144,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -14181,7 +14183,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -16057,34 +16059,34 @@
               {
                 "characteristics": [
                   {
-                    "$text": "6\"",
                     "name": "M",
-                    "typeId": "e703-ecb6-5ce7-aec1"
+                    "typeId": "e703-ecb6-5ce7-aec1",
+                    "$text": "6\""
                   },
                   {
-                    "$text": "3",
                     "name": "T",
-                    "typeId": "d29d-cf75-fc2d-34a4"
+                    "typeId": "d29d-cf75-fc2d-34a4",
+                    "$text": "3"
                   },
                   {
-                    "$text": "3+",
                     "name": "Sv",
-                    "typeId": "450-a17e-9d5e-29da"
+                    "typeId": "450-a17e-9d5e-29da",
+                    "$text": "3+"
                   },
                   {
-                    "$text": "1",
                     "name": "W",
-                    "typeId": "750a-a2ec-90d3-21fe"
+                    "typeId": "750a-a2ec-90d3-21fe",
+                    "$text": "1"
                   },
                   {
-                    "$text": "6+",
                     "name": "LD",
-                    "typeId": "58d2-b879-49c7-43bc"
+                    "typeId": "58d2-b879-49c7-43bc",
+                    "$text": "6+"
                   },
                   {
-                    "$text": "1",
                     "name": "OC",
-                    "typeId": "bef7-942a-1a23-59f8"
+                    "typeId": "bef7-942a-1a23-59f8",
+                    "$text": "1"
                   },
                   {
                     "name": "InSv",
@@ -16895,7 +16897,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -17113,7 +17115,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -17618,7 +17620,7 @@
                   {
                     "name": "Sv",
                     "typeId": "450-a17e-9d5e-29da",
-                    "$text": ""
+                    "$text": "2+"
                   },
                   {
                     "name": "W",
@@ -18202,7 +18204,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -19001,7 +19003,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -20161,7 +20163,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -20356,7 +20358,7 @@
                       {
                         "name": "Sv",
                         "typeId": "450-a17e-9d5e-29da",
-                        "$text": ""
+                        "$text": "2+"
                       },
                       {
                         "name": "W",
@@ -20920,7 +20922,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -21615,7 +21617,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -22611,7 +22613,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -23243,7 +23245,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -24170,7 +24172,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -25371,7 +25373,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -26177,7 +26179,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -27037,7 +27039,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -29344,7 +29346,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",
@@ -29914,7 +29916,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "3+"
               },
               {
                 "name": "W",
@@ -30464,7 +30466,7 @@
               {
                 "name": "Sv",
                 "typeId": "450-a17e-9d5e-29da",
-                "$text": ""
+                "$text": "2+"
               },
               {
                 "name": "W",

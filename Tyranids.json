@@ -1840,6 +1840,13 @@
             "id": "267-6f72-f4f6-e381",
             "primary": false,
             "name": "Hive Tyrant"
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "fdc3-7631-c1b8-aada",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "entryLinks": [
@@ -1878,6 +1885,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -2346,6 +2368,13 @@
             "id": "2aad-9562-a42b-26bb",
             "primary": false,
             "name": "Synapse"
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "02df-43fc-1cb2-2c73",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "entryLinks": [
@@ -2911,6 +2940,13 @@
             "hidden": false,
             "targetId": "d1d8-6ae0-1be7-e9e",
             "primary": false
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "07f5-dfa9-8b9f-2674",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "selectionEntries": [
@@ -3049,6 +3085,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 140
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -3198,6 +3269,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -3526,52 +3632,16 @@
             "comment": "Warrior Bioform Onslaught modifiers",
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "set-primary",
                 "value": "e338-111e-d0c6-b687",
                 "field": "category"
               },
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "set",
                 "value": 6,
                 "field": "40be-d448-295c-f3f3"
               },
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "add",
                 "value": "e3d4-6430-ea62-8d6d",
                 "field": "category"
@@ -3582,41 +3652,29 @@
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
-                "join": ", ",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "join": ", "
               },
               {
                 "type": "set",
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.Unit",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "affects": "self.entries.recursive.profiles.Unit"
               }
             ],
-            "type": "and"
+            "type": "and",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7416-b7cc-fdbf-5bf0",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           },
           {
             "comment": "Boarding Actions modifiers",
@@ -4831,52 +4889,16 @@
             "comment": "Warrior Bioform Onslaught modifiers",
             "modifiers": [
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "set-primary",
                 "value": "e338-111e-d0c6-b687",
                 "field": "category"
               },
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "set",
                 "value": 6,
                 "field": "40be-d448-295c-f3f3"
               },
               {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
                 "type": "add",
                 "value": "e3d4-6430-ea62-8d6d",
                 "field": "category"
@@ -4887,41 +4909,29 @@
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
-                "join": ", ",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "join": ", "
               },
               {
                 "type": "set",
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.Unit",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "affects": "self.entries.recursive.profiles.Unit"
               }
             ],
-            "type": "and"
+            "type": "and",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7416-b7cc-fdbf-5bf0",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
           },
           {
             "comment": "Boarding Actions modifiers",
@@ -7133,13 +7143,45 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 70
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 120,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -7148,10 +7190,13 @@
                 "scope": "f15b-9f9c-9bf0-8160",
                 "childId": "model",
                 "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "id": "95a5-2185-1210-de69",
+                "includeChildSelections": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 120,
+            "field": "51b2-306e-1021-d207"
           }
         ],
         "infoLinks": [
@@ -7993,6 +8038,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 135
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -9323,6 +9403,13 @@
             "id": "6d8f-7a82-20df-d141",
             "primary": false,
             "name": "Synapse"
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "6b8d-e20d-575e-9605",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "costs": [
@@ -9330,6 +9417,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 115
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -9722,6 +9844,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 180
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "profiles": [
@@ -10459,6 +10616,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -11900,6 +12072,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 55
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -14905,8 +15112,38 @@
           {
             "costs": [
               {
-                "name": "pts",
-                "typeId": "51b2-306e-1021-d207",
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 0
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
                 "value": 0
               }
             ],
@@ -15431,6 +15668,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 60
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifiers": [
@@ -17559,9 +17831,6 @@
         ],
         "modifiers": [
           {
-            "type": "set",
-            "value": 160,
-            "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
@@ -17569,11 +17838,12 @@
                 "field": "selections",
                 "scope": "ac7a-2560-c083-45b8",
                 "childId": "model",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true
+                "shared": true
               }
-            ]
+            ],
+            "type": "set",
+            "value": 160,
+            "field": "51b2-306e-1021-d207"
           },
           {
             "type": "set",
@@ -17706,6 +17976,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -18835,6 +19120,21 @@
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
             "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "entryLinks": [
@@ -19304,6 +19604,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 170
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -20413,6 +20748,41 @@
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
             "value": 185
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
           }
         ],
         "modifierGroups": [
@@ -27256,6 +27626,13 @@
             "id": "12d9-2bf9-ce97-6966",
             "primary": false,
             "name": "Synapse"
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "c34d-9566-6924-ff48",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "infoLinks": [
@@ -27705,6 +28082,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -28468,6 +28860,21 @@
           {
             "name": "Crusade: Weapon Modifications",
             "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -30374,6 +30781,13 @@
             "id": "41ab-adbb-53ea-d07",
             "targetId": "4129-a453-686a-d38a",
             "primary": false
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "ad7d-962b-1385-f923",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "selectionEntryGroups": [
@@ -31318,6 +31732,13 @@
             "id": "7714-f903-2898-e8e9",
             "targetId": "6ed1-0e06-b0d6-0cc2",
             "primary": false
+          },
+          {
+            "name": "Leader",
+            "hidden": false,
+            "id": "8ce2-91a3-7ff8-8b99",
+            "targetId": "1556-9b56-fba6-4370",
+            "primary": false
           }
         ],
         "entryLinks": [
@@ -31379,6 +31800,16 @@
           {
             "name": "Blackstone Fragments",
             "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
         ],
@@ -31592,38 +32023,26 @@
                 "field": "annotation",
                 "scope": "root-entry",
                 "affects": "self.entries.recursive.profiles.Unit",
-                "join": ", ",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "join": ", "
               },
               {
                 "type": "set",
                 "value": "5+",
                 "field": "55a7-5b54-c60d-11dc",
                 "scope": "root-entry",
-                "affects": "self.entries.recursive.profiles.Unit",
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "7416-b7cc-fdbf-5bf0",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ]
+                "affects": "self.entries.recursive.profiles.Unit"
+              }
+            ],
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "7416-b7cc-fdbf-5bf0",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": true
               }
             ]
           }
