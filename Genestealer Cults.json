@@ -453,6 +453,24 @@
             "id": "5ba3-831b-aab2-ce4b",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7d5f-e50c-4072-5afc",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1cbf-985c-8175-5718",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -1381,6 +1399,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7a6f-f2aa-7c23-8708",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -2062,6 +2089,24 @@
             "id": "24ed-d7bf-d1d3-bcf4",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d173-4fc6-9d86-77c2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6b94-a34c-94f7-f115",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -4371,6 +4416,24 @@
             "id": "2120-e603-8516-2187",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "95f7-48a5-3b85-6496",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "14ae-5db2-18df-2761",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -4869,6 +4932,15 @@
             "id": "pada-46ce-ffc9-def4",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "641d-454b-abab-4c81",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -7524,6 +7596,24 @@
             "id": "7dd1-3ac2-e3c9-3b58",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "4418-c946-fb71-80ed",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "64b8-7aa4-8141-c2ee",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -7953,6 +8043,15 @@
             "id": "pa5f-2aa1-4763-bb21",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c8b5-8c20-e56a-5a28",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -8764,6 +8863,15 @@
             "id": "pa92-1730-9d1d-80be",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "9764-97b3-5c84-64e8",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -10202,6 +10310,24 @@
             "id": "bd75-8f68-6ced-5b64",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7843-7527-4679-5906",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ed95-7e70-6ae7-e6fb",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -10766,6 +10892,24 @@
             "id": "877f-ce29-b3f2-f740",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "a684-9ba2-8185-8d35",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c5f0-b822-c35f-338c",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 3
           }
         ],
         "modifierGroups": [
@@ -12472,6 +12616,24 @@
             "id": "468e-88e3-f4d9-7a85",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5f60-1ed7-ac22-c217",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c50c-c92f-1d6e-21f7",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -13077,6 +13239,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "8206-dc2d-bc4b-4985",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "infoLinks": [
@@ -13673,6 +13844,15 @@
             "id": "pa5a-e658-a195-dc4b",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "93a0-b5ab-2ca1-82f2",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -14673,6 +14853,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "9093-5774-4c16-600b",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -15343,6 +15532,15 @@
             "id": "pa8d-357b-d775-ed95",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "db0b-5f3e-1102-aa7c",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -18283,6 +18481,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "2d52-5f9a-3387-a47e",
+            "targetId": "fa5b-f646-b960-a8d3",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -18843,6 +19050,15 @@
             "id": "pa61-6b9f-4cad-ab4e",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "de9a-19dc-f44c-a492",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -19411,6 +19627,15 @@
             "id": "pac0-8c1a-103d-e355",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "14d7-14d5-f6b6-cd9d",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -20264,6 +20489,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6539-e371-587b-a323",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -21114,6 +21348,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "88a0-57e1-2372-18b9",
+            "targetId": "fa5b-f646-b960-a8d3",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -21831,6 +22074,15 @@
             "id": "pa65-35cb-721f-e07b",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d860-31f4-4259-3828",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -22712,6 +22964,15 @@
             "id": "pad6-e0a9-ea83-3dd3",
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "62de-9120-8cbc-83b8",
+            "targetId": "4516-88d2-6b61-6a3d",
             "sortIndex": 4
           }
         ],
@@ -25212,6 +25473,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7a76-5fdc-ba35-c311",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "costs": [
@@ -26711,6 +26981,24 @@
             "id": "2b76-f288-5e9b-4b2a",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "b588-118d-3398-2db2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "46b1-30fa-5445-cfee",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 4
           }
         ],
         "modifierGroups": [
@@ -27242,7 +27530,7 @@
           {
             "characteristics": [
               {
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can add 1 to the Hit roll.",
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573"
               }
@@ -27398,15 +27686,6 @@
             "id": "b103-9601-be8d-0478",
             "type": "selectionEntryGroup",
             "targetId": "8ff4-f74f-67fb-396d",
-            "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "2ca7-22cd-6d59-d3fc",
-            "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 5
           }
         ],
@@ -28074,15 +28353,6 @@
             "type": "selectionEntryGroup",
             "targetId": "8ff4-f74f-67fb-396d",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "6911-3c8e-b4ae-331c",
-            "targetId": "fa5b-f646-b960-a8d3",
-            "sortIndex": 5
           }
         ],
         "costs": [
@@ -28706,15 +28976,6 @@
             "id": "9be6-687a-ec13-eee3",
             "type": "selectionEntryGroup",
             "targetId": "8ff4-f74f-67fb-396d",
-            "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "b8d4-1289-ed6e-50be",
-            "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 5
           }
         ],
@@ -30335,6 +30596,24 @@
             "id": "5b04-e1ad-8c54-9260",
             "targetId": "fa5b-f646-b960-a8d3",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "69dc-72d2-e225-5071",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Enhancements - Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d49b-72cf-2544-64b1",
+            "targetId": "4516-88d2-6b61-6a3d",
+            "sortIndex": 2
           }
         ]
       }
