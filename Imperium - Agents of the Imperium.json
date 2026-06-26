@@ -667,6 +667,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "54ed-5adb-2dbc-ddc9",
+            "targetId": "c3c8-4ca0-ec6e-6686",
+            "sortIndex": 1
           }
         ]
       },
@@ -1260,6 +1269,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ae6b-dc95-e0b8-5a2f",
+            "targetId": "c3c8-4ca0-ec6e-6686",
+            "sortIndex": 1
           }
         ]
       },
@@ -1823,6 +1841,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1e4d-a56d-aecc-bdd1",
+            "targetId": "c3c8-4ca0-ec6e-6686",
+            "sortIndex": 1
           }
         ]
       },
@@ -2350,6 +2377,15 @@
             "type": "selectionEntryGroup",
             "targetId": "paaa-8856-a358-91fb",
             "sortIndex": 4
+          },
+          {
+            "import": true,
+            "name": "Enhancements",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7389-ada5-1d2a-94fe",
+            "targetId": "c3c8-4ca0-ec6e-6686",
+            "sortIndex": 1
           }
         ]
       },
@@ -3557,6 +3593,15 @@
             "id": "7b4d-e7cc-73c6-b4a7",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7595-5bd4-d120-58a2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -4600,6 +4645,15 @@
             "id": "8b50-cc1a-b93c-7afa",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "dcf9-b962-75bb-ca60",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -6844,6 +6898,15 @@
             "id": "5825-feda-4755-9f0e",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5967-886f-48f2-e9f3",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -7398,6 +7461,15 @@
             "id": "e654-6770-f2e0-c111",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "9472-e477-c13c-9229",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "modifiers": [
@@ -7992,6 +8064,15 @@
             "id": "2890-305a-283b-84d2",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "4ba0-b2bd-5230-8414",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "infoLinks": [
@@ -9615,6 +9696,15 @@
             "id": "cb49-277c-1fe5-ba8e",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1cf2-90d4-a1e4-55c0",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -9786,6 +9876,15 @@
             "id": "8cfe-23a5-8f4c-ae86",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "e913-f4bd-bc37-5282",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "selectionEntries": [
@@ -11106,6 +11205,15 @@
             "id": "b925-ef30-f480-5eb2",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "68af-e9ed-933b-75fb",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "selectionEntries": [
@@ -11926,6 +12034,15 @@
             "id": "fc4f-9b1d-5ae0-fc6e",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "992c-da7f-df43-eac6",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifiers": [
@@ -12474,6 +12591,15 @@
             "id": "4c01-36dd-7de3-3dc0",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6350-5ae9-f3eb-5544",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifiers": [
@@ -22709,6 +22835,15 @@
             "id": "1e7a-4dd4-407f-3ed3",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "f073-d292-fc64-da1e",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -23894,6 +24029,15 @@
             "id": "b6d4-78f1-e24c-c2fe",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5eaa-6563-5b01-6970",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -24531,6 +24675,15 @@
             "id": "6b9c-9f6d-a8fc-6e9a",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "3d0f-fc24-2afb-9e5b",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "infoLinks": [
@@ -25636,6 +25789,15 @@
             "id": "4bdc-1862-73f9-c8c4",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6161-e97a-bd7a-c861",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "constraints": [
@@ -28039,6 +28201,15 @@
             "id": "3064-dd7f-f113-f362",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "e416-16eb-a5c1-89f0",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -28637,6 +28808,15 @@
             "id": "857b-211a-eb31-ad59",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "acc9-1bd7-2843-e812",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "profiles": [
@@ -32094,6 +32274,15 @@
             "id": "9326-3a7a-768b-e0a3",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "8a47-fa8e-29ce-56a2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -34272,6 +34461,15 @@
             "id": "be12-f1f4-20c0-268f",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "16c1-415a-61c2-84a4",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -50407,6 +50605,15 @@
             "id": "ebca-6853-eec4-b81f",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6b62-c50b-70c3-5350",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -50721,6 +50928,15 @@
             "id": "20df-8cfb-5fa1-fdda",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "c419-3501-90eb-3599",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -54685,6 +54901,15 @@
             "id": "1564-5d35-a289-6277",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1cef-57f1-c496-79bf",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -56404,6 +56629,15 @@
             "id": "a8f7-72fe-952a-8574",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "fd2d-e308-62d9-1d1b",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -56781,6 +57015,15 @@
             "id": "c9b2-2a81-984d-c70c",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "a94f-a080-229e-3b14",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "selectionEntryGroups": [
@@ -57166,6 +57409,15 @@
             "id": "e91d-4769-a02e-70d9",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7c7e-fcac-3d0b-174b",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -57429,6 +57681,15 @@
             "id": "3cda-a29b-e85b-ccc6",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "e14c-fbd8-49b6-edd0",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "selectionEntryGroups": [
@@ -58138,6 +58399,15 @@
             "id": "64b7-d494-d2f0-53e5",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 2
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ef08-a044-6c3b-e649",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 3
           }
         ],
         "profiles": [
@@ -58833,6 +59103,15 @@
             "id": "8c6c-9bc3-4ca5-eb61",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "31fc-14c8-e24c-3b0a",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "costs": [
@@ -59495,15 +59774,6 @@
             "type": "selectionEntryGroup",
             "targetId": "b9ec-397d-5dc2-91d8",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "7bbf-1aeb-7ad8-2f7e",
-            "targetId": "c3c8-4ca0-ec6e-6686",
-            "sortIndex": 5
           }
         ],
         "modifiers": [
@@ -60115,15 +60385,6 @@
             "type": "selectionEntryGroup",
             "targetId": "b9ec-397d-5dc2-91d8",
             "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "1bed-ca76-935e-70ed",
-            "targetId": "c3c8-4ca0-ec6e-6686",
-            "sortIndex": 5
           }
         ],
         "modifiers": [
@@ -60695,15 +60956,6 @@
             "id": "92a1-b2a9-66bd-0635",
             "type": "selectionEntryGroup",
             "targetId": "b9ec-397d-5dc2-91d8",
-            "sortIndex": 5
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "7fa5-62f2-c11b-fc53",
-            "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 5
           }
         ],
@@ -61546,6 +61798,15 @@
             "id": "27bd-7707-4925-7dae",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 1
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "a2c2-c66d-f9a9-2420",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 2
           }
         ],
         "profiles": [
@@ -61837,7 +62098,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "paf4-3c20-b2cf-46ad",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -61855,7 +62116,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pacf-62bf-4a7a-83fe",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -62139,6 +62400,15 @@
             "id": "beeb-e36c-999e-9c8a",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "37a0-6829-b2e7-8ae2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -62249,7 +62519,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "pafa-8eb4-7b3a-8b1e",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -62267,7 +62537,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pa60-a8ec-4b2b-c1cb",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -62468,6 +62738,15 @@
             "id": "765b-27b3-8f59-11f3",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "cb3e-b42d-cc6b-8d30",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -62578,7 +62857,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "paa3-e45c-c76f-7fc8",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -62608,7 +62887,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pab4-f505-d454-961c",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -62809,6 +63088,15 @@
             "id": "84bd-2243-4fd8-6d12",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5b0d-8880-330b-110d",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -62919,7 +63207,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "pa26-5209-79e2-7b71",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -62949,7 +63237,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pada-ea5c-f4c3-13de",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -63150,6 +63438,15 @@
             "id": "a026-4a75-e6ed-2a5c",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "5c0b-e5c0-a92a-88fe",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -64246,6 +64543,15 @@
             "id": "2b73-a162-1d19-b96f",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "90d1-8fba-7856-89cb",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -64384,13 +64690,13 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "pafd-e3f6-2e7b-9509",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
             "targetId": "9cfd-1c32-585f-7d5c",
             "id": "pad8-f488-2730-a63f",
-            "primary": false,
+            "primary": true,
             "name": "Character"
           },
           {
@@ -64893,6 +65199,15 @@
             "id": "71bd-430c-3387-1531",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "b083-c013-6946-7669",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -65003,7 +65318,7 @@
           {
             "targetId": "dbd4-63-af05-998",
             "id": "paa9-d64b-5e69-1ca9",
-            "primary": true,
+            "primary": false,
             "name": "Vehicle"
           },
           {
@@ -65021,7 +65336,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pacc-6e29-b007-b22c",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -65240,6 +65555,15 @@
             "id": "78f6-da11-f647-68b6",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "4752-76c8-1854-e3f3",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -65364,7 +65688,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "pacd-ff3f-ef87-293f",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -65376,7 +65700,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pa30-aed4-c794-1949",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -65678,6 +66002,15 @@
             "id": "6871-5c4c-3065-b2f5",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7e19-4994-deb6-1651",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -65830,7 +66163,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "padb-1fbe-c0c5-b923",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -65878,7 +66211,7 @@
           {
             "targetId": "4f3a-f0f7-6647-348d",
             "id": "pa7b-79a6-65bd-d628",
-            "primary": false,
+            "primary": true,
             "name": "Epic Hero"
           },
           {
@@ -66854,6 +67187,15 @@
             "id": "5a5a-d30c-63b8-e561",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "ae91-b83f-a4b9-310a",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -67919,6 +68261,15 @@
             "id": "3db1-92f8-66fc-b432",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "1992-3ebf-b07d-6eb1",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -68530,6 +68881,15 @@
             "id": "9a70-69f1-1aa2-a7ea",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "7881-61d3-a237-1fcd",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -69615,6 +69975,15 @@
             "id": "29bb-dc17-5fdf-45cf",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "8473-8456-f911-9806",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -70587,6 +70956,15 @@
             "id": "add3-8b38-f043-c8da",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "6c38-8670-8efe-3ce2",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -71644,6 +72022,15 @@
             "id": "1525-92f1-5d73-d02b",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "d975-4c11-7b21-9953",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -72678,6 +73065,15 @@
             "id": "f021-425b-47e9-6cf2",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "2d33-59a4-caa7-809a",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -73013,6 +73409,15 @@
             "id": "5d9c-d5cb-f382-b98d",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "bf75-52d2-86ba-cd35",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       },
@@ -73123,7 +73528,7 @@
           {
             "targetId": "cf47-a0d7-7207-29dc",
             "id": "padc-6694-9a98-4b6a",
-            "primary": true,
+            "primary": false,
             "name": "Infantry"
           },
           {
@@ -73135,7 +73540,7 @@
           {
             "targetId": "9cfd-1c32-585f-7d5c",
             "id": "pa3f-95b5-3478-4f95",
-            "primary": false,
+            "primary": true,
             "name": "Character"
           },
           {
@@ -73407,6 +73812,15 @@
             "id": "8ab3-7103-282e-9af0",
             "targetId": "c3c8-4ca0-ec6e-6686",
             "sortIndex": 0
+          },
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "type": "selectionEntryGroup",
+            "id": "a762-11be-a56c-4c91",
+            "targetId": "paaa-8856-a358-91fb",
+            "sortIndex": 1
           }
         ]
       }
@@ -79674,7 +80088,7 @@
           {
             "name": "Veiled Blade Elimination Force Enhancements",
             "hidden": false,
-            "id": "956c-4fbe-c3f1-13c0",
+            "id": "9cab-8b48-1e94-21e1",
             "modifiers": [
               {
                 "type": "set",
@@ -79715,7 +80129,7 @@
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
-                "id": "d8b0-a661-88a7-c882"
+                "id": "9382-5347-11a0-e296"
               }
             ],
             "selectionEntries": [
@@ -91044,7 +91458,7 @@
           },
           {
             "type": "max",
-            "value": 3,
+            "value": 4,
             "field": "selections",
             "scope": "roster",
             "shared": true,
