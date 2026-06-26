@@ -1,0 +1,35 @@
+{
+  "catalogue": {
+    "library": false,
+    "id": "f1aa-05dc-4cee-4fc2",
+    "name": "Xenos - Xenomorphs",
+    "gameSystemId": "sys-352e-adc2-7639-d610",
+    "gameSystemRevision": 119,
+    "revision": 1,
+    "authorContact": "mong94bdc@hotmail.com",
+    "authorName": "Mong",
+    "battleScribeVersion": "2.03",
+    "categoryEntries": [
+      {
+        "name": "Faction: Xenomorphs",
+        "id": "e11e-13a4-e20f-3c78",
+        "hidden": false
+      }
+    ],
+    "rules": [
+      {
+        "name": "Headbite",
+        "id": "b80a-5519-3914-2403",
+        "hidden": false,
+        "description": "Each time an attack made with a [HEADBITE] weapon targets a unit (excluding MONSTER and VEHICLE units), that attack has the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Acid Blood",
+        "id": "caab-ad96-4df1-8f70",
+        "hidden": false,
+        "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
+      }
+    ],
+    "type": "catalogue"
+  }
+}
