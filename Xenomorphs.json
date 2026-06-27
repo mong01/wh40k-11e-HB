@@ -16,20 +16,29 @@
         "hidden": false
       }
     ],
-    "rules": [
+    "type": "catalogue",
+    "sharedSelectionEntries": [
       {
-        "name": "Headbite",
-        "id": "b80a-5519-3914-2403",
+        "type": "unit",
+        "import": true,
+        "name": "Drones",
         "hidden": false,
-        "description": "Each time an attack made with a [HEADBITE] weapon targets a unit (excluding MONSTER and VEHICLE units), that attack has the [DEVASTATING WOUNDS] ability."
-      },
-      {
-        "name": "Acid Blood",
-        "id": "caab-ad96-4df1-8f70",
-        "hidden": false,
-        "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
+        "id": "94a9-c197-166c-8084"
       }
     ],
-    "type": "catalogue"
+    "sharedRules": [
+      {
+        "name": "Acid Blood",
+        "id": "8470-8d45-fd88-0d16",
+        "hidden": false,
+        "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
+      },
+      {
+        "name": "In the Walls",
+        "id": "272e-0ed6-32dc-4ef0",
+        "hidden": false,
+        "description": "If your Army Faction is XENOMORPHS, models from your army with this ability have a detection range of 9\" while they are within a terrain area that contains one or more dense terrain features."
+      }
+    ]
   }
 }
