@@ -14,6 +14,16 @@
         "name": "Faction: Xenomorphs",
         "id": "e11e-13a4-e20f-3c78",
         "hidden": false
+      },
+      {
+        "name": "Drones",
+        "id": "181e-5baa-4b48-ab91",
+        "hidden": false
+      },
+      {
+        "name": "Warriors",
+        "id": "eacb-5484-b1bd-0ac5",
+        "hidden": false
       }
     ],
     "type": "catalogue",
@@ -23,21 +33,839 @@
         "import": true,
         "name": "Drones",
         "hidden": false,
-        "id": "94a9-c197-166c-8084"
+        "id": "94a9-c197-166c-8084",
+        "categoryLinks": [
+          {
+            "targetId": "e11e-13a4-e20f-3c78",
+            "id": "c364-023b-7417-983b",
+            "primary": false,
+            "name": "Faction: Xenomorphs"
+          },
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "6231-e156-f893-be62",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "e338-111e-d0c6-b687",
+            "id": "55ed-f0cd-b0a0-7ca0",
+            "primary": false,
+            "name": "Battleline"
+          },
+          {
+            "targetId": "181e-5baa-4b48-ab91",
+            "id": "1277-7e56-305d-accc",
+            "primary": false,
+            "name": "Drones"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Xenomorph Abilities",
+            "id": "d153-4f7e-087d-688c",
+            "hidden": false,
+            "type": "infoGroup",
+            "targetId": "323a-2f76-24a1-d4ee"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Drones",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "b552-a867-cff7-58bd",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "5+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "Hive Growth",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "6097-c0dc-8b72-a3a9",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "If you control an objective at the end of your Command phase and this unit is within range of that objective, that objective is secured."
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Drone",
+            "hidden": false,
+            "id": "2b60-d460-1268-f26f",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Claws and teeth",
+                "hidden": false,
+                "id": "8d5e-b40b-2b05-6e48",
+                "profiles": [
+                  {
+                    "name": "Claws and teeth",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "0678-30c9-d3db-74a4",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "61dc-5a7e-a995-7589-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "61dc-5a7e-a995-7589-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "collective": true
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pharyngeal jaw",
+                "hidden": false,
+                "id": "99c6-b9b5-69e8-dc33",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "82e9-5946-9b7b-19f3-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "82e9-5946-9b7b-19f3-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Pharyngeal jaw",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "d544-765f-3eee-6f86",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devastating Wounds",
+                    "id": "3bcf-6ced-e67c-cee6",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "be1e-ac8e-1e2c-3528"
+                  },
+                  {
+                    "name": "Extra Attacks",
+                    "id": "2f11-ab7a-c8e6-39d8",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "115b-79dc-f723-d761"
+                  }
+                ],
+                "collective": true
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 5,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "f8ca-7c74-62f1-cb3c",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "9e9d-6bf1-0777-e420",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 4,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "5357-ab2e-7d69-c1a3",
+            "includeChildSelections": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 6,
+            "field": "5357-ab2e-7d69-c1a3",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "baf8-997f-e323-a090",
+                "shared": true,
+                "childName": "2. Strike Force (2000 Point limit)",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 35,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "model",
+                "shared": true,
+                "childName": "model",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 40
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "type": "unit",
+        "import": true,
+        "name": "Warriors",
+        "hidden": false,
+        "id": "040f-36e0-e961-668b",
+        "categoryLinks": [
+          {
+            "name": "Faction: Xenomorphs",
+            "hidden": false,
+            "id": "e9ec-acbf-592c-16f3",
+            "targetId": "e11e-13a4-e20f-3c78",
+            "primary": false
+          },
+          {
+            "name": "Infantry",
+            "hidden": false,
+            "id": "de75-aa7c-8509-73ee",
+            "targetId": "cf47-a0d7-7207-29dc",
+            "primary": false
+          },
+          {
+            "name": "Battleline",
+            "hidden": false,
+            "id": "3c65-6ea4-6dc2-8250",
+            "targetId": "e338-111e-d0c6-b687",
+            "primary": false
+          },
+          {
+            "name": "Drones",
+            "hidden": false,
+            "id": "ea63-ccc5-efb5-c963",
+            "targetId": "181e-5baa-4b48-ab91",
+            "primary": false
+          },
+          {
+            "targetId": "eacb-5484-b1bd-0ac5",
+            "id": "c5a9-2272-5a92-934c",
+            "primary": false,
+            "name": "Warriors"
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Xenomorph Army Rules",
+            "id": "170f-d756-8952-600b",
+            "hidden": false,
+            "type": "infoGroup",
+            "targetId": "323a-2f76-24a1-d4ee"
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Warriors",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "e5aa-34b0-e126-2475",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "4"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "1"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "2"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "Vicious Hunters",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "f619-fafb-39b7-83e1",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of one or more objectives, you can re-roll the Wound roll instead."
+              }
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Warrior",
+            "hidden": false,
+            "id": "4ce9-418a-abef-849f",
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Claws and teeth",
+                "hidden": false,
+                "id": "0072-aa1b-eff7-502f",
+                "profiles": [
+                  {
+                    "name": "Claws and teeth",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "3445-323d-fc11-a41f",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "4+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "4"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "-"
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1464-3fa5-d632-b27d-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "1464-3fa5-d632-b27d-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "collective": true
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pharyngeal jaw",
+                "hidden": false,
+                "id": "3199-30c1-e87b-e0e9",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d000-8312-670d-6dd4-min",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d000-8312-670d-6dd4-max",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Pharyngeal jaw",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "1468-8748-7253-5c0d",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devastating Wounds",
+                    "id": "368d-a983-48e0-f8e6",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "be1e-ac8e-1e2c-3528"
+                  },
+                  {
+                    "name": "Extra Attacks",
+                    "id": "236d-b553-4203-09e0",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "115b-79dc-f723-d761"
+                  }
+                ],
+                "collective": true
+              }
+            ],
+            "constraints": [
+              {
+                "type": "min",
+                "value": 5,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "c2d3-74b6-7ba3-f484",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "3386-4b87-ecb5-ae1e",
+                "includeChildSelections": false
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 4,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "0c38-961e-fc1b-c9ce",
+            "includeChildSelections": true
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 6,
+            "field": "0c38-961e-fc1b-c9ce",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "baf8-997f-e323-a090",
+                "shared": true,
+                "childName": "2. Strike Force (2000 Point limit)",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 45,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 6,
+                "field": "selections",
+                "scope": "parent",
+                "childId": "model",
+                "shared": true,
+                "childName": "model",
+                "includeChildSelections": true
+              }
+            ]
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 45
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          }
+        ]
       }
     ],
     "sharedRules": [
       {
         "name": "Acid Blood",
-        "id": "8470-8d45-fd88-0d16",
+        "id": "0683-9c51-0619-5858",
         "hidden": false,
         "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
       },
       {
         "name": "In the Walls",
-        "id": "272e-0ed6-32dc-4ef0",
+        "id": "11ba-8bc4-7d01-bab5",
         "hidden": false,
         "description": "If your Army Faction is XENOMORPHS, models from your army with this ability have a detection range of 9\" while they are within a terrain area that contains one or more dense terrain features."
+      }
+    ],
+    "sharedInfoGroups": [
+      {
+        "name": "Xenomorph Army Rules",
+        "id": "323a-2f76-24a1-d4ee",
+        "hidden": false,
+        "infoLinks": [
+          {
+            "name": "In the Walls",
+            "id": "0bfe-d7f3-db88-d453",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "11ba-8bc4-7d01-bab5"
+          },
+          {
+            "name": "Acid Blood",
+            "id": "5142-35ac-d4ec-b584",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "0683-9c51-0619-5858"
+          }
+        ]
+      }
+    ],
+    "entryLinks": [
+      {
+        "import": true,
+        "name": "Drones",
+        "hidden": false,
+        "id": "de2b-73fc-fe28-d64f",
+        "targetId": "94a9-c197-166c-8084",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Warriors",
+        "hidden": false,
+        "id": "8950-ba6b-eee6-08cd",
+        "targetId": "040f-36e0-e961-668b",
+        "type": "selectionEntry"
       }
     ]
   }
