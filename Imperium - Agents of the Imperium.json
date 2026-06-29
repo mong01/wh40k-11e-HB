@@ -78354,7 +78354,7 @@
         "constraints": [
           {
             "type": "max",
-            "value": 3,
+            "value": 4,
             "field": "selections",
             "scope": "force",
             "shared": true,
