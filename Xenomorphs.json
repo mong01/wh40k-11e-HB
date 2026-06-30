@@ -1076,11 +1076,11 @@
                 "type": "atLeast",
                 "value": 6,
                 "field": "selections",
-                "scope": "parent",
+                "scope": "self",
                 "childId": "model",
                 "shared": true,
                 "childName": "model",
-                "includeChildSelections": false
+                "includeChildSelections": true
               }
             ]
           }
