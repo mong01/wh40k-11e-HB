@@ -42579,7 +42579,7 @@
           {
             "field": "selections",
             "scope": "force",
-            "value": 3,
+            "value": 4,
             "percentValue": false,
             "shared": true,
             "includeChildSelections": true,
