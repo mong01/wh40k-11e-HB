@@ -381,7 +381,7 @@
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 11,
                 "field": "selections",
                 "scope": "parent",
                 "childId": "model",
@@ -2318,6 +2318,14 @@
         "hidden": false,
         "id": "0bb7-e723-9eaa-9860",
         "targetId": "595d-1383-15e6-7ab0",
+        "type": "selectionEntry"
+      },
+      {
+        "import": true,
+        "name": "Knights",
+        "hidden": false,
+        "id": "627d-f634-35c9-1b47",
+        "targetId": "4f42-8f4c-21dd-c0b1",
         "type": "selectionEntry"
       }
     ]
