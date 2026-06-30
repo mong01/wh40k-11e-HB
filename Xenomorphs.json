@@ -325,7 +325,7 @@
             "constraints": [
               {
                 "type": "min",
-                "value": 5,
+                "value": 10,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -334,7 +334,7 @@
               },
               {
                 "type": "max",
-                "value": 10,
+                "value": 20,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -352,15 +352,6 @@
             "scope": "force",
             "shared": true,
             "id": "5357-ab2e-7d69-c1a3",
-            "includeChildSelections": true
-          },
-          {
-            "type": "max",
-            "value": 2,
-            "field": "selections",
-            "scope": "force",
-            "shared": true,
-            "id": "4992-1a59-539f-ac6b",
             "includeChildSelections": true
           }
         ],
@@ -385,7 +376,7 @@
           },
           {
             "type": "increment",
-            "value": 35,
+            "value": 65,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
@@ -405,7 +396,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 40
+            "value": 75
           },
           {
             "name": "Crusade Points",
@@ -724,7 +715,7 @@
             "constraints": [
               {
                 "type": "min",
-                "value": 5,
+                "value": 10,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -733,7 +724,7 @@
               },
               {
                 "type": "max",
-                "value": 10,
+                "value": 20,
                 "field": "selections",
                 "scope": "parent",
                 "shared": true,
@@ -775,12 +766,12 @@
           },
           {
             "type": "increment",
-            "value": 45,
+            "value": 80,
             "field": "51b2-306e-1021-d207",
             "conditions": [
               {
                 "type": "atLeast",
-                "value": 6,
+                "value": 11,
                 "field": "selections",
                 "scope": "parent",
                 "childId": "model",
@@ -795,7 +786,7 @@
           {
             "name": "pts",
             "typeId": "51b2-306e-1021-d207",
-            "value": 45
+            "value": 90
           },
           {
             "name": "Crusade Points",
@@ -1452,7 +1443,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8” of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a normal of up to 6\"."
+                "$text": "This unit is eligible to shoot, declare a charge and start an action in a turn in which it made a fall-back move."
               }
             ]
           }
@@ -1927,7 +1918,322 @@
         "import": true,
         "name": "Knights",
         "hidden": false,
-        "id": "4f42-8f4c-21dd-c0b1"
+        "id": "4f42-8f4c-21dd-c0b1",
+        "categoryLinks": [
+          {
+            "targetId": "a975-e176-0b2b-c1f2",
+            "id": "a613-21a9-37ba-37a5",
+            "primary": false,
+            "name": "Knights"
+          },
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "c895-c9c1-753c-6e25",
+            "primary": true,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "e11e-13a4-e20f-3c78",
+            "id": "cb2a-d980-aae2-333d",
+            "primary": false,
+            "name": "Faction: Xenomorphs"
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": 3,
+            "field": "1341-e8a4-75c2-e33a",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "baf8-997f-e323-a090",
+                "shared": true,
+                "childName": "2. Strike Force (2000 Point limit)",
+                "includeChildSelections": true,
+                "includeChildForces": true
+              }
+            ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 2,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "1341-e8a4-75c2-e33a",
+            "includeChildSelections": true
+          }
+        ],
+        "selectionEntries": [
+          {
+            "type": "model",
+            "import": true,
+            "name": "Knight",
+            "hidden": false,
+            "id": "bf0e-66d3-dd2e-8951",
+            "constraints": [
+              {
+                "type": "min",
+                "value": 5,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "bcca-c8c0-716e-a84b",
+                "includeChildSelections": false
+              },
+              {
+                "type": "max",
+                "value": 10,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "817b-afd4-05d7-98ae",
+                "includeChildSelections": false
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Claws and teeth",
+                "hidden": false,
+                "id": "8932-2360-5047-7c00",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "ac85-7deb-2169-2920",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "857d-fe6e-2115-bc84",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Claws and teeth",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "f1a6-8294-085d-df68",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "3"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "3+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "5"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-1"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Twin-linked"
+                      }
+                    ]
+                  }
+                ],
+                "collective": true,
+                "infoLinks": [
+                  {
+                    "name": "Twin-linked",
+                    "id": "b42a-3886-2e8a-2741",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "cf93-ad4d-2f08-a79d"
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pharyngeal jaw",
+                "hidden": false,
+                "id": "7c04-eb33-a009-0856",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2738-e2e4-f756-6778",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "2a3d-9030-c51a-073c",
+                    "includeChildSelections": false
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Pharyngeal jaw",
+                    "typeId": "8a40-4aaa-c780-9046",
+                    "typeName": "Melee Weapons",
+                    "hidden": false,
+                    "id": "ab49-3ef2-c8f9-cffa",
+                    "characteristics": [
+                      {
+                        "name": "Range",
+                        "typeId": "914c-b413-91e3-a132",
+                        "$text": "Melee"
+                      },
+                      {
+                        "name": "A",
+                        "typeId": "2337-daa1-6682-b110",
+                        "$text": "1"
+                      },
+                      {
+                        "name": "WS",
+                        "typeId": "95d1-95f-45b4-11d6",
+                        "$text": "2+"
+                      },
+                      {
+                        "name": "S",
+                        "typeId": "ab33-d393-96ce-ccba",
+                        "$text": "6"
+                      },
+                      {
+                        "name": "AP",
+                        "typeId": "41a0-1301-112a-e2f2",
+                        "$text": "-2"
+                      },
+                      {
+                        "name": "D",
+                        "typeId": "3254-9fe6-d824-513e",
+                        "$text": "2"
+                      },
+                      {
+                        "name": "Keywords",
+                        "typeId": "893f-9000-ccf7-648e",
+                        "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                      }
+                    ]
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Devastating Wounds",
+                    "id": "57e1-861b-d261-4592",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "be1e-ac8e-1e2c-3528"
+                  },
+                  {
+                    "name": "Extra Attacks",
+                    "id": "6075-e389-c659-b085",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "115b-79dc-f723-d761"
+                  }
+                ],
+                "collective": true
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Knights",
+            "typeId": "c547-1836-d8a-ff4f",
+            "typeName": "Unit",
+            "hidden": false,
+            "id": "bb6f-cb68-5531-4cf4",
+            "characteristics": [
+              {
+                "name": "M",
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "8\""
+              },
+              {
+                "name": "T",
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "5"
+              },
+              {
+                "name": "Sv",
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "4+"
+              },
+              {
+                "name": "W",
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "2"
+              },
+              {
+                "name": "LD",
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "7+"
+              },
+              {
+                "name": "OC",
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "1"
+              },
+              {
+                "name": "InSv",
+                "typeId": "55a7-5b54-c60d-11dc",
+                "$text": "-"
+              }
+            ]
+          },
+          {
+            "name": "Astartes DNA",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "9c0d-a111-06f9-73f4",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "Each time an attack made by a model in this unit targets an Isolated unit, you can re-roll the Hit roll."
+              }
+            ]
+          }
+        ]
       }
     ],
     "sharedRules": [
@@ -1947,7 +2253,7 @@
         "name": "Isolation",
         "id": "88a5-c667-ec6c-a679",
         "hidden": false,
-        "description": "If your Army Faction is XENOMORPHS, while an enemy unit is more than 6\" horizontally away from any other enemy unit, that unit is Isolated. Each time a XENOMORPHS unit from your army makes an attack that targets an Isolated unit, add 1 to the Hit roll.\n"
+        "description": "If your Army Faction is XENOMORPHS, while an enemy unit is more than 6\" horizontally away from any other enemy unit, that unit is Isolated. \n\n\nEach time a XENOMORPHS unit from your army makes an attack that targets an Isolated unit, add 1 to the Hit roll.\n"
       }
     ],
     "sharedInfoGroups": [
