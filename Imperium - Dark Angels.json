@@ -4542,15 +4542,6 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "78cc-2d5a-403c-5c71",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -4981,15 +4972,6 @@
             "id": "d4ac-0066-a557-3919",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
-            "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "ed85-841d-b28a-b773",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -6146,15 +6128,6 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "c2ef-6120-e586-7eac",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -6925,15 +6898,6 @@
             "id": "fad4-f276-cc87-fa87",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
-            "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "5b17-cf66-571f-6408",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -8568,15 +8532,6 @@
             "id": "4958-4072-b617-4fa2",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
-            "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "6e29-d980-17ef-b8d4",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
@@ -11585,15 +11540,6 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "9302-4e3b-dd6e-ecdd",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -13213,15 +13159,6 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "1d5e-ddef-ca77-fc88",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
-            "sortIndex": 1
           }
         ],
         "modifierGroups": [
@@ -14046,15 +13983,6 @@
             "id": "467e-14a5-0a76-bb20",
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
-            "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Enhancements",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "id": "c848-7c35-17d9-d1b0",
-            "targetId": "9e5d-de4c-c5d1-1d3e",
             "sortIndex": 1
           }
         ],
