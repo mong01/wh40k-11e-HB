@@ -64,6 +64,11 @@
         "name": "Praetorian",
         "id": "a166-71ae-7b4e-d97b",
         "hidden": false
+      },
+      {
+        "name": "Warrior Alpha",
+        "id": "33ed-4845-fae3-4f03",
+        "hidden": false
       }
     ],
     "type": "catalogue",
@@ -3933,6 +3938,81 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "323a-2f76-24a1-d4ee"
+          }
+        ],
+        "costs": [
+          {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 80
+          },
+          {
+            "name": "Crusade Points",
+            "typeId": "b03b-c239-15a5-da55",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Battle Honours",
+            "typeId": "75bb-ded1-c86d-bdf0",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Experience",
+            "typeId": "a623-fe74-1d33-cddf",
+            "value": 0
+          },
+          {
+            "name": "Crusade: Weapon Modifications",
+            "typeId": "716d-91b7-d55a-1022",
+            "value": 0
+          },
+          {
+            "name": "Blackstone Fragments",
+            "typeId": "ac6b-ced3-9b5e-9a6e",
+            "value": 0
+          },
+          {
+            "name": "Detachment Points",
+            "typeId": "82ae-1066-5107-6ae0",
+            "value": 0
+          },
+          {
+            "name": "Enhancements",
+            "typeId": "f759-1bc4-cb3a-f0d2",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "type": "model",
+        "import": true,
+        "name": "Warrior Alpha",
+        "hidden": false,
+        "id": "31c4-33eb-2fab-6d75",
+        "categoryLinks": [
+          {
+            "targetId": "9cfd-1c32-585f-7d5c",
+            "id": "5121-c769-309f-e9cd",
+            "primary": true,
+            "name": "Character"
+          },
+          {
+            "targetId": "cf47-a0d7-7207-29dc",
+            "id": "d76c-2fb3-5095-b9e1",
+            "primary": false,
+            "name": "Infantry"
+          },
+          {
+            "targetId": "e11e-13a4-e20f-3c78",
+            "id": "e053-7e99-99ab-ea23",
+            "primary": false,
+            "name": "Faction: Xenomorphs"
+          },
+          {
+            "targetId": "33ed-4845-fae3-4f03",
+            "id": "3198-974d-f117-71bb",
+            "primary": false,
+            "name": "Warrior Alpha"
           }
         ]
       }
