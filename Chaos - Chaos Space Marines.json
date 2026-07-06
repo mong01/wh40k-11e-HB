@@ -98640,7 +98640,7 @@
               }
             ],
             "type": "set",
-            "value": 220,
+            "value": 210,
             "field": "51b2-306e-1021-d207"
           },
           {
@@ -124492,7 +124492,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "c8da-e875-58f7-f6d6",
     "name": "Chaos - Chaos Space Marines",
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
