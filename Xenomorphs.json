@@ -86,11 +86,6 @@
         "hidden": false
       },
       {
-        "name": "New Category",
-        "id": "2469-74f8-0774-9352",
-        "hidden": false
-      },
-      {
         "name": "The Raven",
         "id": "c4ca-b223-bf8e-af9b",
         "hidden": false
@@ -978,7 +973,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if this unit was selected as the target of one or more of that enemy unit's attacks, this unit can make a surge move of up to D6+2\""
+                "$text": "In your opponent’s Shooting phase, when an enemy unit has shot, if this unit was selected as the target of one or more of that enemy unit's attacks, this unit can make a surge move of up to D6+2\"."
               }
             ]
           },
@@ -3289,6 +3284,25 @@
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
               }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "2+",
+                "field": "450-a17e-9d5e-29da",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "fab5-85ff-7b91-4d81",
+                    "childId": "7c87-4786-daae-ef3b",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Thick Carapace"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -3530,6 +3544,17 @@
             "typeId": "f759-1bc4-cb3a-f0d2",
             "value": 0
           }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "0dc2-84fc-c133-5ada",
+            "type": "selectionEntryGroup",
+            "targetId": "1ea7-c196-429b-01fc",
+            "sortIndex": 1
+          }
         ]
       },
       {
@@ -3633,7 +3658,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "This unit is eligible to declare a charge in a turn in which it advanced."
+                "$text": "Each time this unit makes an advance move, that move does not prevent this unit from being eligible to declare a charge."
               }
             ]
           },
@@ -3722,6 +3747,36 @@
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Twin-linked"
                   }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "3",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-2",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -3803,6 +3858,36 @@
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "3",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-3",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
                   }
                 ]
               }
@@ -3892,6 +3977,36 @@
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "-"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "4",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-3",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
                   }
                 ]
               }
@@ -4198,6 +4313,36 @@
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Twin-linked"
                   }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "2",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-2",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -4279,6 +4424,36 @@
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "3",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-2",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
                   }
                 ]
               }
@@ -4503,6 +4678,13 @@
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
               }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "14\"",
+                "field": "e703-ecb6-5ce7-aec1"
+              }
             ]
           },
           {
@@ -4604,6 +4786,36 @@
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Twin-linked"
                   }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "2",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-2",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
+                  }
                 ]
               }
             ],
@@ -4685,6 +4897,36 @@
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e",
                     "$text": "Devastating Wounds: non-MONSTER/VEHICLE, Extra Attacks"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "comment": "Prime Specimen",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": "3",
+                        "field": "3254-9fe6-d824-513e"
+                      },
+                      {
+                        "type": "set",
+                        "value": "-2",
+                        "field": "41a0-1301-112a-e2f2"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "a1b7-7476-3784-e5c3",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Prime Specimen"
+                      }
+                    ]
                   }
                 ]
               }
@@ -6058,7 +6300,93 @@
                     "primary": false,
                     "name": "Reconnaissance"
                   }
-                ]
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hunter-Killer Brood",
+                "hidden": false,
+                "id": "9c12-87c9-25f9-3347",
+                "profiles": [
+                  {
+                    "name": "Run Down",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "04d5-d7dd-3e00-c432",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "When a friendly RAVAGER unit is selected to make an advance move, that move does not prevent that unit from being eligible to declare a charge."
+                      }
+                    ]
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 1
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 0
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "c6cf-d81e-244f-8af4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "categoryLinks": [
+                  {
+                    "targetId": "6fe0-3dbe-f7e0-10bb",
+                    "id": "1716-3e90-bb25-cbcc",
+                    "primary": false,
+                    "name": "Purge the Foe"
+                  }
+                ],
+                "sortIndex": ""
               }
             ],
             "constraints": [
@@ -6513,7 +6841,7 @@
         "name": "Acid Blood",
         "id": "0683-9c51-0619-5858",
         "hidden": false,
-        "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
+        "description": "Each time a model with this ability loses a wound as a result of a melee attack, roll one D6: on a 6+, after the attacking unit has finished making its attacks, that unit suffers 1 mortal wound."
       },
       {
         "name": "Isolation",
@@ -6890,28 +7218,6 @@
             "name": "Detachments",
             "id": "00b7-4164-7f21-fe32",
             "hidden": false,
-            "constraints": [
-              {
-                "type": "max",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "c329-ddd6-664f-a006",
-                "includeChildSelections": false,
-                "automatic": true
-              },
-              {
-                "type": "min",
-                "value": 1,
-                "field": "selections",
-                "scope": "parent",
-                "shared": true,
-                "id": "745b-1e65-0e00-e396",
-                "includeChildSelections": false,
-                "automatic": true
-              }
-            ],
             "selectionEntries": [
               {
                 "type": "upgrade",
@@ -7040,6 +7346,11 @@
                         "type": "set",
                         "value": 0,
                         "field": "e28d-6477-d931-7842"
+                      },
+                      {
+                        "type": "set",
+                        "value": true,
+                        "field": "hidden"
                       }
                     ],
                     "conditions": [
@@ -7052,6 +7363,114 @@
                         "shared": true,
                         "includeChildSelections": true,
                         "childName": "Hunting Grounds"
+                      }
+                    ]
+                  }
+                ],
+                "sortIndex": 1
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Hunter-Killer Brood Stratagems",
+                "hidden": false,
+                "id": "0a36-cc1f-4f67-f16a",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e3c7-eae1-0ed2-3cec",
+                    "includeChildSelections": false,
+                    "automatic": true
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "8b5a-c932-b663-4ba3",
+                    "includeChildSelections": false,
+                    "automatic": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Bio-metal Blades",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "b5b4-a78d-9b5a-ba55",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**1CP**\n**When:** Fight phase, when a friendly RAVAGER unit is selected to fight.\n**Target:** That RAVAGER unit.\n**Effect:** Until the end of the phase, your unit's melee attacks have +1 AP."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sealed Wounds",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "f5e6-a76f-ff26-44ab",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**1CP**\n**When:** Your Command phase.\n**Target:** One friendly RAVAGER unit.\n**Effect:** Your unit heals D3+1 wounds."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Agile Beast",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "0315-686f-d97a-2368",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**1CP**\n**When:** Start of your Movement phase.\n**Target:** One friendly RAVAGER unit.\n**Effect:** Until the end of the phase, your unit has MOBILE."
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": 0,
+                        "field": "e3c7-eae1-0ed2-3cec"
+                      },
+                      {
+                        "type": "set",
+                        "value": 0,
+                        "field": "8b5a-c932-b663-4ba3"
+                      },
+                      {
+                        "type": "set",
+                        "value": true,
+                        "field": "hidden"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "9c12-87c9-25f9-3347",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "Hunter-Killer Brood"
                       }
                     ]
                   }
@@ -7325,7 +7744,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "This models melee attacks have +1 AP and D."
+                        "$text": "This model's melee attacks have +1 AP and D."
                       }
                     ]
                   }
@@ -7511,55 +7930,6 @@
                     "type": "and",
                     "modifiers": [
                       {
-                        "type": "set",
-                        "value": true,
-                        "field": "hidden",
-                        "conditionGroups": [
-                          {
-                            "type": "or",
-                            "conditions": [
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "eacb-5484-b1bd-0ac5",
-                                "shared": true,
-                                "childName": "Warriors"
-                              },
-                              {
-                                "type": "notInstanceOf",
-                                "value": 1,
-                                "field": "selections",
-                                "scope": "ancestor",
-                                "childId": "181e-5baa-4b48-ab91",
-                                "shared": true,
-                                "includeChildSelections": false,
-                                "childName": "Drones"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ],
-                    "conditions": [
-                      {
-                        "type": "lessThan",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "force",
-                        "childId": "ac2f-15e7-65fc-8281",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true,
-                        "childName": "Hunting Grounds"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "and",
-                    "modifiers": [
-                      {
                         "type": "divide",
                         "value": 2,
                         "field": "f759-1bc4-cb3a-f0d2",
@@ -7594,6 +7964,382 @@
                         ]
                       }
                     ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "eacb-5484-b1bd-0ac5",
+                            "shared": true,
+                            "childName": "Warriors",
+                            "includeChildSelections": false
+                          },
+                          {
+                            "type": "notInstanceOf",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "ancestor",
+                            "childId": "181e-5baa-4b48-ab91",
+                            "shared": true,
+                            "includeChildSelections": false,
+                            "childName": "Drones"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "ac2f-15e7-65fc-8281",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Hunting Grounds"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hunter-Killer Brood Upgrades",
+            "id": "b22b-e550-6545-e57a",
+            "hidden": false,
+            "flatten": true,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Thick Carapace",
+                "hidden": false,
+                "id": "7c87-4786-daae-ef3b",
+                "profiles": [
+                  {
+                    "name": "Thick Carapace",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "4178-50a4-36c6-f2e6",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "RAVAGER unit only. This unit has a 2+ Sv."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "7a26-d54d-d368-b912",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "aa65-b04e-7b10-0ba3",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 20
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "7c87-4786-daae-ef3b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Thick Carapace"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "7c87-4786-daae-ef3b",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Thick Carapace"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "ca37-e61f-f596-e2b1",
+                        "shared": true,
+                        "childName": "Ravager",
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Pressurised Blood",
+                "hidden": false,
+                "id": "c377-84de-ddee-76fb",
+                "profiles": [
+                  {
+                    "name": "Pressurised Blood",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "657a-7a76-5194-03e7",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "RAVAGER unit only. When rolling for this model's Acid Blood ability, add 1 to the roll."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "938f-24ec-968c-5a7f",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f398-7cb9-263c-ae14",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 10
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c377-84de-ddee-76fb",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Pressurised Blood"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "c377-84de-ddee-76fb",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Pressurised Blood"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "ca37-e61f-f596-e2b1",
+                        "shared": true,
+                        "childName": "Ravager",
+                        "includeChildSelections": false,
+                        "includeChildForces": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "9c12-87c9-25f9-3347",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Hunter-Killer Brood"
                   }
                 ]
               }
