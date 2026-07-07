@@ -9,7 +9,8 @@
           }
         ],
         "id": "3084-68b8-1d20-2f26",
-        "name": "Marks of Chaos"
+        "name": "Marks of Chaos",
+        "sortIndex": 7
       },
       {
         "characteristicTypes": [
@@ -19,7 +20,8 @@
           }
         ],
         "id": "796e-cfd7-cc85-240d",
-        "name": "Warmaster"
+        "name": "Warmaster",
+        "sortIndex": 8
       }
     ],
     "categoryEntries": [
@@ -124492,7 +124494,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "c8da-e875-58f7-f6d6",
     "name": "Chaos - Chaos Space Marines",
-    "revision": 2,
+    "revision": 3,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",

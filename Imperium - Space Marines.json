@@ -14804,6 +14804,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "childId": "4ef9-15ce-e3e6-36de",
+                "shared": true,
+                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+              }
+            ],
+            "comment": "Blood Angels tax"
           }
         ]
       },
@@ -16342,22 +16359,6 @@
             "name": "Dark Age Arsenal Enhancements",
             "hidden": false,
             "id": "b05a-d2f0-4c4c-1f3e",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "30a7-7dd6-b327-5787",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "6ae7-667d-7396-7dcb",
             "type": "selectionEntryGroup",
             "targetId": "6b5c-3ea7-387e-a92a"
           }
@@ -18594,6 +18595,38 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "comment": "Blood Angels tax",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "a10b-fbfe-b1fa-6f0c",
+                    "childId": "1e84-b3ff-decc-2f0e",
+                    "shared": true,
+                    "id": "8f90-a55b-77c6-ee15",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -28700,6 +28733,54 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "childId": "4ef9-15ce-e3e6-36de",
+                "shared": true,
+                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+              }
+            ],
+            "comment": "Blood Angels tax"
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "comment": "Blood Angels tax",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "7044-bf1-f949-c32d",
+                    "childId": "fa1c-b448-12fa-e1d6",
+                    "shared": true,
+                    "id": "ba23-92ab-dd3c-8775"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -29181,6 +29262,54 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "childId": "4ef9-15ce-e3e6-36de",
+                "shared": true,
+                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+              }
+            ],
+            "comment": "Blood Angels tax"
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "comment": "Blood Angels tax",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "9e9c-bf4d-2d40-be82",
+                    "childId": "8a7f-b578-d274-9769",
+                    "shared": true,
+                    "id": "ec23-b747-adf5-2c25"
+                  }
+                ]
               }
             ]
           }
@@ -31439,7 +31568,8 @@
                     ],
                     "name": "Weapon Option",
                     "hidden": false,
-                    "id": "aa4b-2171-7fc3-b3a2"
+                    "id": "aa4b-2171-7fc3-b3a2",
+                    "defaultSelectionEntryId": "none"
                   }
                 ],
                 "profiles": [
@@ -34715,7 +34845,59 @@
                     "name": "Thunder Hammer",
                     "hidden": false,
                     "id": "4321-1934-6bc1-71ae",
-                    "collective": true
+                    "collective": true,
+                    "costs": [
+                      {
+                        "name": "pts",
+                        "typeId": "51b2-306e-1021-d207",
+                        "value": 5
+                      },
+                      {
+                        "name": "Crusade Points",
+                        "typeId": "b03b-c239-15a5-da55",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Battle Honours",
+                        "typeId": "75bb-ded1-c86d-bdf0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Experience",
+                        "typeId": "a623-fe74-1d33-cddf",
+                        "value": 0
+                      },
+                      {
+                        "name": "Crusade: Weapon Modifications",
+                        "typeId": "716d-91b7-d55a-1022",
+                        "value": 0
+                      },
+                      {
+                        "name": "Blackstone Fragments",
+                        "typeId": "ac6b-ced3-9b5e-9a6e",
+                        "value": 0
+                      },
+                      {
+                        "name": "Detachment Points",
+                        "typeId": "82ae-1066-5107-6ae0",
+                        "value": 0
+                      },
+                      {
+                        "name": "Enhancements",
+                        "typeId": "f759-1bc4-cb3a-f0d2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Honour Points",
+                        "typeId": "8135-9a2f-6627-09e2",
+                        "value": 0
+                      },
+                      {
+                        "name": "Relic Fragments",
+                        "typeId": "0ece-6541-4662-ece2",
+                        "value": 0
+                      }
+                    ]
                   }
                 ],
                 "constraints": [
@@ -34783,7 +34965,7 @@
                   {
                     "name": "pts",
                     "typeId": "51b2-306e-1021-d207",
-                    "value": 5
+                    "value": 0
                   },
                   {
                     "name": "Crusade Points",
@@ -35125,7 +35307,59 @@
                             "import": true,
                             "name": "Thunder Hammer",
                             "hidden": false,
-                            "id": "902b-d9c3-cd69-e057"
+                            "id": "902b-d9c3-cd69-e057",
+                            "costs": [
+                              {
+                                "name": "pts",
+                                "typeId": "51b2-306e-1021-d207",
+                                "value": 5
+                              },
+                              {
+                                "name": "Crusade Points",
+                                "typeId": "b03b-c239-15a5-da55",
+                                "value": 0
+                              },
+                              {
+                                "name": "Crusade: Battle Honours",
+                                "typeId": "75bb-ded1-c86d-bdf0",
+                                "value": 0
+                              },
+                              {
+                                "name": "Crusade: Experience",
+                                "typeId": "a623-fe74-1d33-cddf",
+                                "value": 0
+                              },
+                              {
+                                "name": "Crusade: Weapon Modifications",
+                                "typeId": "716d-91b7-d55a-1022",
+                                "value": 0
+                              },
+                              {
+                                "name": "Blackstone Fragments",
+                                "typeId": "ac6b-ced3-9b5e-9a6e",
+                                "value": 0
+                              },
+                              {
+                                "name": "Detachment Points",
+                                "typeId": "82ae-1066-5107-6ae0",
+                                "value": 0
+                              },
+                              {
+                                "name": "Enhancements",
+                                "typeId": "f759-1bc4-cb3a-f0d2",
+                                "value": 0
+                              },
+                              {
+                                "name": "Honour Points",
+                                "typeId": "8135-9a2f-6627-09e2",
+                                "value": 0
+                              },
+                              {
+                                "name": "Relic Fragments",
+                                "typeId": "0ece-6541-4662-ece2",
+                                "value": 0
+                              }
+                            ]
                           }
                         ],
                         "type": "upgrade",
@@ -38341,14 +38575,6 @@
             "name": "Dark Age Arsenal Enhancements",
             "hidden": false,
             "id": "01c9-8681-b1f0-1d86",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "c91e-c8e7-496c-f6be",
             "type": "selectionEntryGroup",
             "targetId": "6b5c-3ea7-387e-a92a"
           }
@@ -48423,14 +48649,6 @@
             "id": "9ca4-3e36-9f14-0e96",
             "type": "selectionEntryGroup",
             "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "a0d6-b972-707d-5d29",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
           }
         ],
         "modifierGroups": [
@@ -49831,22 +50049,6 @@
             "type": "selectionEntryGroup",
             "targetId": "9a99-f13c-a667-e698",
             "sortIndex": 1
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "b02c-bdc5-ad4a-7f24",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "82a4-70a9-98ae-238e",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
           },
           {
             "import": true,
@@ -56641,7 +56843,7 @@
             "name": "Inceptors",
             "hidden": false,
             "id": "e014-c962-cb07-e615",
-            "sortIndex": 2
+            "sortIndex": 3
           }
         ],
         "infoLinks": [
@@ -56810,17 +57012,10 @@
             "import": true,
             "name": "Dark Age Arsenal Enhancements",
             "hidden": false,
-            "id": "7797-ef48-094f-53db",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
             "id": "0373-8958-e04f-b538",
             "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
+            "targetId": "6b5c-3ea7-387e-a92a",
+            "sortIndex": 2
           }
         ],
         "modifierGroups": [
@@ -64791,22 +64986,6 @@
             "id": "674c-c5db-f41b-2978",
             "type": "selectionEntryGroup",
             "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "44db-b2e6-7e25-b092",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "d6ee-d608-5233-f81d",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
           }
         ],
         "modifierGroups": [
@@ -67095,14 +67274,6 @@
             "id": "71b1-de97-dc29-d2c0",
             "type": "selectionEntryGroup",
             "targetId": "f545-8ae0-b440-8407"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "dc89-8a68-bf62-c7b9",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
           },
           {
             "import": true,
@@ -79305,6 +79476,54 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "decrement",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "94bb-3284-ee14-57a1",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Space Wolves"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "470a-6daa-9014-12df",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Dark Angels"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "f89b-84e0-6e3b-f1e2",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Deathwatch"
+                  }
+                ]
               }
             ]
           }
@@ -94771,6 +94990,23 @@
                 "childName": "1. Incursion (1000 Point limit)"
               }
             ]
+          },
+          {
+            "type": "increment",
+            "value": 5,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "childId": "4ef9-15ce-e3e6-36de",
+                "shared": true,
+                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+              }
+            ],
+            "comment": "Blood Angels tax"
           }
         ]
       },
@@ -109161,14 +109397,6 @@
             "name": "Dark Age Arsenal Enhancements",
             "hidden": false,
             "id": "4b72-7f08-677d-c94e",
-            "type": "selectionEntryGroup",
-            "targetId": "6b5c-3ea7-387e-a92a"
-          },
-          {
-            "import": true,
-            "name": "Dark Age Arsenal Enhancements",
-            "hidden": false,
-            "id": "44fd-3c48-21bf-ca73",
             "type": "selectionEntryGroup",
             "targetId": "6b5c-3ea7-387e-a92a"
           }
@@ -125554,7 +125782,18 @@
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
-                    "id": "c4d7-b188-ecaa-f198"
+                    "id": "c4d7-b188-ecaa-f198",
+                    "automatic": true
+                  },
+                  {
+                    "type": "min",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "3f41-186c-1001-604f",
+                    "includeChildSelections": false,
+                    "automatic": true
                   }
                 ],
                 "entryLinks": [
@@ -125661,13 +125900,49 @@
                 "import": true,
                 "name": "Assault Intercessors with Jump Pack",
                 "hidden": false,
-                "id": "a5d5-538c-a88f-e7ea"
+                "id": "a5d5-538c-a88f-e7ea",
+                "modifiers": [
+                  {
+                    "type": "floor",
+                    "value": 3,
+                    "field": "3f41-186c-1001-604f"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "c4d7-b188-ecaa-f198"
+                      },
+                      {
+                        "type": "decrement",
+                        "value": 1,
+                        "field": "3f41-186c-1001-604f"
+                      }
+                    ],
+                    "repeats": [
+                      {
+                        "value": 1,
+                        "repeats": 1,
+                        "field": "selections",
+                        "scope": "parent",
+                        "childId": "971f-f659-e4b7-e127",
+                        "shared": true,
+                        "roundUp": false,
+                        "childName": "Assault Intercessors with Jump Pack w/ Plasma Pistol"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "constraints": [
                   {
                     "type": "max",
-                    "value": 1,
+                    "value": 2,
                     "field": "selections",
                     "scope": "parent",
                     "shared": true,
@@ -125731,20 +126006,36 @@
                 ],
                 "modifiers": [
                   {
-                    "conditions": [
+                    "type": "add",
+                    "value": "Max 1 plasma pistol per 5 models",
+                    "field": "error",
+                    "conditionGroups": [
                       {
-                        "type": "atLeast",
-                        "value": 10,
-                        "field": "selections",
-                        "scope": "parent",
-                        "childId": "39ae-d203-80cc-60d4",
-                        "shared": true,
-                        "includeChildSelections": false
+                        "type": "and",
+                        "conditions": [
+                          {
+                            "type": "lessThan",
+                            "value": 10,
+                            "field": "selections",
+                            "scope": "cdd9-efda-95-e7b2",
+                            "childId": "model",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "model"
+                          },
+                          {
+                            "type": "greaterThan",
+                            "value": 1,
+                            "field": "selections",
+                            "scope": "cdd9-efda-95-e7b2",
+                            "childId": "971f-f659-e4b7-e127",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Assault Intercessors with Jump Pack w/ Plasma Pistol"
+                          }
+                        ]
                       }
-                    ],
-                    "type": "increment",
-                    "value": 1,
-                    "field": "1f61-4b1b-5b1a-76aa"
+                    ]
                   }
                 ],
                 "profiles": [
@@ -126038,6 +126329,55 @@
                 "shared": true,
                 "includeChildSelections": true,
                 "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "conditions": [
+              {
+                "type": "instanceOf",
+                "value": 1,
+                "field": "selections",
+                "scope": "primary-catalogue",
+                "childId": "4ef9-15ce-e3e6-36de",
+                "shared": true,
+                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+              }
+            ],
+            "comment": "Blood Angels tax"
+          },
+          {
+            "type": "increment",
+            "value": 10,
+            "field": "51b2-306e-1021-d207",
+            "comment": "Blood Angels tax",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "atLeast",
+                    "value": 6,
+                    "field": "selections",
+                    "scope": "cdd9-efda-95-e7b2",
+                    "childId": "39ae-d203-80cc-60d4",
+                    "shared": true,
+                    "id": "d4ac-a6a9-9c3a-8821",
+                    "includeChildSelections": true
+                  }
+                ]
               }
             ]
           }
@@ -138734,6 +139074,67 @@
                 "shared": true,
                 "id": "7a70-edc8-74c3-b348",
                 "includeChildSelections": false
+              }
+            ],
+            "costs": [
+              {
+                "name": "pts",
+                "typeId": "51b2-306e-1021-d207",
+                "value": 0
+              },
+              {
+                "name": "Crusade Points",
+                "typeId": "b03b-c239-15a5-da55",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Battle Honours",
+                "typeId": "75bb-ded1-c86d-bdf0",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Experience",
+                "typeId": "a623-fe74-1d33-cddf",
+                "value": 0
+              },
+              {
+                "name": "Crusade: Weapon Modifications",
+                "typeId": "716d-91b7-d55a-1022",
+                "value": 0
+              },
+              {
+                "name": "Blackstone Fragments",
+                "typeId": "ac6b-ced3-9b5e-9a6e",
+                "value": 0
+              },
+              {
+                "name": "Detachment Points",
+                "typeId": "82ae-1066-5107-6ae0",
+                "value": 3
+              },
+              {
+                "name": "Enhancements",
+                "typeId": "f759-1bc4-cb3a-f0d2",
+                "value": 0
+              },
+              {
+                "name": "Honour Points",
+                "typeId": "8135-9a2f-6627-09e2",
+                "value": 0
+              },
+              {
+                "name": "Relic Fragments",
+                "typeId": "0ece-6541-4662-ece2",
+                "value": 0
+              }
+            ],
+            "categoryLinks": [
+              {
+                "name": "Priority Assets",
+                "hidden": false,
+                "id": "baf9-a9de-0cad-c202",
+                "targetId": "0936-9767-1cc7-52ae",
+                "primary": false
               }
             ]
           },
@@ -197387,7 +197788,8 @@
         ],
         "name": "Deeds Worthy of Saga",
         "hidden": false,
-        "id": "cc48-131-6c21-72f1"
+        "id": "cc48-131-6c21-72f1",
+        "sortIndex": 23
       }
     ],
     "infoLinks": [
@@ -197488,7 +197890,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "e0af-67df-9d63-8fb7",
     "name": "Imperium - Adeptus Astartes - Space Marines",
-    "revision": 1,
+    "revision": 4,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",

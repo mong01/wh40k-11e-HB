@@ -130710,7 +130710,8 @@
         ],
         "name": "Orders",
         "hidden": false,
-        "id": "3fc9-16d8-8670-c8e2"
+        "id": "3fc9-16d8-8670-c8e2",
+        "sortIndex": 26
       },
       {
         "characteristicTypes": [
@@ -130721,7 +130722,8 @@
         ],
         "name": "Hero of Hades Hive",
         "id": "aecc-a2a4-54d6-841b",
-        "hidden": false
+        "hidden": false,
+        "sortIndex": 13
       }
     ],
     "sharedSelectionEntryGroups": [
@@ -149092,7 +149094,7 @@
     "name": "Imperium - Astra Militarum - Library",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 1,
+    "revision": 2,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }
