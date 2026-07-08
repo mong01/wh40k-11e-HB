@@ -6417,7 +6417,7 @@
                 "type": "upgrade",
                 "import": true,
                 "name": "The Queen's Court",
-                "hidden": false,
+                "hidden": true,
                 "id": "6f2e-a5c9-7985-ce16",
                 "profiles": [
                   {
