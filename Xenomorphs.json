@@ -76,7 +76,7 @@
         "hidden": false
       },
       {
-        "name": "The Queen",
+        "name": "Queen",
         "id": "0f72-c6db-02a8-8f0c",
         "hidden": false
       },
@@ -4052,6 +4052,13 @@
             "hidden": false,
             "type": "infoGroup",
             "targetId": "323a-2f76-24a1-d4ee"
+          },
+          {
+            "name": "Pheromone Abilities",
+            "id": "05aa-829c-b2c1-3c92",
+            "hidden": false,
+            "type": "infoGroup",
+            "targetId": "ffe9-1c9c-77d5-fe36"
           }
         ],
         "costs": [
@@ -5193,7 +5200,7 @@
       {
         "type": "model",
         "import": true,
-        "name": "The Queen",
+        "name": "Queen",
         "hidden": false,
         "id": "3d81-d417-0157-1e00",
         "categoryLinks": [
@@ -5521,7 +5528,7 @@
             ]
           },
           {
-            "name": "The Queen",
+            "name": "Queen",
             "typeId": "c547-1836-d8a-ff4f",
             "typeName": "Unit",
             "hidden": false,
@@ -5562,6 +5569,31 @@
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
               }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "comment": "The Queen's Court",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "5+",
+                    "field": "55a7-5b54-c60d-11dc"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "6f2e-a5c9-7985-ce16",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "The Queen's Court"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -5575,48 +5607,6 @@
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
                 "$text": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
-              }
-            ]
-          },
-          {
-            "name": "Pheromone: Guard (Aura)",
-            "typeId": "54e5-8a5c-9752-aa10",
-            "typeName": "Pheromone Ability",
-            "hidden": false,
-            "id": "9d8d-1394-b451-a710",
-            "characteristics": [
-              {
-                "name": "Effect",
-                "typeId": "1f6b-de1d-155f-e4f0",
-                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model:\n■ That unit has +1 OC.\n■ You can re-roll leadership rolls made for that unit.\n"
-              }
-            ]
-          },
-          {
-            "name": "Pheromone: Cull (Aura)",
-            "typeId": "54e5-8a5c-9752-aa10",
-            "typeName": "Pheromone Ability",
-            "hidden": false,
-            "id": "580a-83a3-e566-8092",
-            "characteristics": [
-              {
-                "name": "Effect",
-                "typeId": "1f6b-de1d-155f-e4f0",
-                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1 and re-roll a wound roll of 1."
-              }
-            ]
-          },
-          {
-            "name": "Pheromone: Hunt (Aura)",
-            "typeId": "54e5-8a5c-9752-aa10",
-            "typeName": "Pheromone Ability",
-            "hidden": false,
-            "id": "5068-77df-eae9-a86a",
-            "characteristics": [
-              {
-                "name": "Effect",
-                "typeId": "1f6b-de1d-155f-e4f0",
-                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model:\n■ Add 1 to advance and charge rolls made for that unit.\n■ You can re-roll charge rolls made for that unit."
               }
             ]
           }
@@ -5643,6 +5633,13 @@
                 "join": " "
               }
             ]
+          },
+          {
+            "name": "Pheromone Abilities",
+            "id": "9654-55ae-7eb5-805c",
+            "hidden": false,
+            "type": "infoGroup",
+            "targetId": "ffe9-1c9c-77d5-fe36"
           }
         ],
         "costs": [
@@ -5809,6 +5806,31 @@
                 "name": "InSv",
                 "typeId": "55a7-5b54-c60d-11dc",
                 "$text": "-"
+              }
+            ],
+            "modifierGroups": [
+              {
+                "type": "and",
+                "comment": "The Queen's Court",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "5+",
+                    "field": "55a7-5b54-c60d-11dc"
+                  }
+                ],
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "6f2e-a5c9-7985-ce16",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "The Queen's Court"
+                  }
+                ]
               }
             ]
           },
@@ -6228,6 +6250,17 @@
             "type": "infoGroup",
             "targetId": "323a-2f76-24a1-d4ee"
           }
+        ],
+        "entryLinks": [
+          {
+            "import": true,
+            "name": "Upgrades",
+            "hidden": false,
+            "id": "25ec-0f7f-adde-f20a",
+            "type": "selectionEntryGroup",
+            "targetId": "1ea7-c196-429b-01fc",
+            "sortIndex": 1
+          }
         ]
       },
       {
@@ -6417,7 +6450,7 @@
                 "type": "upgrade",
                 "import": true,
                 "name": "The Queen's Court",
-                "hidden": true,
+                "hidden": false,
                 "id": "6f2e-a5c9-7985-ce16",
                 "profiles": [
                   {
@@ -6430,7 +6463,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "Friendly THE QUEEN and PRAETORIAN models and friendly ROYAL GUARD units have a 5+ InSv."
+                        "$text": "Friendly PRAETORIAN/THE QUEEN models and friendly ROYAL GUARD units have a 5+ InSv."
                       }
                     ]
                   }
@@ -6490,11 +6523,10 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "Purge the Foe",
-                    "hidden": false,
-                    "id": "eed1-228b-da00-8d92",
-                    "targetId": "6fe0-3dbe-f7e0-10bb",
-                    "primary": false
+                    "targetId": "1cc1-f11a-4e8f-1bcc",
+                    "id": "dd6d-d720-caf1-c7ad",
+                    "primary": false,
+                    "name": "Take and Hold"
                   }
                 ],
                 "sortIndex": 3
@@ -6982,6 +7014,88 @@
             "targetId": "0683-9c51-0619-5858"
           }
         ]
+      },
+      {
+        "name": "Pheromone Abilities",
+        "id": "ffe9-1c9c-77d5-fe36",
+        "hidden": false,
+        "profiles": [
+          {
+            "name": "Pheromone: Cull (Aura)",
+            "typeId": "54e5-8a5c-9752-aa10",
+            "typeName": "Pheromone Ability",
+            "hidden": false,
+            "id": "0744-fad0-eb63-69f8",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "1f6b-de1d-155f-e4f0",
+                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1 and re-roll a wound roll of 1."
+              }
+            ]
+          },
+          {
+            "name": "Pheromone: Guard (Aura)",
+            "typeId": "54e5-8a5c-9752-aa10",
+            "typeName": "Pheromone Ability",
+            "hidden": false,
+            "id": "c68d-eea4-d364-a5c4",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "1f6b-de1d-155f-e4f0",
+                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model:\n■ That unit has +1 OC.\n■ You can re-roll leadership rolls made for that unit.\n"
+              }
+            ]
+          },
+          {
+            "name": "Pheromone: Hunt (Aura)",
+            "typeId": "54e5-8a5c-9752-aa10",
+            "typeName": "Pheromone Ability",
+            "hidden": false,
+            "id": "1fa2-2b59-a0e4-6023",
+            "characteristics": [
+              {
+                "name": "Effect",
+                "typeId": "1f6b-de1d-155f-e4f0",
+                "$text": "While a friendly XENOMORPHS unit is within 12\" of this model:\n■ Add 1 to advance and charge rolls made for that unit.\n■ You can re-roll charge rolls made for that unit."
+              }
+            ]
+          }
+        ],
+        "modifiers": [
+          {
+            "type": "set",
+            "value": true,
+            "field": "hidden",
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "ancestor",
+                    "childId": "a166-71ae-7b4e-d97b",
+                    "shared": true,
+                    "childName": "Praetorian"
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "self",
+                    "childId": "2474-092d-aba6-1abe",
+                    "shared": true,
+                    "childName": "Royal Jelly",
+                    "includeChildSelections": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "entryLinks": [
@@ -7140,7 +7254,7 @@
               {
                 "name": "Description",
                 "typeId": "9b8f-694b-e5e-b573",
-                "$text": "Q. If a model has the FRAME keyword, how is the Isolation rule measured?\nA. Instead of measuring to/from the closest point of the base, measure to/from the closest point on that model.\n\nQ. For the Isolation rule, can you measure from your unit to any unit from your army when determining if it's Isolated?\nA. Yes."
+                "$text": "Q. If a model has the FRAME keyword, how is the Isolation rule measured?\nA. Instead of measuring to/from the closest point of the base, measure to/from the closest point on that model.\n\nQ. For the Isolation rule, can you measure from your unit to any unit from your army when determining if it's Isolated?\nA. Yes.\n\nQ. When re-selecting a Pheromone ability with the Shifting Tides stratagem, is the Pheromone ability on a Praetorian with the Royal Jelly enhancement replaced too?\nA. Yes."
               }
             ]
           }
@@ -7585,7 +7699,116 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "sortIndex": 2
+              },
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "The Queen's Court Stratagems",
+                "hidden": false,
+                "id": "8157-cbcc-f7f3-01ae",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "e3da-c6c0-95f0-6a1b",
+                    "includeChildSelections": false,
+                    "automatic": true
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "9850-3d59-4a04-1cb2",
+                    "includeChildSelections": false,
+                    "automatic": true
+                  }
+                ],
+                "profiles": [
+                  {
+                    "name": "Synchronised Attack",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "165b-6b3b-e23b-455a",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**1CP**\n**When:** Fight phase, when a friendly ROYAL GUARD unit is selected to fight.\n**Target:** That ROYAL GUARD unit.\n**Effect:** Until the end of the phase, your unit's melee attacks have +1 to wound rolls."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shifting Tides",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "50e6-7349-cd54-cf66",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**1CP**\n**When:** Start of any phase.\n**Target:** One friendly QUEEN unit.\n**Effect:** Select a Pheromone ability that is not currently active; until the end of the battle round, that ability replaces the current Pheromone ability."
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Xenobiology",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "df91-d4a4-77ff-2514",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "**2CP**\n**When:** Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.\n**Target:** One friendly ROYAL GUARD unit.\n**Effect:** Until the end of the phase, attacks that target your unit have -1 D."
+                      }
+                    ]
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "set",
+                        "value": 0,
+                        "field": "e3da-c6c0-95f0-6a1b"
+                      },
+                      {
+                        "type": "set",
+                        "value": 0,
+                        "field": "9850-3d59-4a04-1cb2"
+                      },
+                      {
+                        "type": "set",
+                        "value": true,
+                        "field": "hidden"
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "type": "lessThan",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "6f2e-a5c9-7985-ce16",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "The Queen's Court"
+                      }
+                    ]
+                  }
+                ],
+                "sortIndex": 3
               }
             ],
             "defaultSelectionEntryId": "none"
@@ -7925,6 +8148,140 @@
                 "scope": "parent",
                 "shared": true,
                 "id": "49bf-c7e8-aa63-fd96",
+                "includeChildSelections": false
+              }
+            ]
+          },
+          {
+            "name": "The Queen's Court Enhancements",
+            "id": "e3ab-7dbd-8d67-bc4f",
+            "hidden": false,
+            "modifiers": [
+              {
+                "type": "set",
+                "value": false,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "atLeast",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "6f2e-a5c9-7985-ce16",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "The Queen's Court",
+                    "includeChildForces": true
+                  }
+                ]
+              }
+            ],
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Royal Jelly",
+                "hidden": false,
+                "id": "2474-092d-aba6-1abe",
+                "profiles": [
+                  {
+                    "name": "Royal Jelly",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "1b3b-66d7-675d-adf0",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "PRAETORIAN model only. Each time you select a Pheromone ability for a friendly QUEEN model, until the start of the next battle round, this model gains that ability."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "e68b-58b3-c1e4-7354",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 30
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "a166-71ae-7b4e-d97b",
+                        "shared": true,
+                        "childName": "Praetorian"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "flatten": true,
+            "constraints": [
+              {
+                "type": "max",
+                "value": 1,
+                "field": "selections",
+                "scope": "parent",
+                "shared": true,
+                "id": "fb33-7575-7446-46c6",
                 "includeChildSelections": false
               }
             ]
@@ -8451,6 +8808,189 @@
                     "includeChildSelections": true,
                     "includeChildForces": true,
                     "childName": "Hunter-Killer Brood"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "The Queen's Court Upgrades",
+            "id": "6c72-2283-2f49-500c",
+            "hidden": false,
+            "flatten": true,
+            "selectionEntries": [
+              {
+                "type": "upgrade",
+                "import": true,
+                "name": "Animalistic Grace",
+                "hidden": false,
+                "id": "5f40-5a36-6e79-a622",
+                "profiles": [
+                  {
+                    "name": "Animalistic Grace",
+                    "typeId": "9cc3-6d83-4dd3-9b64",
+                    "typeName": "Abilities",
+                    "hidden": false,
+                    "id": "858d-9cea-cff1-3dda",
+                    "characteristics": [
+                      {
+                        "name": "Description",
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "ROYAL GUARD unit only. This unit has Fights First."
+                      }
+                    ]
+                  }
+                ],
+                "constraints": [
+                  {
+                    "type": "max",
+                    "value": 3,
+                    "field": "selections",
+                    "scope": "force",
+                    "shared": true,
+                    "id": "8106-41ff-9b32-c782",
+                    "includeChildSelections": true,
+                    "includeChildForces": true
+                  },
+                  {
+                    "type": "max",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "f689-f70c-be9c-79f4",
+                    "includeChildSelections": false
+                  }
+                ],
+                "costs": [
+                  {
+                    "name": "pts",
+                    "typeId": "51b2-306e-1021-d207",
+                    "value": 25
+                  },
+                  {
+                    "name": "Crusade Points",
+                    "typeId": "b03b-c239-15a5-da55",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Battle Honours",
+                    "typeId": "75bb-ded1-c86d-bdf0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Experience",
+                    "typeId": "a623-fe74-1d33-cddf",
+                    "value": 0
+                  },
+                  {
+                    "name": "Crusade: Weapon Modifications",
+                    "typeId": "716d-91b7-d55a-1022",
+                    "value": 0
+                  },
+                  {
+                    "name": "Blackstone Fragments",
+                    "typeId": "ac6b-ced3-9b5e-9a6e",
+                    "value": 0
+                  },
+                  {
+                    "name": "Detachment Points",
+                    "typeId": "82ae-1066-5107-6ae0",
+                    "value": 0
+                  },
+                  {
+                    "name": "Enhancements",
+                    "typeId": "f759-1bc4-cb3a-f0d2",
+                    "value": 1
+                  }
+                ],
+                "infoLinks": [
+                  {
+                    "name": "Fights First",
+                    "id": "52e5-198d-3cb1-d3d0",
+                    "hidden": false,
+                    "type": "rule",
+                    "targetId": "24-c886-e8ba-5a89"
+                  }
+                ],
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "divide",
+                        "value": 2,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "equalTo",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5f40-5a36-6e79-a622",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Dormant Organisms"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "divide",
+                        "value": 3,
+                        "field": "f759-1bc4-cb3a-f0d2",
+                        "conditions": [
+                          {
+                            "type": "greaterThan",
+                            "value": 2,
+                            "field": "selections",
+                            "scope": "roster",
+                            "childId": "5f40-5a36-6e79-a622",
+                            "shared": true,
+                            "includeChildSelections": true,
+                            "childName": "Dormant Organisms"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": true,
+                    "field": "hidden",
+                    "conditions": [
+                      {
+                        "type": "notInstanceOf",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "ancestor",
+                        "childId": "f862-5119-cb00-fe7b",
+                        "shared": true,
+                        "childName": "Royal Guard",
+                        "includeChildSelections": false
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "modifiers": [
+              {
+                "type": "set",
+                "value": true,
+                "field": "hidden",
+                "conditions": [
+                  {
+                    "type": "lessThan",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "6f2e-a5c9-7985-ce16",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "The Queen's Court"
                   }
                 ]
               }
