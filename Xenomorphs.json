@@ -3318,6 +3318,20 @@
                 "$text": "Each time this model makes an attack that targets a MONSTER or VEHICLE, add 1 to the hit roll and 1 to the wound roll."
               }
             ]
+          },
+          {
+            "name": "Ravager",
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "ae63-7f3b-62c6-2758",
+            "characteristics": [
+              {
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": ""
+              }
+            ]
           }
         ],
         "modifiers": [
@@ -3382,6 +3396,13 @@
                 "join": " "
               }
             ]
+          },
+          {
+            "name": "Damaged: 1-5 Wounds Remaining",
+            "id": "06cc-942a-e64a-04ed",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9690-fbd3-d7b7-f57c"
           }
         ],
         "selectionEntries": [
@@ -6608,15 +6629,8 @@
                 ],
                 "categoryLinks": [
                   {
-                    "name": "Take and Hold",
-                    "hidden": false,
-                    "id": "7008-79f7-041f-cb69",
-                    "targetId": "1cc1-f11a-4e8f-1bcc",
-                    "primary": false
-                  },
-                  {
                     "targetId": "6fe0-3dbe-f7e0-10bb",
-                    "id": "17d3-1475-0234-64c3",
+                    "id": "9258-57aa-db51-c0e0",
                     "primary": false,
                     "name": "Purge the Foe"
                   }
@@ -7932,7 +7946,7 @@
                 ],
                 "profiles": [
                   {
-                    "name": "Synchronised Attack",
+                    "name": "Blood in the Water",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -7941,12 +7955,12 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**1CP**\n**When:** Fight phase, when a friendly ROYAL GUARD unit is selected to fight.\n**Target:** That ROYAL GUARD unit.\n**Effect:** Until the end of the phase, your unit's melee attacks have +1 to wound rolls."
+                        "$text": "**1CP** \n**When:** Fight phase, when a friendly XENOMORPHS unit is selected to attack.\n**Target:** That XENOMORPHS unit.\n**Effect:** Select [LETHAL HITS] or [SUSTAINED HITS 1]. Until the end of the phase,"
                       }
                     ]
                   },
                   {
-                    "name": "Shifting Tides",
+                    "name": "No One Hears Them Scream",
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
                     "hidden": false,
@@ -7955,7 +7969,7 @@
                       {
                         "name": "Description",
                         "typeId": "9b8f-694b-e5e-b573",
-                        "$text": "**1CP**\n**When:** Start of any phase.\n**Target:** One friendly QUEEN unit.\n**Effect:** Select a Pheromone ability that is not currently active; until the end of the battle round, that ability replaces the current Pheromone ability."
+                        "$text": "**2CP**\n**When:** Start of any phase, before any other rules are activated.\n**Target:** One enemy unit that is Isolated.\n**Effect:** Until the end of the phase, the opposing player cannot target that unit with stratagems.\n**Restrictions:** This stratagem can only be used once per battle round."
                       }
                     ]
                   },
@@ -9195,6 +9209,22 @@
                 ]
               }
             ]
+          }
+        ]
+      }
+    ],
+    "sharedProfiles": [
+      {
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "hidden": false,
+        "id": "9690-fbd3-d7b7-f57c",
+        "characteristics": [
+          {
+            "$text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+            "name": "Description",
+            "typeId": "9b8f-694b-e5e-b573"
           }
         ]
       }
