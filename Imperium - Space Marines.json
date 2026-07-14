@@ -28284,39 +28284,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "4",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
                       },
                       {
-                        "$text": "3+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Bladeguard Veteran",
@@ -28546,39 +28546,39 @@
                   {
                     "characteristics": [
                       {
-                        "$text": "6\"",
                         "name": "M",
-                        "typeId": "e703-ecb6-5ce7-aec1"
+                        "typeId": "e703-ecb6-5ce7-aec1",
+                        "$text": "6\""
                       },
                       {
-                        "$text": "4",
                         "name": "T",
-                        "typeId": "d29d-cf75-fc2d-34a4"
+                        "typeId": "d29d-cf75-fc2d-34a4",
+                        "$text": "4"
                       },
                       {
-                        "$text": "3+",
                         "name": "Sv",
-                        "typeId": "450-a17e-9d5e-29da"
+                        "typeId": "450-a17e-9d5e-29da",
+                        "$text": "3+"
                       },
                       {
-                        "$text": "3",
                         "name": "W",
-                        "typeId": "750a-a2ec-90d3-21fe"
+                        "typeId": "750a-a2ec-90d3-21fe",
+                        "$text": "3"
                       },
                       {
-                        "$text": "6+",
                         "name": "LD",
-                        "typeId": "58d2-b879-49c7-43bc"
+                        "typeId": "58d2-b879-49c7-43bc",
+                        "$text": "6+"
                       },
                       {
-                        "$text": "1",
                         "name": "OC",
-                        "typeId": "bef7-942a-1a23-59f8"
+                        "typeId": "bef7-942a-1a23-59f8",
+                        "$text": "1"
                       },
                       {
                         "name": "InSv",
                         "typeId": "55a7-5b54-c60d-11dc",
-                        "$text": ""
+                        "$text": "4+"
                       }
                     ],
                     "name": "Bladeguard Veteran Sergeant",
@@ -28792,13 +28792,6 @@
           }
         ],
         "infoLinks": [
-          {
-            "name": "Invulnerable Save",
-            "hidden": false,
-            "type": "profile",
-            "id": "4292-af46-83c7-dfe0",
-            "targetId": "db19-dee7-9530-ef0e"
-          },
           {
             "name": "Oath of Moment",
             "hidden": false,
@@ -51490,15 +51483,31 @@
             "type": "increment",
             "value": 5,
             "field": "51b2-306e-1021-d207",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "instanceOf",
-                "value": 1,
-                "field": "selections",
-                "scope": "primary-catalogue",
-                "childId": "4ef9-15ce-e3e6-36de",
-                "shared": true,
-                "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "4ef9-15ce-e3e6-36de",
+                    "shared": true,
+                    "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  },
+                  {
+                    "type": "lessThan",
+                    "value": 4,
+                    "field": "selections",
+                    "scope": "parent",
+                    "childId": "83c3-d5a9-bc75-339f",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "includeChildForces": true,
+                    "childName": "Outriders"
+                  }
+                ]
               }
             ]
           }
@@ -72653,6 +72662,12 @@
             "id": "9b1b-3889-ebdf-78e",
             "primary": false,
             "name": "Faction: Adeptus Astartes"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "a051-a5d8-56b9-dd6b",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -73636,6 +73651,12 @@
             "id": "754b-2085-270b-bb9f",
             "primary": false,
             "name": "Gladiator Reaper"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "e211-2617-18db-a2b7",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "costs": [
@@ -74384,6 +74405,12 @@
             "id": "e32-13ef-2430-a96f",
             "primary": false,
             "name": "Faction: Adeptus Astartes"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "0ff5-e2bf-61d5-40af",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -75846,6 +75873,12 @@
             "id": "af27-7615-7400-ffc4",
             "primary": false,
             "name": "Transport"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "141e-a8c3-646a-13bc",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "constraints": [
@@ -76869,6 +76902,12 @@
             "id": "a74d-04b5-5460-2849",
             "primary": false,
             "name": "Land Raider"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "c753-f443-d4c8-2c33",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "modifiers": [
@@ -77518,6 +77557,12 @@
             "id": "c86d-739d-7c2b-b902",
             "primary": false,
             "name": "Land Raider"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "f24b-3292-25a1-88b5",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "constraints": [
@@ -78448,6 +78493,12 @@
             "id": "56ff-7902-859b-a176",
             "primary": false,
             "name": "Transport"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "5338-f30e-b392-03e8",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -79953,6 +80004,12 @@
             "id": "1857-dfe5-ff47-e5e4",
             "primary": false,
             "name": "Faction: Adeptus Astartes"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "ff48-468a-c746-bcaf",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "modifiers": [
@@ -80580,6 +80637,12 @@
             "id": "3135-6aaf-7dbc-6fe3",
             "primary": false,
             "name": "Rhino"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "e21a-c74b-c367-99f7",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "modifierGroups": [
@@ -80995,6 +81058,12 @@
             "id": "c064-b142-f32f-542d",
             "primary": false,
             "name": "Razorback"
+          },
+          {
+            "targetId": "b927-8eeb-7cc3-8dec",
+            "id": "3a7c-2490-fc3e-7c6c",
+            "primary": false,
+            "name": "Frame"
           }
         ],
         "profiles": [
@@ -82550,9 +82619,9 @@
           {
             "characteristics": [
               {
-                "$text": "This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models.",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 8\" away from all enemy models."
               }
             ],
             "name": "Drop Pod Assault",
@@ -83660,34 +83729,34 @@
           {
             "characteristics": [
               {
-                "$text": "20\"+",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "9",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "9"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -84462,13 +84531,6 @@
             "targetId": "b68a-5ded-65ac-98c"
           },
           {
-            "name": "Hover",
-            "hidden": false,
-            "type": "rule",
-            "id": "d778-d8b4-e742-b9d7",
-            "targetId": "eec5-5f54-9c03-c305"
-          },
-          {
             "name": "Oath of Moment",
             "hidden": false,
             "type": "rule",
@@ -84506,34 +84568,34 @@
           {
             "characteristics": [
               {
-                "$text": "20\"+",
                 "name": "M",
-                "typeId": "e703-ecb6-5ce7-aec1"
+                "typeId": "e703-ecb6-5ce7-aec1",
+                "$text": "-"
               },
               {
-                "$text": "8",
                 "name": "T",
-                "typeId": "d29d-cf75-fc2d-34a4"
+                "typeId": "d29d-cf75-fc2d-34a4",
+                "$text": "8"
               },
               {
-                "$text": "3+",
                 "name": "Sv",
-                "typeId": "450-a17e-9d5e-29da"
+                "typeId": "450-a17e-9d5e-29da",
+                "$text": "3+"
               },
               {
-                "$text": "10",
                 "name": "W",
-                "typeId": "750a-a2ec-90d3-21fe"
+                "typeId": "750a-a2ec-90d3-21fe",
+                "$text": "10"
               },
               {
-                "$text": "6+",
                 "name": "LD",
-                "typeId": "58d2-b879-49c7-43bc"
+                "typeId": "58d2-b879-49c7-43bc",
+                "$text": "6+"
               },
               {
-                "$text": "0",
                 "name": "OC",
-                "typeId": "bef7-942a-1a23-59f8"
+                "typeId": "bef7-942a-1a23-59f8",
+                "$text": "-"
               },
               {
                 "name": "InSv",
@@ -85773,25 +85835,6 @@
             ],
             "type": "add",
             "value": "e9c7-1590-1bda-bf7f",
-            "field": "category"
-          },
-          {
-            "conditions": [
-              {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "roster",
-                "childId": "187b-6ef3-33dd-fe0d",
-                "shared": true,
-                "id": "40f8-636c-7ad5-debd",
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "childName": "Armoured Speartip"
-              }
-            ],
-            "type": "add",
-            "value": "abee-1a02-8002-a13f",
             "field": "category"
           },
           {
@@ -138721,17 +138764,7 @@
             "hidden": false,
             "id": "528d-5801-cc21-3096",
             "type": "selectionEntryGroup",
-            "targetId": "7525-2905-eeb0-90bb",
-            "entryLinks": [
-              {
-                "import": true,
-                "name": "Fulguris Task Force Enhancements",
-                "hidden": false,
-                "id": "5538-7d43-e638-bda1",
-                "type": "selectionEntryGroup",
-                "targetId": "7525-2905-eeb0-90bb"
-              }
-            ]
+            "targetId": "7525-2905-eeb0-90bb"
           },
           {
             "import": true,
@@ -139176,11 +139209,12 @@
                 "type": "lessThan",
                 "value": 1,
                 "field": "selections",
-                "scope": "parent",
+                "scope": "force",
                 "childId": "a8c0-4163-5195-a680",
                 "shared": true,
                 "includeChildSelections": true,
-                "childName": "Subversion Assets"
+                "childName": "Subversion Assets",
+                "includeChildForces": true
               }
             ]
           },
@@ -139349,7 +139383,7 @@
               {
                 "name": "W",
                 "typeId": "750a-a2ec-90d3-21fe",
-                "$text": "w"
+                "$text": "2"
               },
               {
                 "name": "LD",
@@ -140876,6 +140910,23 @@
                     "shared": true,
                     "includeChildSelections": true,
                     "childName": "Imperium - Adeptus Astartes - Blood Angels"
+                  }
+                ]
+              },
+              {
+                "type": "set",
+                "value": 2,
+                "field": "82ae-1066-5107-6ae0",
+                "conditions": [
+                  {
+                    "type": "instanceOf",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "childId": "f89b-84e0-6e3b-f1e2",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "Imperium - Adeptus Astartes - Deathwatch"
                   }
                 ]
               }
@@ -143004,7 +143055,7 @@
             ],
             "rules": [
               {
-                "description": "Each time a ranged attack targets an Adeptus Astartes unit from your army, unless the attacking model is within 12\", subtract 1 from the Hit roll and the target has the Benefit of Cover against that attack.\n\n\n**Unparalled Tactician**\n\nOnce per battle round, if an **^^Aethon^^** Shaan model from your army is on the battlefield, you can use the Into Darkness Stratagem for 0CP.",
+                "description": "Each time a ranged attack targets an ADEPTUS ASTARTES unit from your army, unless the attacking model is within 12\", the target has the benefit of cover.\n\n**Unparalled Tactician**\n\nOnce per battle round, if an **^^Aethon^^** Shaan model from your army is on the battlefield, you can use the Into Darkness Stratagem for 0CP.",
                 "name": "Masters of Shadow",
                 "id": "1869-3566-2284-e685",
                 "hidden": false
@@ -198430,6 +198481,17 @@
                 "includeChildForces": true
               }
             ]
+          }
+        ],
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "id": "f504-4fb8-08a6-d071",
+            "includeChildSelections": false
           }
         ]
       },
