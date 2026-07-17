@@ -46481,14 +46481,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "cec5-2793-a763-e647"
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -46511,6 +46503,15 @@
             "scope": "self",
             "shared": true,
             "id": "bb02-cebb-c802-dd01",
+            "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "2374-e159-9b0a-00d5",
             "includeChildSelections": true
           }
         ],
@@ -47172,6 +47173,23 @@
                     ]
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "2374-e159-9b0a-00d5",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "force",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
               }
             ]
           }
@@ -199208,7 +199226,7 @@
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "id": "e0af-67df-9d63-8fb7",
     "name": "Imperium - Adeptus Astartes - Space Marines",
-    "revision": 4,
+    "revision": 5,
     "battleScribeVersion": 2.03,
     "library": false,
     "gameSystemId": "sys-352e-adc2-7639-d610",
