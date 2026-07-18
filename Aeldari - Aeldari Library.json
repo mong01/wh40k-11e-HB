@@ -150734,7 +150734,29 @@
                 "import": true,
                 "name": "Leechbite Plate",
                 "hidden": false,
-                "id": "7166-b2d0-75ef-5fe7"
+                "id": "7166-b2d0-75ef-5fe7",
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Leechbite Plate",
+                        "field": "annotation",
+                        "scope": "model",
+                        "affects": "profiles.Unit",
+                        "join": ", "
+                      },
+                      {
+                        "type": "set",
+                        "value": "3+",
+                        "field": "450-a17e-9d5e-29da",
+                        "scope": "model",
+                        "affects": "profiles.Unit"
+                      }
+                    ]
+                  }
+                ]
               },
               {
                 "profiles": [
