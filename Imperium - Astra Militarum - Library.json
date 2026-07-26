@@ -10234,7 +10234,7 @@
                 ],
                 "type": "set",
                 "value": 3,
-                "field": "acd1-da30-2656-832a"
+                "field": "dde5-d6bf-bb4a-9092"
               },
               {
                 "conditionGroups": [
@@ -23708,16 +23708,6 @@
           {
             "type": "max",
             "value": 3,
-            "field": "selections",
-            "scope": "roster",
-            "shared": true,
-            "id": "acd1-da30-2656-832a",
-            "includeChildSelections": true,
-            "includeChildForces": true
-          },
-          {
-            "type": "max",
-            "value": 3,
             "field": "75bb-ded1-c86d-bdf0",
             "scope": "self",
             "shared": true,
@@ -23741,6 +23731,15 @@
             "shared": true,
             "id": "b1aa-ebc3-8bf0-51cf",
             "includeChildSelections": true
+          },
+          {
+            "type": "max",
+            "value": 3,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "98bb-27e2-c19e-e151",
+            "includeChildSelections": true
           }
         ],
         "modifiers": [
@@ -23758,6 +23757,23 @@
             "type": "set-primary",
             "value": "8247-35f6-ec2a-7caa",
             "field": "category"
+          },
+          {
+            "type": "set",
+            "value": 2,
+            "field": "98bb-27e2-c19e-e151",
+            "conditions": [
+              {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "roster",
+                "childId": "d62d-db22-4893-4bc0",
+                "shared": true,
+                "includeChildSelections": true,
+                "childName": "1. Incursion (1000 Point limit)"
+              }
+            ]
           }
         ],
         "infoLinks": [
@@ -108616,6 +108632,13 @@
             "hidden": false,
             "type": "rule",
             "targetId": "b4dd-3e1f-41cb-218f"
+          },
+          {
+            "name": "Devastating Wounds",
+            "id": "e9b7-476f-01b8-e7a3",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "be1e-ac8e-1e2c-3528"
           }
         ],
         "profiles": [
@@ -108704,38 +108727,20 @@
             "typeName": "Abilities",
             "hidden": false,
             "id": "5d79-6cc2-af70-369b"
-          }
-        ],
-        "infoGroups": [
+          },
           {
-            "profiles": [
-              {
-                "characteristics": [
-                  {
-                    "$text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability.",
-                    "name": "Description",
-                    "typeId": "9b8f-694b-e5e-b573"
-                  }
-                ],
-                "name": "Leading the Charge",
-                "typeId": "9cc3-6d83-4dd3-9b64",
-                "typeName": "Abilities",
-                "hidden": false,
-                "id": "50a6-7304-dbf3-857f"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Devastating Wounds",
-                "id": "e9b7-476f-01b8-e7a3",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "be1e-ac8e-1e2c-3528"
-              }
-            ],
             "name": "Leading the Charge",
-            "id": "00c3-7441-e50e-d984",
-            "hidden": false
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "hidden": false,
+            "id": "50a6-7304-dbf3-857f",
+            "characteristics": [
+              {
+                "$text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability.",
+                "name": "Description",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "entryLinks": [
@@ -126479,7 +126484,7 @@
             "name": "Vehicle"
           },
           {
-            "name": "Centaur RSv",
+            "name": "Centaur RSV",
             "hidden": false,
             "id": "6999-e231-ced7-98f8",
             "targetId": "182e-9752-56ae-cd7d",
