@@ -2129,6 +2129,23 @@
             ]
           }
         ]
+      },
+      {
+        "name": "3DP Detachment",
+        "id": "7d80-2de5-816e-9d2b",
+        "hidden": true,
+        "comment": "Used for logic in Incursion games to track 3DP detachments",
+        "constraints": [
+          {
+            "type": "max",
+            "value": 1,
+            "field": "selections",
+            "scope": "force",
+            "shared": true,
+            "id": "7592-999b-7ccd-a597",
+            "includeChildSelections": true
+          }
+        ]
       }
     ],
     "forceEntries": [
@@ -2343,16 +2360,48 @@
             "type": "set",
             "value": 3,
             "field": "95c5-effd-74f1-c8f4",
-            "conditions": [
+            "conditionGroups": [
               {
-                "type": "equalTo",
-                "value": 1,
-                "field": "selections",
-                "scope": "force",
-                "childId": "baf8-997f-e323-a090",
-                "shared": true,
-                "includeChildSelections": true,
-                "childName": "2. Strike Force (2000 Point limit)"
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "equalTo",
+                    "value": 1,
+                    "field": "selections",
+                    "scope": "force",
+                    "childId": "baf8-997f-e323-a090",
+                    "shared": true,
+                    "includeChildSelections": true,
+                    "childName": "2. Strike Force (2000 Point limit)"
+                  }
+                ],
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "equalTo",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "d62d-db22-4893-4bc0",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "1. Incursion (1000 Point limit)"
+                      },
+                      {
+                        "type": "atLeast",
+                        "value": 1,
+                        "field": "selections",
+                        "scope": "force",
+                        "childId": "7d80-2de5-816e-9d2b",
+                        "shared": true,
+                        "includeChildSelections": true,
+                        "childName": "3DP Detachment"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -2540,7 +2589,7 @@
             "message": "You cannot have more than {value} Enhancements in your army.1"
           }
         ],
-        "readme": "**Please do not report *any* issues relating to the changes released on 22nd July until at least Monday 27th July. We need a few days to get the changes made.**\n\nPlease report any other issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n"
+        "readme": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n"
       },
       {
         "categoryLinks": [
@@ -3008,7 +3057,7 @@
               }
             ],
             "type": "set",
-            "value": "**Please do not report *any* issues relating to the changes released on 22nd July until at least Monday 27th July. We need a few days to get the changes made.**\n\n\nPlease report any other issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "field": "readme"
           },
           {
@@ -3025,7 +3074,7 @@
               }
             ],
             "type": "set",
-            "value": "**Please do not report *any* issues relating to the changes released on 22nd July until at least Monday 27th July. We need a few days to get the changes made.**\n\n\nPlease report any other issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "Please report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "field": "readme"
           }
         ],
@@ -32961,7 +33010,7 @@
     "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
     "id": "sys-352e-adc2-7639-d610",
     "name": "Warhammer 40,000 11th Edition",
-    "revision": 6,
+    "revision": 7,
     "battleScribeVersion": 2.03,
     "type": "gameSystem",
     "readme": ""
