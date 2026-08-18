@@ -3557,7 +3557,7 @@
                 "value": 2,
                 "field": "e703-ecb6-5ce7-aec1",
                 "scope": "root-entry",
-                "affects": "self.entries.group.group.profiles.Unit"
+                "affects": "self.entries.group.recursive.profiles.Unit"
               },
               {
                 "type": "increment",
@@ -8242,7 +8242,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -9300,7 +9299,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -9444,7 +9442,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -9508,7 +9505,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -9709,7 +9705,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -9802,7 +9797,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -9897,7 +9891,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10092,7 +10085,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10185,7 +10177,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10249,7 +10240,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10428,7 +10418,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10510,7 +10499,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10585,7 +10573,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10689,7 +10676,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10753,7 +10739,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10846,7 +10831,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -10921,7 +10905,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -13081,7 +13064,6 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -14245,7 +14227,6 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -14289,7 +14270,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -14700,7 +14680,6 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -14744,7 +14723,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -15493,7 +15471,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -16291,7 +16268,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -16389,7 +16365,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -17132,7 +17107,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -17176,7 +17150,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -17932,7 +17905,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -17976,7 +17948,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -18980,7 +18951,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -19024,7 +18994,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -19764,7 +19733,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -19808,7 +19776,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -20755,7 +20722,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -20799,7 +20765,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -21513,7 +21478,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -21557,7 +21521,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -22282,7 +22245,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -23031,7 +22993,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -23075,7 +23036,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -24617,7 +24577,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -25183,7 +25142,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -25310,8 +25268,9 @@
                     "value": "Rapid Fire 1",
                     "field": "7f1b-8591-2fcf-d01c",
                     "scope": "parent",
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
-                    "join": ", "
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "join": ", ",
+                    "skipIfPresent": "Rapid Fire"
                   }
                 ],
                 "costs": [
@@ -25996,7 +25955,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -26078,7 +26036,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -26604,7 +26561,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -28232,7 +28188,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -29264,7 +29219,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -29347,7 +29301,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -29918,7 +29871,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -30590,7 +30542,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -31627,7 +31578,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -32058,7 +32008,6 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -32173,7 +32122,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -32682,7 +32630,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -33982,7 +33929,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -35423,7 +35369,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -36503,7 +36448,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -37257,7 +37201,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -37301,7 +37244,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -37410,7 +37352,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -38567,7 +38508,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -38749,7 +38689,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -38832,7 +38771,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -40315,7 +40253,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -40760,7 +40697,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -42399,7 +42335,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -44829,7 +44764,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -45692,7 +45626,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -46692,7 +46625,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -47915,7 +47847,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -47987,7 +47918,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -48277,7 +48207,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -49216,7 +49145,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -49835,7 +49763,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -51298,7 +51225,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -51342,7 +51268,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -51655,7 +51580,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -53323,7 +53247,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -54414,7 +54337,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -55308,7 +55230,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -55838,7 +55759,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -55940,7 +55860,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -56076,7 +55995,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -56867,7 +56785,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -57595,7 +57512,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -63197,7 +63113,7 @@
     "name": "Xenos - Necrons",
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
-    "revision": 10,
+    "revision": 11,
     "battleScribeVersion": 2.03,
     "type": "catalogue"
   }

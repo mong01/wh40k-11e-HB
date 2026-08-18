@@ -12028,7 +12028,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -12099,7 +12098,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -12170,7 +12168,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -12234,7 +12231,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -12909,7 +12905,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -13235,7 +13230,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -14180,7 +14174,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -15208,7 +15201,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -15579,7 +15571,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -17068,7 +17059,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -17411,7 +17401,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -17475,7 +17464,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -17619,7 +17607,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -24633,7 +24620,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -25413,7 +25399,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -25593,7 +25578,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -25735,7 +25719,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -26298,7 +26281,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -26768,7 +26750,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -27735,7 +27716,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -31264,7 +31244,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -38557,7 +38536,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -41160,87 +41138,14 @@
                             "value": 5
                           }
                         ]
-                      }
-                    ],
-                    "selectionEntries": [
+                      },
                       {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "24\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "6",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Anti-vehicle 2+",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Grav-cannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "0c7a-9ea1-abdc-2b6e"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Heavy",
-                            "id": "e261-bee6-c2e4-3f4d",
-                            "hidden": false,
-                            "type": "rule",
-                            "targetId": "1202-10a8-78e9-4c67"
-                          },
-                          {
-                            "name": "Anti",
-                            "id": "897c-be51-eefc-5c17",
-                            "hidden": false,
-                            "type": "rule",
-                            "targetId": "4111-82e3-9444-e942"
-                          }
-                        ],
-                        "entryLinks": [
-                          {
-                            "import": true,
-                            "name": "Weapon Modifications",
-                            "hidden": false,
-                            "id": "4808-7e7d-4bf8-9294",
-                            "type": "selectionEntryGroup",
-                            "targetId": "f9da-852a-d7f0-92e9"
-                          }
-                        ],
-                        "type": "upgrade",
                         "import": true,
                         "name": "Grav-cannon",
                         "hidden": false,
-                        "id": "2179-382a-0ec2-1cd5"
+                        "id": "6f47-680f-da44-8385",
+                        "type": "selectionEntry",
+                        "targetId": "f6a1-a037-fa1c-4cb5"
                       }
                     ],
                     "constraints": [
@@ -41264,7 +41169,7 @@
                     "name": "Weapon Option",
                     "id": "a0fb-ccdc-9b2c-31d3",
                     "hidden": false,
-                    "defaultSelectionEntryId": "f6a1-a037-fa1c-4cb5"
+                    "defaultSelectionEntryId": "6f47-680f-da44-8385"
                   }
                 ],
                 "type": "model",
@@ -41346,7 +41251,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -41432,70 +41336,14 @@
                             "value": 5
                           }
                         ]
-                      }
-                    ],
-                    "selectionEntries": [
+                      },
                       {
-                        "profiles": [
-                          {
-                            "characteristics": [
-                              {
-                                "$text": "24\"",
-                                "name": "Range",
-                                "typeId": "9896-9419-16a1-92fc"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "A",
-                                "typeId": "3bb-c35f-f54-fb08"
-                              },
-                              {
-                                "$text": "3+",
-                                "name": "BS",
-                                "typeId": "94d-8a98-cf90-183e"
-                              },
-                              {
-                                "$text": "6",
-                                "name": "S",
-                                "typeId": "2229-f494-25db-c5d3"
-                              },
-                              {
-                                "$text": "-1",
-                                "name": "AP",
-                                "typeId": "9ead-8a10-520-de15"
-                              },
-                              {
-                                "$text": "3",
-                                "name": "D",
-                                "typeId": "a354-c1c8-a745-f9e3"
-                              },
-                              {
-                                "$text": "Anti-Vehicle 2+",
-                                "name": "Keywords",
-                                "typeId": "7f1b-8591-2fcf-d01c"
-                              }
-                            ],
-                            "name": "Grav-cannon",
-                            "typeId": "f77d-b953-8fa4-b762",
-                            "typeName": "Ranged Weapons",
-                            "hidden": false,
-                            "id": "9004-fe8c-2b3a-81c8"
-                          }
-                        ],
-                        "infoLinks": [
-                          {
-                            "name": "Anti",
-                            "hidden": false,
-                            "type": "rule",
-                            "id": "c789-2784-d46f-f1df",
-                            "targetId": "4111-82e3-9444-e942"
-                          }
-                        ],
-                        "type": "upgrade",
                         "import": true,
                         "name": "Grav-cannon",
                         "hidden": false,
-                        "id": "f6a1-a037-fa1c-4cb5"
+                        "id": "cd75-8d41-cb0b-fbee",
+                        "type": "selectionEntry",
+                        "targetId": "f6a1-a037-fa1c-4cb5"
                       }
                     ],
                     "constraints": [
@@ -41519,7 +41367,7 @@
                     "name": "Weapon Option",
                     "hidden": false,
                     "id": "a461-656d-b18-a31f",
-                    "defaultSelectionEntryId": "f6a1-a037-fa1c-4cb5"
+                    "defaultSelectionEntryId": "cd75-8d41-cb0b-fbee"
                   }
                 ],
                 "profiles": [
@@ -42640,7 +42488,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -44111,7 +43958,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -44227,7 +44073,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -44934,7 +44779,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -45661,7 +45505,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -47227,7 +47070,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -47326,7 +47168,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -47470,7 +47311,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -55849,7 +55689,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -60152,7 +59991,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -60233,7 +60071,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -61016,7 +60853,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -61106,7 +60942,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -62568,7 +62403,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -70698,7 +70532,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -73344,7 +73177,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -77812,7 +77644,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -80476,7 +80307,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -80989,7 +80819,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -84035,7 +83864,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -87030,7 +86858,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -87901,7 +87728,6 @@
                     "typeId": "a354-c1c8-a745-f9e3"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "7f1b-8591-2fcf-d01c"
                   }
@@ -91707,7 +91533,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -95924,7 +95749,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -98694,7 +98518,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -99010,7 +98833,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -99296,7 +99118,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -99534,7 +99355,6 @@
                             "typeId": "3254-9fe6-d824-513e"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "893f-9000-ccf7-648e"
                           }
@@ -105077,7 +104897,7 @@
         ],
         "type": "model",
         "import": true,
-        "name": "Ancient in Terminator Armor",
+        "name": "Ancient in Terminator Armour",
         "hidden": false,
         "id": "fc7f-8176-c10c-ca8",
         "associations": [
@@ -109824,7 +109644,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -111328,7 +111147,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -111383,7 +111201,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -111454,7 +111271,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -112274,7 +112090,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -112586,7 +112401,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -116043,7 +115857,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -116187,7 +116000,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -116666,7 +116478,6 @@
                     "typeId": "3254-9fe6-d824-513e"
                   },
                   {
-                    "$text": "-",
                     "name": "Keywords",
                     "typeId": "893f-9000-ccf7-648e"
                   }
@@ -118363,7 +118174,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -126755,7 +126565,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -128830,7 +128639,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -129502,7 +129310,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -130946,146 +130753,6 @@
             "childName": "Support"
           }
         ],
-        "modifiers": [
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "equalTo",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "2d7f-1892-2fd0-e29c",
-                    "shared": true,
-                    "id": "47a4-bf4c-bbfe-20d8",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  },
-                  {
-                    "type": "equalTo",
-                    "value": 1,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "5bd8-882d-302b-48f3",
-                    "shared": true,
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "set",
-            "value": 1,
-            "field": "1852-2e76-ee7b-15aa",
-            "id": "69a7-b8b4-148-ce2c"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "equalTo",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "2d7f-1892-2fd0-e29c",
-                        "shared": true,
-                        "id": "41ed-25a6-41e0-9e69",
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "equalTo",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5bd8-882d-302b-48f3",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "conditions": [
-                  {
-                    "type": "equalTo",
-                    "value": 2,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "2d7f-1892-2fd0-e29c",
-                    "shared": true,
-                    "id": "54d8-847f-8730-d154",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "set",
-            "value": 2,
-            "field": "1852-2e76-ee7b-15aa",
-            "id": "a410-7775-61b4-d988"
-          },
-          {
-            "conditionGroups": [
-              {
-                "conditions": [
-                  {
-                    "type": "atLeast",
-                    "value": 3,
-                    "field": "selections",
-                    "scope": "roster",
-                    "childId": "2d7f-1892-2fd0-e29c",
-                    "shared": true,
-                    "id": "11c3-5537-ccbd-a278",
-                    "includeChildSelections": true,
-                    "includeChildForces": true
-                  }
-                ],
-                "conditionGroups": [
-                  {
-                    "conditions": [
-                      {
-                        "type": "equalTo",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "5bd8-882d-302b-48f3",
-                        "shared": true,
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      },
-                      {
-                        "type": "atLeast",
-                        "value": 2,
-                        "field": "selections",
-                        "scope": "roster",
-                        "childId": "2d7f-1892-2fd0-e29c",
-                        "shared": true,
-                        "id": "f03a-caad-9264-94df",
-                        "includeChildSelections": true,
-                        "includeChildForces": true
-                      }
-                    ],
-                    "type": "and"
-                  }
-                ],
-                "type": "or"
-              }
-            ],
-            "type": "set",
-            "value": 3,
-            "field": "1852-2e76-ee7b-15aa",
-            "id": "99c5-a3fc-13a5-c5e7"
-          }
-        ],
         "categoryLinks": [
           {
             "targetId": "cf47-a0d7-7207-29dc",
@@ -131470,7 +131137,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -132342,7 +132008,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -132930,7 +132595,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -132984,7 +132648,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133038,7 +132701,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133108,7 +132770,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133179,7 +132840,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133249,7 +132909,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133398,7 +133057,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133936,7 +133594,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -133999,7 +133656,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -134062,7 +133718,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -134116,7 +133771,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -134256,7 +133910,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -134311,7 +133964,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -135043,7 +134695,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -135209,7 +134860,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -135805,7 +135455,6 @@
                 "typeId": "a354-c1c8-a745-f9e3"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "7f1b-8591-2fcf-d01c"
               }
@@ -138964,7 +138613,6 @@
                                 "typeId": "3254-9fe6-d824-513e"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "893f-9000-ccf7-648e"
                               }
@@ -139126,7 +138774,6 @@
                                 "typeId": "a354-c1c8-a745-f9e3"
                               },
                               {
-                                "$text": "-",
                                 "name": "Keywords",
                                 "typeId": "7f1b-8591-2fcf-d01c"
                               }
@@ -139892,7 +139539,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -141293,7 +140939,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -141364,7 +141009,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -142913,7 +142557,6 @@
                 "typeId": "3254-9fe6-d824-513e"
               },
               {
-                "$text": "-",
                 "name": "Keywords",
                 "typeId": "893f-9000-ccf7-648e"
               }
@@ -142931,6 +142574,69 @@
           }
         ],
         "collective": true
+      },
+      {
+        "type": "upgrade",
+        "import": true,
+        "name": "Grav-cannon",
+        "hidden": false,
+        "id": "f6a1-a037-fa1c-4cb5",
+        "profiles": [
+          {
+            "name": "Grav-cannon",
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "hidden": false,
+            "id": "9004-fe8c-2b3a-81c8",
+            "characteristics": [
+              {
+                "$text": "24\"",
+                "name": "Range",
+                "typeId": "9896-9419-16a1-92fc"
+              },
+              {
+                "$text": "3",
+                "name": "A",
+                "typeId": "3bb-c35f-f54-fb08"
+              },
+              {
+                "$text": "3+",
+                "name": "BS",
+                "typeId": "94d-8a98-cf90-183e"
+              },
+              {
+                "$text": "6",
+                "name": "S",
+                "typeId": "2229-f494-25db-c5d3"
+              },
+              {
+                "$text": "-1",
+                "name": "AP",
+                "typeId": "9ead-8a10-520-de15"
+              },
+              {
+                "$text": "3",
+                "name": "D",
+                "typeId": "a354-c1c8-a745-f9e3"
+              },
+              {
+                "$text": "Anti-Vehicle 2+",
+                "name": "Keywords",
+                "typeId": "7f1b-8591-2fcf-d01c"
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {
+            "name": "Anti",
+            "id": "c789-2784-d46f-f1df",
+            "hidden": false,
+            "type": "rule",
+            "targetId": "4111-82e3-9444-e942"
+          }
+        ],
+        "comment": "Centurion Devastator"
       }
     ],
     "sharedProfiles": [
@@ -173881,7 +173587,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -197797,7 +197502,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -197972,7 +197676,6 @@
                         "typeId": "a354-c1c8-a745-f9e3"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "7f1b-8591-2fcf-d01c"
                       }
@@ -198625,7 +198328,6 @@
                             "typeId": "a354-c1c8-a745-f9e3"
                           },
                           {
-                            "$text": "-",
                             "name": "Keywords",
                             "typeId": "7f1b-8591-2fcf-d01c"
                           }
@@ -200526,7 +200228,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }
@@ -200939,7 +200640,6 @@
                         "typeId": "3254-9fe6-d824-513e"
                       },
                       {
-                        "$text": "-",
                         "name": "Keywords",
                         "typeId": "893f-9000-ccf7-648e"
                       }

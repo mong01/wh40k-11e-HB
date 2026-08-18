@@ -138475,7 +138475,30 @@
                 "import": true,
                 "name": "Regimental Banner",
                 "hidden": false,
-                "id": "9d7c-79d0-2008-dd87"
+                "id": "9d7c-79d0-2008-dd87",
+                "modifierGroups": [
+                  {
+                    "type": "and",
+                    "modifiers": [
+                      {
+                        "type": "append",
+                        "value": "Regimental Banner",
+                        "field": "annotation",
+                        "affects": "profiles.Unit",
+                        "scope": "model",
+                        "join": ", "
+                      },
+                      {
+                        "type": "increment",
+                        "value": 3,
+                        "field": "bef7-942a-1a23-59f8",
+                        "affects": "profiles.Unit",
+                        "scope": "model",
+                        "join": ", "
+                      }
+                    ]
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -144866,54 +144889,24 @@
               {
                 "modifiers": [
                   {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "model-or-unit",
-                        "childId": "a9a4-d471-dbdc-76d8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
                     "type": "append",
                     "value": "Sharpshooters",
                     "field": "annotation",
                     "join": ", ",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons"
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "skipIfPresent": "Sharpshooters"
                   },
                   {
-                    "conditions": [
-                      {
-                        "type": "atLeast",
-                        "value": 1,
-                        "field": "selections",
-                        "scope": "model-or-unit",
-                        "childId": "a9a4-d471-dbdc-76d8",
-                        "shared": true,
-                        "includeChildSelections": true
-                      }
-                    ],
                     "type": "append",
                     "value": "Heavy",
                     "field": "7f1b-8591-2fcf-d01c",
-                    "scope": "model-or-unit",
-                    "affects": "self.entries.recursive.profiles.Ranged Weapons",
+                    "scope": "root-entry",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
                     "join": ", "
                   }
                 ],
                 "type": "and"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Heavy",
-                "id": "5dd4-1e2f-0e01-2150",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "1202-10a8-78e9-4c67"
               }
             ],
             "type": "upgrade",
@@ -145164,27 +145157,20 @@
                     "field": "annotation",
                     "join": ", ",
                     "scope": "root-entry",
-                    "affects": "self.entries.recursive.profiles.Melee Weapons"
+                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "skipIfPresent": "Trench Fighters"
                   },
                   {
                     "type": "append",
                     "value": "Lethal Hits",
                     "field": "893f-9000-ccf7-648e",
                     "scope": "root-entry",
-                    "affects": "self.entries.recursive.profiles.Melee Weapons",
-                    "join": ", "
+                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "join": ", ",
+                    "skipIfPresent": "Lethal Hits"
                   }
                 ],
                 "type": "and"
-              }
-            ],
-            "infoLinks": [
-              {
-                "name": "Lethal Hits",
-                "id": "209a-f740-0cfa-89d1",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "d1d1-611e-5191-1095"
               }
             ],
             "type": "upgrade",
@@ -152228,9 +152214,9 @@
                     "id": "32ee-5733-027d-b383",
                     "characteristics": [
                       {
-                        "$text": "This model can be attached to the following units: **^^Cadian Shock Troops^^**, **^^Catachan Jungle Fighters^^**, **^^Death Korps of Krieg^^**, **^^Kasrkin^^**, **^^Krieg Combat Engineers^^**, **^^Tempestus Scions^^**",
                         "name": "Description",
-                        "typeId": "9b8f-694b-e5e-b573"
+                        "typeId": "9b8f-694b-e5e-b573",
+                        "$text": "This model can be attached to the following units:\n- **OGRYN SQUAD**\n- **BULLGRYN SQUAD**"
                       }
                     ]
                   }
@@ -152936,16 +152922,6 @@
     "gameSystemRevision": 1,
     "revision": 2,
     "battleScribeVersion": 2.03,
-    "type": "catalogue",
-    "entryLinks": [
-      {
-        "import": true,
-        "name": "Ciaphas Cain [Legends]",
-        "hidden": false,
-        "id": "1bdc-4bc1-dd65-d02a",
-        "targetId": "4aa7-5845-84ad-2d7d",
-        "type": "selectionEntry"
-      }
-    ]
+    "type": "catalogue"
   }
 }
