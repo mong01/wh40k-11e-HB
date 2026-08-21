@@ -5404,7 +5404,8 @@
                             "field": "annotation",
                             "affects": "self.entries.group.recursive.profiles.Unit",
                             "join": ", ",
-                            "scope": "root-entry"
+                            "scope": "root-entry",
+                            "skipIfPresent": "Ancient's Banner"
                           },
                           {
                             "type": "increment",
@@ -19219,7 +19220,8 @@
                             "field": "annotation",
                             "affects": "self.entries.group.recursive.profiles.Unit",
                             "join": ", ",
-                            "scope": "root-entry"
+                            "scope": "root-entry",
+                            "skipIfPresent": "Ancient's Banner"
                           },
                           {
                             "type": "increment",
@@ -21657,7 +21659,27 @@
                 "import": true,
                 "name": "Purifier",
                 "hidden": false,
-                "id": "2105-9372-a043-df0c"
+                "id": "2105-9372-a043-df0c",
+                "constraints": [
+                  {
+                    "type": "min",
+                    "value": 2,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "d0b3-cbfa-f779-01c1",
+                    "includeChildSelections": false
+                  },
+                  {
+                    "type": "max",
+                    "value": 9,
+                    "field": "selections",
+                    "scope": "parent",
+                    "shared": true,
+                    "id": "5557-e8d2-b87f-de8c",
+                    "includeChildSelections": false
+                  }
+                ]
               }
             ],
             "constraints": [
@@ -22645,9 +22667,9 @@
           {
             "characteristics": [
               {
-                "$text": "While a **^^Brotherhood Techmarine^^** model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by **^^Servitor^^** models in this unit by 1",
                 "name": "Description",
-                "typeId": "9b8f-694b-e5e-b573"
+                "typeId": "9b8f-694b-e5e-b573",
+                "$text": "While a **^^Brotherhood Techmarine^^** model is leading this unit, improve the Ballistic Skill and Weapon Skill characteristics of ranged and melee weapons equipped by **^^Servitor^^** models in this unit by 1."
               }
             ],
             "name": "Mindlock",
