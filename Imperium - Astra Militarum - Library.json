@@ -57948,21 +57948,26 @@
         "name": "Brute shield",
         "hidden": false,
         "id": "5a1c-ba0c-7970-348d",
-        "modifiers": [
+        "modifierGroups": [
           {
-            "type": "append",
-            "value": "Brute shield",
-            "field": "annotation",
-            "scope": "model",
-            "affects": "profiles.Unit",
-            "join": ", "
-          },
-          {
-            "type": "set",
-            "value": "4+",
-            "field": "55a7-5b54-c60d-11dc",
-            "scope": "model",
-            "affects": "profiles.Unit"
+            "type": "and",
+            "modifiers": [
+              {
+                "type": "set",
+                "value": "4+",
+                "field": "55a7-5b54-c60d-11dc",
+                "scope": "model",
+                "affects": "profiles.Unit"
+              },
+              {
+                "type": "append",
+                "value": "Brute shield",
+                "field": "annotation",
+                "scope": "model",
+                "affects": "profiles.Unit",
+                "join": ", "
+              }
+            ]
           }
         ]
       },
@@ -125859,15 +125864,17 @@
                 "type": "append",
                 "value": "Mobile Firebase",
                 "field": "annotation",
-                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
-                "join": ", "
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "join": ", ",
+                "skipIfPresent": "Mobile Firebase"
               },
               {
                 "type": "append",
                 "value": "Assault",
                 "field": "7f1b-8591-2fcf-d01c",
-                "affects": "self.entries.group.recursive.associations.profiles.Ranged Weapons",
-                "join": ", "
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "join": ", ",
+                "skipIfPresent": "Assault"
               }
             ],
             "comment": "Mobile Firebase attached unit modifiers"
@@ -149265,20 +149272,36 @@
                 "id": "0d57-672e-1ac3-ef41"
               }
             ],
-            "infoLinks": [
-              {
-                "name": "Sustained Hits",
-                "id": "1840-9b98-07cb-15f7",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "1897-c22c-9597-12b1"
-              }
-            ],
             "type": "upgrade",
             "import": true,
             "name": "Martial Zealot",
             "hidden": false,
-            "id": "38a8-a43f-5641-fded"
+            "id": "38a8-a43f-5641-fded",
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "Martial Zealot",
+                    "field": "annotation",
+                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "scope": "root-entry",
+                    "join": ", ",
+                    "skipIfPresent": "Martial Zealot"
+                  },
+                  {
+                    "type": "append",
+                    "value": "Sustained Hits 1",
+                    "field": "893f-9000-ccf7-648e",
+                    "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+                    "scope": "root-entry",
+                    "join": ", ",
+                    "skipIfPresent": "Sustained Hits"
+                  }
+                ]
+              }
+            ]
           },
           {
             "profiles": [
@@ -149320,20 +149343,36 @@
                 "id": "46c3-7691-3912-bc70"
               }
             ],
-            "infoLinks": [
-              {
-                "name": "Sustained Hits",
-                "id": "2676-6737-f652-d729",
-                "hidden": false,
-                "type": "rule",
-                "targetId": "1897-c22c-9597-12b1"
-              }
-            ],
             "type": "upgrade",
             "import": true,
             "name": "Fire Coordinator",
             "hidden": false,
-            "id": "119f-f1dc-0b5f-3aa5"
+            "id": "119f-f1dc-0b5f-3aa5",
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "append",
+                    "value": "Fire Coordinator",
+                    "field": "annotation",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "scope": "root-entry",
+                    "join": ", ",
+                    "skipIfPresent": "Fire Coordinator"
+                  },
+                  {
+                    "type": "append",
+                    "value": "Sustained Hits 1",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "scope": "root-entry",
+                    "join": ", ",
+                    "skipIfPresent": "Sustained Hits"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "constraints": [
@@ -149402,7 +149441,29 @@
             "import": true,
             "name": "Brute Shield",
             "hidden": false,
-            "id": "9476-0af0-b4d3-b0e8"
+            "id": "9476-0af0-b4d3-b0e8",
+            "modifierGroups": [
+              {
+                "type": "and",
+                "modifiers": [
+                  {
+                    "type": "set",
+                    "value": "4+",
+                    "field": "55a7-5b54-c60d-11dc",
+                    "scope": "model",
+                    "affects": "profiles.Unit"
+                  },
+                  {
+                    "type": "append",
+                    "value": "Brute shield",
+                    "field": "annotation",
+                    "scope": "model",
+                    "affects": "profiles.Unit",
+                    "join": ", "
+                  }
+                ]
+              }
+            ]
           },
           {
             "profiles": [
