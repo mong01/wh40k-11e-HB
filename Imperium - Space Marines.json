@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 9,
+    "revision": 12,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -47,7 +47,6 @@
       {"name": "Astartes Servitors", "id": "d263-1c53-41f8-9daa", "hidden": false},
       {"name": "Lieutenant with Combi-weapon", "id": "8aae-3dc4-861e-47ab", "hidden": false},
       {"name": "Infiltrator Squad", "id": "87a5-bbbf-3c87-49a4", "hidden": false},
-      {"name": "Infiltrator Squad", "id": "8b0b-2078-3c19-d00d", "hidden": false},
       {"name": "Incursor Squad", "id": "ddd0-955d-9c0-7110", "hidden": false},
       {"name": "Scout Squad", "id": "c54b-f947-7ccb-745", "hidden": false},
       {"name": "Scout Sniper Squad", "id": "86aa-6d9d-d258-23ef", "hidden": false},
@@ -205,7 +204,59 @@
       {"name": "Indomitor Kill Team", "id": "6acb-612b-3fe6-9061", "hidden": false},
       {"name": "Faction: Blood Ravens", "id": "773a-1f03-ed2b-0e5d", "hidden": false},
       {"name": "Xacharus", "id": "d9f6-b1ef-a56d-3c2a", "hidden": false},
-      {"name": "Kastiel", "id": "aff1-61eb-aa41-8488", "hidden": false}
+      {"name": "Kastiel", "id": "aff1-61eb-aa41-8488", "hidden": false},
+      {
+        "name": "Blood Claws",
+        "id": "5624-6cb8-fa73-779e",
+        "hidden": false,
+        "constraints": [{"id": "f0a6-fac1-2916-4306", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 6}],
+        "modifiers": [
+          {
+            "field": "f0a6-fac1-2916-4306",
+            "type": "set",
+            "value": 4,
+            "conditions": [
+              {
+                "childId": "d62d-db22-4893-4bc0",
+                "childName": "1. Incursion (1000 Point limit)",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Grey Hunters",
+        "id": "447f-4fc0-7630-a9f7",
+        "hidden": false,
+        "constraints": [{"id": "9b8b-f286-fdef-d9ff", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 6}],
+        "modifiers": [
+          {
+            "field": "9b8b-f286-fdef-d9ff",
+            "type": "set",
+            "value": 4,
+            "conditions": [
+              {
+                "childId": "d62d-db22-4893-4bc0",
+                "childName": "1. Incursion (1000 Point limit)",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          }
+        ]
+      },
+      {"name": "Wolf Guard Headtakers", "id": "9b96-72d9-2828-f182", "hidden": true},
+      {"name": "Kor'sarro Khan", "id": "ecaf-d9ca-6ab0-8dcb", "hidden": false}
     ],
     "costTypes": [
       {
@@ -5970,7 +6021,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Judiciar Xacharus",
+        "name": "Judiciar Xacharus [Legends]",
         "id": "293f-42d1-5fce-3720",
         "exportable": false,
         "hidden": false,
@@ -5978,7 +6029,14 @@
         "targetId": "be42-655d-472b-d89e",
         "type": "selectionEntry"
       },
-      {"name": "Chaplain Kastiel", "id": "ef51-8c81-8a60-a930", "hidden": false, "import": false, "targetId": "c550-de70-074f-9210", "type": "selectionEntry"}
+      {
+        "name": "Chaplain Kastiel [Legends]",
+        "id": "ef51-8c81-8a60-a930",
+        "hidden": false,
+        "import": false,
+        "targetId": "c550-de70-074f-9210",
+        "type": "selectionEntry"
+      }
     ],
     "infoLinks": [
       {"name": "Oath of Moment", "id": "001d-723a-56e2-f202", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
@@ -7458,7 +7516,16 @@
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "25f4-2bec-a254-82a7",
+                    "childName": "Relic Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -7709,7 +7776,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -8012,6 +8079,15 @@
                     "shared": true,
                     "type": "instanceOf",
                     "value": 1
+                  },
+                  {
+                    "childId": "21e8-92f1-9d9a-8c49",
+                    "childName": "Assault Squad with Jump Packs",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -8296,7 +8372,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ SANGUINARY GUARD\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, SANGUINARY GUARD, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -9487,37 +9563,77 @@
             "value": "Max 1 {this} per 5 models",
             "conditionGroups": [
               {
-                "type": "and",
-                "conditions": [
+                "type": "or",
+                "conditionGroups": [
                   {
-                    "childId": "8a7f-b578-d274-9769",
-                    "childName": "Vanguard Veterans with Jump Packs",
-                    "field": "selections",
-                    "scope": "unit",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 10
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "8a7f-b578-d274-9769",
+                        "childName": "Vanguard Veterans with Jump Packs",
+                        "field": "selections",
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 10
+                      },
+                      {
+                        "childId": "25c2-104f-fa0c-809e",
+                        "childName": "Plasma pistol",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 1
+                      },
+                      {
+                        "childId": "d466-dd6c-f7bd-6fea",
+                        "childName": "Vanguard Veteran Weapon",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   },
                   {
-                    "childId": "25c2-104f-fa0c-809e",
-                    "childName": "Plasma pistol",
-                    "field": "selections",
-                    "includeChildSelections": true,
-                    "scope": "9e9c-bf4d-2d40-be82",
-                    "shared": true,
-                    "type": "greaterThan",
-                    "value": 1
-                  },
-                  {
-                    "childId": "d466-dd6c-f7bd-6fea",
-                    "childName": "Vanguard Veteran Weapon",
-                    "field": "selections",
-                    "includeChildForces": true,
-                    "includeChildSelections": true,
-                    "scope": "9e9c-bf4d-2d40-be82",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 1
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "8a7f-b578-d274-9769",
+                        "childName": "Vanguard Veterans with Jump Packs",
+                        "field": "selections",
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 10
+                      },
+                      {
+                        "childId": "25c2-104f-fa0c-809e",
+                        "childName": "Plasma pistol",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 2
+                      },
+                      {
+                        "childId": "d466-dd6c-f7bd-6fea",
+                        "childName": "Vanguard Veteran Weapon",
+                        "field": "selections",
+                        "includeChildForces": true,
+                        "includeChildSelections": true,
+                        "scope": "9e9c-bf4d-2d40-be82",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 1
+                      }
+                    ]
                   }
                 ]
               }
@@ -17074,7 +17190,7 @@
                   {
                     "name": "Pistol Option",
                     "id": "1944-f0c4-324e-722e",
-                    "defaultSelectionEntryId": "bfea-dd65-8266-d78c",
+                    "defaultSelectionEntryId": "9311-cda1-9bd6-1827",
                     "hidden": false,
                     "constraints": [
                       {"id": "33c-6407-f7a-5170", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -20433,6 +20549,7 @@
                   {
                     "name": "Ranged Weapon Option",
                     "id": "a21c-8de-72a4-92",
+                    "defaultSelectionEntryId": "none",
                     "hidden": false,
                     "constraints": [
                       {"id": "9cb7-88b7-a899-376d", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -20481,7 +20598,7 @@
                   {
                     "name": "Melee Weapon Option",
                     "id": "7089-ff75-d1ab-f0c5",
-                    "defaultSelectionEntryId": "e5be-2982-e40f-d95c",
+                    "defaultSelectionEntryId": "24dc-f621-033b-474a",
                     "hidden": false,
                     "constraints": [
                       {"id": "3e6a-e8da-a5c8-7522", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -20888,7 +21005,7 @@
                   {
                     "name": "Ranged Weapon Option",
                     "id": "e8de-672d-7a99-11d",
-                    "defaultSelectionEntryId": "5e9e-6e42-64e5-8209",
+                    "defaultSelectionEntryId": "3065-9640-be09-4470",
                     "hidden": false,
                     "constraints": [
                       {"id": "4e01-bec8-7306-e06d", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -21329,6 +21446,7 @@
                   {
                     "name": "Ranged Weapon Option",
                     "id": "4e03-932d-a96a-4049",
+                    "defaultSelectionEntryId": "none",
                     "hidden": false,
                     "constraints": [
                       {"id": "6325-4eb2-c795-a8a4", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -21728,7 +21846,7 @@
                   {
                     "name": "Weapon Option",
                     "id": "d35f-ba76-b150-9a05",
-                    "defaultSelectionEntryId": "aff3-7853-be23-5391",
+                    "defaultSelectionEntryId": "73bd-8d81-34dc-a8af",
                     "hidden": false,
                     "constraints": [
                       {"id": "e823-6f66-e6b2-feca", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -21857,7 +21975,7 @@
                   {
                     "name": "Weapon Option",
                     "id": "2e61-a3ba-8898-a22f",
-                    "defaultSelectionEntryId": "aff3-7853-be23-5391",
+                    "defaultSelectionEntryId": "86cf-487c-f987-d744",
                     "hidden": false,
                     "constraints": [
                       {"id": "e12d-1282-fb24-2ccb", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -23222,7 +23340,7 @@
               {
                 "name": "Dreadnought Arm Weapons",
                 "id": "5e5-b233-2612-f069",
-                "defaultSelectionEntryId": "1275-aa0c-401c-86e",
+                "defaultSelectionEntryId": "94b-7c6c-1d21-ce9e",
                 "hidden": false,
                 "constraints": [
                   {"id": "af94-01a4-30d8-0f03", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -23351,6 +23469,7 @@
               {
                 "name": "Dreadnought Heavy Weapons",
                 "id": "80b2-aa43-69ee-d46d",
+                "defaultSelectionEntryId": "a152-b009-798e-1d3",
                 "hidden": false,
                 "constraints": [
                   {"id": "a27a-8b77-5739-fd86", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -23970,7 +24089,6 @@
               {
                 "name": "Weapon 2",
                 "id": "7fa1-fdbb-e355-d2ff",
-                "defaultSelectionEntryId": "e220-7f20-a1e5-14f3",
                 "hidden": false,
                 "selectionEntryGroups": [
                   {
@@ -27939,6 +28057,24 @@
                     "value": 4
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "affects": "self.entries.recursive.profiles.Unit",
+            "field": "bef7-942a-1a23-59f8",
+            "type": "increment",
+            "value": 1,
+            "conditions": [
+              {
+                "childId": "ecaf-d9ca-6ab0-8dcb",
+                "childName": "Kor'sarro Khan",
+                "field": "selections",
+                "includeChildSelections": true,
+                "scope": "force",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
               }
             ]
           }
@@ -44185,6 +44321,7 @@
               {
                 "name": "Option",
                 "id": "7cb1-cc03-7afd-60a3",
+                "defaultSelectionEntryId": "none",
                 "hidden": false,
                 "constraints": [{"id": "9a50-4050-2cee-024d", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
@@ -44278,7 +44415,7 @@
               {
                 "name": "Sponsons",
                 "id": "edd-ef25-4c7f-69d8",
-                "defaultSelectionEntryId": "6716-dd41-6f4c-ef3c",
+                "defaultSelectionEntryId": "52d7-5eff-50c4-6803",
                 "hidden": false,
                 "constraints": [
                   {"id": "cf57-7e72-df71-bbea", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -45701,7 +45838,7 @@
               {
                 "name": "Weapon Option",
                 "id": "38e4-a899-1d7c-369d",
-                "defaultSelectionEntryId": "8b20-995-b36c-3ea1",
+                "defaultSelectionEntryId": "a1d5-fc81-d4ef-d6c3",
                 "hidden": false,
                 "constraints": [
                   {"id": "6ebb-e3ff-13fd-d7fd", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -46531,6 +46668,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "406c-cac5-8483-a88a",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "9b00-f1a0-c0e8-f618", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Grenades", "id": "6c1b-6ccb-6053-6cd9", "primary": false, "targetId": "5a61-81ac-eb7c-a87e"},
@@ -46579,7 +46767,6 @@
         "infoLinks": [
           {"name": "Leader", "id": "e4c3-b2f5-3caf-4f46", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
           {"name": "Rites of Battle", "id": "ed39-7f0e-f008-b39f", "hidden": false, "targetId": "90c7-c55c-21e2-2232", "type": "profile"},
-          {"name": "Invulnerable Save", "id": "3357-9645-ba5f-3d4", "hidden": false, "targetId": "db19-dee7-9530-ef0e", "type": "profile"},
           {"name": "Oath of Moment", "id": "7171-d377-ac3-5056", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Templar Vows", "id": "6420-2e4c-6500-b36e", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
         ],
@@ -46770,7 +46957,7 @@
               {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
               {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
-              {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"}
             ],
             "modifiers": [
               {
@@ -46813,7 +47000,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           }
         ],
         "selectionEntryGroups": [
@@ -47103,6 +47296,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -47112,32 +47306,107 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 3,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "5956-471c-16ba-af95", "childName": "Company Heroes", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "9e2c-48af-8c2b-ea68", "childName": "Crusader Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "1193-4f69-5b9f-6fbc", "childName": "Deathwatch Veterans", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "94a4-4c41-84a4-d038", "childName": "Fortis Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "34d3-f5b3-ca63-4597", "childName": "Hellblaster Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "5fe6-20de-df8d-8e92", "childName": "Infernus Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9e2c-48af-8c2b-ea68",
+                    "childName": "Crusader Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "1193-4f69-5b9f-6fbc",
+                    "childName": "Deathwatch Veterans",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "20a9-0897-2b65-89a7",
+                    "childName": "Decimus Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "94a4-4c41-84a4-d038",
+                    "childName": "Fortis Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 9,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34d3-f5b3-ca63-4597",
+                    "childName": "Hellblaster Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 10,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 11,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e1e2-0be9-8f9f-1e32",
                     "childName": "Inner Circle Companions",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 12,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "7b57-816b-44b2-65ec", "childName": "Intercessor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 13,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e05e-b4e4-6db0-5d42",
                     "childName": "Sternguard Veteran Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 14,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -47147,10 +47416,50 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 15,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 16,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 17,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d81a-37b7-7183-9d4",
+                    "childName": "Command Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -47406,7 +47715,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD\n\n",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -48443,36 +48752,140 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "1193-4f69-5b9f-6fbc", "childName": "Deathwatch Veterans", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "f014-c078-e513-cc1b", "childName": "Desolation Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "802a-a287-ac94-38a0", "childName": "Devastator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "94a4-4c41-84a4-d038", "childName": "Fortis Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "34d3-f5b3-ca63-4597", "childName": "Hellblaster Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "5fe6-20de-df8d-8e92", "childName": "Infernus Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "1193-4f69-5b9f-6fbc",
+                    "childName": "Deathwatch Veterans",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "20a9-0897-2b65-89a7",
+                    "childName": "Decimus Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f014-c078-e513-cc1b",
+                    "childName": "Desolation Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "802a-a287-ac94-38a0",
+                    "childName": "Devastator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "94a4-4c41-84a4-d038",
+                    "childName": "Fortis Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34d3-f5b3-ca63-4597",
+                    "childName": "Hellblaster Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 9,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e1e2-0be9-8f9f-1e32",
                     "childName": "Inner Circle Companions",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 10,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "7b57-816b-44b2-65ec", "childName": "Intercessor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 11,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e05e-b4e4-6db0-5d42",
                     "childName": "Sternguard Veteran Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 12,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 13,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 14,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -48765,7 +49178,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -49401,7 +49814,16 @@
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "25f4-2bec-a254-82a7",
+                    "childName": "Relic Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -49685,7 +50107,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -49763,6 +50185,47 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "6e08-614e-1991-b68b",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "21e8-92f1-9d9a-8c49",
+                    "childName": "Assault Squad with Jump Packs",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "17c0-599-955a-bdab",
+                    "childName": "Vanguard Veteran Squad with Jump Packs",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "f91f-791c-16c7-2165", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "bb28-a0-1856-28b2", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -50252,7 +50715,17 @@
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {"childId": "ebce-cb56-76a4-afe1", "childName": "Assault Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -50507,7 +50980,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ CRUSADER SQUAD\n■ DEATH COMPANY MARINES\n■ DEATH COMPANY MARINES WITH BOLT RIFLES\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATH COMPANY MARINES, DEATH COMPANY MARINES WITH BOLT RIFLES, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -50657,7 +51130,16 @@
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "25f4-2bec-a254-82a7",
+                    "childName": "Relic Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -50944,7 +51426,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -51024,6 +51506,16 @@
                   {
                     "childId": "1d42-6a24-1842-b424",
                     "childName": "Ravenwing Black Knights",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {"childId": "eca9-2e2-b6a6-9de6", "childName": "Bike Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -51324,7 +51816,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ OUTRIDER SQUAD\n■ RAVENWING BLACK KNIGHTS",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD, RAVENWING BLACK KNIGHTS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -51432,6 +51924,15 @@
                   {
                     "childId": "17c0-599-955a-bdab",
                     "childName": "Vanguard Veteran Squad with Jump Packs",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "21e8-92f1-9d9a-8c49",
+                    "childName": "Assault Squad with Jump Packs",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
@@ -51723,7 +52224,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ DEATH COMPANY MARINES WITH JUMP PACKS\n■ TALONSTRIKE KILL TEAM\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSORS WITH JUMP PACKS, ASSAULT SQUAD WITH JUMP PACKS, DEATH COMPANY MARINES WITH JUMP PACKS, TALONSTRIKE KILL TEAM, VANGUARD VETERAN SQUAD WITH JUMP PACKS",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -51754,7 +52255,7 @@
               {
                 "name": "Weapon",
                 "id": "68df-cc7a-f4ab-4114",
-                "defaultSelectionEntryId": "222f-54b5-a147-a547",
+                "defaultSelectionEntryId": "0224-bfd2-568d-0f47",
                 "hidden": false,
                 "constraints": [
                   {"id": "baa6-a8f5-eca4-73b8", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -51885,25 +52386,110 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "9e2c-48af-8c2b-ea68", "childName": "Crusader Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "f014-c078-e513-cc1b", "childName": "Desolation Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "802a-a287-ac94-38a0", "childName": "Devastator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "94a4-4c41-84a4-d038", "childName": "Fortis Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "7b57-816b-44b2-65ec", "childName": "Intercessor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "9e2c-48af-8c2b-ea68",
+                    "childName": "Crusader Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "20a9-0897-2b65-89a7",
+                    "childName": "Decimus Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "f014-c078-e513-cc1b",
+                    "childName": "Desolation Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "802a-a287-ac94-38a0",
+                    "childName": "Devastator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "94a4-4c41-84a4-d038",
+                    "childName": "Fortis Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "f790-2929-6951-c241",
                     "childName": "Sword Brethren Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 9,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 10,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 11,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -52181,7 +52767,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ CRUSADER SQUAD\n■ DECIMUS KILL TEAM\n■ DESOLATION SQUAD\n■ DEVASTATOR SQUAD\n■ FORTIS KILL TEAM\n■ INTERCESSOR SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, CRUSADER SQUAD, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, INTERCESSOR SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -53085,6 +53671,97 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "0e1e-1c87-a4a8-ed4e",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9ba8-7087-dcbd-9fd8",
+                    "childName": "Assault Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e05e-b4e4-6db0-5d42",
+                    "childName": "Sternguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "239e-a51b-7f23-9b90", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "ea9e-36fe-426e-f446", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -53359,7 +54036,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -53495,7 +54172,26 @@
                   },
                   {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "1193-4f69-5b9f-6fbc", "childName": "Deathwatch Veterans", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {"childId": "ebce-cb56-76a4-afe1", "childName": "Assault Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -53769,7 +54465,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD\n",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -54260,7 +54956,8 @@
                   },
                   {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
                   {"childId": "1193-4f69-5b9f-6fbc", "childName": "Deathwatch Veterans", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {"childId": "ebce-cb56-76a4-afe1", "childName": "Assault Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
                 ]
               }
             ]
@@ -54528,7 +55225,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD \n■ CRUSADER SQUAD \n■ DEATHWATCH VETERANS \n■ DECIMUS KILL TEAM \n■ DESOLATION SQUAD \n■ DEVASTATOR SQUAD \n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD\n",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, DESOLATION SQUAD, DEVASTATOR SQUAD, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -55015,7 +55712,16 @@
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                  {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "25f4-2bec-a254-82a7",
+                    "childName": "Relic Terminator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
                 ]
               }
             ]
@@ -55295,7 +56001,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ DEATHWATCH TERMINATOR SQUAD\n■ DEATHWING KNIGHTS\n■ DEATHWING TERMINATOR SQUAD\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD\n\nYou can attach this model to one of the above units even if one Captain, Chapter Master or Lieutenant model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+                "$text": "This model can be attached to the following units: DEATHWATCH TERMINATOR SQUAD, DEATHWING KNIGHTS, DEATHWING TERMINATOR SQUAD, RELIC TERMINATOR SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -55359,7 +56065,7 @@
                   {
                     "name": "Melee Weapon",
                     "id": "e265-27f8-eedb-1e6",
-                    "defaultSelectionEntryId": "163d-15d6-ba3b-30c5",
+                    "defaultSelectionEntryId": "3512-1f5a-010d-a51f",
                     "hidden": false,
                     "constraints": [
                       {"id": "f68e-963c-2cc1-2eb2", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -56297,7 +57003,7 @@
                   {
                     "name": "Weapon Option 2",
                     "id": "4c04-51ad-3658-7582",
-                    "defaultSelectionEntryId": "3b5a-d178-8cef-993f",
+                    "defaultSelectionEntryId": "bc7e-9074-a9ba-6107",
                     "hidden": false,
                     "constraints": [
                       {"id": "a010-1e63-51d4-69e9", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -56620,6 +57326,55 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Supporting",
+            "id": "f818-bda8-6a0c-665f",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "defaultSelectionEntryId": "none",
+            "includeChildSelections": true,
+            "label": "Supported by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9ba8-7087-dcbd-9fd8",
+                    "childName": "Assault Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {"childId": "5fe6-20de-df8d-8e92", "childName": "Infernus Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {"childId": "7b57-816b-44b2-65ec", "childName": "Intercessor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "e05e-b4e4-6db0-5d42",
+                    "childName": "Sternguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
           }
         ],
         "categoryLinks": [
@@ -56628,14 +57383,24 @@
           {"name": "Imperium", "id": "d4cf-7ff6-ac2a-30d5", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Tacticus", "id": "e256-79fc-2aee-92c1", "primary": false, "targetId": "5179-8ede-45e3-49a2"},
           {"name": "Judiciar", "id": "3cc-4333-6f41-d6b5", "primary": false, "targetId": "258c-ef74-d5f1-3a61"},
-          {"name": "Faction: Adeptus Astartes", "id": "7bf7-5c4c-805d-fa34", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Leader", "id": "f651-fa17-d57f-917c", "primary": false, "targetId": "1556-9b56-fba6-4370"}
+          {"name": "Faction: Adeptus Astartes", "id": "7bf7-5c4c-805d-fa34", "primary": false, "targetId": "6e7-40c-58d9-e402"}
         ],
         "constraints": [
           {"id": "3013-96aa-d646-a1f1", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
           {"id": "7f61-c167-6be5-af42", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "max", "value": 0},
           {"id": "13c2-87c9-1ac2-49f0", "field": "716d-91b7-d55a-1022", "includeChildSelections": true, "scope": "self", "shared": true, "type": "min", "value": 0},
-          {"id": "d7c0-df12-65e2-5f8d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3}
+          {"id": "d7c0-df12-65e2-5f8d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "max", "value": 3},
+          {"id": "e32a-2cbf-65b6-f6a2", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 1},
+          {
+            "id": "5885-628f-7289-73cc",
+            "field": "associations",
+            "includeChildSelections": false,
+            "message": "{this} must be attached to a Bodyguard unit.",
+            "scope": "self",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
         ],
         "costs": [
           {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 55},
@@ -56833,6 +57598,47 @@
                 "value": 1
               }
             ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "7dcd-7f61-69a7-0294",
+            "conditions": [
+              {
+                "childId": "f818-bda8-6a0c-665f",
+                "childName": "Supporting",
+                "field": "associations",
+                "includeChildSelections": false,
+                "scope": "self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "field": "category",
+            "type": "add",
+            "value": "1556-9b56-fba6-4370",
+            "conditions": [
+              {
+                "childId": "8e64-f76c-60f9-6a49",
+                "childName": "Leading",
+                "field": "associations",
+                "includeChildSelections": false,
+                "scope": "self",
+                "shared": true,
+                "type": "atLeast",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "affects": "group",
+            "field": "add-info",
+            "type": "add",
+            "value": "24-c886-e8ba-5a89",
+            "conditions": [{"childId": "any", "field": "associations", "includeChildSelections": false, "scope": "self", "shared": true, "type": "atLeast", "value": 1}]
           }
         ],
         "profiles": [
@@ -56891,7 +57697,21 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
+          },
+          {
+            "name": "Support",
+            "id": "85cc-42c3-fc6a-c1af",
+            "hidden": false,
+            "typeId": "9cc3-6d83-4dd3-9b64",
+            "typeName": "Abilities",
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, BLADEGUARD VETERAN SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -57017,6 +57837,7 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 1,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -57026,32 +57847,107 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 3,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "5956-471c-16ba-af95", "childName": "Company Heroes", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "9e2c-48af-8c2b-ea68", "childName": "Crusader Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "1193-4f69-5b9f-6fbc", "childName": "Deathwatch Veterans", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "20a9-0897-2b65-89a7", "childName": "Decimus Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "94a4-4c41-84a4-d038", "childName": "Fortis Kill Team", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "34d3-f5b3-ca63-4597", "childName": "Hellblaster Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "5fe6-20de-df8d-8e92", "childName": "Infernus Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "9e2c-48af-8c2b-ea68",
+                    "childName": "Crusader Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "1193-4f69-5b9f-6fbc",
+                    "childName": "Deathwatch Veterans",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "20a9-0897-2b65-89a7",
+                    "childName": "Decimus Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "94a4-4c41-84a4-d038",
+                    "childName": "Fortis Kill Team",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 9,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34d3-f5b3-ca63-4597",
+                    "childName": "Hellblaster Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 10,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 11,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e1e2-0be9-8f9f-1e32",
                     "childName": "Inner Circle Companions",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 12,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "7b57-816b-44b2-65ec", "childName": "Intercessor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 13,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "e05e-b4e4-6db0-5d42",
                     "childName": "Sternguard Veteran Squad",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 14,
                     "type": "instanceOf",
                     "value": 1
                   },
@@ -57061,17 +57957,57 @@
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 15,
                     "type": "instanceOf",
                     "value": 1
                   },
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
-                  {"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 16,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
                   {
                     "childId": "22cb-9e28-8b9f-bbdf",
                     "childName": "Victrix Honour Guard",
                     "field": "selections",
                     "scope": "self",
                     "shared": true,
+                    "sortIndex": 18,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d81a-37b7-7183-9d4",
+                    "childName": "Command Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 17,
                     "type": "instanceOf",
                     "value": 1
                   }
@@ -57331,7 +58267,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES, CRUSADER SQUAD\n■ DEATHWATCH VETERANS\n■ DECIMUS KILL TEAM\n■ FORTIS KILL TEAM\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INNER CIRCLE COMPANIONS\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ SWORD BRETHREN SQUAD\n■ TACTICAL SQUAD\n■ VICTRIX HONOUR GUARD\n",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, CRUSADER SQUAD, DEATHWATCH VETERANS, DECIMUS KILL TEAM, FORTIS KILL TEAM, HELLBLASTER SQUAD, INFERNUS SQUAD, INNER CIRCLE COMPANIONS, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, SWORD BRETHREN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD\n",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -63803,6 +64739,77 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Supporting",
+            "id": "ef4c-d697-5698-89b9",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Supported by",
+            "max": 1,
+            "min": 1,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "802a-a287-ac94-38a0",
+                    "childName": "Devastator Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d81a-37b7-7183-9d4",
+                    "childName": "Command Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "b1cf-254e-497f-203", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "b554-acca-c5ce-b123", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -64055,7 +65062,7 @@
             ]
           },
           {
-            "name": "Leader",
+            "name": "Support",
             "id": "893c-22fb-ecd5-1968",
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
@@ -64063,7 +65070,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Tactical Squad\n■ Vanguard Veteran Squad\n■ Devastator Squad\n\nYou can attach this model to one of the above units even if one Character model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths.",
+                "$text": "This model can be attached to the following units: ASSAULT SQUAD, COMMAND SQUAD, DEVASTATOR SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -65573,6 +66580,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "5ebb-22a5-22b2-4452",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "7b8a-5e51-53fe-d79b", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Mounted", "id": "5cb0-8c2c-3a4-1fee", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -65832,7 +66890,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Company Champion on Bike [Legends]",
@@ -65929,6 +66993,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "6e9d-aa43-7f18-60ab",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "ac4d-649a-3e49-f327", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Mounted", "id": "7688-eca8-7b9f-77e0", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -66160,7 +67275,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Unbreakable Duty",
@@ -66331,6 +67452,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "1121-18ea-6f24-8b0c",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "7df9-7713-1146-6085", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Mounted", "id": "c920-877e-75c4-e99", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -66564,9 +67736,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "id": "5081-e5ed-db29-c5af",
-                "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad",
-                "hidden": false,
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -66667,6 +67837,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "a9f1-f85c-5659-dc1f",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "639f-6099-354d-de7a", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Mounted", "id": "e1cf-7135-c645-243e", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -66924,7 +68145,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Techmarine",
@@ -66996,7 +68223,7 @@
               {
                 "name": "Melee Weapon",
                 "id": "e166-5f24-d905-4c73",
-                "defaultSelectionEntryId": "2026-57dd-edbd-c40",
+                "defaultSelectionEntryId": "9cf5-961d-4c7d-cf72",
                 "hidden": false,
                 "constraints": [
                   {"id": "77b0-7b72-6768-f640", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -67045,7 +68272,7 @@
               {
                 "name": "Ranged Weapon",
                 "id": "676c-b114-d999-3580",
-                "defaultSelectionEntryId": "4291-66ea-7e4f-d469",
+                "defaultSelectionEntryId": "20a2-f386-d104-3b0c",
                 "hidden": false,
                 "constraints": [
                   {"id": "5a1f-f183-7fc9-c804", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -67286,6 +68513,57 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "014f-efa5-fb10-41cc",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "1402-5be-5df3-cd51",
+                    "childName": "Outrider Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "eca9-2e2-b6a6-9de6",
+                    "childName": "Bike Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "a40-ff3f-c1ea-fea7",
+                    "childName": "Company Veterans on Bikes [Legends]",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "a552-eb53-b982-6cb9", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Mounted", "id": "949c-1f07-3d5c-1105", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
@@ -67549,7 +68827,13 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following units:\n\n■ Bike Squad\n■ Outrider Squad", "typeId": "9b8f-694b-e5e-b573"}]
+            "characteristics": [
+              {
+                "name": "Description",
+                "$text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD",
+                "typeId": "9b8f-694b-e5e-b573"
+              }
+            ]
           },
           {
             "name": "Mental Fortress",
@@ -67614,7 +68898,7 @@
               {
                 "name": "Weapon",
                 "id": "9ba7-f68b-85a7-82f0",
-                "defaultSelectionEntryId": "6961-cf4f-2acb-422f",
+                "defaultSelectionEntryId": "7729-ba8f-d87a-e51f",
                 "hidden": false,
                 "constraints": [
                   {"id": "a9b1-1796-4f45-9e7f", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -71544,6 +72828,137 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "6807-0177-8142-09b3",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "childId": "9ba8-7087-dcbd-9fd8",
+                    "childName": "Assault Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 1,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "930d-2875-125b-a65e",
+                    "childName": "Bladeguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 3,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5956-471c-16ba-af95",
+                    "childName": "Company Heroes",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 5,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "34d3-f5b3-ca63-4597",
+                    "childName": "Hellblaster Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 6,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "5fe6-20de-df8d-8e92",
+                    "childName": "Infernus Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 7,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "7b57-816b-44b2-65ec",
+                    "childName": "Intercessor Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 8,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "e05e-b4e4-6db0-5d42",
+                    "childName": "Sternguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 9,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "2740-ec68-77ee-2830",
+                    "childName": "Tactical Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 10,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "ebce-cb56-76a4-afe1",
+                    "childName": "Assault Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 2,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "d81a-37b7-7183-9d4",
+                    "childName": "Command Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 4,
+                    "type": "instanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "c7d2-a98d-4ad2-c426",
+                    "childName": "Vanguard Veteran Squad",
+                    "field": "selections",
+                    "scope": "self",
+                    "shared": true,
+                    "sortIndex": 11,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "5795-d2cd-f333-e487", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Epic Hero", "id": "7505-8fa9-d34b-7bba", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
@@ -71604,8 +73019,7 @@
         ],
         "infoLinks": [
           {"name": "Oath of Moment", "id": "71b1-102e-3350-b16c", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Leader", "id": "e212-d77a-b880-3231", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"},
-          {"name": "Invulnerable Save", "id": "96e6-8158-c8f0-f49e", "hidden": false, "targetId": "db19-dee7-9530-ef0e", "type": "profile"}
+          {"name": "Leader", "id": "e212-d77a-b880-3231", "hidden": false, "targetId": "b4dd-3e1f-41cb-218f", "type": "rule"}
         ],
         "modifiers": [
           {
@@ -71637,7 +73051,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Hellblaster Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad",
+                "$text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, HELLBLASTER SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -71655,7 +73069,7 @@
               {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
               {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
               {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-              {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+              {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"}
             ]
           },
           {
@@ -71681,7 +73095,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to\nthe Hit roll.",
+                "$text": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or all modifiers to the Hit roll.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -71734,6 +73148,488 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "8492-e7bd-3e04-7505",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditionGroups": [
+                  {
+                    "comment": "Heavy Jump Pack",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ba3-24de-2e06-5be4",
+                        "childName": "Heavy Jump Pack and Mk X Gravis Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "7e38-c06b-1b3b-6b0b", "childName": "Inceptor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "comment": "None/Conversion Field",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "5179-8ede-45e3-49a2", "childName": "Tacticus", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "self", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "b856-35e1-4dbe-f838",
+                            "childName": "Conversion Field",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "queryFromSelf": true,
+                            "scope": "74ba-6762-ef01-32d6",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "db1a-558c-2fa8-1a78",
+                            "childName": "Specialisms",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "queryFromSelf": true,
+                            "scope": "74ba-6762-ef01-32d6",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "6c92-4e9d-b5e5-1287",
+                            "childName": "Assault Intercessors with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "17c0-599-955a-bdab",
+                            "childName": "Vanguard Veteran Squad with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "004a-3ba3-18ba-78e3",
+                        "childName": "Jump Pack",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Gravis",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "81f0-f40e-c36c-5a30", "childName": "Gravis", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "self", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "5cb9-744b-fea2-5987",
+                        "childName": "Mk X Gravis Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Phobos",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "ad98-e844-f9ec-7551", "childName": "Eliminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "ddd0-955d-9c0-7110", "childName": "Incursor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "87a5-bbbf-3c87-49a4", "childName": "Infiltrator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "e38d-551c-a280-3c38", "childName": "Reiver Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "c54b-f947-7ccb-745", "childName": "Scout Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "0943-0dcb-692c-0b5a",
+                        "childName": "Mk X Phobos Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Raider Bike",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "0ab9-e51b-27e7-7d02",
+                        "childName": "Raider-pattern Bike",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "1402-5be-5df3-cd51", "childName": "Outrider Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "comment": "Terminator",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4e0-4cf8-e8b5-726",
+                            "childName": "Terminator Assault Squad",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "114a-3c12-f652-f0a6",
+                        "childName": "Terminator Armor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Ravenwing Bike",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "1402-5be-5df3-cd51", "childName": "Outrider Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "1d42-6a24-1842-b424",
+                            "childName": "Ravenwing Black Knights",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "5740-7310-3bc3-6a9b",
+                        "childName": "Ravenwing Bike",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Wulfen",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [{"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "9e7c-cc5d-4ba6-1dac",
+                        "childName": "Curse of the Wulfen",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Fenrisian Terminator",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4554-88b1-466c-d9f5",
+                            "childName": "Wolf Guard Terminators",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "d252-9434-2e7b-36e6",
+                        "childName": "Fenrisian Terminator Armor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Thunderwolf",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "c6da-5578-9ad5-94ef", "childName": "Thunderwolf Cavalry", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "ea41-a60a-a23d-72d6",
+                        "childName": "Thunderwolf Mount",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Wolf Lord's Chosen",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "5624-6cb8-fa73-779e", "childName": "Blood Claws", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "447f-4fc0-7630-a9f7", "childName": "Grey Hunters", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "9b96-72d9-2828-f182",
+                            "childName": "Wolf Guard Headtakers",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "75ef-90ae-250e-dd29",
+                        "childName": "Wolf Lord's Chosen",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "caed-a62d-2318-dda1",
+                            "childName": "Death Company Marines",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "3055-9a0b-b062-5f31",
+                            "childName": "Death Company Marines with Bolt Rifles",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "a62c-8cb3-b57b-5cbb",
+                        "childName": "Death Companion",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion w/Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "bd17-5cbb-7db8-e23a",
+                            "childName": "Death Company Marines with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "e00b-1ab5-bcc1-fdb7",
+                        "childName": "Death Companion with Jump Pack",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion w/Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [{"childId": "d30a-a7c5-389a-e78", "childName": "Sanguinary Guard", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f348-f1d1-0bea-edf9",
+                        "childName": "Hero of the Golden Host",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "74ba-6762-ef01-32d6",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "38d4-4c61-a2c3-3df0", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "f48a-0797-3a3f-1ee4", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -72264,6 +74160,488 @@
         "hidden": false,
         "import": true,
         "type": "model",
+        "associations": [
+          {
+            "name": "Leading",
+            "id": "dbc7-bf3d-521f-db94",
+            "action": "group",
+            "childId": "unit",
+            "childName": "unit",
+            "includeChildSelections": true,
+            "label": "Led by",
+            "max": 1,
+            "min": 0,
+            "scope": "force",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditionGroups": [
+                  {
+                    "comment": "Heavy Jump Pack",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "3ba3-24de-2e06-5be4",
+                        "childName": "Heavy Jump Pack and Mk X Gravis Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "7e38-c06b-1b3b-6b0b", "childName": "Inceptor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "comment": "None/Conversion Field",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditionGroups": [
+                          {
+                            "type": "and",
+                            "conditions": [
+                              {"childId": "5179-8ede-45e3-49a2", "childName": "Tacticus", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                              {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "self", "shared": true, "type": "notInstanceOf", "value": 1}
+                            ]
+                          }
+                        ],
+                        "conditions": [{"childId": "2740-ec68-77ee-2830", "childName": "Tactical Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      },
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "b856-35e1-4dbe-f838",
+                            "childName": "Conversion Field",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "queryFromSelf": true,
+                            "scope": "0385-0e03-0eac-d91c",
+                            "shared": true,
+                            "type": "atLeast",
+                            "value": 1
+                          },
+                          {
+                            "childId": "db1a-558c-2fa8-1a78",
+                            "childName": "Specialisms",
+                            "field": "selections",
+                            "includeChildSelections": true,
+                            "queryFromSelf": true,
+                            "scope": "0385-0e03-0eac-d91c",
+                            "shared": true,
+                            "type": "lessThan",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "6c92-4e9d-b5e5-1287",
+                            "childName": "Assault Intercessors with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "17c0-599-955a-bdab",
+                            "childName": "Vanguard Veteran Squad with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "004a-3ba3-18ba-78e3",
+                        "childName": "Jump Pack",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Gravis",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "and",
+                        "conditions": [
+                          {"childId": "81f0-f40e-c36c-5a30", "childName": "Gravis", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "c619-2086-bbcf-69c9", "childName": "Fly", "field": "selections", "scope": "self", "shared": true, "type": "notInstanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "5cb9-744b-fea2-5987",
+                        "childName": "Mk X Gravis Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Phobos",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "ad98-e844-f9ec-7551", "childName": "Eliminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "ddd0-955d-9c0-7110", "childName": "Incursor Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "87a5-bbbf-3c87-49a4", "childName": "Infiltrator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "e38d-551c-a280-3c38", "childName": "Reiver Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "c54b-f947-7ccb-745", "childName": "Scout Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "0943-0dcb-692c-0b5a",
+                        "childName": "Mk X Phobos Armour",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Raider Bike",
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "0ab9-e51b-27e7-7d02",
+                        "childName": "Raider-pattern Bike",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      },
+                      {"childId": "1402-5be-5df3-cd51", "childName": "Outrider Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                    ]
+                  },
+                  {
+                    "comment": "Terminator",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4e0-4cf8-e8b5-726",
+                            "childName": "Terminator Assault Squad",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {"childId": "6179-3533-ba6-9593", "childName": "Terminator Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "114a-3c12-f652-f0a6",
+                        "childName": "Terminator Armor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Ravenwing Bike",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "1402-5be-5df3-cd51", "childName": "Outrider Squad", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "1d42-6a24-1842-b424",
+                            "childName": "Ravenwing Black Knights",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "5740-7310-3bc3-6a9b",
+                        "childName": "Ravenwing Bike",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Wulfen",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [{"childId": "19ab-c0ae-7b00-dc0c", "childName": "Wulfen", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "9e7c-cc5d-4ba6-1dac",
+                        "childName": "Curse of the Wulfen",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Fenrisian Terminator",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "4554-88b1-466c-d9f5",
+                            "childName": "Wolf Guard Terminators",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "d252-9434-2e7b-36e6",
+                        "childName": "Fenrisian Terminator Armor",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Thunderwolf",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "c6da-5578-9ad5-94ef", "childName": "Thunderwolf Cavalry", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "ea41-a60a-a23d-72d6",
+                        "childName": "Thunderwolf Mount",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Wolf Lord's Chosen",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {"childId": "5624-6cb8-fa73-779e", "childName": "Blood Claws", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {"childId": "447f-4fc0-7630-a9f7", "childName": "Grey Hunters", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1},
+                          {
+                            "childId": "9b96-72d9-2828-f182",
+                            "childName": "Wolf Guard Headtakers",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "75ef-90ae-250e-dd29",
+                        "childName": "Wolf Lord's Chosen",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "caed-a62d-2318-dda1",
+                            "childName": "Death Company Marines",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          },
+                          {
+                            "childId": "3055-9a0b-b062-5f31",
+                            "childName": "Death Company Marines with Bolt Rifles",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "a62c-8cb3-b57b-5cbb",
+                        "childName": "Death Companion",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion w/Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [
+                          {
+                            "childId": "bd17-5cbb-7db8-e23a",
+                            "childName": "Death Company Marines with Jump Packs",
+                            "field": "selections",
+                            "scope": "self",
+                            "shared": true,
+                            "type": "instanceOf",
+                            "value": 1
+                          }
+                        ]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "e00b-1ab5-bcc1-fdb7",
+                        "childName": "Death Companion with Jump Pack",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  },
+                  {
+                    "comment": "Death Companion w/Jump Pack",
+                    "type": "and",
+                    "conditionGroups": [
+                      {
+                        "type": "or",
+                        "conditions": [{"childId": "d30a-a7c5-389a-e78", "childName": "Sanguinary Guard", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}]
+                      }
+                    ],
+                    "conditions": [
+                      {
+                        "childId": "f348-f1d1-0bea-edf9",
+                        "childName": "Hero of the Golden Host",
+                        "field": "selections",
+                        "includeChildSelections": true,
+                        "queryFromSelf": true,
+                        "scope": "0385-0e03-0eac-d91c",
+                        "shared": true,
+                        "type": "atLeast",
+                        "value": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "categoryLinks": [
           {"name": "Character", "id": "a80e-3ef6-65c8-33a6", "primary": true, "targetId": "9cfd-1c32-585f-7d5c"},
           {"name": "Infantry", "id": "a8b4-7fdf-df9d-720c", "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
@@ -83462,8 +85840,7 @@
                     ]
                   }
                 ]
-              },
-              {"affects": "self.entries.forces.group.recursive", "field": "add-info", "join": ", ", "scope": "root-entry", "type": "add", "value": "08fb-4cb5-36fb-d638"}
+              }
             ],
             "selectionEntries": [
               {
@@ -83670,6 +86047,7 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
+                "modifiers": [{"affects": "group", "field": "add-info", "join": ", ", "scope": "parent", "type": "add", "value": "08fb-4cb5-36fb-d638"}],
                 "profiles": [
                   {
                     "name": "Zealous Vanguard",
@@ -85443,6 +87821,28 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
+                "modifiers": [
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Ignores Cover",
+                    "type": "append",
+                    "value": "Ignores Cover"
+                  },
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "append",
+                    "value": "Sustained Hits 1"
+                  },
+                  {"affects": "group", "field": "add-info", "scope": "parent", "type": "add", "value": "4640-43e7-30b-215a"},
+                  {"affects": "group", "field": "add-info", "scope": "parent", "type": "add", "value": "1897-c22c-9597-12b1"}
+                ],
                 "profiles": [
                   {
                     "name": "Hunter's Eye",
@@ -85453,7 +87853,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Adeptus Astartes model only. Ranged weapons equipped by models in the bearer’s unit have the\n[SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
+                        "$text": "Adeptus Astartes model only. Ranged weapons equipped by models in the bearer’s unit have the [SUSTAINED HITS 1] and [IGNORES COVER] abilities.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -85829,6 +88229,18 @@
                   {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
                   {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
                 ],
+                "modifiers": [
+                  {
+                    "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                    "field": "7f1b-8591-2fcf-d01c",
+                    "join": ", ",
+                    "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
+                    "type": "append",
+                    "value": "Sustained Hits 1"
+                  },
+                  {"affects": "group", "field": "add-info", "scope": "parent", "type": "add", "value": "1897-c22c-9597-12b1"}
+                ],
                 "profiles": [
                   {
                     "name": "Veteran of Behemoth",
@@ -85839,7 +88251,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, , you can reroll Advance rolls made for that unit.",
+                        "$text": "Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, you can reroll Advance rolls made for that unit.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -102199,7 +104611,7 @@
               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
-            "infoLinks": [{"name": "Invulnerable Save (4+)", "id": "c4c7-da84-8a63-c1cd", "hidden": false, "targetId": "5b77-29f8-7b77-75e3", "type": "profile"}]
+            "modifiers": [{"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "4+"}]
           },
           {
             "name": "Heavy Jump Pack and Mk X Gravis Armour",
@@ -102448,10 +104860,7 @@
               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
-            "infoLinks": [
-              {"name": "Deep Strike", "id": "e32b-f49a-dd7b-411f", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
-              {"name": "Invulnerable Save (4+)", "id": "e286-b29d-9357-e2aa", "hidden": false, "targetId": "5b77-29f8-7b77-75e3", "type": "profile"}
-            ],
+            "infoLinks": [{"name": "Deep Strike", "id": "e32b-f49a-dd7b-411f", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
             "modifierGroups": [
               {
                 "type": "and",
@@ -102461,7 +104870,7 @@
                   {"affects": "profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "root-entry", "type": "set", "value": 5},
                   {"affects": "profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "root-entry", "type": "set", "value": "2+"},
                   {"field": "category", "scope": "root-entry", "type": "add", "value": "740a-892c-8958-defa"},
-                  {"affects": "profiles.Unit", "field": "e703-ecb6-5ce7-aec1", "join": ", ", "scope": "root-entry", "type": "append", "value": "Terminator Armor"},
+                  {"affects": "profiles.Unit", "field": "annotation", "join": ", ", "scope": "root-entry", "type": "set", "value": "Terminator Armor"},
                   {
                     "field": "category",
                     "scope": "root-entry",
@@ -102478,7 +104887,8 @@
                         "value": 1
                       }
                     ]
-                  }
+                  },
+                  {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "root-entry", "type": "set", "value": "4+"}
                 ]
               }
             ],
@@ -102933,10 +105343,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "infoLinks": [
-              {"name": "Deep Strike", "id": "a027-fb34-1357-093b", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"},
-              {"name": "Invulnerable Save (4+)", "id": "681a-6ac2-7eac-969e", "hidden": false, "targetId": "5b77-29f8-7b77-75e3", "type": "profile"}
-            ],
+            "infoLinks": [{"name": "Deep Strike", "id": "a027-fb34-1357-093b", "hidden": false, "targetId": "7cb5-dd6b-dd87-ad3b", "type": "rule"}],
             "modifierGroups": [
               {
                 "type": "and",
@@ -102946,7 +105353,8 @@
                   {"affects": "profiles.Unit", "field": "d29d-cf75-fc2d-34a4", "scope": "root-entry", "type": "set", "value": 5},
                   {"affects": "profiles.Unit", "field": "450-a17e-9d5e-29da", "scope": "root-entry", "type": "set", "value": "2+"},
                   {"field": "category", "scope": "root-entry", "type": "add", "value": "740a-892c-8958-defa"},
-                  {"affects": "profiles.Unit", "field": "annotation", "join": ", ", "scope": "root-entry", "type": "append", "value": "Fenrisian Terminator Armor"}
+                  {"affects": "profiles.Unit", "field": "annotation", "join": ", ", "scope": "root-entry", "type": "append", "value": "Fenrisian Terminator Armor"},
+                  {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "root-entry", "type": "set", "value": "4+"}
                 ]
               }
             ],
@@ -103113,6 +105521,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "modifiers": [{"affects": "group", "field": "add-info", "scope": "parent", "type": "add", "value": "699c-55ed-7fee-65ab"}],
             "profiles": [
               {
                 "name": "Adamantine Will",
@@ -103136,6 +105545,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "modifiers": [{"affects": "self.entries.group.recursive.profiles.Unit", "field": "bef7-942a-1a23-59f8", "scope": "parent", "type": "increment", "value": 1}],
             "profiles": [
               {
                 "name": "Astartes Banner",
@@ -103257,6 +105667,18 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
+            "modifiers": [
+              {
+                "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+                "field": "7f1b-8591-2fcf-d01c",
+                "join": ", ",
+                "scope": "parent",
+                "skipIfPresent": "Lethal Hits",
+                "type": "append",
+                "value": "Lethal Hits"
+              },
+              {"affects": "group", "field": "add-info", "scope": "parent", "type": "add", "value": "d1d1-611e-5191-1095"}
+            ],
             "profiles": [
               {
                 "name": "Tactical Precision",
@@ -103264,7 +105686,7 @@
                 "hidden": false,
                 "typeId": "9cc3-6d83-4dd3-9b64",
                 "typeName": "Abilities",
-                "characteristics": [{"name": "Description", "$text": "Weapons Equipped by models in this unit have the [Lethal Hits] ability", "typeId": "9b8f-694b-e5e-b573"}]
+                "characteristics": [{"name": "Description", "$text": "Weapons equipped by models in this unit have the [Lethal Hits] ability.", "typeId": "9b8f-694b-e5e-b573"}]
               }
             ]
           },
@@ -103311,7 +105733,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced",
+                    "$text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -103399,7 +105821,8 @@
                 "type": "set",
                 "value": true,
                 "conditions": [{"childId": "5f33-7e46-2b22-017c", "field": "selections", "scope": "root-entry", "shared": true, "type": "notInstanceOf", "value": 1}]
-              }
+              },
+              {"affects": "self.entries.group.recursive.profiles.Melee Weapons", "field": "41a0-1301-112a-e2f2", "scope": "parent", "type": "decrement", "value": 1}
             ],
             "profiles": [
               {
@@ -103445,7 +105868,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability",
+                    "$text": "While this model is leading a unit, unless that unit starts the battle embarked within a Transport, models in that unit have the Scouts 6\" ability.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
@@ -103467,7 +105890,8 @@
                 "conditions": [
                   {"childId": "0fa4-b135-7c82-bb8d", "field": "selections", "includeChildSelections": true, "scope": "root-entry", "shared": true, "type": "lessThan", "value": 1}
                 ]
-              }
+              },
+              {"affects": "profiles.Unit", "field": "55a7-5b54-c60d-11dc", "scope": "parent", "type": "set", "value": "4+"}
             ],
             "profiles": [
               {
@@ -103681,7 +106105,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll; if failed, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1",
+                    "$text": "While this model is leading a unit, each time that unit is selected to fight, take a Leadership test for that unit: if passed, until the end of the phase, each time a model in that unit makes an attack, you can re-roll the Hit roll; if failed, until the end of the phase, each time a model in that unit makes an attack, re-roll a Hit roll of 1.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]
