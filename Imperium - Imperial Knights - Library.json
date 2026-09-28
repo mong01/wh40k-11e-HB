@@ -310,7 +310,7 @@
                 "characteristics": [
                   {
                     "name": "Description",
-                    "$text": "Once per turn, you can target this model with a Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem in the same phase.",
+                    "$text": "Once per turn, when you target this model with a stratagem, you may reduce the CP cost of that use of that stratagem by 1CP.",
                     "typeId": "9b8f-694b-e5e-b573"
                   }
                 ]

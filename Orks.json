@@ -693,7 +693,7 @@
         "characteristics": [
           {
             "name": "Descriptions",
-            "$text": "In your Movement phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do:\n- One a 1, this unit is **battle-shocked**.\n- Select one enemy unit (excluding **MONSTER/VEHICLE** units) within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 from that **battle-shock roll** for every 10 models in this unit.",
+            "$text": "In your Movement phase, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do:\n- On a 1, this unit is **battle-shocked**.\n- Select one enemy unit (excluding **MONSTER/VEHICLE** units) within 12\" of this unit. That enemy unit makes a **battle-shock roll**, with -1 from that **battle-shock roll** for every 10 models in this unit.",
             "typeId": "1917-301f-5d49-2f76"
           }
         ]
@@ -3962,7 +3962,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While this model is within range of your **home objective*, add the **OC** of models embarked within this model to this model's **OC**.",
+                "$text": "While this model is within range of your **home objective**, add the **OC** of models embarked within this model to this model's **OC**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -3976,7 +3976,7 @@
             "characteristics": [
               {
                 "name": "Capacity",
-                "$text": "This model has a **transport capacity** of 11 **ORKS INFANTRY* models. It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models.",
+                "$text": "This model has a **transport capacity** of 11 **ORKS INFANTRY** models. It cannot transport **GHAZGHKULL THRAKA** models. Each **MEGA ARMOUR/JUMP PACK** model takes up the space of 2 models.",
                 "typeId": "30f2-be70-861d-1b84"
               }
             ]
@@ -8984,7 +8984,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "While a friendly **ORKS** unit is within 6\" of this unit, that unit's melee attacks have:\n- +1 to **hit rolls*.\n- +1 to **wound rolls**.",
+                "$text": "While a friendly **ORKS** unit is within 6\" of this unit, that unit's melee attacks have:\n- +1 to **hit rolls**.\n- +1 to **wound rolls**.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -11249,7 +11249,7 @@
             "characteristics": [
               {
                 "name": "Descriptions",
-                "$text": "In your Movement phase, when a unit embarked within this unit is selected to make a **disembark move**, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do:\n- One a 1, this unit is **battle-shocked*.\n- That disembarking unit's attacks that target a **MONSTER/VEHICLE** unit have +1 to **wound rolls** until the end of the turn.",
+                "$text": "In your Movement phase, when a unit embarked within this unit is selected to make a **disembark move**, if this unit is not **battle-shocked**, you can make a **psychic roll** for this unit by rolling one D6. If you do:\n- On a 1, this unit is **battle-shocked**.\n- That disembarking unit's attacks that target a **MONSTER/VEHICLE** unit have +1 to **wound rolls** until the end of the turn.",
                 "typeId": "1917-301f-5d49-2f76"
               }
             ]
@@ -41010,7 +41010,7 @@
               {
                 "name": "Powers of Da Waaagh!",
                 "id": "340c-eebd-4abd-7d46",
-                "description": "Friendly **ORKS PSYKER** models' **[PSYCHIC]** attacks have:\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\n\n\nFriendly **ORKS PSYKER** models have the **Roar of Mork** and **Visions of Violence psychic abilities** ",
+                "description": "Friendly **ORKS PSYKER** models' **[PSYCHIC]** attacks have:\n- +1 **S**.\n- +1 **S** for every 5 models in this unit (or embarked within this model).\n\nFriendly **ORKS PSYKER** models have the **Roar of Mork** and **Visions of Violence psychic abilities** ",
                 "hidden": false
               }
             ]
@@ -41576,7 +41576,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Infantry^^* or **^^Mounted^^** model only.\n\n■ Add 1 to the bearer's Wounds characteristic.\n■ Each time an attack is allocated to the bearer, worsen the Armour Penetration of that attack by 1.",
+                        "$text": "**^^Infantry^^** or **^^Mounted^^** model only.\n- Add 1 to the bearer's Wounds characteristic.\n- Each time an attack is allocated to the bearer, worsen the Armour Penetration of that attack by 1.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]

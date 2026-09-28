@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 16,
+    "revision": 17,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -19696,8 +19696,7 @@
             "shared": true,
             "type": "max",
             "value": 1
-          },
-          {"id": "9850-f22c-f4af-3590", "field": "selections", "includeChildSelections": true, "scope": "3832-4208-11e9-ca22", "shared": true, "type": "max", "value": 4}
+          }
         ],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
         "infoLinks": [
@@ -19705,6 +19704,76 @@
           {"name": "Pistol", "id": "bd93-e0ef-9d2a-13f2", "hidden": false, "targetId": "8bf7-8812-923d-29e4", "type": "rule"},
           {"name": "➤ Plasma pistol - standard", "id": "a295-376e-ca8e-ecdd", "hidden": false, "targetId": "46a1-162a-774b-d91b", "type": "profile"},
           {"name": "➤ Plasma pistol - supercharge", "id": "90a8-88f9-83ef-16d7", "hidden": false, "targetId": "499c-b49b-0c00-f9c8", "type": "profile"}
+        ],
+        "modifiers": [
+          {
+            "field": "error",
+            "type": "add",
+            "value": "Max 1 plasma pistol per 5 models",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "3832-4208-11e9-ca22",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 20
+                      },
+                      {
+                        "childId": "14a5-4b2-415a-c1d",
+                        "childName": "Plasma pistol",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "3832-4208-11e9-ca22",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "3832-4208-11e9-ca22",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 15
+                      },
+                      {
+                        "childId": "14a5-4b2-415a-c1d",
+                        "childName": "Plasma pistol",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "3832-4208-11e9-ca22",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
@@ -61799,21 +61868,80 @@
         "import": true,
         "type": "upgrade",
         "constraints": [
-          {
-            "id": "aa2f-9e75-a27f-bd08",
-            "field": "selections",
-            "includeChildForces": false,
-            "includeChildSelections": true,
-            "percentValue": false,
-            "scope": "3832-4208-11e9-ca22",
-            "shared": true,
-            "type": "max",
-            "value": 4
-          },
           {"id": "62e9-4c13-69ed-5d4e-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
           {"id": "62e9-4c13-69ed-5d4e-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
         ],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
+        "modifiers": [
+          {
+            "field": "error",
+            "type": "add",
+            "value": "Max 1 Khornate eviscerator per 5 models",
+            "conditionGroups": [
+              {
+                "type": "or",
+                "conditionGroups": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 20
+                      },
+                      {
+                        "childId": "ab40-7267-a359-fd74",
+                        "childName": "Khornate eviscerator",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "childId": "model",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "lessThan",
+                        "value": 15
+                      },
+                      {
+                        "childId": "ab40-7267-a359-fd74",
+                        "childName": "Khornate eviscerator",
+                        "field": "selections",
+                        "includeChildForces": false,
+                        "includeChildSelections": true,
+                        "percentValue": false,
+                        "scope": "unit",
+                        "shared": true,
+                        "type": "greaterThan",
+                        "value": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
         "profiles": [
           {
             "name": "Khornate eviscerator",
