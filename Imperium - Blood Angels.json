@@ -5882,10 +5882,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Psychic Weapon", "id": "0496-5d7c-d7d2-f9b4", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"},
-                  {"name": "Extra Attacks Weapon", "id": "5e7d-9234-36bb-6183", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Psychic Weapon", "id": "0496-5d7c-d7d2-f9b4", "hidden": false, "primary": false, "targetId": "4546-4a0c-b3be-e84c"}],
                 "constraints": [
                   {"id": "10d5-6f94-8c23-aaba", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "ae76-6930-944-f30f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}

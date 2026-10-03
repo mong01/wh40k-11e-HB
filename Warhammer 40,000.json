@@ -857,7 +857,6 @@
       {"name": "Striding Behemoths", "id": "0dce-ed3d-83af-2f27", "comment": "Crusade content", "hidden": false},
       {"name": "Monster Hunters", "id": "1532-9501-d870-4514", "comment": "Crusade content", "hidden": false},
       {"name": "Psychic Weapon", "id": "4546-4a0c-b3be-e84c", "hidden": true},
-      {"name": "Extra Attacks Weapon", "id": "84c4-6d1e-e724-bd6e", "hidden": true},
       {"name": "Torrent Weapon", "id": "064a-0470-60eb-e3ef", "hidden": true},
       {"name": "Ranged Weapon", "id": "eeda-8544-a2f3-3fab", "comment": "Used for Enhancement / Crusade Relic upgrades", "hidden": true},
       {"name": "Melee Weapon", "id": "ccdd-3987-11ed-90cd", "comment": "Used for Enhancement / Crusade Relic upgrades", "hidden": true},
@@ -4687,16 +4686,6 @@
                   {"affects": "profiles.Ranged Weapons", "arg": "+0", "field": "3bb-c35f-f54-fb08", "scope": "upgrade", "type": "replace"},
                   {"affects": "profiles.Melee Weapons", "arg": "+0", "field": "2337-daa1-6682-b110", "scope": "upgrade", "type": "replace"},
                   {"affects": "e993-e086-6de1-12af", "arg": "+0", "field": "category", "scope": "upgrade", "type": "add", "value": "6337-b83b-0d1e-5770"}
-                ]
-              }
-            ],
-            "modifiers": [
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [
-                  {"childId": "84c4-6d1e-e724-bd6e", "field": "selections", "includeChildSelections": true, "scope": "upgrade", "shared": true, "type": "instanceOf", "value": 1}
                 ]
               }
             ]

@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 25,
+    "revision": 26,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [{"name": "Unaligned Forces", "id": "2660-21-2feb-f1c5", "importRootEntries": true, "targetId": "581a-46b9-5b86-44b7", "type": "catalogue"}],
@@ -3112,7 +3112,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "1af4-45ef-769a-3cc2", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
             "constraints": [
               {"id": "1e0a-7b45-811c-5e5e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "9f6-325-ddb7-7b8f", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -12924,7 +12923,6 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "a47c-a21e-a4f7-b8d3", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
             "constraints": [
               {"id": "3b8e-ba36-5a04-59e", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "76cf-19a2-d16a-bdd4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -16717,7 +16715,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 20,
+            "value": 30,
             "conditionGroups": [
               {
                 "type": "and",

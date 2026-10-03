@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 77,
     "library": true,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "categoryEntries": [
@@ -3008,7 +3008,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "9fad-976f-1144-30ef", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                 "constraints": [
                   {"id": "9e6b-8bde-fcf2-e4a0", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1},
                   {"id": "9e47-fb21-da89-73dd", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "min", "value": 1}
@@ -3819,10 +3818,7 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Melee Weapon", "id": "8fa5-8d1d-c159-acd4", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-                  {"name": "Extra Attacks Weapon", "id": "0b9e-f25f-903b-c1a8", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-                ],
+                "categoryLinks": [{"name": "Melee Weapon", "id": "8fa5-8d1d-c159-acd4", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
                 "constraints": [
                   {"id": "f454-c472-689-70be", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "e579-e46d-86db-ee03", "field": "selections", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -6270,10 +6266,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Melee Weapon", "id": "3985-176d-31c6-404d", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-          {"name": "Extra Attacks Weapon", "id": "69ab-ee95-3dd8-05f3", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "3985-176d-31c6-404d", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
         "infoLinks": [{"name": "Extra Attacks", "id": "3b0-6790-786-73ba", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
         "profiles": [
@@ -17602,10 +17595,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Purestrain", "id": "4bf1-c5d2-9fb1-bc85", "hidden": false, "primary": false, "targetId": "a552-36b4-181a-b833"},
-              {"name": "Take and Hold", "id": "b8c7-3a79-436f-706e", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}
-            ],
+            "categoryLinks": [{"name": "Take and Hold", "id": "b8c7-3a79-436f-706e", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
             "constraints": [{"id": "f8fc-3a62-a642-e77c", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -17878,10 +17868,7 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [
-              {"name": "Purestrain", "id": "871e-63d8-6f0e-b979", "hidden": false, "primary": false, "targetId": "a552-36b4-181a-b833"},
-              {"name": "Priority Assets", "id": "cb56-67ed-9933-6a80", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}
-            ],
+            "categoryLinks": [{"name": "Priority Assets", "id": "cb56-67ed-9933-6a80", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"}],
             "constraints": [{"id": "8f9b-2111-6a83-6744", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},

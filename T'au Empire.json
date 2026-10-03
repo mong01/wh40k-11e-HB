@@ -7763,7 +7763,6 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "c3b6-5b97-5d90-9083", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                     "constraints": [
                       {"id": "1d0b-3ecd-f02c-99e2", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "8edf-4546-47a9-5189", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -7875,7 +7874,6 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "8936-dec3-970f-7478", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                     "constraints": [
                       {"id": "3c0e-2feb-23cc-d821", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                       {"id": "aee9-a129-3bb2-22b4", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -26731,7 +26729,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "e3a9-1e6b-ddb5-ad0e", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                 "constraints": [
                   {"id": "1669-eb46-8d6a-94f3", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "2370-19a0-f196-9ac7", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -33692,10 +33689,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Melee Weapon", "id": "ed15-5cac-4e28-c9a5", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-          {"name": "Extra Attacks Weapon", "id": "1c24-0da8-940d-ded7", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "ed15-5cac-4e28-c9a5", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "infoLinks": [{"name": "Extra Attacks", "id": "244d-f0a9-ba51-8da9", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
         "profiles": [
           {
@@ -33723,10 +33717,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Extra Attacks Weapon", "id": "3a7d-27a3-a9b1-0c00", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"},
-          {"name": "Melee Weapon", "id": "bb30-a716-9bd3-0f77", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "bb30-a716-9bd3-0f77", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "infoLinks": [
           {"name": "Sustained Hits", "id": "5460-c9da-2cf2-6d4f", "hidden": false, "targetId": "1897-c22c-9597-12b1", "type": "rule"},
           {"name": "Extra Attacks", "id": "d25e-da03-a922-4ad2", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}
@@ -45246,13 +45237,7 @@
                   {"childId": "3c24-2427-239f-d487", "field": "selections", "includeChildSelections": true, "scope": "root-entry", "shared": true, "type": "atLeast", "value": 1}
                 ]
               },
-              {"field": "category", "join": ", ", "scope": "upgrade", "type": "add", "value": "c13c-1717-f8a8-a8df"},
-              {
-                "field": "hidden",
-                "type": "set",
-                "value": true,
-                "conditions": [{"childId": "84c4-6d1e-e724-bd6e", "field": "selections", "scope": "upgrade", "shared": true, "type": "instanceOf", "value": 1}]
-              }
+              {"field": "category", "join": ", ", "scope": "upgrade", "type": "add", "value": "c13c-1717-f8a8-a8df"}
             ]
           }
         ]

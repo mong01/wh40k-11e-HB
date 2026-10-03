@@ -12102,7 +12102,6 @@
                     "hidden": false,
                     "import": true,
                     "type": "upgrade",
-                    "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "05f1-00a5-77a8-f2f2", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                     "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "f077-8ef7-3d0c-2291", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
@@ -20857,7 +20856,6 @@
                 "hidden": false,
                 "import": true,
                 "type": "upgrade",
-                "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "4820-2a6a-66cd-cd48", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
                 "constraints": [{"id": "eaba-9fa4-8dc4-ee18", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "infoLinks": [{"name": "Extra Attacks", "id": "cb18-8b3f-8aaf-1509", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
                 "profiles": [
@@ -24201,7 +24199,6 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [{"name": "Extra Attacks Weapon", "id": "8d26-3710-53b3-8919", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}],
         "constraints": [
           {"id": "250c-3a31-e9a5-47aa", "field": "selections", "includeChildSelections": true, "scope": "f158-2979-c38b-65b5", "shared": true, "type": "max", "value": 1}
         ],

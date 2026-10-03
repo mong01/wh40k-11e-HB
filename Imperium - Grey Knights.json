@@ -3483,7 +3483,7 @@
                 ],
                 "infoLinks": [
                   {
-                    "name": "Brotherhood Terminator",
+                    "name": "Terminator",
                     "id": "eb62-5762-228e-3d7b",
                     "hidden": false,
                     "targetId": "28af-6e37-2f1f-93d2",
@@ -16650,10 +16650,7 @@
         "hidden": false,
         "import": true,
         "type": "upgrade",
-        "categoryLinks": [
-          {"name": "Melee Weapon", "id": "65ee-9c1e-ca99-c306", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"},
-          {"name": "Extra Attacks Weapon", "id": "780a-39d6-6ab2-3611", "hidden": false, "primary": false, "targetId": "84c4-6d1e-e724-bd6e"}
-        ],
+        "categoryLinks": [{"name": "Melee Weapon", "id": "65ee-9c1e-ca99-c306", "hidden": false, "primary": false, "targetId": "ccdd-3987-11ed-90cd"}],
         "infoLinks": [{"name": "Extra Attacks", "id": "348c-2636-36da-4fc1", "hidden": false, "targetId": "115b-79dc-f723-d761", "type": "rule"}],
         "profiles": [
           {
