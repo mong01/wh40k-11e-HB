@@ -8,7 +8,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 4,
+    "revision": 5,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -7371,6 +7371,7 @@
                       {"id": "d898-c63a-be90-205e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 2},
                       {"id": "2f7e-1f22-dcfe-5be7", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2}
                     ],
+                    "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 10}],
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "2272-d58a-1ee4-a91f", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                     ]
