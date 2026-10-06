@@ -67232,7 +67232,8 @@
           {"name": "Epic Hero", "id": "e7ed-dd11-e39f-300d", "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Officer", "id": "f121-9629-aab1-f601", "primary": false, "targetId": "e4d8-c6a1-7c23-ae25"},
           {"name": "Leader", "id": "999b-7fd3-f78f-dcde", "hidden": false, "primary": false, "targetId": "1556-9b56-fba6-4370"},
-          {"name": "Ciaphas Cain", "id": "864b-8064-f7c9-a2b9", "hidden": false, "primary": false, "targetId": "d637-2037-7db3-d427"}
+          {"name": "Ciaphas Cain", "id": "864b-8064-f7c9-a2b9", "hidden": false, "primary": false, "targetId": "d637-2037-7db3-d427"},
+          {"name": "Commissar", "id": "d51e-7e0b-b9cf-63cf", "hidden": false, "primary": false, "targetId": "cf38-2338-aa71-ed56"}
         ],
         "constraints": [
           {
