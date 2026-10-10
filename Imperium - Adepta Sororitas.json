@@ -9,7 +9,7 @@
     "gameSystemRevision": 1,
     "library": false,
     "readme": "",
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -7703,7 +7703,8 @@
           {"name": "Imperium", "id": "10d1-fa5d-c2c7-5365", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Imagifier", "id": "43e4-e611-4656-78e8", "primary": false, "targetId": "27a5-f3c8-a520-edd9"},
           {"name": "Faction: Adepta Sororitas", "id": "ce27-3838-ea41-9a85", "primary": false, "targetId": "fd71-afa6-b13b-7fda"},
-          {"name": "Sororitas Character", "id": "df1b-1c0d-6495-2996", "hidden": false, "primary": false, "targetId": "06f3-c7f0-3763-211c"}
+          {"name": "Sororitas Character", "id": "df1b-1c0d-6495-2996", "hidden": false, "primary": false, "targetId": "06f3-c7f0-3763-211c"},
+          {"name": "Support", "id": "9211-5d5c-5757-6bb2", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"}
         ],
         "constraints": [
           {"id": "bd5c-4b26-7c11-7c51", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
