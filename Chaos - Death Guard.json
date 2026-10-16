@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 18,
+    "revision": 19,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -3963,7 +3963,13 @@
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
-        "characteristics": [{"name": "Description", "$text": "This model can be attached to the following unit: PLAGUE MARINES", "typeId": "9b8f-694b-e5e-b573"}]
+        "characteristics": [
+          {
+            "name": "Description",
+            "$text": "This model can be attached to the following unit: PLAGUE MARINES†\n†*Can join even if the unit is already led by another Leader.*",
+            "typeId": "9b8f-694b-e5e-b573"
+          }
+        ]
       },
       {
         "name": "Helbrute fist",

@@ -6517,7 +6517,18 @@
                       {"id": "8e89-a223-9c1e-7a56", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
                     ]
                   },
-                  {"name": "Frag cannon", "id": "0fbb-cae1-e956-19ea", "hidden": false, "import": true, "targetId": "efbd-2915-b637-83f8", "type": "selectionEntry"}
+                  {
+                    "name": "Frag cannon",
+                    "id": "0fbb-cae1-e956-19ea",
+                    "hidden": false,
+                    "import": true,
+                    "targetId": "efbd-2915-b637-83f8",
+                    "type": "selectionEntry",
+                    "constraints": [
+                      {"id": "3499-8dac-40fb-682e-min", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
+                      {"id": "3499-8dac-40fb-682e-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
+                    ]
+                  }
                 ],
                 "infoLinks": [{"name": "Deathwatch Veteran", "id": "1349-c0c0-7a63-4a21", "hidden": false, "targetId": "8cfe-ed9f-bf3e-4335", "type": "profile"}],
                 "modifiers": [

@@ -5684,7 +5684,7 @@
         "hidden": false,
         "typeId": "9cc3-6d83-4dd3-9b64",
         "typeName": "Abilities",
-        "characteristics": [{"name": "Description", "$text": "This unit has Feel No Pain 4+ against psychic attacks and mortal wounds.", "typeId": "9b8f-694b-e5e-b573"}]
+        "characteristics": [{"name": "Description", "$text": "This unit has Feel No Pain 4+ against psychic attacks.", "typeId": "9b8f-694b-e5e-b573"}]
       },
       {
         "name": "Tactical Precision",
@@ -26949,38 +26949,6 @@
             ]
           },
           {
-            "field": "51b2-306e-1021-d207",
-            "type": "increment",
-            "value": 5,
-            "conditionGroups": [
-              {
-                "type": "and",
-                "conditions": [
-                  {
-                    "childId": "4ef9-15ce-e3e6-36de",
-                    "childName": "Imperium - Adeptus Astartes - Blood Angels",
-                    "field": "selections",
-                    "scope": "primary-catalogue",
-                    "shared": true,
-                    "type": "instanceOf",
-                    "value": 1
-                  },
-                  {
-                    "childId": "83c3-d5a9-bc75-339f",
-                    "childName": "Outriders",
-                    "field": "selections",
-                    "includeChildForces": false,
-                    "includeChildSelections": true,
-                    "scope": "unit-self",
-                    "shared": true,
-                    "type": "lessThan",
-                    "value": 4
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "affects": "self.entries",
             "field": "category",
             "type": "set-primary",
@@ -35870,7 +35838,7 @@
                                 "typeName": "Ranged Weapons",
                                 "characteristics": [
                                   {"name": "Range", "$text": "48\"", "typeId": "9896-9419-16a1-92fc"},
-                                  {"name": "A", "$text": "3", "typeId": "3bb-c35f-f54-fb08"},
+                                  {"name": "A", "$text": "4", "typeId": "3bb-c35f-f54-fb08"},
                                   {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
                                   {"name": "S", "$text": "9", "typeId": "2229-f494-25db-c5d3"},
                                   {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
@@ -77218,6 +77186,26 @@
               {"name": "AP", "$text": "-2", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "3", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
+            ],
+            "modifiers": [
+              {
+                "affects": "self.entries",
+                "field": "3bb-c35f-f54-fb08",
+                "type": "increment",
+                "value": 1,
+                "conditions": [
+                  {
+                    "childId": "caed-a62d-2318-dda1",
+                    "childName": "Death Company Marines",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "ancestor",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
             ]
           },
           {
@@ -78053,6 +78041,7 @@
             "modifiers": [
               {
                 "field": "7f1b-8591-2fcf-d01c",
+                "join": ",",
                 "type": "append",
                 "value": "Ignores Cover",
                 "conditions": [
@@ -78580,7 +78569,8 @@
             "categoryLinks": [
               {"name": "Priority Assets", "id": "eec2-2124-5675-5ba6", "primary": false, "targetId": "0936-9767-1cc7-52ae"},
               {"name": "Grace", "id": "a78e-bb61-a9af-b7f0", "primary": false, "targetId": "587c-f293-e783-0008"},
-              {"name": "3DP Detachment", "id": "d2b2-2098-98c0-1ee1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"}
+              {"name": "3DP Detachment", "id": "d2b2-2098-98c0-1ee1", "hidden": false, "primary": false, "targetId": "7d80-2de5-816e-9d2b"},
+              {"name": "Purge the Foe", "id": "f26f-f512-e240-635b", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}
             ],
             "constraints": [{"id": "dcd1-7cb7-b222-0474", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
@@ -78618,7 +78608,10 @@
             "hidden": false,
             "import": true,
             "type": "upgrade",
-            "categoryLinks": [{"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
+            "categoryLinks": [
+              {"name": "Take and Hold", "id": "0a1a-7497-3254-bd48", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"},
+              {"name": "Terminator Detachment", "id": "962f-e90e-f9c6-ba76", "hidden": false, "primary": false, "targetId": "0166-0037-31fb-1dd0"}
+            ],
             "constraints": [{"id": "3a01-4025-5cf6-5618", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
             "costs": [
               {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -79239,7 +79232,6 @@
               {"name": "Honour Points", "typeId": "8135-9a2f-6627-09e2", "value": 0},
               {"name": "Relic Fragments", "typeId": "0ece-6541-4662-ece2", "value": 0}
             ],
-            "displayCosts": [{"name": "Detachment Points", "typeId": "82ae-1066-5107-6ae0", "value": 0}, {"name": "Enhancements", "typeId": "f759-1bc4-cb3a-f0d2", "value": 0}],
             "rules": [
               {
                 "name": "Codex Fire-Patterns",
@@ -81450,7 +81442,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Deathwing**^^ model with the Deep Strike ability only. The bearer’s unit can be set up using the Deep Strike ability in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules.",
+                        "$text": "^^**Deathwing**^^ model with the **Deep Strike** ability only. In your first Movement phase, this unit can make an **ingress move**.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -81489,7 +81481,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "**^^Adeptus Astartes**^^ model only. While a friendly **^^Adeptus Astartes**^^ unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit.",
+                        "$text": "**^^Adeptus Astartes**^^ model only. Friendly ^^**Adeptus Astartes**^^ units within 6” of this model can re-roll **leadership rolls**.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -81533,13 +81525,7 @@
                     "hidden": false,
                     "typeId": "9cc3-6d83-4dd3-9b64",
                     "typeName": "Abilities",
-                    "characteristics": [
-                      {
-                        "name": "Description",
-                        "$text": "**^^Ravenwing**^^ model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.",
-                        "typeId": "9b8f-694b-e5e-b573"
-                      }
-                    ]
+                    "characteristics": [{"name": "Description", "$text": "**^^Ravenwing**^^ model only. This unit can re-roll **charge rolls**.", "typeId": "9b8f-694b-e5e-b573"}]
                   }
                 ]
               },
@@ -81595,7 +81581,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "^^**Adeptus Astartes**^^ model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 2, and improve the Armour Penetration and Damage characteristics of those weapons by 1.",
+                        "$text": "^^**Adeptus Astartes**^^ model only. This model’s melee attacks:\n\n\n- Have +2 S.\n- Have +1 AP",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
