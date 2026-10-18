@@ -909,7 +909,7 @@
             "hidden": false,
             "import": true,
             "sortIndex": 5,
-            "targetId": "eb61-5cd0-5242-74cc",
+            "targetId": "9f00-4659-692a-9dc1",
             "type": "selectionEntry",
             "constraints": [
               {"id": "fa9e-2c70-d6e1-7f78", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -9612,7 +9612,7 @@
                     "id": "02c1-381f-1695-a20c",
                     "hidden": false,
                     "import": true,
-                    "targetId": "2fb0-97d5-262d-b992",
+                    "targetId": "eb61-5cd0-5242-74cc",
                     "type": "selectionEntry",
                     "entryLinks": [
                       {"name": "Weapon Modifications", "id": "58ef-9c95-bd90-9128", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
