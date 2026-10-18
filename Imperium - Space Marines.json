@@ -69619,7 +69619,10 @@
                 "hidden": false,
                 "import": true,
                 "type": "model",
-                "categoryLinks": [{"name": "Ancient", "id": "5fd2-a038-e56f-2de9", "hidden": false, "primary": false, "targetId": "9bb1-7b6c-326a-da2c"}],
+                "categoryLinks": [
+                  {"name": "Ancient", "id": "5fd2-a038-e56f-2de9", "hidden": false, "primary": false, "targetId": "9bb1-7b6c-326a-da2c"},
+                  {"name": "Character", "id": "7922-5cfe-1c85-a87f", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"}
+                ],
                 "constraints": [
                   {"id": "18f-3e22-3551-1e6-min", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "18f-3e22-3551-1e6-max", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -69674,7 +69677,8 @@
                       {"id": "cd9d-b1f8-fb5a-eac9", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1},
                       {"id": "7030-11a3-6c3f-9053", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1}
                     ]
-                  }
+                  },
+                  {"name": "Enhancements", "id": "864f-e223-c737-fdad", "hidden": false, "import": true, "targetId": "9e5d-de4c-c5d1-1d3e", "type": "selectionEntryGroup"}
                 ],
                 "profiles": [
                   {
@@ -79710,7 +79714,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -80845,7 +80848,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -81470,7 +81472,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -83980,7 +83981,6 @@
                 ],
                 "modifiers": [
                   {
-                    "affects": "self.entries",
                     "field": "hidden",
                     "type": "set",
                     "value": true,
@@ -84295,7 +84295,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -85775,7 +85774,6 @@
                 ]
               },
               {
-                "affects": "self.entries",
                 "field": "hidden",
                 "type": "set",
                 "value": true,
@@ -85958,13 +85956,13 @@
                     "value": true,
                     "conditionGroups": [
                       {
-                        "type": "and",
+                        "type": "or",
                         "conditions": [
                           {
                             "childId": "9cfd-1c32-585f-7d5c",
                             "childName": "Character",
                             "field": "selections",
-                            "includeChildSelections": true,
+                            "includeChildSelections": false,
                             "scope": "ancestor",
                             "shared": true,
                             "type": "notInstanceOf",
@@ -85974,7 +85972,7 @@
                             "childId": "cf47-a0d7-7207-29dc",
                             "childName": "Infantry",
                             "field": "selections",
-                            "includeChildSelections": true,
+                            "includeChildSelections": false,
                             "scope": "ancestor",
                             "shared": true,
                             "type": "notInstanceOf",
