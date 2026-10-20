@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -2044,7 +2044,7 @@
                     "repeats": 1,
                     "scope": "parent",
                     "type": "atLeast",
-                    "value": 1,
+                    "value": 2,
                     "conditions": [
                       {"childId": "any", "field": "selections", "scope": "self", "shared": true, "type": "before", "value": 1},
                       {"childId": "48b7-e713-d5b1-f11c", "childName": "Blade Champion", "field": "selections", "scope": "self", "shared": true, "type": "instanceOf", "value": 1}
@@ -2995,9 +2995,9 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
-                  {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "W", "$text": "6", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
+                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
                 ]
@@ -8715,7 +8715,7 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
@@ -13818,12 +13818,9 @@
                 "id": "a36b-bb22-1a15-2a48",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 4,
+                "sortIndex": 3,
                 "type": "upgrade",
-                "categoryLinks": [
-                  {"name": "Priority Assets", "id": "a7ec-fd51-9de4-b30e", "hidden": false, "primary": false, "targetId": "0936-9767-1cc7-52ae"},
-                  {"name": "Purge the Foe", "id": "7fc2-e21d-60e6-73de", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}
-                ],
+                "categoryLinks": [{"name": "Purge the Foe", "id": "7fc2-e21d-60e6-73de", "hidden": false, "primary": false, "targetId": "6fe0-3dbe-f7e0-10bb"}],
                 "constraints": [{"id": "44f5-aad2-e68d-744e", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [
                   {"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0},
@@ -13849,7 +13846,7 @@
                 "id": "3b75-a700-050c-06f5",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 5,
+                "sortIndex": 6,
                 "type": "upgrade",
                 "categoryLinks": [{"name": "Disruption", "id": "f124-14a7-d0d4-feeb", "hidden": false, "primary": false, "targetId": "ecf8-cf72-7d5b-1b5b"}],
                 "constraints": [{"id": "94be-963b-f3b6-fc5d", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -13877,7 +13874,7 @@
                 "id": "1bb5-5aba-6c8f-7afc",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 6,
+                "sortIndex": 7,
                 "type": "upgrade",
                 "categoryLinks": [{"name": "Take and Hold", "id": "b9f1-63c0-b769-d61c", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
                 "constraints": [{"id": "22f5-51fd-138c-38fb", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -13937,7 +13934,7 @@
                 "id": "dbe4-0a6f-4eb5-5f06",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 3,
+                "sortIndex": 5,
                 "type": "upgrade",
                 "categoryLinks": [{"name": "Take and Hold", "id": "ce64-d691-7687-54c2", "hidden": false, "primary": false, "targetId": "1cc1-f11a-4e8f-1bcc"}],
                 "constraints": [{"id": "90f8-e522-b101-9552", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -13965,7 +13962,7 @@
                 "id": "ccb7-6823-6a97-7c19",
                 "hidden": false,
                 "import": true,
-                "sortIndex": 7,
+                "sortIndex": 4,
                 "type": "upgrade",
                 "categoryLinks": [{"name": "Reconnaissance", "id": "0bb9-81f3-641c-3f1a", "hidden": false, "primary": false, "targetId": "b4a7-5083-fe94-4d24"}],
                 "constraints": [{"id": "498f-8e73-b43d-d593", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}],
@@ -16272,7 +16269,7 @@
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
                   {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
-                  {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
+                  {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
                   {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
                 ]
@@ -18183,7 +18180,7 @@
                     "type": "selectionEntryGroup"
                   }
                 ],
-                "infoLinks": [{"name": "Twin-linked", "id": "a46e-4e40-4f50-7a5a", "hidden": false, "targetId": "cf93-ad4d-2f08-a79d", "type": "rule"}],
+                "infoLinks": [{"name": "Lethal Hits", "id": "a46e-4e40-4f50-7a5a", "hidden": false, "targetId": "d1d1-611e-5191-1095", "type": "rule"}],
                 "profiles": [
                   {
                     "name": "Arachnus Blaze Carronade",
@@ -18623,7 +18620,7 @@
                   {"name": "M", "$text": "8\"", "typeId": "e703-ecb6-5ce7-aec1"},
                   {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
                   {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
-                  {"name": "W", "$text": "3", "typeId": "750a-a2ec-90d3-21fe"},
+                  {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
                   {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
                   {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
                   {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
