@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 21,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -385,7 +385,7 @@
         "type": "selectionEntry"
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "9d4f-c524-e432-f877",
         "hidden": false,
         "import": true,
@@ -3997,7 +3997,8 @@
                       {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -4033,6 +4034,25 @@
                           {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
                           {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
                           {"name": "Keywords", "$text": "Anti-PSYKER 4+, Assault, Rapid Fire 1", "typeId": "7f1b-8591-2fcf-d01c"}
+                        ]
+                      }
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Weapon Upgrades",
+                        "id": "3d0c-edb4-6784-b478",
+                        "flatten": true,
+                        "hidden": false,
+                        "entryLinks": [
+                          {"name": "Weapon Modifications", "id": "2bfd-7778-d7a2-db83", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
+                          {
+                            "name": "Crusade Relic Upgrades",
+                            "id": "a47b-a1c1-fc41-bf75",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "b678-4a99-210e-931f",
+                            "type": "selectionEntryGroup"
+                          }
                         ]
                       }
                     ]
@@ -5679,7 +5699,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "This model can be attached to the following units: CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS",
+                "$text": "This model can be attached to the following units: ALLARUS CUSTODIANS, AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS, AQUILON TERMINATORS WITH SOLARITE POWER TALONS, CUSTODIAN GUARD SODALITY, CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS, CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS SODALITY, SENTINEL GUARD SODALITY",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -5707,7 +5727,7 @@
             "characteristics": [
               {
                 "name": "Description",
-                "$text": "At the start of any phase, you can select one of the following to take effect until the end of the phase:\n- This model’s Watcher’s Axe weapon has +3 A.\n- This model has 3+ InSv.",
+                "$text": "(Once per battle, per army)\nAt the start of any phase, you can select one of the following to take effect until the end of the phase:\n- This model’s Watcher’s Axe weapon has +3 A.\n- This model has 3+ InSv.",
                 "typeId": "9b8f-694b-e5e-b573"
               }
             ]
@@ -7975,7 +7995,8 @@
                       {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ],
@@ -8010,6 +8031,25 @@
                           {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
                           {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
                           {"name": "Keywords", "$text": "Anti-Psyker 5+, Devastating Wounds: PSYKER", "typeId": "893f-9000-ccf7-648e"}
+                        ]
+                      }
+                    ],
+                    "selectionEntryGroups": [
+                      {
+                        "name": "Weapon Upgrades",
+                        "id": "2a14-5009-3dbd-991e",
+                        "flatten": true,
+                        "hidden": false,
+                        "entryLinks": [
+                          {"name": "Weapon Modifications", "id": "3eb5-ba39-e370-ee6c", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
+                          {
+                            "name": "Crusade Relic Upgrades",
+                            "id": "6ba2-017e-23c9-0fe1",
+                            "hidden": false,
+                            "import": true,
+                            "targetId": "b678-4a99-210e-931f",
+                            "type": "selectionEntryGroup"
+                          }
                         ]
                       }
                     ]
@@ -8418,7 +8458,8 @@
                       {"name": "W", "$text": "1", "typeId": "750a-a2ec-90d3-21fe"},
                       {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
                       {"name": "OC", "$text": "1", "typeId": "bef7-942a-1a23-59f8"},
-                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"}
+                      {"name": "InSv", "$text": "", "typeId": "55a7-5b54-c60d-11dc"},
+                      {"name": "Base", "$text": "32mm", "typeId": "nr-base-size"}
                     ]
                   }
                 ]
@@ -9207,7 +9248,6 @@
           {"name": "Imperium", "id": "4987-d939-7a02-add9", "hidden": false, "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Gyrfalcon Jetbike Sodality", "id": "af4f-2271-31bd-8ee0", "hidden": false, "primary": false, "targetId": "20d4-956e-133e-153c"},
           {"name": "Faction: Adeptus Custodes", "id": "5bbc-7d9f-677c-e51e", "hidden": false, "primary": false, "targetId": "eea5-aeaf-bbf0-d5ee"},
-          {"name": "Frame", "id": "a657-7a3a-ba63-c0db", "hidden": false, "primary": false, "targetId": "b927-8eeb-7cc3-8dec"},
           {"name": "Emissaries", "id": "81f7-eb13-b70a-5627", "hidden": false, "primary": false, "targetId": "1070-413c-cf8f-338f"}
         ],
         "constraints": [
@@ -13694,7 +13734,7 @@
         "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "5218-339c-eb34-9ac0",
         "hidden": false,
         "import": true,
@@ -14268,72 +14308,6 @@
         ]
       },
       {
-        "name": "Lastrum storm bolter",
-        "id": "47e0-7c05-18ba-bb02",
-        "collective": true,
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "constraints": [
-          {"id": "245e-2190-e1fc-fdc5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "29a1-aa76-b3ce-4271", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-        ],
-        "infoLinks": [{"name": "Rapid Fire", "id": "58b7-50bf-9e17-78e5", "hidden": false, "targetId": "c5c8-8b58-b8b6-7786", "type": "rule"}],
-        "profiles": [
-          {
-            "name": "Lastrum storm bolter",
-            "id": "96ad-1cec-fb3b-a317",
-            "hidden": false,
-            "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons",
-            "characteristics": [
-              {"name": "Range", "$text": "24\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "2", "typeId": "3bb-c35f-f54-fb08"},
-              {"name": "BS", "$text": "2+", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "5", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Rapid Fire 2", "typeId": "7f1b-8591-2fcf-d01c"}
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Infernus firepike",
-        "id": "3d65-400b-7524-120f",
-        "collective": true,
-        "hidden": false,
-        "import": true,
-        "type": "upgrade",
-        "categoryLinks": [{"name": "Attacks Dx Weapon", "id": "f362-79e4-ac14-2450", "hidden": false, "primary": false, "targetId": "e993-e086-6de1-12af"}],
-        "constraints": [
-          {"id": "75a9-8935-d177-41e8", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
-          {"id": "4b40-a7b5-aa63-4a5a", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
-        ],
-        "infoLinks": [
-          {"name": "Ignores Cover", "id": "c8b6-ca7b-1bc2-af67", "hidden": false, "targetId": "4640-43e7-30b-215a", "type": "rule"},
-          {"name": "Torrent", "id": "c4a7-ab9b-5679-36b7", "hidden": false, "targetId": "5edf-d619-23e0-9b56", "type": "rule"}
-        ],
-        "profiles": [
-          {
-            "name": "Infernus firepike",
-            "id": "7f4-742a-3d7-18b5",
-            "hidden": false,
-            "typeId": "f77d-b953-8fa4-b762",
-            "typeName": "Ranged Weapons",
-            "characteristics": [
-              {"name": "Range", "$text": "12\"", "typeId": "9896-9419-16a1-92fc"},
-              {"name": "A", "$text": "D6", "typeId": "3bb-c35f-f54-fb08"},
-              {"name": "BS", "$text": "N/A", "typeId": "94d-8a98-cf90-183e"},
-              {"name": "S", "$text": "6", "typeId": "2229-f494-25db-c5d3"},
-              {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
-              {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
-              {"name": "Keywords", "$text": "Ignores Cover, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
-            ]
-          }
-        ]
-      },
-      {
         "name": "Twin adrathic destructor",
         "id": "6dae-e4c7-7a80-7c66",
         "collective": true,
@@ -14422,6 +14396,25 @@
               {"name": "AP", "$text": "-1", "typeId": "9ead-8a10-520-de15"},
               {"name": "D", "$text": "1", "typeId": "a354-c1c8-a745-f9e3"},
               {"name": "Keywords", "$text": "Anti-PSYKER 4+, Assault, Blast 1, Torrent", "typeId": "7f1b-8591-2fcf-d01c"}
+            ]
+          }
+        ],
+        "selectionEntryGroups": [
+          {
+            "name": "Weapon Upgrades",
+            "id": "a748-7c74-1637-4d51",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+              {"name": "Weapon Modifications", "id": "3da7-bcf2-611e-bb6f", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
+              {
+                "name": "Crusade Relic Upgrades",
+                "id": "5fdb-fb8f-5c8d-74c3",
+                "hidden": false,
+                "import": true,
+                "targetId": "b678-4a99-210e-931f",
+                "type": "selectionEntryGroup"
+              }
             ]
           }
         ]

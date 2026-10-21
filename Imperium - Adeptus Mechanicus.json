@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 20,
+    "revision": 21,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -10231,9 +10231,7 @@
                 "constraints": [{"id": "91fa-3010-bb3b-e400", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                 "entryLinks": [{"name": "Close combat weapon", "id": "5281-ac75-7499-b970", "hidden": false, "import": true, "targetId": "2f1a-2fc7-2843-549d", "type": "selectionEntry"}],
-                "infoLinks": [
-                  {"name": "Skitarii Ranger w/ transuranic arquebus", "id": "nr-base-22b3-9c84-0982-8627", "hidden": false, "targetId": "013b-d05a-1fbc-40a5", "type": "profile"}
-                ],
+                "infoLinks": [{"name": "Skitarii Rangers", "id": "nr-base-22b3-9c84-0982-8627", "hidden": false, "targetId": "013b-d05a-1fbc-40a5", "type": "profile"}],
                 "selectionEntries": [
                   {
                     "name": "Transuranic arquebus",
@@ -11103,15 +11101,7 @@
                 "constraints": [{"id": "463a-6c49-48ef-b5a8", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "costs": [{"name": "pts", "typeId": "51b2-306e-1021-d207", "value": 0}],
                 "entryLinks": [{"name": "Close combat weapon", "id": "9cbc-d432-9adf-d330", "hidden": false, "import": true, "targetId": "2f1a-2fc7-2843-549d", "type": "selectionEntry"}],
-                "infoLinks": [
-                  {
-                    "name": "Skitarii Vanguard w/ transuranic arquebus",
-                    "id": "nr-base-54ca-f341-b75a-6c29",
-                    "hidden": false,
-                    "targetId": "7df2-9dbf-5bcb-3e9a",
-                    "type": "profile"
-                  }
-                ],
+                "infoLinks": [{"name": "Skitarii Vanguard", "id": "nr-base-54ca-f341-b75a-6c29", "hidden": false, "targetId": "7df2-9dbf-5bcb-3e9a", "type": "profile"}],
                 "selectionEntries": [
                   {
                     "name": "Transuranic arquebus",
@@ -17541,7 +17531,7 @@
             "value": 1
           }
         ],
-        "entryLinks": [{"name": "Detachments", "id": "422c-4088-de8b-58a4", "hidden": false, "targetId": "6972-dcc-e567-d509", "type": "selectionEntryGroup"}],
+        "entryLinks": [{"name": "Detachment", "id": "422c-4088-de8b-58a4", "hidden": false, "targetId": "6972-dcc-e567-d509", "type": "selectionEntryGroup"}],
         "modifiers": [
           {
             "field": "hidden",
@@ -30396,7 +30386,7 @@
         ]
       },
       {
-        "name": "Detachments",
+        "name": "Detachment",
         "id": "6972-dcc-e567-d509",
         "defaultSelectionEntryId": "none",
         "hidden": false,

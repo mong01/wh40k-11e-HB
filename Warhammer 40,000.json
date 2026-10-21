@@ -796,7 +796,56 @@
       {"name": "Faction: Agents of the Imperium", "id": "5128-90b-e4a5-dcbd", "hidden": false},
       {"name": "Faction: Dark Angels", "id": "aab1-4f05-fabe-5ba5", "hidden": false},
       {"name": "Faction: Salamanders", "id": "65e4-13-4fa8-b36c", "hidden": false},
-      {"name": "Faction: Deathwatch", "id": "d39c-9989-db7f-d815", "hidden": false},
+      {
+        "name": "Faction: Deathwatch",
+        "id": "d39c-9989-db7f-d815",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "75c7-ad15-2fe7-5b5f",
+            "field": "51b2-306e-1021-d207",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "max",
+            "value": -1
+          }
+        ],
+        "modifiers": [
+          {
+            "field": "75c7-ad15-2fe7-5b5f",
+            "type": "set",
+            "value": 500,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "childId": "f89b-84e0-6e3b-f1e2",
+                    "childName": "Imperium - Adeptus Astartes - Deathwatch",
+                    "field": "selections",
+                    "scope": "primary-catalogue",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
+                  },
+                  {
+                    "childId": "bb9d-299a-ed60-2d8a",
+                    "childName": "Army Roster",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "instanceOf",
+                    "value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
       {"name": "Faction: Blood Angels", "id": "62ac-ef42-27b4-ae7", "hidden": false},
       {"name": "Faction: Ultramarines", "id": "1a2d-2f00-c054-4dcb", "hidden": false},
       {"name": "Faction: Space Wolves", "id": "a0d9-c115-2a-8330", "hidden": false},
@@ -1391,7 +1440,7 @@
         "name": "Army Roster",
         "id": "bb9d-299a-ed60-2d8a",
         "hidden": false,
-        "readme": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
+        "readme": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n\nIssues with Yellowscribe/TTS should first be reported as New Recruit issues, not data issues.\n\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n",
         "categoryLinks": [
           {"name": "Configuration", "id": "d5de-ee57-ad4b-e4b7", "hidden": false, "primary": false, "targetId": "4ac9-fd30-1e3d-b249"},
           {"name": "Epic Hero", "id": "16fc-8e39-ee82-cf96", "hidden": false, "primary": false, "targetId": "4f3a-f0f7-6647-348d"},
@@ -2057,7 +2106,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
+            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
@@ -2074,7 +2123,7 @@
           {
             "field": "readme",
             "type": "set",
-            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them. We wanted to get the main data out first. Also the Deathwatch Support detachment is not ready yet. It requires quite a bit of reworking. \n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
+            "value": "#PLEASE NOTE: Space Marine Legends may have some errors, we are aware and still working on them.\n\nPlease report any issues with the data via the Report Issue functionality found either at the top right of the app (on web) or in the Roster menu (on mobile), ensuring you select the correct option based on the problem you are experiencing.\n**PLEASE DO NOT REPORT ISSUES ON DISCORD!**\n\n**Reminder: Your Crusade Force is every model available to your faction in Crusade Mode. Your Crusade Army is the list of units you intend to use in a game. You can add the Crusade Army for your faction from the *Forces* unit section or the *Add Force* menu option.**",
             "conditions": [
               {
                 "childId": "ff7b-8f73-1756-650a",
