@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 9,
+    "revision": 10,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -3954,6 +3954,7 @@
                 "page": 31,
                 "sortIndex": 1,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "eeef-3bb8-0778-6380", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [
                   {"id": "fff6-7df7-38c2-2c9b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
                   {"id": "e04d-7068-b801-2650", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -4026,6 +4027,7 @@
                 "import": true,
                 "sortIndex": 2,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "185d-a27f-3051-1ae8", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [
                   {"id": "ace-8c04-ae93-b15e", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 2},
                   {"id": "d874-d20e-83a7-d9cf", "automatic": true, "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 5}
@@ -4116,6 +4118,7 @@
                 "page": 31,
                 "sortIndex": 3,
                 "type": "model",
+                "categoryLinks": [{"name": "Mounted", "id": "20e2-aee0-68ed-cc62", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
                 "constraints": [{"id": "d874-d20e-83a7-d9cf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 2}],
                 "entryLinks": [
                   {
@@ -4294,14 +4297,15 @@
           }
         ],
         "categoryLinks": [
-          {"name": "Mounted", "id": "2ec0-34cd-5ef1-bb73", "primary": true, "targetId": "14a0-40c9-2748-ae6e"},
+          {"name": "Mounted", "id": "2ec0-34cd-5ef1-bb73", "primary": false, "targetId": "14a0-40c9-2748-ae6e"},
           {"name": "Imperium", "id": "6a3c-2f7a-63fb-71ee", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
           {"name": "Ravenwing Command Squad", "id": "2feb-beaa-8cb6-cc80", "primary": false, "targetId": "ee13-ff16-80a1-5e3e"},
           {"name": "Faction: Dark Angels", "id": "dd03-8ecd-39e7-bd85", "primary": false, "targetId": "aab1-4f05-fabe-5ba5"},
           {"name": "Faction: Adeptus Astartes", "id": "d315-a3d7-5774-d724", "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Ravenwing", "id": "40d0-6cda-84fd-1442", "primary": false, "targetId": "e9c7-1590-1bda-bf7f"},
           {"name": "Support", "id": "c32f-f6cd-86cc-8457", "primary": false, "targetId": "7dcd-7f61-69a7-0294"},
-          {"name": "Explosives", "id": "f85a-8cd9-4140-0433", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"}
+          {"name": "Explosives", "id": "f85a-8cd9-4140-0433", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
+          {"name": "Character", "id": "384d-8cca-1410-06a4", "hidden": false, "primary": true, "targetId": "9cfd-1c32-585f-7d5c"}
         ],
         "constraints": [
           {"id": "8d80-5b27-3509-9323", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 6},
@@ -4362,15 +4366,6 @@
             "import": true,
             "sortIndex": 1,
             "targetId": "9a99-f13c-a667-e698",
-            "type": "selectionEntryGroup"
-          },
-          {
-            "name": "Enhancements",
-            "id": "65e7-89fb-c223-523b",
-            "hidden": false,
-            "import": true,
-            "sortIndex": 5,
-            "targetId": "9e5d-de4c-c5d1-1d3e",
             "type": "selectionEntryGroup"
           }
         ],
@@ -4568,6 +4563,7 @@
             "publicationId": "3931-1b04-c00e-afad",
             "sortIndex": 2,
             "type": "model",
+            "categoryLinks": [{"name": "Mounted", "id": "aa09-33f5-535b-f02b", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
             "constraints": [
               {"id": "958f-4673-8838-2c20", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "3995-cea6-b22d-ae2b", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -4629,6 +4625,7 @@
             "publicationId": "3931-1b04-c00e-afad",
             "sortIndex": 3,
             "type": "model",
+            "categoryLinks": [{"name": "Mounted", "id": "7667-c398-9759-0f60", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}],
             "constraints": [
               {"id": "f83-3811-d5eb-9b7b", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
               {"id": "fa98-e60b-8644-48cf", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}
@@ -4721,7 +4718,8 @@
             "type": "model",
             "categoryLinks": [
               {"name": "Ravenwing", "id": "8a39-41ce-65fe-038c", "primary": false, "targetId": "e9c7-1590-1bda-bf7f"},
-              {"name": "Character", "id": "cb7e-23b5-879a-640e", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"}
+              {"name": "Character", "id": "cb7e-23b5-879a-640e", "hidden": false, "primary": false, "targetId": "9cfd-1c32-585f-7d5c"},
+              {"name": "Mounted", "id": "1b8a-f396-85f4-a0fa", "hidden": false, "primary": false, "targetId": "14a0-40c9-2748-ae6e"}
             ],
             "constraints": [
               {"id": "8a54-d54c-6092-c4e5", "field": "selections", "scope": "parent", "shared": true, "type": "min", "value": 1},
@@ -4732,7 +4730,7 @@
               {
                 "name": "Enhancements",
                 "id": "131c-8a56-d003-b9a9",
-                "hidden": true,
+                "hidden": false,
                 "import": true,
                 "sortIndex": 2,
                 "targetId": "9e5d-de4c-c5d1-1d3e",

@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 7,
+    "revision": 8,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -3678,7 +3678,7 @@
                 "typeName": "Melee Weapons",
                 "characteristics": [
                   {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                  {"name": "A", "$text": "4", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "A", "$text": "5", "typeId": "2337-daa1-6682-b110"},
                   {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
                   {"name": "S", "$text": "6", "typeId": "ab33-d393-96ce-ccba"},
                   {"name": "AP", "$text": "-3", "typeId": "41a0-1301-112a-e2f2"},
@@ -3694,7 +3694,7 @@
                 "typeName": "Melee Weapons",
                 "characteristics": [
                   {"name": "Range", "$text": "Melee", "typeId": "914c-b413-91e3-a132"},
-                  {"name": "A", "$text": "6", "typeId": "2337-daa1-6682-b110"},
+                  {"name": "A", "$text": "7", "typeId": "2337-daa1-6682-b110"},
                   {"name": "WS", "$text": "2+", "typeId": "95d1-95f-45b4-11d6"},
                   {"name": "S", "$text": "5", "typeId": "ab33-d393-96ce-ccba"},
                   {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
@@ -3740,10 +3740,10 @@
         "categoryLinks": [
           {"name": "Infantry", "id": "84f5-a869-8c88-331c", "primary": true, "targetId": "cf47-a0d7-7207-29dc"},
           {"name": "Imperium", "id": "bbd3-d28c-6ccb-9b8f", "primary": false, "targetId": "aff3-d6a3-2a95-9dc"},
-          {"name": "Tacticus", "id": "490b-2a6d-9c17-1102", "primary": false, "targetId": "6c22-f7e3-6731-b974"},
           {"name": "Faction: Ultramarines", "id": "7ccf-3269-1dc5-2655", "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
           {"name": "Victrix Honour Guard", "id": "8f8d-a63a-6edb-ba03", "primary": false, "targetId": "22cb-9e28-8b9f-bbdf"},
-          {"name": "Faction: Adeptus Astartes", "id": "20f2-d8ca-e355-da7e", "primary": false, "targetId": "6e7-40c-58d9-e402"}
+          {"name": "Faction: Adeptus Astartes", "id": "20f2-d8ca-e355-da7e", "primary": false, "targetId": "6e7-40c-58d9-e402"},
+          {"name": "Tacticus", "id": "79ad-ea1d-e4aa-8210", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [
           {"id": "de33-d60f-9c2c-022b", "field": "75bb-ded1-c86d-bdf0", "includeChildSelections": false, "scope": "self", "shared": true, "type": "max", "value": 3},
@@ -5411,11 +5411,11 @@
           {"name": "Epic Hero", "id": "b1ba-5df5-faaa-3d8d", "hidden": false, "primary": true, "targetId": "4f3a-f0f7-6647-348d"},
           {"name": "Explosives", "id": "4895-9d00-d170-96f3", "hidden": false, "primary": false, "targetId": "e33d-891d-33aa-e9bf"},
           {"name": "Infantry", "id": "84f0-ca88-ae55-9a47", "hidden": false, "primary": false, "targetId": "cf47-a0d7-7207-29dc"},
-          {"name": "Tacticus", "id": "f66c-dddf-6038-2253", "hidden": false, "primary": false, "targetId": "6c22-f7e3-6731-b974"},
           {"name": "Faction: Adeptus Astartes", "id": "dd7b-afb4-3ee5-04af", "hidden": false, "primary": false, "targetId": "6e7-40c-58d9-e402"},
           {"name": "Faction: Ultramarines", "id": "7fdf-0113-f6d4-1f3e", "hidden": false, "primary": false, "targetId": "1a2d-2f00-c054-4dcb"},
           {"name": "Character", "id": "38ed-3dd0-6c4c-7735", "hidden": false, "primary": false, "targetId": "5618-37c5-2431-ea30"},
-          {"name": "Support", "id": "0804-6df1-1d78-6aff", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"}
+          {"name": "Support", "id": "0804-6df1-1d78-6aff", "hidden": false, "primary": false, "targetId": "7dcd-7f61-69a7-0294"},
+          {"name": "Tacticus", "id": "1336-334f-ca1c-4606", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [{"id": "648d-0353-0da3-6bca", "field": "selections", "scope": "roster", "shared": true, "type": "max", "value": 1}],
         "costs": [

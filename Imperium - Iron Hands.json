@@ -460,7 +460,7 @@
             "infoLinks": [{"name": "Cleave", "id": "2f47-c2a5-1ee8-0562", "hidden": false, "targetId": "bf16-5d16-4725-f912", "type": "rule"}],
             "profiles": [
               {
-                "name": "Axiom - Strike",
+                "name": "Axiom",
                 "id": "24a8-048e-3348-9638",
                 "hidden": false,
                 "typeId": "8a40-4aaa-c780-9046",

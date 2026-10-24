@@ -682,7 +682,8 @@
                 "constraints": [{"id": "d7c7-a960-a290-3579", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
                   {"name": "Weapon Modifications", "id": "1ba7-6bb1-5fe7-430b", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                ]
+                ],
+                "infoLinks": [{"name": "Assault", "id": "f47a-7d0f-5319-801f", "hidden": false, "targetId": "fc8a-8c24-bae9-cc1c", "type": "rule"}]
               },
               {
                 "name": "Storm bolter",
@@ -694,7 +695,8 @@
                 "constraints": [{"id": "6820-3445-c698-8640", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
                 "entryLinks": [
                   {"name": "Weapon Modifications", "id": "4503-2129-b705-d279", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                ]
+                ],
+                "infoLinks": [{"name": "Assault", "id": "372f-81e6-b1c8-0c36", "hidden": false, "targetId": "fc8a-8c24-bae9-cc1c", "type": "rule"}]
               }
             ],
             "selectionEntryGroups": [
@@ -6811,7 +6813,8 @@
           {"name": "Jump Pack", "id": "768c-5b77-1389-46ce", "primary": false, "targetId": "dda2-bb0a-215e-ad9c"},
           {"name": "The Sanguinor", "id": "6c75-19dc-6fa0-1737", "primary": false, "targetId": "8f39-9585-fc72-ba71"},
           {"name": "Faction: Adeptus Astartes", "id": "eac6-850b-d2b2-eb5e", "primary": false, "targetId": "6e7-40c-58d9-e402"},
-          {"name": "Faction: Blood Angels", "id": "e25b-8fb1-48d9-8415", "primary": false, "targetId": "62ac-ef42-27b4-ae7"}
+          {"name": "Faction: Blood Angels", "id": "e25b-8fb1-48d9-8415", "primary": false, "targetId": "62ac-ef42-27b4-ae7"},
+          {"name": "Tacticus", "id": "77a2-e6ed-70d0-9afd", "hidden": false, "primary": false, "targetId": "5179-8ede-45e3-49a2"}
         ],
         "constraints": [{"id": "f8a8-20a9-9ba4-1851", "field": "selections", "scope": "parent", "shared": true, "type": "max", "value": 1}],
         "costs": [
