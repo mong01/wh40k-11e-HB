@@ -1255,7 +1255,8 @@
       {"name": "Tacticus", "id": "5179-8ede-45e3-49a2", "hidden": false},
       {"name": "Fortis Kill Team", "id": "94a4-4c41-84a4-d038", "hidden": false},
       {"name": "Indomitor Kill Team", "id": "2546-062b-7236-7fa3", "hidden": false},
-      {"name": "Spectrus Kill Team", "id": "2b33-05a8-bf42-72f9", "hidden": false}
+      {"name": "Spectrus Kill Team", "id": "2b33-05a8-bf42-72f9", "hidden": false},
+      {"name": "Allies: Tyranids", "id": "747a-c6a9-6f4f-7f09", "hidden": false}
     ],
     "costTypes": [
       {
@@ -1513,17 +1514,18 @@
           {"name": "Dedicated Transport", "id": "cf3e-2c24-fe34-39f9", "hidden": false, "primary": false, "targetId": "ba07-411c-2832-1f79"},
           {"name": "Fortification", "id": "9198-c35d-71cd-eea3", "hidden": false, "primary": false, "targetId": "19d7-9c74-2140-5851"},
           {"name": "Unit", "id": "a41a-6330-4718-d8d2", "hidden": false, "primary": false, "targetId": "1160-70ae-a862-b1a8"},
+          {"name": "Allies: Adeptus Titanicus", "id": "d30c-1ea7-4805-b4be", "hidden": false, "targetId": "9988-6b5e-660e-d973"},
           {"name": "Allies: Astra Militarum", "id": "58e9-03a9-8da7-f45b", "hidden": false, "targetId": "8247-35f6-ec2a-7caa"},
           {"name": "Allies: Chaos Knights", "id": "748a-f332-43fb-8218", "hidden": false, "targetId": "8dd6-af11-abd3-55f1"},
+          {"name": "Allies: Deathwatch", "id": "281e-8dfd-6a10-d24b", "hidden": false, "targetId": "8886-848f-a0f9-1e19"},
           {"name": "Allies: Heretic Astartes", "id": "5691-7287-9ec8-7e8d", "hidden": false, "targetId": "92e6-f82e-0a48-2276"},
           {"name": "Allies: Imperial Agents", "id": "1fad-7176-9fd5-de0b", "hidden": false, "targetId": "742f-5727-1bc9-6da5"},
           {"name": "Allies: Imperial Knights", "id": "3cd2-4515-973d-0e93", "hidden": false, "targetId": "5e03-9044-273d-e818"},
           {"name": "Allies: Legiones Daemonica", "id": "9cf7-d024-063a-f77d", "hidden": false, "targetId": "e1ea-71b9-f0ef-d788"},
           {"name": "Allies: Titanicus Traitoris", "id": "722c-1b43-cac8-8d7a", "hidden": false, "targetId": "24fa-8caf-cd68-31fb"},
+          {"name": "Allies: Tyranids", "id": "2a70-f48a-2223-f633", "hidden": false, "targetId": "747a-c6a9-6f4f-7f09"},
           {"name": "Allies: Unaligned Forces", "id": "ea72-49d5-9b60-d6cf", "hidden": false, "targetId": "07d9-ab1c-cf28-0939"},
-          {"name": "Reference", "id": "3761-5a4e-79e0-3c18", "hidden": false, "targetId": "eef1-be80-500a-edfc"},
-          {"name": "Allies: Adeptus Titanicus", "id": "d30c-1ea7-4805-b4be", "hidden": false, "targetId": "9988-6b5e-660e-d973"},
-          {"name": "Allies: Deathwatch", "id": "281e-8dfd-6a10-d24b", "hidden": false, "targetId": "8886-848f-a0f9-1e19"}
+          {"name": "Reference", "id": "3761-5a4e-79e0-3c18", "hidden": false, "targetId": "eef1-be80-500a-edfc"}
         ],
         "constraints": [
           {"id": "95c5-effd-74f1-c8f4", "field": "82ae-1066-5107-6ae0", "includeChildSelections": true, "scope": "parent", "shared": true, "type": "max", "value": 2},
@@ -1836,17 +1838,18 @@
           {"name": "Fortification", "id": "9521-ccd2-1cb5-eef5", "hidden": false, "primary": false, "targetId": "19d7-9c74-2140-5851"},
           {"name": "Unit", "id": "4657-058c-657b-3d14", "hidden": false, "primary": false, "targetId": "1160-70ae-a862-b1a8"},
           {"name": "Pilot", "id": "3577-efe1-f844-d1e0", "hidden": false, "targetId": "5b15-724e-2eeb-8cb7"},
+          {"name": "Allies: Adeptus Titanicus", "id": "0b08-32da-55ba-d541", "hidden": false, "targetId": "9988-6b5e-660e-d973"},
           {"name": "Allies: Astra Militarum", "id": "ba9f-9f8a-b77f-14e6", "hidden": false, "targetId": "8247-35f6-ec2a-7caa"},
           {"name": "Allies: Chaos Knights", "id": "5037-1e14-c070-cfcd", "hidden": false, "targetId": "8dd6-af11-abd3-55f1"},
+          {"name": "Allies: Deathwatch", "id": "8f04-18c9-df5a-d189", "hidden": false, "targetId": "8886-848f-a0f9-1e19"},
           {"name": "Allies: Heretic Astartes", "id": "9b49-7348-a883-2d9c", "hidden": false, "targetId": "92e6-f82e-0a48-2276"},
           {"name": "Allies: Imperial Agents", "id": "9817-f3fe-d2ba-a4b4", "hidden": false, "targetId": "742f-5727-1bc9-6da5"},
           {"name": "Allies: Imperial Knights", "id": "cb49-46dc-6303-c205", "hidden": false, "targetId": "5e03-9044-273d-e818"},
           {"name": "Allies: Legiones Daemonica", "id": "9293-f76b-8512-9b2e", "hidden": false, "targetId": "e1ea-71b9-f0ef-d788"},
           {"name": "Allies: Titanicus Traitoris", "id": "3ec3-1293-b44c-f03d", "hidden": false, "targetId": "24fa-8caf-cd68-31fb"},
+          {"name": "Allies: Tyranids", "id": "93b1-3632-04ed-841c", "hidden": false, "targetId": "747a-c6a9-6f4f-7f09"},
           {"name": "Allies: Unaligned Forces", "id": "6830-ae83-9843-426d", "hidden": false, "targetId": "07d9-ab1c-cf28-0939"},
-          {"name": "Reference", "id": "14de-c9cb-628a-6881", "hidden": false, "targetId": "eef1-be80-500a-edfc"},
-          {"name": "Allies: Adeptus Titanicus", "id": "0b08-32da-55ba-d541", "hidden": false, "targetId": "9988-6b5e-660e-d973"},
-          {"name": "Allies: Deathwatch", "id": "8f04-18c9-df5a-d189", "hidden": false, "targetId": "8886-848f-a0f9-1e19"}
+          {"name": "Reference", "id": "14de-c9cb-628a-6881", "hidden": false, "targetId": "eef1-be80-500a-edfc"}
         ],
         "constraints": [
           {

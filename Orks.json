@@ -458,7 +458,7 @@
           {"name": "LD", "$text": "7+", "typeId": "58d2-b879-49c7-43bc"},
           {"name": "OC", "$text": "3", "typeId": "bef7-942a-1a23-59f8"},
           {"name": "InSv", "$text": "6+", "typeId": "55a7-5b54-c60d-11dc"},
-          {"name": "Base", "$text": "Hull", "typeId": "nr-base-size"}
+          {"name": "Base", "$text": "150mm", "typeId": "nr-base-size"}
         ]
       },
       {
@@ -7776,13 +7776,7 @@
             "hidden": false,
             "typeId": "9cc3-6d83-4dd3-9b64",
             "typeName": "Abilities",
-            "characteristics": [
-              {
-                "name": "Description",
-                "$text": "This model can be attached to the following unit:\n- **NOBZ ON WARBIKES**\n- **SKORCHAS**\n- **WARBIKERS**\n- **WARBUGGIES**",
-                "typeId": "9b8f-694b-e5e-b573"
-              }
-            ]
+            "characteristics": [{"name": "Description", "$text": "This model can be attached to the following unit:\n- **WARBIKERS**\n", "typeId": "9b8f-694b-e5e-b573"}]
           }
         ],
         "selectionEntryGroups": [
@@ -25752,7 +25746,7 @@
                               {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
                               {"name": "S", "$text": "10", "typeId": "ab33-d393-96ce-ccba"},
                               {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                              {"name": "D", "$text": "", "typeId": "3254-9fe6-d824-513e"},
+                              {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                               {"name": "Keywords", "$text": "", "typeId": "893f-9000-ccf7-648e"}
                             ]
                           }
