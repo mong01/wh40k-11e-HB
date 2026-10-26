@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 22,
+    "revision": 23,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -5666,6 +5666,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5706,6 +5716,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5748,6 +5768,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5788,6 +5818,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5830,6 +5870,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5870,6 +5920,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5912,6 +5972,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -5952,6 +6022,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -5994,6 +6074,16 @@
                     "shared": true,
                     "type": "lessThan",
                     "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
+                    "value": 1
                   }
                 ]
               }
@@ -6034,6 +6124,16 @@
                     "scope": "force",
                     "shared": true,
                     "type": "lessThan",
+                    "value": 1
+                  },
+                  {
+                    "childId": "cac3-71d1-ea4b-795d",
+                    "childName": "Crusade Force",
+                    "field": "selections",
+                    "includeChildSelections": true,
+                    "scope": "force",
+                    "shared": true,
+                    "type": "notInstanceOf",
                     "value": 1
                   }
                 ]
@@ -22487,9 +22587,16 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "aa87-ceda-f59a-891a", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {"name": "Combat Doctrines", "id": "150b-6671-1711-a565", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "651e-29ac-168f-a084", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "651e-29ac-168f-a084", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "d793-8e42-e8d9-985d",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -22631,7 +22738,7 @@
           {
             "field": "51b2-306e-1021-d207",
             "type": "increment",
-            "value": 10,
+            "value": 15,
             "conditionGroups": [
               {
                 "type": "and",
@@ -24135,9 +24242,16 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "c106-2d9d-db39-b42b", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {"name": "Combat Doctrines", "id": "4e7b-49a5-5eed-dacc", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "67af-ed5b-bbdb-06c6", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "67af-ed5b-bbdb-06c6", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "4c7f-cb68-dd05-a4c1",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -24701,7 +24815,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "7a9e-7486-35b6-3d6e", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "3ee3-e684-64ee-51a8",
@@ -24711,7 +24824,15 @@
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Combat Doctrines", "id": "c726-923b-68c0-7456", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "ea5c-3499-db05-9a4a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "ea5c-3499-db05-9a4a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "a4e0-5005-b6d1-5608",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -25154,9 +25275,16 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "c597-f117-dcff-91c6", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {"name": "Combat Doctrines", "id": "eb6f-5591-4a7e-fd5f", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "5b3b-9d18-9f41-813b", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "5b3b-9d18-9f41-813b", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "cdbf-6751-f34d-9bce",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -37212,7 +37340,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "9717-2ae4-1a52-37eb", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "32f6-d064-2fc2-797",
@@ -37222,7 +37349,15 @@
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Combat Doctrines", "id": "1e5a-1b1a-5425-e2f6", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "be1d-ed82-be4b-5873", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "be1d-ed82-be4b-5873", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "b147-4a87-15d7-756d",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -37592,7 +37727,15 @@
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Combat Doctrines", "id": "8681-ea3-6bbe-44e", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "55e0-9958-4e2a-993a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "55e0-9958-4e2a-993a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "6fad-cebe-c40a-492d",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -38007,7 +38150,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "1194-f83-ad94-edce", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "cbdf-7c24-1d47-7a72",
@@ -38017,7 +38159,15 @@
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Combat Doctrines", "id": "2310-f079-5d46-9734", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "ec3f-50f7-6666-6481", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "ec3f-50f7-6666-6481", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "90ce-43ed-6118-8be2",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -38451,7 +38601,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "68cf-389f-be21-37e", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "1f51-37e7-7901-5c6c",
@@ -38460,7 +38609,15 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Combat Doctrines", "id": "c2dc-3bfd-7075-c711", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "c2dc-3bfd-7075-c711", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "5e49-1207-36e3-7c9c",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -38834,7 +38991,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "10e9-8293-c3df-a107", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "5fd2-ab08-91a2-e36b",
@@ -38843,7 +38999,15 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Combat Doctrines", "id": "3388-c464-b02a-891d", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "3388-c464-b02a-891d", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "850d-dcae-5e1c-4e01",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -39212,7 +39376,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "545b-ecf1-18a2-fe5", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "2091-df96-f25d-ac9b",
@@ -39221,7 +39384,15 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
-          {"name": "Combat Doctrines", "id": "46ca-8260-73f7-b135", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "46ca-8260-73f7-b135", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "3dbb-77dc-2e30-5192",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -39564,7 +39735,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-4 Wounds Remaining", "id": "164-f77a-b797-3215", "hidden": false, "targetId": "ee64-aaaf-75df-8da9", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "a5bb-c03-73f9-576e",
@@ -39574,7 +39744,15 @@
             "modifiers": [{"field": "name", "type": "append", "value": "D3"}]
           },
           {"name": "Combat Doctrines", "id": "ffe7-27f9-b924-27e1", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Templar Vows", "id": "a4f3-9d54-5e60-610a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "a4f3-9d54-5e60-610a", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "b662-b03b-29ad-23b8",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "4"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -39955,10 +40133,17 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D6"}]
           },
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "92e4-6764-7832-c85a", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"},
           {"name": "Combat Doctrines", "id": "4da8-4e44-613b-ad50", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Templar Vows", "id": "90aa-544b-be71-7512", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
-          {"name": "Assault Ramp", "id": "3b0e-6a5e-061a-c741", "hidden": false, "targetId": "935c-e7a8-6740-6ed8", "type": "profile"}
+          {"name": "Assault Ramp", "id": "3b0e-6a5e-061a-c741", "hidden": false, "targetId": "935c-e7a8-6740-6ed8", "type": "profile"},
+          {
+            "name": "Damaged",
+            "id": "9dbb-b968-5340-800a",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -40394,7 +40579,14 @@
           },
           {"name": "Assault Ramp", "id": "492a-2eca-630-24ac", "hidden": false, "targetId": "935c-e7a8-6740-6ed8", "type": "profile"},
           {"name": "Combat Doctrines", "id": "165c-2cae-ee40-1e97", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "d04d-d102-b2cf-d616", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"}
+          {
+            "name": "Damaged",
+            "id": "c95d-6393-5f0d-fb1a",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -40840,10 +41032,17 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D6"}]
           },
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "4d73-3226-746e-a1aa", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"},
           {"name": "Combat Doctrines", "id": "6b31-e149-4592-65aa", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Templar Vows", "id": "0261-e47f-b144-d656", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
-          {"name": "Assault Ramp", "id": "754f-740a-612a-834e", "hidden": false, "targetId": "935c-e7a8-6740-6ed8", "type": "profile"}
+          {"name": "Assault Ramp", "id": "754f-740a-612a-834e", "hidden": false, "targetId": "935c-e7a8-6740-6ed8", "type": "profile"},
+          {
+            "name": "Damaged",
+            "id": "c94a-7a02-662c-f8d1",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -41314,7 +41513,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "1520-1dda-2abe-87e6", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "431e-91ce-81ac-cb89",
@@ -41323,7 +41521,15 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D6"}]
           },
-          {"name": "Combat Doctrines", "id": "5d6d-c031-9ec5-62bc", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "5d6d-c031-9ec5-62bc", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "5752-2e2b-6515-0c46",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -41817,7 +42023,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "cf74-f3ce-e18c-b83d", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "4a9a-ea03-ac11-58a7",
@@ -41826,7 +42031,15 @@
             "type": "rule",
             "modifiers": [{"field": "name", "type": "append", "value": "D6"}]
           },
-          {"name": "Combat Doctrines", "id": "f9bb-2100-506e-1a15", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"}
+          {"name": "Combat Doctrines", "id": "f9bb-2100-506e-1a15", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "358e-afc8-5d38-23a1",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "6"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -63690,7 +63903,6 @@
           }
         ],
         "infoLinks": [
-          {"name": "Damaged: 1-5 Wounds Remaining", "id": "cb97-43f8-f37-b71f", "hidden": false, "targetId": "1aac-b083-4318-f750", "type": "profile"},
           {
             "name": "Deadly Demise",
             "id": "f6a8-5186-9314-3b60",
@@ -63701,7 +63913,15 @@
           },
           {"name": "Combat Doctrines", "id": "db23-ce4e-57f7-253c", "hidden": false, "targetId": "3b76-4053-ece9-6e7d", "type": "rule"},
           {"name": "Strategic Acumen", "id": "2bc1-512f-8e4d-cfd6", "hidden": false, "targetId": "90c7-c55c-21e2-2232", "type": "profile"},
-          {"name": "Templar Vows", "id": "62e0-c577-34f1-ecad", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"}
+          {"name": "Templar Vows", "id": "62e0-c577-34f1-ecad", "hidden": false, "targetId": "f26c-4b28-aaea-40cf", "type": "rule"},
+          {
+            "name": "Damaged",
+            "id": "f59c-1280-182d-ba39",
+            "hidden": false,
+            "targetId": "c68c-a968-354f-bb99",
+            "type": "rule",
+            "modifiers": [{"field": "name", "type": "append", "value": "5"}]
+          }
         ],
         "modifierGroups": [
           {
@@ -93609,6 +93829,7 @@
                         "affects": "self.entries.recursive.profiles.Ranged Weapons",
                         "field": "a354-c1c8-a745-f9e3",
                         "join": ", ",
+                        "position": -1,
                         "scope": "parent",
                         "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
                         "type": "increment",
@@ -93650,6 +93871,7 @@
                         "affects": "self.entries.recursive.4546-4a0c-b3be-e84c.profiles.Ranged Weapons",
                         "field": "a354-c1c8-a745-f9e3",
                         "join": ", ",
+                        "position": -1,
                         "scope": "parent",
                         "skipIfPresent": "Sustained Hits 1: non-Monster/Vehicle",
                         "type": "decrement",
@@ -93713,7 +93935,7 @@
                     "characteristics": [
                       {
                         "name": "Description",
-                        "$text": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D",
+                        "$text": "Adeptus Astartes Infantry/Mounted model only. This model's ranged attacks (excluding [Psychic] attacks) have +1A, S, AP and D.",
                         "typeId": "9b8f-694b-e5e-b573"
                       }
                     ]
@@ -113950,22 +114172,7 @@
                   {"id": "3f6e-149c-9dac-3764-max", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
                 ],
                 "entryLinks": [
-                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"},
-                  {
-                    "name": "Power weapon",
-                    "id": "6e0f-b32c-2a8d-afda",
-                    "hidden": false,
-                    "import": true,
-                    "targetId": "e1b5-a74f-b2ec-c7ed",
-                    "type": "selectionEntry",
-                    "constraints": [
-                      {"id": "e083-9f72-0e34-aa1a", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "min", "value": 1},
-                      {"id": "f084-3195-9ef7-7706", "field": "selections", "includeChildSelections": false, "scope": "parent", "shared": true, "type": "max", "value": 1}
-                    ],
-                    "entryLinks": [
-                      {"name": "Weapon Modifications", "id": "0685-671f-b04e-02e9", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                    ]
-                  }
+                  {"name": "Weapon Modifications", "id": "d8d2-c091-e60c-8af8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                 ]
               }
             ]
@@ -114017,7 +114224,7 @@
                       {"name": "WS", "$text": "3+", "typeId": "95d1-95f-45b4-11d6"},
                       {"name": "S", "$text": "8", "typeId": "ab33-d393-96ce-ccba"},
                       {"name": "AP", "$text": "-2", "typeId": "41a0-1301-112a-e2f2"},
-                      {"name": "D", "$text": "2", "typeId": "3254-9fe6-d824-513e"},
+                      {"name": "D", "$text": "3", "typeId": "3254-9fe6-d824-513e"},
                       {"name": "Keywords", "$text": "Devastating Wounds", "typeId": "893f-9000-ccf7-648e"}
                     ]
                   }
