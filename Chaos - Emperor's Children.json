@@ -7,7 +7,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 31,
     "library": false,
-    "revision": 14,
+    "revision": 15,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -225,7 +225,23 @@
         "import": true,
         "targetId": "8597-d6dd-511e-80ae",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "516c-240c-1b22-96c3", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}]
+        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "516c-240c-1b22-96c3", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {"childId": "cac3-71d1-ea4b-795d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "notInstanceOf", "value": 1},
+                  {"childId": "3c9e-2156-254e-66e8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Daemonic Herald [Crucible]",
@@ -234,7 +250,23 @@
         "import": true,
         "targetId": "3a39-0b56-25e0-eff8",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "ea94-495c-30f0-a266", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}]
+        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "ea94-495c-30f0-a266", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {"childId": "cac3-71d1-ea4b-795d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "notInstanceOf", "value": 1},
+                  {"childId": "3c9e-2156-254e-66e8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Immortal Champion [Crucible]",
@@ -243,7 +275,23 @@
         "import": true,
         "targetId": "3594-bf68-4a46-fbf8",
         "type": "selectionEntry",
-        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "0894-fb5d-1b10-9fc3", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}]
+        "categoryLinks": [{"name": "Faction: Legions of Excess", "id": "0894-fb5d-1b10-9fc3", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}],
+        "modifiers": [
+          {
+            "field": "hidden",
+            "type": "set",
+            "value": true,
+            "conditionGroups": [
+              {
+                "type": "and",
+                "conditions": [
+                  {"childId": "cac3-71d1-ea4b-795d", "field": "selections", "includeChildSelections": true, "scope": "force", "shared": true, "type": "notInstanceOf", "value": 1},
+                  {"childId": "3c9e-2156-254e-66e8", "field": "selections", "includeChildSelections": true, "scope": "roster", "shared": true, "type": "lessThan", "value": 1}
+                ]
+              }
+            ]
+          }
+        ]
       },
       {"name": "Defiler", "id": "a936-cfdb-f498-8a5c", "hidden": false, "import": true, "targetId": "b541-3292-a5cc-dbeb", "type": "selectionEntry"}
     ],
@@ -6720,6 +6768,7 @@
                     "field": "7f1b-8591-2fcf-d01c",
                     "join": ", ",
                     "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
                     "type": "append",
                     "value": "Sustained Hits 1"
                   },
@@ -6728,6 +6777,7 @@
                     "field": "893f-9000-ccf7-648e",
                     "join": ", ",
                     "scope": "parent",
+                    "skipIfPresent": "Sustained Hits",
                     "type": "append",
                     "value": "Sustained Hits 1"
                   }
@@ -11726,9 +11776,9 @@
           {"name": "Chaos", "id": "ec9e-26fa-7f15-dd00", "hidden": false, "primary": false, "targetId": "4c00-2578-faf5-6918"},
           {"name": "Daemon", "id": "de10-e75e-acdc-f19c", "hidden": false, "primary": false, "targetId": "9c0e-7e25-4580-e439"},
           {"name": "Slaanesh", "id": "235b-1739-cef5-0eed", "hidden": false, "primary": false, "targetId": "b2a9-ede5-7a83-4da8"},
-          {"name": "Seekers", "id": "d704-86d0-5651-d1e3", "hidden": false, "primary": false, "targetId": "15d7-63fa-2466-d392"},
           {"name": "Summoned", "id": "4bdc-2b8b-ea43-7246", "hidden": false, "primary": false, "targetId": "38a2-f283-606d-7a37"},
-          {"name": "Faction: Legions of Excess", "id": "e3df-b798-6676-182e", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"}
+          {"name": "Faction: Legions of Excess", "id": "e3df-b798-6676-182e", "hidden": false, "primary": false, "targetId": "4c25-d2f3-36bb-8067"},
+          {"name": "Seekers", "id": "2855-a34a-02c4-f3eb", "hidden": false, "primary": false, "targetId": "46c8-ca2f-9529-3686"}
         ],
         "constraints": [
           {
