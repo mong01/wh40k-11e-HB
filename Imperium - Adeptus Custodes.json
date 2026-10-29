@@ -6,7 +6,7 @@
     "gameSystemId": "sys-352e-adc2-7639-d610",
     "gameSystemRevision": 1,
     "library": false,
-    "revision": 26,
+    "revision": 27,
     "type": "catalogue",
     "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "catalogueLinks": [
@@ -700,7 +700,7 @@
           {"name": "T", "$text": "7", "typeId": "d29d-cf75-fc2d-34a4"},
           {"name": "Sv", "$text": "2+", "typeId": "450-a17e-9d5e-29da"},
           {"name": "W", "$text": "5", "typeId": "750a-a2ec-90d3-21fe"},
-          {"name": "LD", "$text": "6+", "typeId": "58d2-b879-49c7-43bc"},
+          {"name": "LD", "$text": "5+", "typeId": "58d2-b879-49c7-43bc"},
           {"name": "OC", "$text": "2", "typeId": "bef7-942a-1a23-59f8"},
           {"name": "InSv", "$text": "4+", "typeId": "55a7-5b54-c60d-11dc"},
           {"name": "Base", "$text": "40mm", "typeId": "nr-base-size"}
