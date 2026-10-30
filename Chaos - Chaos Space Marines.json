@@ -28913,12 +28913,12 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 2,
                         "targetId": "4f12-4c0a-d156-4cf0",
                         "type": "selectionEntry",
                         "entryLinks": [
                           {"name": "Weapon Modifications", "id": "451f-2001-ae71-7da8", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ],
-                        "modifiers": [{"field": "68ef-111e-4c5b-a3ce", "type": "set", "value": -1}]
+                        ]
                       },
                       {
                         "name": "Power fist",
@@ -28926,6 +28926,7 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 3,
                         "targetId": "cb16-d239-4f7a-91be",
                         "type": "selectionEntry",
                         "entryLinks": [
@@ -28939,6 +28940,7 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 1,
                         "targetId": "44ae-a376-590b-6349",
                         "type": "selectionEntry",
                         "entryLinks": [
@@ -28951,7 +28953,7 @@
                     "name": "Ranged weapon",
                     "id": "347f-861e-edda-76c6",
                     "collective": false,
-                    "defaultSelectionEntryId": "841-f169-aff1-fd43",
+                    "defaultSelectionEntryId": "fc07-d7f9-b91a-1f9f",
                     "hidden": false,
                     "import": true,
                     "constraints": [
@@ -28985,6 +28987,7 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 5,
                         "targetId": "14a5-4b2-415a-c1d",
                         "type": "selectionEntry",
                         "entryLinks": [
@@ -28997,12 +29000,12 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 6,
                         "targetId": "4f12-4c0a-d156-4cf0",
                         "type": "selectionEntry",
                         "entryLinks": [
                           {"name": "Weapon Modifications", "id": "70d6-0720-0b80-6817", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
-                        ],
-                        "modifiers": [{"field": "68ef-111e-4c5b-a3ce", "type": "set", "value": -1}]
+                        ]
                       },
                       {
                         "name": "Power fist",
@@ -29010,6 +29013,7 @@
                         "collective": false,
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 7,
                         "targetId": "cb16-d239-4f7a-91be",
                         "type": "selectionEntry",
                         "entryLinks": [
@@ -29022,6 +29026,7 @@
                         "id": "1d7c-ccf1-52f6-a080",
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 2,
                         "targetId": "96f5-8be7-2cd8-f84f",
                         "type": "selectionEntry",
                         "entryLinks": [
@@ -29033,14 +29038,23 @@
                         "id": "450e-5a07-2894-a0e5",
                         "hidden": false,
                         "import": true,
+                        "sortIndex": 3,
                         "targetId": "f0ee-44c4-e1b1-42d",
                         "type": "selectionEntry",
                         "entryLinks": [
                           {"name": "Weapon Modifications", "id": "042a-7b47-43f6-964d", "hidden": false, "import": true, "targetId": "f9da-852a-d7f0-92e9", "type": "selectionEntryGroup"}
                         ]
                       },
-                      {"name": "Flamer", "id": "fc07-d7f9-b91a-1f9f", "hidden": false, "import": true, "targetId": "95b9-c6e0-aa5a-87ef", "type": "selectionEntry"},
-                      {"name": "Plasma gun", "id": "3e2c-fab6-50eb-bcee", "hidden": false, "import": true, "targetId": "f7dc-a17d-aece-165a", "type": "selectionEntry"}
+                      {"name": "Flamer", "id": "fc07-d7f9-b91a-1f9f", "hidden": false, "import": true, "sortIndex": 1, "targetId": "95b9-c6e0-aa5a-87ef", "type": "selectionEntry"},
+                      {
+                        "name": "Plasma gun",
+                        "id": "3e2c-fab6-50eb-bcee",
+                        "hidden": false,
+                        "import": true,
+                        "sortIndex": 4,
+                        "targetId": "f7dc-a17d-aece-165a",
+                        "type": "selectionEntry"
+                      }
                     ]
                   }
                 ]
